@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AI Study Quest - Quiz</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/quiz.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+
+<div class="quiz-page">
+
+
+    <!-- ================================================= -->
+    <!-- TOP BAR -->
+    <!-- ================================================= -->
+
+    <header class="topbar">
+
+        <div class="brand">
+            🎮 <span>AI Study Quest</span>
+        </div>
+
+
+        <div class="timer-box">
+
+            ⏱️
+
+            <span id="timer">
+                05:00
+            </span>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================================================= -->
+    <!-- QUIZ INFO -->
+    <!-- ================================================= -->
+
+    <div class="quiz-info">
+
+        <div>
+
+            <span class="small-text">
+                QUESTION
+            </span>
+
+            <strong>
+                {{ qno }} / {{ total }}
+            </strong>
+
+        </div>
+
+
+        <div class="difficulty">
+
+            {{ difficulty }}
+
+        </div>
+
+    </div>
+
+
+    <!-- ================================================= -->
+    <!-- PROGRESS -->
+    <!-- ================================================= -->
+
+    <div class="progress-container">
+
+        <div
+            class="progress-bar"
+            id="progressBar">
+        </div>
+
+    </div>
+
+
+    <!-- ================================================= -->
+    <!-- QUIZ FORM -->
+    <!-- ================================================= -->
+
+    <form
+        id="quizForm"
+        action="{{ url_for('quiz') }}"
+        method="POST"
+        onsubmit="return checkAnswer();"
+    >
+
+
+        <div class="question-card">
+
+
+            <!-- QUESTION NUMBER -->
+
+            <div class="question-number">
+
+                Question {{ qno }}
+
+            </div>
+
+
+            <!-- QUESTION -->
+
+            <h1 class="question">
+
+                {{ question["question"] }}
+
+            </h1>
+
+
+            <!-- ================================================= -->
+            <!-- OPTIONS -->
+            <!-- ================================================= -->
+
+            <div class="options">
+
+
+                <!-- OPTION A -->
+
+                <div class="option">
+
+                    <input
+                        type="radio"
+                        id="optionA"
+                        name="answer"
+                        value="{{ question['options'][0] }}"
+                    >
+
+                    <label for="optionA">
+
+                        <span class="letter">
+                            A
+                        </span>
+
+                        <span>
+                            {{ question["options"][0] }}
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- OPTION B -->
+
+                <div class="option">
+
+                    <input
+                        type="radio"
+                        id="optionB"
+                        name="answer"
+                        value="{{ question['options'][1] }}"
+                    >
+
+                    <label for="optionB">
+
+                        <span class="letter">
+                            B
+                        </span>
+
+                        <span>
+                            {{ question["options"][1] }}
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- OPTION C -->
+
+                <div class="option">
+
+                    <input
+                        type="radio"
+                        id="optionC"
+                        name="answer"
+                        value="{{ question['options'][2] }}"
+                    >
+
+                    <label for="optionC">
+
+                        <span class="letter">
+                            C
+                        </span>
+
+                        <span>
+                            {{ question["options"][2] }}
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- OPTION D -->
+
+                <div class="option">
+
+                    <input
+                        type="radio"
+                        id="optionD"
+                        name="answer"
+                        value="{{ question['options'][3] }}"
+                    >
+
+                    <label for="optionD">
+
+                        <span class="letter">
+                            D
+                        </span>
+
+                        <span>
+                            {{ question["options"][3] }}
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- ================================================= -->
+            <!-- NEXT BUTTON -->
+            <!-- ================================================= -->
+
+            <button
+                type="submit"
+                class="next-btn"
+            >
+
+                {% if qno == total %}
+
+                    Finish Quiz 🏆
+
+                {% else %}
+
+                    Next Question →
+
+                {% endif %}
+
+            </button>
+
+
+            <p class="hint">
+
+                Select one answer to continue
+
+            </p>
+
+
+        </div>
+
+
+    </form>
+
+
+</div>
+
+
+<script>
+
+
+// ============================================================
+// PROGRESS BAR
+// ============================================================
+
+const currentQuestion =
+    Number("{{ qno }}");
+
+const totalQuestions =
+    Number("{{ total }}");
+
+
+const progressBar =
+    document.getElementById(
+        "progressBar"
+    );
+
+
+if (totalQuestions > 0) {
+
+    const progress =
+        (
+            currentQuestion /
+            totalQuestions
+        ) * 100;
+
+
+    progressBar.style.width =
+        progress + "%";
+}
+
+
+
+// ============================================================
+// TOTAL QUIZ TIMER
+// ============================================================
+
+// IMPORTANT:
+// This value comes from Flask.
+// It does NOT reset to 300 on every question.
+
+let timeLeft =
+    Number("{{ remaining_time }}");
+
+
+const timerElement =
+    document.getElementById(
+        "timer"
+    );
+
+
+// ============================================================
+// UPDATE TIMER
+// ============================================================
+
+function updateTimer() {
+
+    const minutes =
+        Math.floor(
+            timeLeft / 60
+        );
+
+
+    const seconds =
+        timeLeft % 60;
+
+
+    timerElement.textContent =
+        String(minutes).padStart(
+            2,
+            "0"
+        ) +
+        ":" +
+        String(seconds).padStart(
+            2,
+            "0"
+        );
+
+
+    // --------------------------------------------------------
+    // TIME FINISHED
+    // --------------------------------------------------------
+
+    if (timeLeft <= 0) {
+
+        clearInterval(
+            timerInterval
+        );
+
+
+        const form =
+            document.getElementById(
+                "quizForm"
+            );
+
+
+        // Remove validation
+        // so form can submit automatically.
+
+        form.removeAttribute(
+            "onsubmit"
+        );
+
+
+        form.submit();
+
+
+        return;
+    }
+
+
+    timeLeft--;
+
+}
+
+
+// First update
+updateTimer();
+
+
+// Update every second
+
+const timerInterval =
+    setInterval(
+        updateTimer,
+        1000
+    );
+
+
+
+// ============================================================
+// ANSWER CHECK
+// ============================================================
+
+function checkAnswer() {
+
+    const selected =
+        document.querySelector(
+            'input[name="answer"]:checked'
+        );
+
+
+    if (!selected) {
+
+        alert(
+            "Please select an answer before continuing."
+        );
+
+
+        return false;
+    }
+
+
+    return true;
+
+}
+
+
+
+// ============================================================
+// BACK BUTTON PROTECTION
+// ============================================================
+
+history.pushState(
+    null,
+    null,
+    location.href
+);
+
+
+window.addEventListener(
+    "popstate",
+    function () {
+
+        history.pushState(
+            null,
+            null,
+            location.href
+        );
+
+
+        alert(
+            "⚠️ Going back is disabled during the quiz!"
+        );
+
+    }
+);
+
+
+</script>
+
+
+</body>
+
+</html>

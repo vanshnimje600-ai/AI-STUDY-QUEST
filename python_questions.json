@@ -1,0 +1,3604 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which keyword is used to define a function in Python?",
+      "options": [
+        "func",
+        "define",
+        "def",
+        "function"
+      ],
+      "answer": "def",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 2,
+      "question": "Which symbol starts a single-line comment in Python?",
+      "options": [
+        "//",
+        "#",
+        "/*",
+        "--"
+      ],
+      "answer": "#",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 3,
+      "question": "Which function displays output in Python?",
+      "options": [
+        "echo()",
+        "display()",
+        "print()",
+        "show()"
+      ],
+      "answer": "print()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 4,
+      "question": "Which function gets user input?",
+      "options": [
+        "scan()",
+        "input()",
+        "read()",
+        "get()"
+      ],
+      "answer": "input()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 5,
+      "question": "Which is a valid Python variable name?",
+      "options": [
+        "2name",
+        "my-name",
+        "my_name",
+        "class"
+      ],
+      "answer": "my_name",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 6,
+      "question": "What is the type of 10?",
+      "options": [
+        "str",
+        "float",
+        "int",
+        "bool"
+      ],
+      "answer": "int",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 7,
+      "question": "What is the type of 3.14?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "list"
+      ],
+      "answer": "float",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 8,
+      "question": "What is the type of True?",
+      "options": [
+        "bool",
+        "int",
+        "str",
+        "true"
+      ],
+      "answer": "bool",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 9,
+      "question": "Which keyword starts a condition?",
+      "options": [
+        "if",
+        "when",
+        "check",
+        "case"
+      ],
+      "answer": "if",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 10,
+      "question": "Which keyword handles another condition after if?",
+      "options": [
+        "elseif",
+        "elif",
+        "else if",
+        "when"
+      ],
+      "answer": "elif",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 11,
+      "question": "Which collection is ordered and mutable?",
+      "options": [
+        "tuple",
+        "list",
+        "set",
+        "frozenset"
+      ],
+      "answer": "list",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 12,
+      "question": "Which collection is ordered and immutable?",
+      "options": [
+        "list",
+        "set",
+        "tuple",
+        "dict"
+      ],
+      "answer": "tuple",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 13,
+      "question": "Which collection stores unique elements?",
+      "options": [
+        "list",
+        "set",
+        "tuple",
+        "string"
+      ],
+      "answer": "set",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 14,
+      "question": "Which collection stores key-value pairs?",
+      "options": [
+        "list",
+        "tuple",
+        "dictionary",
+        "set"
+      ],
+      "answer": "dictionary",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 15,
+      "question": "Which brackets create a list?",
+      "options": [
+        "()",
+        "{}",
+        "[]",
+        "<>"
+      ],
+      "answer": "[]",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 16,
+      "question": "Which brackets create a tuple?",
+      "options": [
+        "()",
+        "[]",
+        "{}",
+        "//"
+      ],
+      "answer": "()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 17,
+      "question": "Which method adds an item to a list?",
+      "options": [
+        "add()",
+        "append()",
+        "insert_end()",
+        "push()"
+      ],
+      "answer": "append()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 18,
+      "question": "Which method removes and returns the last list item?",
+      "options": [
+        "delete()",
+        "remove()",
+        "pop()",
+        "clear()"
+      ],
+      "answer": "pop()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 19,
+      "question": "Which method sorts a list in place?",
+      "options": [
+        "order()",
+        "sort()",
+        "sorted_inplace()",
+        "arrange()"
+      ],
+      "answer": "sort()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 20,
+      "question": "Which function returns collection length?",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answer": "len()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 21,
+      "question": "What does // perform?",
+      "options": [
+        "Normal division",
+        "Floor division",
+        "Modulo",
+        "Exponentiation"
+      ],
+      "answer": "Floor division",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 22,
+      "question": "What does % return?",
+      "options": [
+        "Quotient",
+        "Remainder",
+        "Power",
+        "Absolute value"
+      ],
+      "answer": "Remainder",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 23,
+      "question": "Which operator performs exponentiation?",
+      "options": [
+        "^",
+        "**",
+        "//",
+        "%%"
+      ],
+      "answer": "**",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 24,
+      "question": "Which operator checks equality?",
+      "options": [
+        "=",
+        "==",
+        "!=",
+        "=>"
+      ],
+      "answer": "==",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 25,
+      "question": "Which operator means not equal?",
+      "options": [
+        "<>",
+        "!==",
+        "!=",
+        "not="
+      ],
+      "answer": "!=",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 26,
+      "question": "Which loop iterates over a sequence?",
+      "options": [
+        "repeat",
+        "for",
+        "loop",
+        "iterate"
+      ],
+      "answer": "for",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 27,
+      "question": "Which loop runs while a condition is true?",
+      "options": [
+        "for",
+        "while",
+        "during",
+        "until"
+      ],
+      "answer": "while",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 28,
+      "question": "Which statement exits a loop?",
+      "options": [
+        "stop",
+        "exit",
+        "break",
+        "returnloop"
+      ],
+      "answer": "break",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 29,
+      "question": "Which statement skips to the next iteration?",
+      "options": [
+        "skip",
+        "continue",
+        "next",
+        "passloop"
+      ],
+      "answer": "continue",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 30,
+      "question": "Which keyword acts as a placeholder?",
+      "options": [
+        "empty",
+        "pass",
+        "skip",
+        "null"
+      ],
+      "answer": "pass",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 31,
+      "question": "Which keyword creates a class?",
+      "options": [
+        "class",
+        "struct",
+        "object",
+        "type"
+      ],
+      "answer": "class",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 32,
+      "question": "Which keyword handles an exception?",
+      "options": [
+        "catch",
+        "except",
+        "error",
+        "handle"
+      ],
+      "answer": "except",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 33,
+      "question": "Which keyword raises an exception?",
+      "options": [
+        "throw",
+        "raise",
+        "except",
+        "error"
+      ],
+      "answer": "raise",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 34,
+      "question": "Which keyword imports a module?",
+      "options": [
+        "include",
+        "import",
+        "using",
+        "module"
+      ],
+      "answer": "import",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 35,
+      "question": "Which built-in returns an object's type?",
+      "options": [
+        "type()",
+        "kind()",
+        "typeof()",
+        "dtype()"
+      ],
+      "answer": "type()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 36,
+      "question": "Which built-in converts to integer?",
+      "options": [
+        "integer()",
+        "int()",
+        "toInt()",
+        "number()"
+      ],
+      "answer": "int()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 37,
+      "question": "Which built-in converts to string?",
+      "options": [
+        "str()",
+        "string()",
+        "toString()",
+        "text()"
+      ],
+      "answer": "str()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 38,
+      "question": "Which built-in converts to float?",
+      "options": [
+        "float()",
+        "decimal()",
+        "double()",
+        "real()"
+      ],
+      "answer": "float()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 39,
+      "question": "Which list method removes the first matching value?",
+      "options": [
+        "delete()",
+        "remove()",
+        "pop()",
+        "discard()"
+      ],
+      "answer": "remove()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 40,
+      "question": "Which list method inserts at an index?",
+      "options": [
+        "append()",
+        "insert()",
+        "place()",
+        "addat()"
+      ],
+      "answer": "insert()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 41,
+      "question": "Which list method removes all items?",
+      "options": [
+        "deleteall()",
+        "clear()",
+        "empty()",
+        "reset()"
+      ],
+      "answer": "clear()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 42,
+      "question": "Which dictionary method safely gets a value?",
+      "options": [
+        "fetch()",
+        "get()",
+        "value()",
+        "find()"
+      ],
+      "answer": "get()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 43,
+      "question": "Which dictionary method returns keys?",
+      "options": [
+        "keys()",
+        "keylist()",
+        "allkeys()",
+        "index()"
+      ],
+      "answer": "keys()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 44,
+      "question": "Which dictionary method returns pairs?",
+      "options": [
+        "pairs()",
+        "items()",
+        "entries()",
+        "pairslist()"
+      ],
+      "answer": "items()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 45,
+      "question": "Which set method adds an element?",
+      "options": [
+        "append()",
+        "add()",
+        "insert()",
+        "push()"
+      ],
+      "answer": "add()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 46,
+      "question": "Which set method safely removes an absent element?",
+      "options": [
+        "remove()",
+        "delete()",
+        "discard()",
+        "drop()"
+      ],
+      "answer": "discard()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 47,
+      "question": "Which string method makes text uppercase?",
+      "options": [
+        "upper()",
+        "uppercase()",
+        "up()",
+        "toUpper()"
+      ],
+      "answer": "upper()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 48,
+      "question": "Which string method makes text lowercase?",
+      "options": [
+        "lower()",
+        "lowercase()",
+        "down()",
+        "toLower()"
+      ],
+      "answer": "lower()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 49,
+      "question": "Which string method splits text?",
+      "options": [
+        "split()",
+        "divide()",
+        "cut()",
+        "tokenize()"
+      ],
+      "answer": "split()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 50,
+      "question": "Which string method joins strings?",
+      "options": [
+        "merge()",
+        "join()",
+        "concatall()",
+        "combine()"
+      ],
+      "answer": "join()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 51,
+      "question": "Which value represents no value?",
+      "options": [
+        "None",
+        "Null",
+        "Nothing",
+        "Void"
+      ],
+      "answer": "None",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 52,
+      "question": "Which function creates integer sequences?",
+      "options": [
+        "range()",
+        "sequence()",
+        "nums()",
+        "series()"
+      ],
+      "answer": "range()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 53,
+      "question": "Which function gives index and value?",
+      "options": [
+        "enumerate()",
+        "indexall()",
+        "pairs()",
+        "iterindex()"
+      ],
+      "answer": "enumerate()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 54,
+      "question": "Which function combines iterables element-wise?",
+      "options": [
+        "zip()",
+        "combine()",
+        "pair()",
+        "joiniter()"
+      ],
+      "answer": "zip()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 55,
+      "question": "Which function returns the largest value?",
+      "options": [
+        "max()",
+        "largest()",
+        "top()",
+        "high()"
+      ],
+      "answer": "max()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 56,
+      "question": "Which function returns the smallest value?",
+      "options": [
+        "min()",
+        "smallest()",
+        "low()",
+        "bottom()"
+      ],
+      "answer": "min()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 57,
+      "question": "Which function returns a sum?",
+      "options": [
+        "total()",
+        "sum()",
+        "addall()",
+        "accumulate()"
+      ],
+      "answer": "sum()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 58,
+      "question": "Which function returns an absolute value?",
+      "options": [
+        "abs()",
+        "absolute()",
+        "mod()",
+        "positive()"
+      ],
+      "answer": "abs()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 59,
+      "question": "Which function rounds a number?",
+      "options": [
+        "round()",
+        "approx()",
+        "rnd()",
+        "formatnum()"
+      ],
+      "answer": "round()",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 60,
+      "question": "Which keyword defines an anonymous function?",
+      "options": [
+        "lambda",
+        "anon",
+        "func",
+        "defanon"
+      ],
+      "answer": "lambda",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 61,
+      "question": "Which keyword allows global assignment inside a function?",
+      "options": [
+        "global",
+        "public",
+        "extern",
+        "outer"
+      ],
+      "answer": "global",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 62,
+      "question": "Which keyword refers to an enclosing non-global variable?",
+      "options": [
+        "nonlocal",
+        "outer",
+        "parent",
+        "enclosing"
+      ],
+      "answer": "nonlocal",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 63,
+      "question": "Which keyword produces values lazily?",
+      "options": [
+        "yield",
+        "lazy",
+        "generate",
+        "returnmany"
+      ],
+      "answer": "yield",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 64,
+      "question": "Which statement returns a value from a function?",
+      "options": [
+        "send",
+        "return",
+        "yieldonly",
+        "output"
+      ],
+      "answer": "return",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 65,
+      "question": "What does a function without explicit return return?",
+      "options": [
+        "0",
+        "False",
+        "None",
+        "Empty string"
+      ],
+      "answer": "None",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 66,
+      "question": "Which symbol is used for slicing?",
+      "options": [
+        ":",
+        ";",
+        ",",
+        "|"
+      ],
+      "answer": ":",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 67,
+      "question": "What is the first index of a list?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "None"
+      ],
+      "answer": "0",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 68,
+      "question": "Which index refers to the last item?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "len"
+      ],
+      "answer": "-1",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 69,
+      "question": "Which file mode opens for reading?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": "r",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 70,
+      "question": "Which file mode writes and truncates?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": "w",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 71,
+      "question": "Which file mode appends?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": "a",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 72,
+      "question": "Which keyword helps automatically close a file?",
+      "options": [
+        "with",
+        "using",
+        "openwith",
+        "auto"
+      ],
+      "answer": "with",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 73,
+      "question": "Which exception occurs for an invalid list index?",
+      "options": [
+        "IndexError",
+        "KeyError",
+        "ValueError",
+        "TypeError"
+      ],
+      "answer": "IndexError",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 74,
+      "question": "Which exception occurs for a missing dictionary key?",
+      "options": [
+        "IndexError",
+        "KeyError",
+        "NameError",
+        "LookupErrorOnly"
+      ],
+      "answer": "KeyError",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 75,
+      "question": "Which exception occurs for an inappropriate type?",
+      "options": [
+        "TypeError",
+        "ValueError",
+        "SyntaxError",
+        "NameError"
+      ],
+      "answer": "TypeError",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 76,
+      "question": "Which exception occurs for an inappropriate value?",
+      "options": [
+        "ValueError",
+        "TypeError",
+        "KeyError",
+        "ImportError"
+      ],
+      "answer": "ValueError",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 77,
+      "question": "Which exception indicates invalid syntax?",
+      "options": [
+        "SyntaxError",
+        "CodeError",
+        "ParseError",
+        "GrammarError"
+      ],
+      "answer": "SyntaxError",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 78,
+      "question": "Which exception indicates an undefined name?",
+      "options": [
+        "NameError",
+        "NotDefinedError",
+        "VariableError",
+        "ReferenceError"
+      ],
+      "answer": "NameError",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 79,
+      "question": "Which operator checks membership?",
+      "options": [
+        "in",
+        "has",
+        "contains",
+        "inside"
+      ],
+      "answer": "in",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 80,
+      "question": "Which operator checks non-membership?",
+      "options": [
+        "not in",
+        "outside",
+        "not contains",
+        "absent"
+      ],
+      "answer": "not in",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 81,
+      "question": "Which logical operator requires both conditions true?",
+      "options": [
+        "and",
+        "or",
+        "xor",
+        "both"
+      ],
+      "answer": "and",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 82,
+      "question": "Which logical operator requires at least one true?",
+      "options": [
+        "and",
+        "or",
+        "nor",
+        "eitheronly"
+      ],
+      "answer": "or",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 83,
+      "question": "Which logical operator negates a condition?",
+      "options": [
+        "not",
+        "!",
+        "neg",
+        "inverse"
+      ],
+      "answer": "not",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 84,
+      "question": "What does list comprehension create?",
+      "options": [
+        "A list",
+        "A tuple only",
+        "A dictionary only",
+        "A class"
+      ],
+      "answer": "A list",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 85,
+      "question": "Which is valid list comprehension syntax?",
+      "options": [
+        "[x for x in data]",
+        "(x for x in data)",
+        "{x only}",
+        "list x in data"
+      ],
+      "answer": "[x for x in data]",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 86,
+      "question": "Which syntax creates a generator expression?",
+      "options": [
+        "(x for x in data)",
+        "[x for x in data]",
+        "{x for x}",
+        "generator(x)"
+      ],
+      "answer": "(x for x in data)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 87,
+      "question": "What are generators useful for?",
+      "options": [
+        "Lazy iteration",
+        "Only sorting",
+        "Only graphics",
+        "Database schema creation"
+      ],
+      "answer": "Lazy iteration",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 88,
+      "question": "What does is primarily test?",
+      "options": [
+        "Object identity",
+        "Numeric equality only",
+        "Membership",
+        "Ordering"
+      ],
+      "answer": "Object identity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 89,
+      "question": "What does == primarily test?",
+      "options": [
+        "Value equality",
+        "Object identity only",
+        "Membership",
+        "Assignment"
+      ],
+      "answer": "Value equality",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 90,
+      "question": "What is a decorator used for?",
+      "options": [
+        "Wrapping or modifying callable behavior",
+        "Creating only variables",
+        "Deleting modules",
+        "Compiling C++"
+      ],
+      "answer": "Wrapping or modifying callable behavior",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 91,
+      "question": "Which symbol commonly applies a decorator?",
+      "options": [
+        "@",
+        "#",
+        "$",
+        "&"
+      ],
+      "answer": "@",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 92,
+      "question": "What is recursion?",
+      "options": [
+        "A function calling itself",
+        "A loop without condition",
+        "A type conversion",
+        "A module import"
+      ],
+      "answer": "A function calling itself",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 93,
+      "question": "What is a module?",
+      "options": [
+        "A Python file containing code",
+        "Only a variable",
+        "Only a class instance",
+        "A database table"
+      ],
+      "answer": "A Python file containing code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 94,
+      "question": "What is a package?",
+      "options": [
+        "A directory organized as a Python package",
+        "Only a function",
+        "Only a list",
+        "A compiler"
+      ],
+      "answer": "A directory organized as a Python package",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 95,
+      "question": "What does __name__ commonly contain when a file runs directly?",
+      "options": [
+        "'__main__'",
+        "'main'",
+        "None",
+        "The filename only"
+      ],
+      "answer": "'__main__'",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 96,
+      "question": "Which condition checks direct execution?",
+      "options": [
+        "if __name__ == '__main__':",
+        "if main == true:",
+        "run_if_main()",
+        "if __main__:"
+      ],
+      "answer": "if __name__ == '__main__':",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 97,
+      "question": "What is PEP 8?",
+      "options": [
+        "Python style guide",
+        "Python compiler",
+        "Database API",
+        "Package manager"
+      ],
+      "answer": "Python style guide",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 98,
+      "question": "Which tool installs Python packages from PyPI?",
+      "options": [
+        "pip",
+        "npm",
+        "cargo",
+        "gem"
+      ],
+      "answer": "pip",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 99,
+      "question": "Which command installs a package with pip?",
+      "options": [
+        "pip install package",
+        "pip get package",
+        "python add package",
+        "install pip package"
+      ],
+      "answer": "pip install package",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 100,
+      "question": "What does a virtual environment isolate?",
+      "options": [
+        "Project dependencies",
+        "CPU cores",
+        "RAM",
+        "Automatic debugging"
+      ],
+      "answer": "Project dependencies",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 101,
+      "question": "Which module supports regular expressions?",
+      "options": [
+        "re",
+        "regexpy",
+        "pattern",
+        "regexp"
+      ],
+      "answer": "re",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 102,
+      "question": "Which module handles JSON?",
+      "options": [
+        "json",
+        "js",
+        "datajson",
+        "encode"
+      ],
+      "answer": "json",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 103,
+      "question": "Which function parses a JSON string?",
+      "options": [
+        "json.loads()",
+        "json.read()",
+        "json.parse()",
+        "json.decodefile()"
+      ],
+      "answer": "json.loads()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 104,
+      "question": "Which function converts Python data to a JSON string?",
+      "options": [
+        "json.dumps()",
+        "json.write()",
+        "json.stringify()",
+        "json.encodefile()"
+      ],
+      "answer": "json.dumps()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 105,
+      "question": "Which module provides mathematical functions such as sqrt?",
+      "options": [
+        "math",
+        "mat",
+        "cmathonly",
+        "numeric"
+      ],
+      "answer": "math",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 106,
+      "question": "Which module provides random number generation?",
+      "options": [
+        "random",
+        "rand",
+        "numbers",
+        "choice"
+      ],
+      "answer": "random",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 107,
+      "question": "Which function selects a random element?",
+      "options": [
+        "random.choice()",
+        "random.pickone()",
+        "random.element()",
+        "choice.random()"
+      ],
+      "answer": "random.choice()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 108,
+      "question": "Which module provides date and time classes?",
+      "options": [
+        "datetime",
+        "timeonly",
+        "calendaronly",
+        "dateutil"
+      ],
+      "answer": "datetime",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 109,
+      "question": "What does str.split() return?",
+      "options": [
+        "A list of substrings",
+        "A tuple of characters",
+        "A set",
+        "A dictionary"
+      ],
+      "answer": "A list of substrings",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 110,
+      "question": "What does str.join() operate on?",
+      "options": [
+        "An iterable of strings",
+        "An integer only",
+        "A dictionary only",
+        "A Boolean"
+      ],
+      "answer": "An iterable of strings",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 111,
+      "question": "What does dict.get() return for a missing key without a default?",
+      "options": [
+        "None",
+        "KeyError",
+        "0",
+        "It creates the key"
+      ],
+      "answer": "None",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 112,
+      "question": "What does set() create with no arguments?",
+      "options": [
+        "An empty set",
+        "An empty dictionary",
+        "An empty tuple",
+        "An empty list"
+      ],
+      "answer": "An empty set",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 113,
+      "question": "What does {} create?",
+      "options": [
+        "An empty dictionary",
+        "An empty set",
+        "An empty list",
+        "An empty tuple"
+      ],
+      "answer": "An empty dictionary",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 114,
+      "question": "Which keyword is used to define a function in Python? ",
+      "options": [
+        "func",
+        "define",
+        "def",
+        "function"
+      ],
+      "answer": "def",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 115,
+      "question": "Which symbol starts a single-line comment in Python? ",
+      "options": [
+        "//",
+        "#",
+        "/*",
+        "--"
+      ],
+      "answer": "#",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 116,
+      "question": "Which function displays output in Python? ",
+      "options": [
+        "echo()",
+        "display()",
+        "print()",
+        "show()"
+      ],
+      "answer": "print()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 117,
+      "question": "Which function gets user input? ",
+      "options": [
+        "scan()",
+        "input()",
+        "read()",
+        "get()"
+      ],
+      "answer": "input()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 118,
+      "question": "Which is a valid Python variable name? ",
+      "options": [
+        "2name",
+        "my-name",
+        "my_name",
+        "class"
+      ],
+      "answer": "my_name",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 119,
+      "question": "What is the type of 10? ",
+      "options": [
+        "str",
+        "float",
+        "int",
+        "bool"
+      ],
+      "answer": "int",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 120,
+      "question": "What is the type of 3.14? ",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "list"
+      ],
+      "answer": "float",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 121,
+      "question": "What is the type of True? ",
+      "options": [
+        "bool",
+        "int",
+        "str",
+        "true"
+      ],
+      "answer": "bool",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 122,
+      "question": "Which keyword starts a condition? ",
+      "options": [
+        "if",
+        "when",
+        "check",
+        "case"
+      ],
+      "answer": "if",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 123,
+      "question": "Which keyword handles another condition after if? ",
+      "options": [
+        "elseif",
+        "elif",
+        "else if",
+        "when"
+      ],
+      "answer": "elif",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 124,
+      "question": "Which collection is ordered and mutable? ",
+      "options": [
+        "tuple",
+        "list",
+        "set",
+        "frozenset"
+      ],
+      "answer": "list",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 125,
+      "question": "Which collection is ordered and immutable? ",
+      "options": [
+        "list",
+        "set",
+        "tuple",
+        "dict"
+      ],
+      "answer": "tuple",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 126,
+      "question": "Which collection stores unique elements? ",
+      "options": [
+        "list",
+        "set",
+        "tuple",
+        "string"
+      ],
+      "answer": "set",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 127,
+      "question": "Which collection stores key-value pairs? ",
+      "options": [
+        "list",
+        "tuple",
+        "dictionary",
+        "set"
+      ],
+      "answer": "dictionary",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 128,
+      "question": "Which brackets create a list? ",
+      "options": [
+        "()",
+        "{}",
+        "[]",
+        "<>"
+      ],
+      "answer": "[]",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 129,
+      "question": "Which brackets create a tuple? ",
+      "options": [
+        "()",
+        "[]",
+        "{}",
+        "//"
+      ],
+      "answer": "()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 130,
+      "question": "Which method adds an item to a list? ",
+      "options": [
+        "add()",
+        "append()",
+        "insert_end()",
+        "push()"
+      ],
+      "answer": "append()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 131,
+      "question": "Which method removes and returns the last list item? ",
+      "options": [
+        "delete()",
+        "remove()",
+        "pop()",
+        "clear()"
+      ],
+      "answer": "pop()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 132,
+      "question": "Which method sorts a list in place? ",
+      "options": [
+        "order()",
+        "sort()",
+        "sorted_inplace()",
+        "arrange()"
+      ],
+      "answer": "sort()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 133,
+      "question": "Which function returns collection length? ",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answer": "len()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 134,
+      "question": "What does // perform? ",
+      "options": [
+        "Normal division",
+        "Floor division",
+        "Modulo",
+        "Exponentiation"
+      ],
+      "answer": "Floor division",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 135,
+      "question": "What does % return? ",
+      "options": [
+        "Quotient",
+        "Remainder",
+        "Power",
+        "Absolute value"
+      ],
+      "answer": "Remainder",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 136,
+      "question": "Which operator performs exponentiation? ",
+      "options": [
+        "^",
+        "**",
+        "//",
+        "%%"
+      ],
+      "answer": "**",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 137,
+      "question": "Which operator checks equality? ",
+      "options": [
+        "=",
+        "==",
+        "!=",
+        "=>"
+      ],
+      "answer": "==",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 138,
+      "question": "Which operator means not equal? ",
+      "options": [
+        "<>",
+        "!==",
+        "!=",
+        "not="
+      ],
+      "answer": "!=",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 139,
+      "question": "Which loop iterates over a sequence? ",
+      "options": [
+        "repeat",
+        "for",
+        "loop",
+        "iterate"
+      ],
+      "answer": "for",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 140,
+      "question": "Which loop runs while a condition is true? ",
+      "options": [
+        "for",
+        "while",
+        "during",
+        "until"
+      ],
+      "answer": "while",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 141,
+      "question": "Which statement exits a loop? ",
+      "options": [
+        "stop",
+        "exit",
+        "break",
+        "returnloop"
+      ],
+      "answer": "break",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 142,
+      "question": "Which statement skips to the next iteration? ",
+      "options": [
+        "skip",
+        "continue",
+        "next",
+        "passloop"
+      ],
+      "answer": "continue",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 143,
+      "question": "Which keyword acts as a placeholder? ",
+      "options": [
+        "empty",
+        "pass",
+        "skip",
+        "null"
+      ],
+      "answer": "pass",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 144,
+      "question": "Which keyword creates a class? ",
+      "options": [
+        "class",
+        "struct",
+        "object",
+        "type"
+      ],
+      "answer": "class",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 145,
+      "question": "Which keyword handles an exception? ",
+      "options": [
+        "catch",
+        "except",
+        "error",
+        "handle"
+      ],
+      "answer": "except",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 146,
+      "question": "Which keyword raises an exception? ",
+      "options": [
+        "throw",
+        "raise",
+        "except",
+        "error"
+      ],
+      "answer": "raise",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 147,
+      "question": "Which keyword imports a module? ",
+      "options": [
+        "include",
+        "import",
+        "using",
+        "module"
+      ],
+      "answer": "import",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 148,
+      "question": "Which built-in returns an object's type? ",
+      "options": [
+        "type()",
+        "kind()",
+        "typeof()",
+        "dtype()"
+      ],
+      "answer": "type()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 149,
+      "question": "Which built-in converts to integer? ",
+      "options": [
+        "integer()",
+        "int()",
+        "toInt()",
+        "number()"
+      ],
+      "answer": "int()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 150,
+      "question": "Which built-in converts to string? ",
+      "options": [
+        "str()",
+        "string()",
+        "toString()",
+        "text()"
+      ],
+      "answer": "str()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 151,
+      "question": "Which built-in converts to float? ",
+      "options": [
+        "float()",
+        "decimal()",
+        "double()",
+        "real()"
+      ],
+      "answer": "float()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 152,
+      "question": "Which list method removes the first matching value? ",
+      "options": [
+        "delete()",
+        "remove()",
+        "pop()",
+        "discard()"
+      ],
+      "answer": "remove()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 153,
+      "question": "Which list method inserts at an index? ",
+      "options": [
+        "append()",
+        "insert()",
+        "place()",
+        "addat()"
+      ],
+      "answer": "insert()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 154,
+      "question": "Which list method removes all items? ",
+      "options": [
+        "deleteall()",
+        "clear()",
+        "empty()",
+        "reset()"
+      ],
+      "answer": "clear()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 155,
+      "question": "Which dictionary method safely gets a value? ",
+      "options": [
+        "fetch()",
+        "get()",
+        "value()",
+        "find()"
+      ],
+      "answer": "get()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 156,
+      "question": "Which dictionary method returns keys? ",
+      "options": [
+        "keys()",
+        "keylist()",
+        "allkeys()",
+        "index()"
+      ],
+      "answer": "keys()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 157,
+      "question": "Which dictionary method returns pairs? ",
+      "options": [
+        "pairs()",
+        "items()",
+        "entries()",
+        "pairslist()"
+      ],
+      "answer": "items()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 158,
+      "question": "Which set method adds an element? ",
+      "options": [
+        "append()",
+        "add()",
+        "insert()",
+        "push()"
+      ],
+      "answer": "add()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 159,
+      "question": "Which set method safely removes an absent element? ",
+      "options": [
+        "remove()",
+        "delete()",
+        "discard()",
+        "drop()"
+      ],
+      "answer": "discard()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 160,
+      "question": "Which string method makes text uppercase? ",
+      "options": [
+        "upper()",
+        "uppercase()",
+        "up()",
+        "toUpper()"
+      ],
+      "answer": "upper()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 161,
+      "question": "Which string method makes text lowercase? ",
+      "options": [
+        "lower()",
+        "lowercase()",
+        "down()",
+        "toLower()"
+      ],
+      "answer": "lower()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 162,
+      "question": "Which string method splits text? ",
+      "options": [
+        "split()",
+        "divide()",
+        "cut()",
+        "tokenize()"
+      ],
+      "answer": "split()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 163,
+      "question": "Which string method joins strings? ",
+      "options": [
+        "merge()",
+        "join()",
+        "concatall()",
+        "combine()"
+      ],
+      "answer": "join()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 164,
+      "question": "Which value represents no value? ",
+      "options": [
+        "None",
+        "Null",
+        "Nothing",
+        "Void"
+      ],
+      "answer": "None",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 165,
+      "question": "Which function creates integer sequences? ",
+      "options": [
+        "range()",
+        "sequence()",
+        "nums()",
+        "series()"
+      ],
+      "answer": "range()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 166,
+      "question": "Which function gives index and value? ",
+      "options": [
+        "enumerate()",
+        "indexall()",
+        "pairs()",
+        "iterindex()"
+      ],
+      "answer": "enumerate()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 167,
+      "question": "Which function combines iterables element-wise? ",
+      "options": [
+        "zip()",
+        "combine()",
+        "pair()",
+        "joiniter()"
+      ],
+      "answer": "zip()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 168,
+      "question": "Which function returns the largest value? ",
+      "options": [
+        "max()",
+        "largest()",
+        "top()",
+        "high()"
+      ],
+      "answer": "max()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 169,
+      "question": "Which function returns the smallest value? ",
+      "options": [
+        "min()",
+        "smallest()",
+        "low()",
+        "bottom()"
+      ],
+      "answer": "min()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 170,
+      "question": "Which function returns a sum? ",
+      "options": [
+        "total()",
+        "sum()",
+        "addall()",
+        "accumulate()"
+      ],
+      "answer": "sum()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 171,
+      "question": "Which function returns an absolute value? ",
+      "options": [
+        "abs()",
+        "absolute()",
+        "mod()",
+        "positive()"
+      ],
+      "answer": "abs()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 172,
+      "question": "Which function rounds a number? ",
+      "options": [
+        "round()",
+        "approx()",
+        "rnd()",
+        "formatnum()"
+      ],
+      "answer": "round()",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 173,
+      "question": "Which keyword defines an anonymous function? ",
+      "options": [
+        "lambda",
+        "anon",
+        "func",
+        "defanon"
+      ],
+      "answer": "lambda",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 174,
+      "question": "Which keyword allows global assignment inside a function? ",
+      "options": [
+        "global",
+        "public",
+        "extern",
+        "outer"
+      ],
+      "answer": "global",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 175,
+      "question": "Which keyword refers to an enclosing non-global variable? ",
+      "options": [
+        "nonlocal",
+        "outer",
+        "parent",
+        "enclosing"
+      ],
+      "answer": "nonlocal",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 176,
+      "question": "Which keyword produces values lazily? ",
+      "options": [
+        "yield",
+        "lazy",
+        "generate",
+        "returnmany"
+      ],
+      "answer": "yield",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 177,
+      "question": "Which statement returns a value from a function? ",
+      "options": [
+        "send",
+        "return",
+        "yieldonly",
+        "output"
+      ],
+      "answer": "return",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 178,
+      "question": "What does a function without explicit return return? ",
+      "options": [
+        "0",
+        "False",
+        "None",
+        "Empty string"
+      ],
+      "answer": "None",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 179,
+      "question": "Which symbol is used for slicing? ",
+      "options": [
+        ":",
+        ";",
+        ",",
+        "|"
+      ],
+      "answer": ":",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 180,
+      "question": "What is the first index of a list? ",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "None"
+      ],
+      "answer": "0",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 181,
+      "question": "Which index refers to the last item? ",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "len"
+      ],
+      "answer": "-1",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 182,
+      "question": "Which file mode opens for reading? ",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": "r",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 183,
+      "question": "Which file mode writes and truncates? ",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": "w",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 184,
+      "question": "Which file mode appends? ",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": "a",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 185,
+      "question": "Which keyword helps automatically close a file? ",
+      "options": [
+        "with",
+        "using",
+        "openwith",
+        "auto"
+      ],
+      "answer": "with",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 186,
+      "question": "Which exception occurs for an invalid list index? ",
+      "options": [
+        "IndexError",
+        "KeyError",
+        "ValueError",
+        "TypeError"
+      ],
+      "answer": "IndexError",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 187,
+      "question": "Which exception occurs for a missing dictionary key? ",
+      "options": [
+        "IndexError",
+        "KeyError",
+        "NameError",
+        "LookupErrorOnly"
+      ],
+      "answer": "KeyError",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 188,
+      "question": "Which exception occurs for an inappropriate type? ",
+      "options": [
+        "TypeError",
+        "ValueError",
+        "SyntaxError",
+        "NameError"
+      ],
+      "answer": "TypeError",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 189,
+      "question": "Which exception occurs for an inappropriate value? ",
+      "options": [
+        "ValueError",
+        "TypeError",
+        "KeyError",
+        "ImportError"
+      ],
+      "answer": "ValueError",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 190,
+      "question": "Which exception indicates invalid syntax? ",
+      "options": [
+        "SyntaxError",
+        "CodeError",
+        "ParseError",
+        "GrammarError"
+      ],
+      "answer": "SyntaxError",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 191,
+      "question": "Which exception indicates an undefined name? ",
+      "options": [
+        "NameError",
+        "NotDefinedError",
+        "VariableError",
+        "ReferenceError"
+      ],
+      "answer": "NameError",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 192,
+      "question": "Which operator checks membership? ",
+      "options": [
+        "in",
+        "has",
+        "contains",
+        "inside"
+      ],
+      "answer": "in",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 193,
+      "question": "Which operator checks non-membership? ",
+      "options": [
+        "not in",
+        "outside",
+        "not contains",
+        "absent"
+      ],
+      "answer": "not in",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 194,
+      "question": "Which logical operator requires both conditions true? ",
+      "options": [
+        "and",
+        "or",
+        "xor",
+        "both"
+      ],
+      "answer": "and",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 195,
+      "question": "Which logical operator requires at least one true? ",
+      "options": [
+        "and",
+        "or",
+        "nor",
+        "eitheronly"
+      ],
+      "answer": "or",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 196,
+      "question": "Which logical operator negates a condition? ",
+      "options": [
+        "not",
+        "!",
+        "neg",
+        "inverse"
+      ],
+      "answer": "not",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 197,
+      "question": "What does list comprehension create? ",
+      "options": [
+        "A list",
+        "A tuple only",
+        "A dictionary only",
+        "A class"
+      ],
+      "answer": "A list",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 198,
+      "question": "Which is valid list comprehension syntax? ",
+      "options": [
+        "[x for x in data]",
+        "(x for x in data)",
+        "{x only}",
+        "list x in data"
+      ],
+      "answer": "[x for x in data]",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 199,
+      "question": "Which syntax creates a generator expression? ",
+      "options": [
+        "(x for x in data)",
+        "[x for x in data]",
+        "{x for x}",
+        "generator(x)"
+      ],
+      "answer": "(x for x in data)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 200,
+      "question": "What are generators useful for? ",
+      "options": [
+        "Lazy iteration",
+        "Only sorting",
+        "Only graphics",
+        "Database schema creation"
+      ],
+      "answer": "Lazy iteration",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 201,
+      "question": "What does is primarily test? ",
+      "options": [
+        "Object identity",
+        "Numeric equality only",
+        "Membership",
+        "Ordering"
+      ],
+      "answer": "Object identity",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 202,
+      "question": "What does == primarily test? ",
+      "options": [
+        "Value equality",
+        "Object identity only",
+        "Membership",
+        "Assignment"
+      ],
+      "answer": "Value equality",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 203,
+      "question": "What is a decorator used for? ",
+      "options": [
+        "Wrapping or modifying callable behavior",
+        "Creating only variables",
+        "Deleting modules",
+        "Compiling C++"
+      ],
+      "answer": "Wrapping or modifying callable behavior",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 204,
+      "question": "Which symbol commonly applies a decorator? ",
+      "options": [
+        "@",
+        "#",
+        "$",
+        "&"
+      ],
+      "answer": "@",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 205,
+      "question": "What is recursion? ",
+      "options": [
+        "A function calling itself",
+        "A loop without condition",
+        "A type conversion",
+        "A module import"
+      ],
+      "answer": "A function calling itself",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 206,
+      "question": "What is a module? ",
+      "options": [
+        "A Python file containing code",
+        "Only a variable",
+        "Only a class instance",
+        "A database table"
+      ],
+      "answer": "A Python file containing code",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 207,
+      "question": "What is a package? ",
+      "options": [
+        "A directory organized as a Python package",
+        "Only a function",
+        "Only a list",
+        "A compiler"
+      ],
+      "answer": "A directory organized as a Python package",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 208,
+      "question": "What does __name__ commonly contain when a file runs directly? ",
+      "options": [
+        "'__main__'",
+        "'main'",
+        "None",
+        "The filename only"
+      ],
+      "answer": "'__main__'",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 209,
+      "question": "Which condition checks direct execution? ",
+      "options": [
+        "if __name__ == '__main__':",
+        "if main == true:",
+        "run_if_main()",
+        "if __main__:"
+      ],
+      "answer": "if __name__ == '__main__':",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 210,
+      "question": "What is PEP 8? ",
+      "options": [
+        "Python style guide",
+        "Python compiler",
+        "Database API",
+        "Package manager"
+      ],
+      "answer": "Python style guide",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 211,
+      "question": "Which tool installs Python packages from PyPI? ",
+      "options": [
+        "pip",
+        "npm",
+        "cargo",
+        "gem"
+      ],
+      "answer": "pip",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 212,
+      "question": "Which command installs a package with pip? ",
+      "options": [
+        "pip install package",
+        "pip get package",
+        "python add package",
+        "install pip package"
+      ],
+      "answer": "pip install package",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 213,
+      "question": "What does a virtual environment isolate? ",
+      "options": [
+        "Project dependencies",
+        "CPU cores",
+        "RAM",
+        "Automatic debugging"
+      ],
+      "answer": "Project dependencies",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 214,
+      "question": "Which module supports regular expressions? ",
+      "options": [
+        "re",
+        "regexpy",
+        "pattern",
+        "regexp"
+      ],
+      "answer": "re",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 215,
+      "question": "Which module handles JSON? ",
+      "options": [
+        "json",
+        "js",
+        "datajson",
+        "encode"
+      ],
+      "answer": "json",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 216,
+      "question": "Which function parses a JSON string? ",
+      "options": [
+        "json.loads()",
+        "json.read()",
+        "json.parse()",
+        "json.decodefile()"
+      ],
+      "answer": "json.loads()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 217,
+      "question": "Which function converts Python data to a JSON string? ",
+      "options": [
+        "json.dumps()",
+        "json.write()",
+        "json.stringify()",
+        "json.encodefile()"
+      ],
+      "answer": "json.dumps()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 218,
+      "question": "Which module provides mathematical functions such as sqrt? ",
+      "options": [
+        "math",
+        "mat",
+        "cmathonly",
+        "numeric"
+      ],
+      "answer": "math",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 219,
+      "question": "Which module provides random number generation? ",
+      "options": [
+        "random",
+        "rand",
+        "numbers",
+        "choice"
+      ],
+      "answer": "random",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 220,
+      "question": "Which function selects a random element? ",
+      "options": [
+        "random.choice()",
+        "random.pickone()",
+        "random.element()",
+        "choice.random()"
+      ],
+      "answer": "random.choice()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 221,
+      "question": "Which module provides date and time classes? ",
+      "options": [
+        "datetime",
+        "timeonly",
+        "calendaronly",
+        "dateutil"
+      ],
+      "answer": "datetime",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 222,
+      "question": "What does str.split() return? ",
+      "options": [
+        "A list of substrings",
+        "A tuple of characters",
+        "A set",
+        "A dictionary"
+      ],
+      "answer": "A list of substrings",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 223,
+      "question": "What does str.join() operate on? ",
+      "options": [
+        "An iterable of strings",
+        "An integer only",
+        "A dictionary only",
+        "A Boolean"
+      ],
+      "answer": "An iterable of strings",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 224,
+      "question": "What does dict.get() return for a missing key without a default? ",
+      "options": [
+        "None",
+        "KeyError",
+        "0",
+        "It creates the key"
+      ],
+      "answer": "None",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 225,
+      "question": "What does set() create with no arguments? ",
+      "options": [
+        "An empty set",
+        "An empty dictionary",
+        "An empty tuple",
+        "An empty list"
+      ],
+      "answer": "An empty set",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 226,
+      "question": "What does {} create? ",
+      "options": [
+        "An empty dictionary",
+        "An empty set",
+        "An empty list",
+        "An empty tuple"
+      ],
+      "answer": "An empty dictionary",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 227,
+      "question": "Which keyword is used to define a function in Python? ",
+      "options": [
+        "func",
+        "define",
+        "def",
+        "function"
+      ],
+      "answer": "def",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 228,
+      "question": "Which symbol starts a single-line comment in Python? ",
+      "options": [
+        "//",
+        "#",
+        "/*",
+        "--"
+      ],
+      "answer": "#",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 229,
+      "question": "Which function displays output in Python? ",
+      "options": [
+        "echo()",
+        "display()",
+        "print()",
+        "show()"
+      ],
+      "answer": "print()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 230,
+      "question": "Which function gets user input? ",
+      "options": [
+        "scan()",
+        "input()",
+        "read()",
+        "get()"
+      ],
+      "answer": "input()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 231,
+      "question": "Which is a valid Python variable name? ",
+      "options": [
+        "2name",
+        "my-name",
+        "my_name",
+        "class"
+      ],
+      "answer": "my_name",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 232,
+      "question": "What is the type of 10? ",
+      "options": [
+        "str",
+        "float",
+        "int",
+        "bool"
+      ],
+      "answer": "int",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 233,
+      "question": "What is the type of 3.14? ",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "list"
+      ],
+      "answer": "float",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 234,
+      "question": "What is the type of True? ",
+      "options": [
+        "bool",
+        "int",
+        "str",
+        "true"
+      ],
+      "answer": "bool",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 235,
+      "question": "Which keyword starts a condition? ",
+      "options": [
+        "if",
+        "when",
+        "check",
+        "case"
+      ],
+      "answer": "if",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 236,
+      "question": "Which keyword handles another condition after if? ",
+      "options": [
+        "elseif",
+        "elif",
+        "else if",
+        "when"
+      ],
+      "answer": "elif",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 237,
+      "question": "Which collection is ordered and mutable? ",
+      "options": [
+        "tuple",
+        "list",
+        "set",
+        "frozenset"
+      ],
+      "answer": "list",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 238,
+      "question": "Which collection is ordered and immutable? ",
+      "options": [
+        "list",
+        "set",
+        "tuple",
+        "dict"
+      ],
+      "answer": "tuple",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 239,
+      "question": "Which collection stores unique elements? ",
+      "options": [
+        "list",
+        "set",
+        "tuple",
+        "string"
+      ],
+      "answer": "set",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 240,
+      "question": "Which collection stores key-value pairs? ",
+      "options": [
+        "list",
+        "tuple",
+        "dictionary",
+        "set"
+      ],
+      "answer": "dictionary",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 241,
+      "question": "Which brackets create a list? ",
+      "options": [
+        "()",
+        "{}",
+        "[]",
+        "<>"
+      ],
+      "answer": "[]",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 242,
+      "question": "Which brackets create a tuple? ",
+      "options": [
+        "()",
+        "[]",
+        "{}",
+        "//"
+      ],
+      "answer": "()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 243,
+      "question": "Which method adds an item to a list? ",
+      "options": [
+        "add()",
+        "append()",
+        "insert_end()",
+        "push()"
+      ],
+      "answer": "append()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 244,
+      "question": "Which method removes and returns the last list item? ",
+      "options": [
+        "delete()",
+        "remove()",
+        "pop()",
+        "clear()"
+      ],
+      "answer": "pop()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 245,
+      "question": "Which method sorts a list in place? ",
+      "options": [
+        "order()",
+        "sort()",
+        "sorted_inplace()",
+        "arrange()"
+      ],
+      "answer": "sort()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 246,
+      "question": "Which function returns collection length? ",
+      "options": [
+        "count()",
+        "size()",
+        "len()",
+        "length()"
+      ],
+      "answer": "len()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 247,
+      "question": "What does // perform? ",
+      "options": [
+        "Normal division",
+        "Floor division",
+        "Modulo",
+        "Exponentiation"
+      ],
+      "answer": "Floor division",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 248,
+      "question": "What does % return? ",
+      "options": [
+        "Quotient",
+        "Remainder",
+        "Power",
+        "Absolute value"
+      ],
+      "answer": "Remainder",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 249,
+      "question": "Which operator performs exponentiation? ",
+      "options": [
+        "^",
+        "**",
+        "//",
+        "%%"
+      ],
+      "answer": "**",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 250,
+      "question": "Which operator checks equality? ",
+      "options": [
+        "=",
+        "==",
+        "!=",
+        "=>"
+      ],
+      "answer": "==",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 251,
+      "question": "Which operator means not equal? ",
+      "options": [
+        "<>",
+        "!==",
+        "!=",
+        "not="
+      ],
+      "answer": "!=",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 252,
+      "question": "Which loop iterates over a sequence? ",
+      "options": [
+        "repeat",
+        "for",
+        "loop",
+        "iterate"
+      ],
+      "answer": "for",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 253,
+      "question": "Which loop runs while a condition is true? ",
+      "options": [
+        "for",
+        "while",
+        "during",
+        "until"
+      ],
+      "answer": "while",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 254,
+      "question": "Which statement exits a loop? ",
+      "options": [
+        "stop",
+        "exit",
+        "break",
+        "returnloop"
+      ],
+      "answer": "break",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 255,
+      "question": "Which statement skips to the next iteration? ",
+      "options": [
+        "skip",
+        "continue",
+        "next",
+        "passloop"
+      ],
+      "answer": "continue",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 256,
+      "question": "Which keyword acts as a placeholder? ",
+      "options": [
+        "empty",
+        "pass",
+        "skip",
+        "null"
+      ],
+      "answer": "pass",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 257,
+      "question": "Which keyword creates a class? ",
+      "options": [
+        "class",
+        "struct",
+        "object",
+        "type"
+      ],
+      "answer": "class",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 258,
+      "question": "Which keyword handles an exception? ",
+      "options": [
+        "catch",
+        "except",
+        "error",
+        "handle"
+      ],
+      "answer": "except",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 259,
+      "question": "Which keyword raises an exception? ",
+      "options": [
+        "throw",
+        "raise",
+        "except",
+        "error"
+      ],
+      "answer": "raise",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 260,
+      "question": "Which keyword imports a module? ",
+      "options": [
+        "include",
+        "import",
+        "using",
+        "module"
+      ],
+      "answer": "import",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 261,
+      "question": "Which built-in returns an object's type? ",
+      "options": [
+        "type()",
+        "kind()",
+        "typeof()",
+        "dtype()"
+      ],
+      "answer": "type()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 262,
+      "question": "Which built-in converts to integer? ",
+      "options": [
+        "integer()",
+        "int()",
+        "toInt()",
+        "number()"
+      ],
+      "answer": "int()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 263,
+      "question": "Which built-in converts to string? ",
+      "options": [
+        "str()",
+        "string()",
+        "toString()",
+        "text()"
+      ],
+      "answer": "str()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 264,
+      "question": "Which built-in converts to float? ",
+      "options": [
+        "float()",
+        "decimal()",
+        "double()",
+        "real()"
+      ],
+      "answer": "float()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 265,
+      "question": "Which list method removes the first matching value? ",
+      "options": [
+        "delete()",
+        "remove()",
+        "pop()",
+        "discard()"
+      ],
+      "answer": "remove()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 266,
+      "question": "Which list method inserts at an index? ",
+      "options": [
+        "append()",
+        "insert()",
+        "place()",
+        "addat()"
+      ],
+      "answer": "insert()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 267,
+      "question": "Which list method removes all items? ",
+      "options": [
+        "deleteall()",
+        "clear()",
+        "empty()",
+        "reset()"
+      ],
+      "answer": "clear()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 268,
+      "question": "Which dictionary method safely gets a value? ",
+      "options": [
+        "fetch()",
+        "get()",
+        "value()",
+        "find()"
+      ],
+      "answer": "get()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 269,
+      "question": "Which dictionary method returns keys? ",
+      "options": [
+        "keys()",
+        "keylist()",
+        "allkeys()",
+        "index()"
+      ],
+      "answer": "keys()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 270,
+      "question": "Which dictionary method returns pairs? ",
+      "options": [
+        "pairs()",
+        "items()",
+        "entries()",
+        "pairslist()"
+      ],
+      "answer": "items()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 271,
+      "question": "Which set method adds an element? ",
+      "options": [
+        "append()",
+        "add()",
+        "insert()",
+        "push()"
+      ],
+      "answer": "add()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 272,
+      "question": "Which set method safely removes an absent element? ",
+      "options": [
+        "remove()",
+        "delete()",
+        "discard()",
+        "drop()"
+      ],
+      "answer": "discard()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 273,
+      "question": "Which string method makes text uppercase? ",
+      "options": [
+        "upper()",
+        "uppercase()",
+        "up()",
+        "toUpper()"
+      ],
+      "answer": "upper()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 274,
+      "question": "Which string method makes text lowercase? ",
+      "options": [
+        "lower()",
+        "lowercase()",
+        "down()",
+        "toLower()"
+      ],
+      "answer": "lower()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 275,
+      "question": "Which string method splits text? ",
+      "options": [
+        "split()",
+        "divide()",
+        "cut()",
+        "tokenize()"
+      ],
+      "answer": "split()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 276,
+      "question": "Which string method joins strings? ",
+      "options": [
+        "merge()",
+        "join()",
+        "concatall()",
+        "combine()"
+      ],
+      "answer": "join()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 277,
+      "question": "Which value represents no value? ",
+      "options": [
+        "None",
+        "Null",
+        "Nothing",
+        "Void"
+      ],
+      "answer": "None",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 278,
+      "question": "Which function creates integer sequences? ",
+      "options": [
+        "range()",
+        "sequence()",
+        "nums()",
+        "series()"
+      ],
+      "answer": "range()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 279,
+      "question": "Which function gives index and value? ",
+      "options": [
+        "enumerate()",
+        "indexall()",
+        "pairs()",
+        "iterindex()"
+      ],
+      "answer": "enumerate()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 280,
+      "question": "Which function combines iterables element-wise? ",
+      "options": [
+        "zip()",
+        "combine()",
+        "pair()",
+        "joiniter()"
+      ],
+      "answer": "zip()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 281,
+      "question": "Which function returns the largest value? ",
+      "options": [
+        "max()",
+        "largest()",
+        "top()",
+        "high()"
+      ],
+      "answer": "max()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 282,
+      "question": "Which function returns the smallest value? ",
+      "options": [
+        "min()",
+        "smallest()",
+        "low()",
+        "bottom()"
+      ],
+      "answer": "min()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 283,
+      "question": "Which function returns a sum? ",
+      "options": [
+        "total()",
+        "sum()",
+        "addall()",
+        "accumulate()"
+      ],
+      "answer": "sum()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 284,
+      "question": "Which function returns an absolute value? ",
+      "options": [
+        "abs()",
+        "absolute()",
+        "mod()",
+        "positive()"
+      ],
+      "answer": "abs()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 285,
+      "question": "Which function rounds a number? ",
+      "options": [
+        "round()",
+        "approx()",
+        "rnd()",
+        "formatnum()"
+      ],
+      "answer": "round()",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 286,
+      "question": "Which keyword defines an anonymous function? ",
+      "options": [
+        "lambda",
+        "anon",
+        "func",
+        "defanon"
+      ],
+      "answer": "lambda",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 287,
+      "question": "Which keyword allows global assignment inside a function? ",
+      "options": [
+        "global",
+        "public",
+        "extern",
+        "outer"
+      ],
+      "answer": "global",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 288,
+      "question": "Which keyword refers to an enclosing non-global variable? ",
+      "options": [
+        "nonlocal",
+        "outer",
+        "parent",
+        "enclosing"
+      ],
+      "answer": "nonlocal",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 289,
+      "question": "Which keyword produces values lazily? ",
+      "options": [
+        "yield",
+        "lazy",
+        "generate",
+        "returnmany"
+      ],
+      "answer": "yield",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 290,
+      "question": "Which statement returns a value from a function? ",
+      "options": [
+        "send",
+        "return",
+        "yieldonly",
+        "output"
+      ],
+      "answer": "return",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 291,
+      "question": "What does a function without explicit return return? ",
+      "options": [
+        "0",
+        "False",
+        "None",
+        "Empty string"
+      ],
+      "answer": "None",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 292,
+      "question": "Which symbol is used for slicing? ",
+      "options": [
+        ":",
+        ";",
+        ",",
+        "|"
+      ],
+      "answer": ":",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 293,
+      "question": "What is the first index of a list? ",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "None"
+      ],
+      "answer": "0",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 294,
+      "question": "Which index refers to the last item? ",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "len"
+      ],
+      "answer": "-1",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 295,
+      "question": "Which file mode opens for reading? ",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": "r",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 296,
+      "question": "Which file mode writes and truncates? ",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": "w",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 297,
+      "question": "Which file mode appends? ",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": "a",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 298,
+      "question": "Which keyword helps automatically close a file? ",
+      "options": [
+        "with",
+        "using",
+        "openwith",
+        "auto"
+      ],
+      "answer": "with",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 299,
+      "question": "Which exception occurs for an invalid list index? ",
+      "options": [
+        "IndexError",
+        "KeyError",
+        "ValueError",
+        "TypeError"
+      ],
+      "answer": "IndexError",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 300,
+      "question": "Which exception occurs for a missing dictionary key? ",
+      "options": [
+        "IndexError",
+        "KeyError",
+        "NameError",
+        "LookupErrorOnly"
+      ],
+      "answer": "KeyError",
+      "difficulty": "Hard"
+    }
+  ]
+}

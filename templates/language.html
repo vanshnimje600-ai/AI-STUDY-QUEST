@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Study Quest - Language</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            color: white;
+            padding: 30px 6%;
+
+            background:
+                radial-gradient(circle at 10% 10%, #263b91 0%, transparent 32%),
+                radial-gradient(circle at 90% 90%, #531d78 0%, transparent 32%),
+                #080d20;
+        }
+
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 45px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        .logo span {
+            color: #8b6cff;
+        }
+
+        .back-btn {
+            text-decoration: none;
+            color: #dbe4ff;
+            border: 1px solid #394363;
+            padding: 10px 17px;
+            border-radius: 10px;
+        }
+
+        .back-btn:hover {
+            background: #1a2140;
+            color: white;
+        }
+
+        .heading {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 7px 14px;
+            margin-bottom: 15px;
+
+            border-radius: 20px;
+            border: 1px solid #51448d;
+            background: rgba(124, 92, 255, 0.15);
+
+            color: #bdb3ff;
+            font-size: 13px;
+        }
+
+        .heading h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .heading h1 span {
+            background: linear-gradient(90deg, #8b6cff, #dc5cff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .heading p {
+            color: #9099b5;
+            font-size: 15px;
+        }
+
+        .language-grid {
+            max-width: 1000px;
+            margin: auto;
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .language-form {
+            margin: 0;
+        }
+
+        .language-card {
+            width: 100%;
+            min-height: 210px;
+
+            padding: 25px 15px;
+
+            border-radius: 20px;
+            border: 1px solid #303958;
+
+            background: rgba(20, 27, 53, 0.94);
+            color: white;
+
+            cursor: pointer;
+            transition: 0.25s;
+        }
+
+        .language-card:hover {
+            transform: translateY(-7px);
+            border-color: #806bff;
+            box-shadow: 0 15px 35px rgba(93, 74, 230, 0.22);
+        }
+
+        .icon {
+            width: 68px;
+            height: 68px;
+
+            margin: 0 auto 15px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 18px;
+
+            background: rgba(116, 91, 255, 0.14);
+
+            font-size: 34px;
+        }
+
+        .language-card h2 {
+            font-size: 19px;
+            margin-bottom: 8px;
+        }
+
+        .language-card p {
+            color: #8993b0;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        .select {
+            display: inline-block;
+            margin-top: 15px;
+
+            padding: 7px 13px;
+
+            border-radius: 8px;
+
+            background: #252d50;
+            color: #bdb4ff;
+
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        .back-bottom {
+            display: block;
+            width: fit-content;
+
+            margin: 35px auto 0;
+
+            color: #8d96b2;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .back-bottom:hover {
+            color: white;
+        }
+
+        @media (max-width: 900px) {
+            .language-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 650px) {
+            body {
+                padding: 22px 15px;
+            }
+
+            .heading h1 {
+                font-size: 32px;
+            }
+
+            .language-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 13px;
+            }
+
+            .language-card {
+                min-height: 190px;
+            }
+        }
+
+        @media (max-width: 380px) {
+            .language-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topbar">
+
+        <div class="logo">
+            🎮 AI <span>Study Quest</span>
+        </div>
+
+        <a href="/subjects" class="back-btn">
+            ← Back
+        </a>
+
+    </div>
+
+
+    <div class="heading">
+
+        <div class="badge">
+            💻 Programming Quest
+        </div>
+
+        <h1>
+            Choose Your <span>Language</span>
+        </h1>
+
+        <p>
+            Select a programming language and continue your quest 🚀
+        </p>
+
+    </div>
+
+
+    <div class="language-grid">
+
+
+        <!-- C -->
+        <form class="language-form" action="#" method="POST">
+
+            <input type="hidden"
+                   name="language"
+                   value="C">
+
+            <button type="submit"
+                    class="language-card">
+
+                <div class="icon">
+                    💻
+                </div>
+
+                <h2>C Programming</h2>
+
+                <p>
+                    Master C fundamentals,
+                    pointers and functions.
+                </p>
+
+                <span class="select">
+                    Select →
+                </span>
+
+            </button>
+
+        </form>
+
+
+        <!-- C++ -->
+        <form class="language-form" action="#" method="POST">
+
+            <input type="hidden"
+                   name="language"
+                   value="C++">
+
+            <button type="submit"
+                    class="language-card">
+
+                <div class="icon">
+                    ⚙️
+                </div>
+
+                <h2>C++</h2>
+
+                <p>
+                    Learn OOP, STL and
+                    advanced C++ concepts.
+                </p>
+
+                <span class="select">
+                    Select →
+                </span>
+
+            </button>
+
+        </form>
+
+
+        <!-- JAVA -->
+        <form class="language-form" action="#" method="POST">
+
+            <input type="hidden"
+                   name="language"
+                   value="Java">
+
+            <button type="submit"
+                    class="language-card">
+
+                <div class="icon">
+                    ☕
+                </div>
+
+                <h2>Java</h2>
+
+                <p>
+                    Explore classes,
+                    objects and OOP.
+                </p>
+
+                <span class="select">
+                    Select →
+                </span>
+
+            </button>
+
+        </form>
+
+
+        <!-- PYTHON -->
+        <form class="language-form" action="#" method="POST">
+
+            <input type="hidden"
+                   name="language"
+                   value="Python">
+
+            <button type="submit"
+                    class="language-card">
+
+                <div class="icon">
+                    🐍
+                </div>
+
+                <h2>Python</h2>
+
+                <p>
+                    Learn Python syntax,
+                    logic and programming.
+                </p>
+
+                <span class="select">
+                    Select →
+                </span>
+
+            </button>
+
+        </form>
+
+
+    </div>
+
+
+    <a href="/subjects" class="back-bottom">
+        ← Choose another subject
+    </a>
+
+</body>
+</html>

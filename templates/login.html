@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Study Quest - Login</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/login.css') }}">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="glow glow1"></div>
+    <div class="glow glow2"></div>
+    <div class="glow glow3"></div>
+
+
+    <!-- Main Container -->
+    <div class="page">
+
+
+        <!-- Left Side -->
+        <div class="intro">
+
+            <div class="logo">
+                🎮
+            </div>
+
+            <h1>
+                AI Study
+                <span>Quest</span>
+            </h1>
+
+            <p>
+                Learn smarter. Play harder.
+                Become the ultimate knowledge champion.
+            </p>
+
+            <div class="features">
+
+                <div>
+                    🤖
+                    <span>AI Powered Quizzes</span>
+                </div>
+
+                <div>
+                    🏆
+                    <span>Leaderboard & Scores</span>
+                </div>
+
+                <div>
+                    ⚡
+                    <span>Fast & Interactive Learning</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Login Card -->
+        <div class="login-card">
+
+            <div class="card-icon">
+                🚀
+            </div>
+
+            <h2>
+                Welcome Back!
+            </h2>
+
+            <p class="subtitle">
+                Enter your details to continue your quest.
+            </p>
+
+
+            <!-- LOGIN FORM -->
+            <form action="/" method="POST">
+
+                <label for="username">
+                    Username
+                </label>
+
+                <div class="input-box">
+
+                    <span>👤</span>
+
+                    <input
+                        type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Enter username"
+                        required>
+
+                </div>
+
+
+                <label for="password">
+                    Password
+                </label>
+
+                <div class="input-box">
+
+                    <span>🔒</span>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter password"
+                        required>
+
+                </div>
+
+
+                <button type="submit">
+                    Login &nbsp; 🚀
+                </button>
+
+            </form>
+
+
+            <div class="divider">
+                <span>OR</span>
+            </div>
+
+
+            <p class="register-text">
+
+                Don't have an account?
+
+                <a href="/register">
+                    Create Account
+                </a>
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+        🎮 AI Study Quest • Learn • Play • Conquer
+    </footer>
+
+</body>
+
+</html>

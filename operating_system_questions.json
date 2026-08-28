@@ -1,0 +1,3304 @@
+{
+  "questions": [
+    {
+      "question": "What does an operating system primarily manage?",
+      "options": [
+        "Computer hardware and software resources",
+        "Only web pages",
+        "Only databases",
+        "Only source code"
+      ],
+      "answer": "Computer hardware and software resources",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which is an operating system?",
+      "options": [
+        "Linux",
+        "HTML",
+        "SQL",
+        "Python"
+      ],
+      "answer": "Linux",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a process?",
+      "options": [
+        "A program in execution",
+        "A file stored on disk",
+        "A keyboard command",
+        "A network cable"
+      ],
+      "answer": "A program in execution",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a thread?",
+      "options": [
+        "A lightweight unit of execution within a process",
+        "A hard disk partition",
+        "A file system",
+        "A compiler"
+      ],
+      "answer": "A lightweight unit of execution within a process",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the kernel?",
+      "options": [
+        "The core part of an operating system",
+        "A user document",
+        "A browser extension",
+        "A database table"
+      ],
+      "answer": "The core part of an operating system",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a system call?",
+      "options": [
+        "An interface through which a program requests OS services",
+        "A hardware cable",
+        "A database query",
+        "A compiler warning"
+      ],
+      "answer": "An interface through which a program requests OS services",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which mode has greater privilege?",
+      "options": [
+        "Kernel mode",
+        "User mode",
+        "Guest mode",
+        "Browser mode"
+      ],
+      "answer": "Kernel mode",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is multitasking?",
+      "options": [
+        "Running multiple tasks by sharing CPU time",
+        "Using multiple keyboards",
+        "Installing multiple OS files",
+        "Creating multiple folders"
+      ],
+      "answer": "Running multiple tasks by sharing CPU time",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is multiprogramming?",
+      "options": [
+        "Keeping multiple programs in memory to improve CPU utilization",
+        "Using multiple monitors",
+        "Running only one program",
+        "Deleting unused programs"
+      ],
+      "answer": "Keeping multiple programs in memory to improve CPU utilization",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is multiprocessing?",
+      "options": [
+        "Using multiple processors or cores for computation",
+        "Using multiple files",
+        "Using multiple passwords",
+        "Using multiple directories"
+      ],
+      "answer": "Using multiple processors or cores for computation",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is time sharing?",
+      "options": [
+        "Sharing CPU time among interactive users or processes",
+        "Sharing a hard disk physically",
+        "Sharing passwords",
+        "Sharing source code"
+      ],
+      "answer": "Sharing CPU time among interactive users or processes",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is context switching?",
+      "options": [
+        "Saving one process state and loading another",
+        "Changing a file extension",
+        "Switching monitors",
+        "Changing a password"
+      ],
+      "answer": "Saving one process state and loading another",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a PCB?",
+      "options": [
+        "Process Control Block",
+        "Program Code Buffer",
+        "Process Command Bus",
+        "Primary Control Backup"
+      ],
+      "answer": "Process Control Block",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which information can a PCB contain?",
+      "options": [
+        "Process state and CPU registers",
+        "Only file names",
+        "Only passwords",
+        "Only IP addresses"
+      ],
+      "answer": "Process state and CPU registers",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which state means a process is currently executing?",
+      "options": [
+        "Running",
+        "New",
+        "Waiting",
+        "Terminated"
+      ],
+      "answer": "Running",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which state means a process is waiting for CPU allocation?",
+      "options": [
+        "Ready",
+        "Running",
+        "Terminated",
+        "New"
+      ],
+      "answer": "Ready",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which state means a process is waiting for an event or I/O?",
+      "options": [
+        "Waiting",
+        "Ready",
+        "Running",
+        "New"
+      ],
+      "answer": "Waiting",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is process termination?",
+      "options": [
+        "Ending execution of a process",
+        "Starting a process",
+        "Moving a process to ready state",
+        "Creating a thread"
+      ],
+      "answer": "Ending execution of a process",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a parent process?",
+      "options": [
+        "A process that creates another process",
+        "A process that has no PID",
+        "A process waiting for I/O",
+        "A kernel thread only"
+      ],
+      "answer": "A process that creates another process",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a child process?",
+      "options": [
+        "A process created by another process",
+        "A process without memory",
+        "A terminated process",
+        "A hardware interrupt"
+      ],
+      "answer": "A process created by another process",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a zombie process?",
+      "options": [
+        "A terminated process whose exit status has not yet been collected",
+        "A process using all CPU",
+        "A process with no parent",
+        "A process waiting for disk"
+      ],
+      "answer": "A terminated process whose exit status has not yet been collected",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is an orphan process?",
+      "options": [
+        "A process whose parent has terminated",
+        "A process that has terminated",
+        "A process with no memory",
+        "A process with no PID"
+      ],
+      "answer": "A process whose parent has terminated",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a scheduler?",
+      "options": [
+        "A component that selects processes for execution",
+        "A file manager",
+        "A memory chip",
+        "A network adapter"
+      ],
+      "answer": "A component that selects processes for execution",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a long-term scheduler?",
+      "options": [
+        "It controls admission of jobs into the system",
+        "It selects the next CPU process only",
+        "It handles keyboard input",
+        "It manages disk blocks only"
+      ],
+      "answer": "It controls admission of jobs into the system",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a short-term scheduler?",
+      "options": [
+        "It selects the next process for CPU execution",
+        "It creates user accounts",
+        "It formats disks",
+        "It manages files"
+      ],
+      "answer": "It selects the next process for CPU execution",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a medium-term scheduler?",
+      "options": [
+        "It can suspend and resume processes to manage memory load",
+        "It only selects CPU instructions",
+        "It formats storage",
+        "It handles network packets"
+      ],
+      "answer": "It can suspend and resume processes to manage memory load",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is FCFS scheduling?",
+      "options": [
+        "First Come First Served",
+        "Fast CPU File System",
+        "First Core First Scheduled",
+        "File Control First Service"
+      ],
+      "answer": "First Come First Served",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Is FCFS preemptive by default?",
+      "options": [
+        "No",
+        "Yes",
+        "Only for I/O",
+        "Only on Linux"
+      ],
+      "answer": "No",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is SJF scheduling?",
+      "options": [
+        "Shortest Job First",
+        "System Job File",
+        "Shortest Jump First",
+        "Sequential Job Flow"
+      ],
+      "answer": "Shortest Job First",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is SRTF?",
+      "options": [
+        "Shortest Remaining Time First",
+        "System Response Time File",
+        "Shortest Ready Task Flow",
+        "Sequential Runtime Task Function"
+      ],
+      "answer": "Shortest Remaining Time First",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which scheduling algorithm uses a time quantum?",
+      "options": [
+        "Round Robin",
+        "FCFS",
+        "SJF",
+        "FIFO page replacement"
+      ],
+      "answer": "Round Robin",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is priority scheduling?",
+      "options": [
+        "CPU selection based on process priority",
+        "Selection based only on arrival time",
+        "Selection based only on memory size",
+        "Selection based on file name"
+      ],
+      "answer": "CPU selection based on process priority",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is starvation in scheduling?",
+      "options": [
+        "Indefinite waiting of a process for CPU resources",
+        "CPU overheating",
+        "Process termination",
+        "Memory allocation failure"
+      ],
+      "answer": "Indefinite waiting of a process for CPU resources",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is aging?",
+      "options": [
+        "Gradually increasing the priority of waiting processes",
+        "Deleting old processes",
+        "Reducing memory size",
+        "Increasing disk speed"
+      ],
+      "answer": "Gradually increasing the priority of waiting processes",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is turnaround time?",
+      "options": [
+        "Completion time minus arrival time",
+        "First response minus arrival",
+        "Burst time only",
+        "Waiting time plus arrival time"
+      ],
+      "answer": "Completion time minus arrival time",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is waiting time?",
+      "options": [
+        "Time a process spends waiting in the ready queue",
+        "Total execution time",
+        "Completion time",
+        "I/O time only"
+      ],
+      "answer": "Time a process spends waiting in the ready queue",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is response time?",
+      "options": [
+        "Time from submission until the process first gets CPU service",
+        "Total completion time",
+        "Time spent in disk only",
+        "Time spent terminated"
+      ],
+      "answer": "Time from submission until the process first gets CPU service",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is throughput?",
+      "options": [
+        "Number of processes completed per unit time",
+        "Time for one process to start",
+        "Amount of RAM",
+        "Disk capacity"
+      ],
+      "answer": "Number of processes completed per unit time",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is CPU utilization?",
+      "options": [
+        "Percentage of time the CPU is busy",
+        "Percentage of disk space used",
+        "Number of processes in memory",
+        "Network bandwidth"
+      ],
+      "answer": "Percentage of time the CPU is busy",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a race condition?",
+      "options": [
+        "Output depends on the timing of concurrent accesses",
+        "A process finishes quickly",
+        "A disk spins fast",
+        "A CPU has multiple cores"
+      ],
+      "answer": "Output depends on the timing of concurrent accesses",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a critical section?",
+      "options": [
+        "Code that accesses shared data or resources",
+        "A boot sector",
+        "A file header",
+        "A memory page"
+      ],
+      "answer": "Code that accesses shared data or resources",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is mutual exclusion?",
+      "options": [
+        "Only one process or thread can enter a critical section at a time",
+        "All processes run simultaneously",
+        "Only one process exists",
+        "All memory is shared without control"
+      ],
+      "answer": "Only one process or thread can enter a critical section at a time",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a semaphore?",
+      "options": [
+        "A synchronization mechanism using a counter or signal",
+        "A type of CPU",
+        "A disk partition",
+        "A file extension"
+      ],
+      "answer": "A synchronization mechanism using a counter or signal",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a mutex?",
+      "options": [
+        "A mutual-exclusion lock",
+        "A memory page",
+        "A scheduler",
+        "A file system"
+      ],
+      "answer": "A mutual-exclusion lock",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a binary semaphore?",
+      "options": [
+        "A semaphore whose value is typically 0 or 1",
+        "A semaphore with unlimited values",
+        "A disk lock",
+        "A process state"
+      ],
+      "answer": "A semaphore whose value is typically 0 or 1",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is deadlock?",
+      "options": [
+        "A set of processes permanently waiting for resources held by each other",
+        "A process completing normally",
+        "A CPU interrupt",
+        "A file deletion"
+      ],
+      "answer": "A set of processes permanently waiting for resources held by each other",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which is a necessary condition for deadlock?",
+      "options": [
+        "Circular wait",
+        "High CPU speed",
+        "Large memory",
+        "File compression"
+      ],
+      "answer": "Circular wait",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which is NOT a necessary deadlock condition?",
+      "options": [
+        "Fast CPU",
+        "Mutual exclusion",
+        "Hold and wait",
+        "No preemption"
+      ],
+      "answer": "Fast CPU",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is deadlock prevention?",
+      "options": [
+        "Ensuring at least one necessary deadlock condition cannot hold",
+        "Detecting deadlock after it occurs",
+        "Ignoring deadlock",
+        "Increasing monitor size"
+      ],
+      "answer": "Ensuring at least one necessary deadlock condition cannot hold",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is deadlock avoidance?",
+      "options": [
+        "Making allocation decisions that keep the system in a safe state",
+        "Deleting all processes",
+        "Ignoring resource requests",
+        "Always granting requests"
+      ],
+      "answer": "Making allocation decisions that keep the system in a safe state",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which algorithm is used for deadlock avoidance?",
+      "options": [
+        "Banker's algorithm",
+        "Round Robin",
+        "FCFS",
+        "FIFO"
+      ],
+      "answer": "Banker's algorithm",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a safe state?",
+      "options": [
+        "A state from which all processes can still finish in some order",
+        "A state with no processes",
+        "A state with full disk",
+        "A state with zero memory"
+      ],
+      "answer": "A state from which all processes can still finish in some order",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is deadlock detection?",
+      "options": [
+        "Finding whether deadlock has occurred",
+        "Preventing all process creation",
+        "Allocating all resources",
+        "Formatting memory"
+      ],
+      "answer": "Finding whether deadlock has occurred",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is virtual memory?",
+      "options": [
+        "A technique that gives processes an abstraction of a larger memory space",
+        "A second CPU",
+        "A backup disk",
+        "A network protocol"
+      ],
+      "answer": "A technique that gives processes an abstraction of a larger memory space",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is paging?",
+      "options": [
+        "Dividing logical memory into fixed-size pages and physical memory into frames",
+        "Dividing files into folders",
+        "Splitting CPUs into threads",
+        "Dividing disks into users"
+      ],
+      "answer": "Dividing logical memory into fixed-size pages and physical memory into frames",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a page frame?",
+      "options": [
+        "A fixed-size block of physical memory",
+        "A logical memory address",
+        "A file block",
+        "A CPU register"
+      ],
+      "answer": "A fixed-size block of physical memory",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a page table?",
+      "options": [
+        "A structure mapping virtual pages to physical frames",
+        "A file directory",
+        "A scheduler table",
+        "A process queue"
+      ],
+      "answer": "A structure mapping virtual pages to physical frames",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a TLB?",
+      "options": [
+        "A cache for recent page-table translations",
+        "A disk scheduler",
+        "A process table",
+        "A file system"
+      ],
+      "answer": "A cache for recent page-table translations",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a page fault?",
+      "options": [
+        "A referenced page is not currently in physical memory",
+        "A CPU fails",
+        "A file is deleted",
+        "A page is corrupted"
+      ],
+      "answer": "A referenced page is not currently in physical memory",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which page replacement algorithm removes the oldest page?",
+      "options": [
+        "FIFO",
+        "LRU",
+        "Optimal",
+        "SJF"
+      ],
+      "answer": "FIFO",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which page replacement algorithm removes the least recently used page?",
+      "options": [
+        "LRU",
+        "FIFO",
+        "Optimal",
+        "Round Robin"
+      ],
+      "answer": "LRU",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which page replacement algorithm theoretically gives the minimum page faults?",
+      "options": [
+        "Optimal",
+        "FIFO",
+        "LRU",
+        "FCFS"
+      ],
+      "answer": "Optimal",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is Belady's anomaly?",
+      "options": [
+        "FIFO can sometimes have more page faults with more frames",
+        "LRU always has more faults with more frames",
+        "Optimal always increases faults",
+        "Paging eliminates page faults"
+      ],
+      "answer": "FIFO can sometimes have more page faults with more frames",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is demand paging?",
+      "options": [
+        "Loading a page into memory only when it is needed",
+        "Loading every page at startup",
+        "Deleting unused pages",
+        "Loading only files"
+      ],
+      "answer": "Loading a page into memory only when it is needed",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is thrashing?",
+      "options": [
+        "Excessive paging that leaves little time for useful execution",
+        "CPU overheating",
+        "Disk formatting",
+        "Process termination"
+      ],
+      "answer": "Excessive paging that leaves little time for useful execution",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is fragmentation?",
+      "options": [
+        "Wasted memory space due to allocation patterns",
+        "A CPU scheduling method",
+        "A file permission",
+        "A network protocol"
+      ],
+      "answer": "Wasted memory space due to allocation patterns",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is internal fragmentation?",
+      "options": [
+        "Unused space inside an allocated memory block",
+        "Unused space between allocated blocks",
+        "A disk error",
+        "A process error"
+      ],
+      "answer": "Unused space inside an allocated memory block",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is external fragmentation?",
+      "options": [
+        "Free memory split into small noncontiguous blocks",
+        "Unused space inside a block",
+        "A page fault",
+        "A deadlock"
+      ],
+      "answer": "Free memory split into small noncontiguous blocks",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is segmentation?",
+      "options": [
+        "Dividing memory according to logical program segments",
+        "Dividing memory only into equal pages",
+        "Dividing disks into partitions",
+        "Dividing processes into users"
+      ],
+      "answer": "Dividing memory according to logical program segments",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a segment table?",
+      "options": [
+        "A table describing logical segments and their memory mapping",
+        "A page replacement table",
+        "A file allocation table",
+        "A CPU queue"
+      ],
+      "answer": "A table describing logical segments and their memory mapping",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is swapping?",
+      "options": [
+        "Moving processes between main memory and secondary storage",
+        "Changing CPU mode",
+        "Changing file permissions",
+        "Moving files between folders"
+      ],
+      "answer": "Moving processes between main memory and secondary storage",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a page?",
+      "options": [
+        "A fixed-size unit of virtual memory",
+        "A CPU core",
+        "A file descriptor",
+        "A disk controller"
+      ],
+      "answer": "A fixed-size unit of virtual memory",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is locality of reference?",
+      "options": [
+        "Programs tend to access a relatively small set of locations repeatedly over short periods",
+        "Programs never reuse memory",
+        "All pages are accessed equally",
+        "Only disk blocks are accessed"
+      ],
+      "answer": "Programs tend to access a relatively small set of locations repeatedly over short periods",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is spatial locality?",
+      "options": [
+        "Recently accessed locations tend to have nearby locations accessed soon",
+        "The same location is accessed repeatedly",
+        "Only stack memory is accessed",
+        "Disk locations never repeat"
+      ],
+      "answer": "Recently accessed locations tend to have nearby locations accessed soon",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is temporal locality?",
+      "options": [
+        "Recently accessed locations tend to be accessed again soon",
+        "Nearby locations are accessed next",
+        "Only sequential files are read",
+        "Only registers are reused"
+      ],
+      "answer": "Recently accessed locations tend to be accessed again soon",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a file?",
+      "options": [
+        "A named collection of related data stored on secondary storage",
+        "A CPU instruction",
+        "A process state",
+        "A memory frame"
+      ],
+      "answer": "A named collection of related data stored on secondary storage",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a directory?",
+      "options": [
+        "A structure that organizes file names and metadata",
+        "A CPU queue",
+        "A page table",
+        "A process"
+      ],
+      "answer": "A structure that organizes file names and metadata",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a file descriptor?",
+      "options": [
+        "A handle used by a process to refer to an open file",
+        "A file's password",
+        "A disk sector",
+        "A directory name"
+      ],
+      "answer": "A handle used by a process to refer to an open file",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is an inode in Unix-like systems?",
+      "options": [
+        "A structure containing file metadata and block references",
+        "A process ID",
+        "A CPU register",
+        "A network packet"
+      ],
+      "answer": "A structure containing file metadata and block references",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is an absolute path?",
+      "options": [
+        "A path specified from the root of the file system",
+        "A path relative to the current directory",
+        "A file name only",
+        "A network path only"
+      ],
+      "answer": "A path specified from the root of the file system",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a relative path?",
+      "options": [
+        "A path interpreted relative to a current directory",
+        "A path starting at root",
+        "A disk address",
+        "A process path"
+      ],
+      "answer": "A path interpreted relative to a current directory",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a file system?",
+      "options": [
+        "A method for organizing and managing files on storage",
+        "A CPU scheduler",
+        "A network card",
+        "A programming language"
+      ],
+      "answer": "A method for organizing and managing files on storage",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which file system is commonly associated with Linux?",
+      "options": [
+        "ext4",
+        "NTFS only",
+        "FAT12 only",
+        "HFS only"
+      ],
+      "answer": "ext4",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which file system is commonly associated with Windows?",
+      "options": [
+        "NTFS",
+        "ext4 only",
+        "UFS only",
+        "HFS only"
+      ],
+      "answer": "NTFS",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is disk scheduling?",
+      "options": [
+        "Choosing the order in which disk I/O requests are serviced",
+        "Creating partitions only",
+        "Formatting a disk",
+        "Encrypting files"
+      ],
+      "answer": "Choosing the order in which disk I/O requests are serviced",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which disk scheduling algorithm serves requests in arrival order?",
+      "options": [
+        "FCFS",
+        "SSTF",
+        "SCAN",
+        "C-SCAN"
+      ],
+      "answer": "FCFS",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What does SSTF stand for?",
+      "options": [
+        "Shortest Seek Time First",
+        "System Storage Transfer File",
+        "Shortest Sector Transfer First",
+        "Sequential Seek Task Flow"
+      ],
+      "answer": "Shortest Seek Time First",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What does SCAN disk scheduling resemble?",
+      "options": [
+        "An elevator moving in both directions",
+        "A stack",
+        "A queue with no direction",
+        "A random walk"
+      ],
+      "answer": "An elevator moving in both directions",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What does C-SCAN do?",
+      "options": [
+        "Services requests in one direction and returns to the beginning",
+        "Services only the closest request",
+        "Always services in arrival order",
+        "Never moves the disk head"
+      ],
+      "answer": "Services requests in one direction and returns to the beginning",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is seek time?",
+      "options": [
+        "Time needed to move the disk arm to the required track",
+        "Time to transfer all data",
+        "Time to format a disk",
+        "Time to create a process"
+      ],
+      "answer": "Time needed to move the disk arm to the required track",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is rotational latency?",
+      "options": [
+        "Time waiting for the desired sector to rotate under the head",
+        "Time moving the disk arm",
+        "Time copying a file",
+        "Time starting a process"
+      ],
+      "answer": "Time waiting for the desired sector to rotate under the head",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is disk access time?",
+      "options": [
+        "The time needed to locate and transfer requested disk data",
+        "Only seek time",
+        "Only rotational latency",
+        "Only transfer time"
+      ],
+      "answer": "The time needed to locate and transfer requested disk data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is an interrupt?",
+      "options": [
+        "A signal that requests CPU attention",
+        "A database row",
+        "A file extension",
+        "A memory page"
+      ],
+      "answer": "A signal that requests CPU attention",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is an interrupt handler?",
+      "options": [
+        "Code that handles an interrupt",
+        "A disk partition",
+        "A scheduler queue",
+        "A file descriptor"
+      ],
+      "answer": "Code that handles an interrupt",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is DMA?",
+      "options": [
+        "Direct Memory Access",
+        "Dynamic Memory Allocation",
+        "Disk Memory Addressing",
+        "Data Mode Access"
+      ],
+      "answer": "Direct Memory Access",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a device driver?",
+      "options": [
+        "Software that allows the OS to communicate with a hardware device",
+        "A CPU core",
+        "A file system",
+        "A process scheduler"
+      ],
+      "answer": "Software that allows the OS to communicate with a hardware device",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is buffering?",
+      "options": [
+        "Temporarily storing data during transfer",
+        "Deleting data after transfer",
+        "Encrypting memory",
+        "Scheduling processes"
+      ],
+      "answer": "Temporarily storing data during transfer",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is spooling?",
+      "options": [
+        "Queuing data for a device such as a printer",
+        "Compressing files",
+        "Allocating CPU registers",
+        "Deleting processes"
+      ],
+      "answer": "Queuing data for a device such as a printer",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is booting?",
+      "options": [
+        "Starting the computer and loading the operating system",
+        "Closing a process",
+        "Formatting a disk",
+        "Installing a driver only"
+      ],
+      "answer": "Starting the computer and loading the operating system",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a bootloader?",
+      "options": [
+        "A program that loads the operating system kernel",
+        "A file compressor",
+        "A database manager",
+        "A text editor"
+      ],
+      "answer": "A program that loads the operating system kernel",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is BIOS?",
+      "options": [
+        "Firmware traditionally used to initialize hardware and start booting",
+        "A Linux file system",
+        "A CPU scheduler",
+        "A database language"
+      ],
+      "answer": "Firmware traditionally used to initialize hardware and start booting",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is UEFI?",
+      "options": [
+        "A modern firmware interface for boot and hardware initialization",
+        "A scheduling algorithm",
+        "A file permission system",
+        "A database protocol"
+      ],
+      "answer": "A modern firmware interface for boot and hardware initialization",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a shell?",
+      "options": [
+        "A command interpreter or user interface to OS services",
+        "A memory page",
+        "A CPU register",
+        "A file system"
+      ],
+      "answer": "A command interpreter or user interface to OS services",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which is a command-line shell?",
+      "options": [
+        "Bash",
+        "Chrome",
+        "MySQL",
+        "HTML"
+      ],
+      "answer": "Bash",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a GUI?",
+      "options": [
+        "Graphical User Interface",
+        "General User Instruction",
+        "Graphical Utility Index",
+        "Global User Internet"
+      ],
+      "answer": "Graphical User Interface",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is protection in an OS?",
+      "options": [
+        "Controlling access to resources and operations",
+        "Increasing CPU speed",
+        "Compressing files",
+        "Removing all users"
+      ],
+      "answer": "Controlling access to resources and operations",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is authentication?",
+      "options": [
+        "Verifying a user's identity",
+        "Assigning CPU time",
+        "Encrypting a disk",
+        "Creating a process"
+      ],
+      "answer": "Verifying a user's identity",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is authorization?",
+      "options": [
+        "Determining what an authenticated user is allowed to do",
+        "Verifying identity only",
+        "Booting the system",
+        "Formatting storage"
+      ],
+      "answer": "Determining what an authenticated user is allowed to do",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is access control?",
+      "options": [
+        "Restricting resource access according to permissions",
+        "Scheduling disk requests",
+        "Allocating CPU registers",
+        "Creating backups"
+      ],
+      "answer": "Restricting resource access according to permissions",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a permission bit in Unix-like systems?",
+      "options": [
+        "A flag controlling read, write, or execute access",
+        "A memory address",
+        "A CPU interrupt",
+        "A page number"
+      ],
+      "answer": "A flag controlling read, write, or execute access",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What does read permission allow on a file?",
+      "options": [
+        "Reading its contents",
+        "Changing its contents",
+        "Executing it only",
+        "Deleting the OS"
+      ],
+      "answer": "Reading its contents",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What does write permission allow on a file?",
+      "options": [
+        "Modifying its contents",
+        "Only reading contents",
+        "Only executing contents",
+        "Changing CPU speed"
+      ],
+      "answer": "Modifying its contents",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What does execute permission allow on an executable file?",
+      "options": [
+        "Running the file as a program",
+        "Reading disk sectors only",
+        "Formatting storage",
+        "Creating a user"
+      ],
+      "answer": "Running the file as a program",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of process scheduling in an operating system?",
+      "options": [
+        "choosing which ready process receives CPU time",
+        "queueing data for a device",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames"
+      ],
+      "answer": "choosing which ready process receives CPU time",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of virtual memory in an operating system?",
+      "options": [
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "choosing which ready process receives CPU time",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources"
+      ],
+      "answer": "providing processes with a virtual address space backed by physical memory and storage",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of paging in an operating system?",
+      "options": [
+        "mapping virtual pages to physical frames",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads"
+      ],
+      "answer": "mapping virtual pages to physical frames",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of deadlock in an operating system?",
+      "options": [
+        "handling processes that wait indefinitely for one another's resources",
+        "mapping virtual pages to physical frames",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage"
+      ],
+      "answer": "handling processes that wait indefinitely for one another's resources",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of semaphore in an operating system?",
+      "options": [
+        "synchronizing concurrent processes or threads",
+        "handling processes that wait indefinitely for one another's resources",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention"
+      ],
+      "answer": "synchronizing concurrent processes or threads",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of file system in an operating system?",
+      "options": [
+        "organizing files and directories on storage",
+        "synchronizing concurrent processes or threads",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware"
+      ],
+      "answer": "organizing files and directories on storage",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of interrupt in an operating system?",
+      "options": [
+        "notifying the processor that an event needs attention",
+        "organizing files and directories on storage",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another"
+      ],
+      "answer": "notifying the processor that an event needs attention",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of device driver in an operating system?",
+      "options": [
+        "providing an interface between the OS and hardware",
+        "notifying the processor that an event needs attention",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program"
+      ],
+      "answer": "providing an interface between the OS and hardware",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of context switch in an operating system?",
+      "options": [
+        "changing CPU execution from one process or thread to another",
+        "providing an interface between the OS and hardware",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes"
+      ],
+      "answer": "changing CPU execution from one process or thread to another",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of system call in an operating system?",
+      "options": [
+        "requesting an operating-system service from a program",
+        "changing CPU execution from one process or thread to another",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes"
+      ],
+      "answer": "requesting an operating-system service from a program",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of CPU scheduling in an operating system?",
+      "options": [
+        "allocating processor time among runnable processes",
+        "requesting an operating-system service from a program",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests"
+      ],
+      "answer": "allocating processor time among runnable processes",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of memory management in an operating system?",
+      "options": [
+        "allocating and tracking memory used by processes",
+        "allocating processor time among runnable processes",
+        "ordering storage I/O requests",
+        "controlling access to system resources"
+      ],
+      "answer": "allocating and tracking memory used by processes",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of disk scheduling in an operating system?",
+      "options": [
+        "ordering storage I/O requests",
+        "allocating and tracking memory used by processes",
+        "controlling access to system resources",
+        "verifying an identity"
+      ],
+      "answer": "ordering storage I/O requests",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of protection in an operating system?",
+      "options": [
+        "controlling access to system resources",
+        "ordering storage I/O requests",
+        "verifying an identity",
+        "checking permitted actions"
+      ],
+      "answer": "controlling access to system resources",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of authentication in an operating system?",
+      "options": [
+        "verifying an identity",
+        "controlling access to system resources",
+        "checking permitted actions",
+        "loading the operating system kernel"
+      ],
+      "answer": "verifying an identity",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of authorization in an operating system?",
+      "options": [
+        "checking permitted actions",
+        "verifying an identity",
+        "loading the operating system kernel",
+        "interpreting user commands"
+      ],
+      "answer": "checking permitted actions",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of bootloader in an operating system?",
+      "options": [
+        "loading the operating system kernel",
+        "checking permitted actions",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement"
+      ],
+      "answer": "loading the operating system kernel",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of shell in an operating system?",
+      "options": [
+        "interpreting user commands",
+        "loading the operating system kernel",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device"
+      ],
+      "answer": "interpreting user commands",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of DMA in an operating system?",
+      "options": [
+        "transferring data between devices and memory with reduced CPU involvement",
+        "interpreting user commands",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time"
+      ],
+      "answer": "transferring data between devices and memory with reduced CPU involvement",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of spooling in an operating system?",
+      "options": [
+        "queueing data for a device",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage"
+      ],
+      "answer": "queueing data for a device",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of process scheduling in an operating system?",
+      "options": [
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources"
+      ],
+      "answer": "choosing which ready process receives CPU time",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of virtual memory in an operating system?",
+      "options": [
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads"
+      ],
+      "answer": "providing processes with a virtual address space backed by physical memory and storage",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of paging in an operating system?",
+      "options": [
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage"
+      ],
+      "answer": "mapping virtual pages to physical frames",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of deadlock in an operating system?",
+      "options": [
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention"
+      ],
+      "answer": "handling processes that wait indefinitely for one another's resources",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of semaphore in an operating system?",
+      "options": [
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware"
+      ],
+      "answer": "synchronizing concurrent processes or threads",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of file system in an operating system?",
+      "options": [
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another"
+      ],
+      "answer": "organizing files and directories on storage",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of interrupt in an operating system?",
+      "options": [
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program"
+      ],
+      "answer": "notifying the processor that an event needs attention",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of device driver in an operating system?",
+      "options": [
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes"
+      ],
+      "answer": "providing an interface between the OS and hardware",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of context switch in an operating system?",
+      "options": [
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes"
+      ],
+      "answer": "changing CPU execution from one process or thread to another",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of system call in an operating system?",
+      "options": [
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests"
+      ],
+      "answer": "requesting an operating-system service from a program",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of CPU scheduling in an operating system?",
+      "options": [
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests",
+        "controlling access to system resources"
+      ],
+      "answer": "allocating processor time among runnable processes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of memory management in an operating system?",
+      "options": [
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests",
+        "controlling access to system resources",
+        "verifying an identity"
+      ],
+      "answer": "allocating and tracking memory used by processes",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of disk scheduling in an operating system?",
+      "options": [
+        "ordering storage I/O requests",
+        "controlling access to system resources",
+        "verifying an identity",
+        "checking permitted actions"
+      ],
+      "answer": "ordering storage I/O requests",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of protection in an operating system?",
+      "options": [
+        "controlling access to system resources",
+        "verifying an identity",
+        "checking permitted actions",
+        "loading the operating system kernel"
+      ],
+      "answer": "controlling access to system resources",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of authentication in an operating system?",
+      "options": [
+        "verifying an identity",
+        "checking permitted actions",
+        "loading the operating system kernel",
+        "interpreting user commands"
+      ],
+      "answer": "verifying an identity",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of authorization in an operating system?",
+      "options": [
+        "checking permitted actions",
+        "loading the operating system kernel",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement"
+      ],
+      "answer": "checking permitted actions",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of bootloader in an operating system?",
+      "options": [
+        "loading the operating system kernel",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device"
+      ],
+      "answer": "loading the operating system kernel",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of shell in an operating system?",
+      "options": [
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time"
+      ],
+      "answer": "interpreting user commands",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of DMA in an operating system?",
+      "options": [
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage"
+      ],
+      "answer": "transferring data between devices and memory with reduced CPU involvement",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of spooling in an operating system?",
+      "options": [
+        "queueing data for a device",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames"
+      ],
+      "answer": "queueing data for a device",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of process scheduling in an operating system?",
+      "options": [
+        "choosing which ready process receives CPU time",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads"
+      ],
+      "answer": "choosing which ready process receives CPU time",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of virtual memory in an operating system?",
+      "options": [
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage"
+      ],
+      "answer": "providing processes with a virtual address space backed by physical memory and storage",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of paging in an operating system?",
+      "options": [
+        "mapping virtual pages to physical frames",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention"
+      ],
+      "answer": "mapping virtual pages to physical frames",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of deadlock in an operating system?",
+      "options": [
+        "handling processes that wait indefinitely for one another's resources",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware"
+      ],
+      "answer": "handling processes that wait indefinitely for one another's resources",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of semaphore in an operating system?",
+      "options": [
+        "synchronizing concurrent processes or threads",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another"
+      ],
+      "answer": "synchronizing concurrent processes or threads",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of file system in an operating system?",
+      "options": [
+        "organizing files and directories on storage",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program"
+      ],
+      "answer": "organizing files and directories on storage",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of interrupt in an operating system?",
+      "options": [
+        "notifying the processor that an event needs attention",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes"
+      ],
+      "answer": "notifying the processor that an event needs attention",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of device driver in an operating system?",
+      "options": [
+        "providing an interface between the OS and hardware",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes"
+      ],
+      "answer": "providing an interface between the OS and hardware",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of context switch in an operating system?",
+      "options": [
+        "changing CPU execution from one process or thread to another",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests"
+      ],
+      "answer": "changing CPU execution from one process or thread to another",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of system call in an operating system?",
+      "options": [
+        "requesting an operating-system service from a program",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests",
+        "controlling access to system resources"
+      ],
+      "answer": "requesting an operating-system service from a program",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of CPU scheduling in an operating system?",
+      "options": [
+        "allocating processor time among runnable processes",
+        "ordering storage I/O requests",
+        "controlling access to system resources",
+        "verifying an identity"
+      ],
+      "answer": "allocating processor time among runnable processes",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of memory management in an operating system?",
+      "options": [
+        "allocating and tracking memory used by processes",
+        "controlling access to system resources",
+        "verifying an identity",
+        "checking permitted actions"
+      ],
+      "answer": "allocating and tracking memory used by processes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of disk scheduling in an operating system?",
+      "options": [
+        "ordering storage I/O requests",
+        "verifying an identity",
+        "checking permitted actions",
+        "loading the operating system kernel"
+      ],
+      "answer": "ordering storage I/O requests",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of protection in an operating system?",
+      "options": [
+        "controlling access to system resources",
+        "checking permitted actions",
+        "loading the operating system kernel",
+        "interpreting user commands"
+      ],
+      "answer": "controlling access to system resources",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of authentication in an operating system?",
+      "options": [
+        "verifying an identity",
+        "loading the operating system kernel",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement"
+      ],
+      "answer": "verifying an identity",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of authorization in an operating system?",
+      "options": [
+        "checking permitted actions",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device"
+      ],
+      "answer": "checking permitted actions",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of bootloader in an operating system?",
+      "options": [
+        "loading the operating system kernel",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time"
+      ],
+      "answer": "loading the operating system kernel",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of shell in an operating system?",
+      "options": [
+        "interpreting user commands",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage"
+      ],
+      "answer": "interpreting user commands",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of DMA in an operating system?",
+      "options": [
+        "transferring data between devices and memory with reduced CPU involvement",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames"
+      ],
+      "answer": "transferring data between devices and memory with reduced CPU involvement",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of spooling in an operating system?",
+      "options": [
+        "queueing data for a device",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources"
+      ],
+      "answer": "queueing data for a device",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of process scheduling in an operating system?",
+      "options": [
+        "choosing which ready process receives CPU time",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage"
+      ],
+      "answer": "choosing which ready process receives CPU time",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of virtual memory in an operating system?",
+      "options": [
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention"
+      ],
+      "answer": "providing processes with a virtual address space backed by physical memory and storage",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of paging in an operating system?",
+      "options": [
+        "mapping virtual pages to physical frames",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware"
+      ],
+      "answer": "mapping virtual pages to physical frames",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of deadlock in an operating system?",
+      "options": [
+        "handling processes that wait indefinitely for one another's resources",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another"
+      ],
+      "answer": "handling processes that wait indefinitely for one another's resources",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of semaphore in an operating system?",
+      "options": [
+        "synchronizing concurrent processes or threads",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program"
+      ],
+      "answer": "synchronizing concurrent processes or threads",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of file system in an operating system?",
+      "options": [
+        "organizing files and directories on storage",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes"
+      ],
+      "answer": "organizing files and directories on storage",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of interrupt in an operating system?",
+      "options": [
+        "notifying the processor that an event needs attention",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes"
+      ],
+      "answer": "notifying the processor that an event needs attention",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of device driver in an operating system?",
+      "options": [
+        "providing an interface between the OS and hardware",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests"
+      ],
+      "answer": "providing an interface between the OS and hardware",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of context switch in an operating system?",
+      "options": [
+        "changing CPU execution from one process or thread to another",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests",
+        "controlling access to system resources"
+      ],
+      "answer": "changing CPU execution from one process or thread to another",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of system call in an operating system?",
+      "options": [
+        "requesting an operating-system service from a program",
+        "ordering storage I/O requests",
+        "controlling access to system resources",
+        "verifying an identity"
+      ],
+      "answer": "requesting an operating-system service from a program",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of CPU scheduling in an operating system?",
+      "options": [
+        "allocating processor time among runnable processes",
+        "controlling access to system resources",
+        "verifying an identity",
+        "checking permitted actions"
+      ],
+      "answer": "allocating processor time among runnable processes",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of memory management in an operating system?",
+      "options": [
+        "allocating and tracking memory used by processes",
+        "verifying an identity",
+        "checking permitted actions",
+        "loading the operating system kernel"
+      ],
+      "answer": "allocating and tracking memory used by processes",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of disk scheduling in an operating system?",
+      "options": [
+        "ordering storage I/O requests",
+        "checking permitted actions",
+        "loading the operating system kernel",
+        "interpreting user commands"
+      ],
+      "answer": "ordering storage I/O requests",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of protection in an operating system?",
+      "options": [
+        "controlling access to system resources",
+        "loading the operating system kernel",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement"
+      ],
+      "answer": "controlling access to system resources",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of authentication in an operating system?",
+      "options": [
+        "verifying an identity",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device"
+      ],
+      "answer": "verifying an identity",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of authorization in an operating system?",
+      "options": [
+        "checking permitted actions",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time"
+      ],
+      "answer": "checking permitted actions",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of bootloader in an operating system?",
+      "options": [
+        "loading the operating system kernel",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage"
+      ],
+      "answer": "loading the operating system kernel",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of shell in an operating system?",
+      "options": [
+        "interpreting user commands",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames"
+      ],
+      "answer": "interpreting user commands",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of DMA in an operating system?",
+      "options": [
+        "transferring data between devices and memory with reduced CPU involvement",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources"
+      ],
+      "answer": "transferring data between devices and memory with reduced CPU involvement",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of spooling in an operating system?",
+      "options": [
+        "queueing data for a device",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads"
+      ],
+      "answer": "queueing data for a device",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of process scheduling in an operating system?",
+      "options": [
+        "choosing which ready process receives CPU time",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention"
+      ],
+      "answer": "choosing which ready process receives CPU time",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of virtual memory in an operating system?",
+      "options": [
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware"
+      ],
+      "answer": "providing processes with a virtual address space backed by physical memory and storage",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of paging in an operating system?",
+      "options": [
+        "mapping virtual pages to physical frames",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another"
+      ],
+      "answer": "mapping virtual pages to physical frames",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of deadlock in an operating system?",
+      "options": [
+        "handling processes that wait indefinitely for one another's resources",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program"
+      ],
+      "answer": "handling processes that wait indefinitely for one another's resources",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of semaphore in an operating system?",
+      "options": [
+        "synchronizing concurrent processes or threads",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes"
+      ],
+      "answer": "synchronizing concurrent processes or threads",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of file system in an operating system?",
+      "options": [
+        "organizing files and directories on storage",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes"
+      ],
+      "answer": "organizing files and directories on storage",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of interrupt in an operating system?",
+      "options": [
+        "notifying the processor that an event needs attention",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests"
+      ],
+      "answer": "notifying the processor that an event needs attention",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of device driver in an operating system?",
+      "options": [
+        "providing an interface between the OS and hardware",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests",
+        "controlling access to system resources"
+      ],
+      "answer": "providing an interface between the OS and hardware",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of context switch in an operating system?",
+      "options": [
+        "changing CPU execution from one process or thread to another",
+        "ordering storage I/O requests",
+        "controlling access to system resources",
+        "verifying an identity"
+      ],
+      "answer": "changing CPU execution from one process or thread to another",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of system call in an operating system?",
+      "options": [
+        "requesting an operating-system service from a program",
+        "controlling access to system resources",
+        "verifying an identity",
+        "checking permitted actions"
+      ],
+      "answer": "requesting an operating-system service from a program",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of CPU scheduling in an operating system?",
+      "options": [
+        "allocating processor time among runnable processes",
+        "verifying an identity",
+        "checking permitted actions",
+        "loading the operating system kernel"
+      ],
+      "answer": "allocating processor time among runnable processes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of memory management in an operating system?",
+      "options": [
+        "allocating and tracking memory used by processes",
+        "checking permitted actions",
+        "loading the operating system kernel",
+        "interpreting user commands"
+      ],
+      "answer": "allocating and tracking memory used by processes",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of disk scheduling in an operating system?",
+      "options": [
+        "ordering storage I/O requests",
+        "loading the operating system kernel",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement"
+      ],
+      "answer": "ordering storage I/O requests",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of protection in an operating system?",
+      "options": [
+        "controlling access to system resources",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device"
+      ],
+      "answer": "controlling access to system resources",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of authentication in an operating system?",
+      "options": [
+        "verifying an identity",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time"
+      ],
+      "answer": "verifying an identity",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of authorization in an operating system?",
+      "options": [
+        "checking permitted actions",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage"
+      ],
+      "answer": "checking permitted actions",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of bootloader in an operating system?",
+      "options": [
+        "loading the operating system kernel",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames"
+      ],
+      "answer": "loading the operating system kernel",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of shell in an operating system?",
+      "options": [
+        "interpreting user commands",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources"
+      ],
+      "answer": "interpreting user commands",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of DMA in an operating system?",
+      "options": [
+        "transferring data between devices and memory with reduced CPU involvement",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads"
+      ],
+      "answer": "transferring data between devices and memory with reduced CPU involvement",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of spooling in an operating system?",
+      "options": [
+        "queueing data for a device",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage"
+      ],
+      "answer": "queueing data for a device",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of process scheduling in an operating system?",
+      "options": [
+        "choosing which ready process receives CPU time",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware"
+      ],
+      "answer": "choosing which ready process receives CPU time",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of virtual memory in an operating system?",
+      "options": [
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another"
+      ],
+      "answer": "providing processes with a virtual address space backed by physical memory and storage",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of paging in an operating system?",
+      "options": [
+        "mapping virtual pages to physical frames",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program"
+      ],
+      "answer": "mapping virtual pages to physical frames",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of deadlock in an operating system?",
+      "options": [
+        "handling processes that wait indefinitely for one another's resources",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes"
+      ],
+      "answer": "handling processes that wait indefinitely for one another's resources",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of semaphore in an operating system?",
+      "options": [
+        "synchronizing concurrent processes or threads",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes"
+      ],
+      "answer": "synchronizing concurrent processes or threads",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of file system in an operating system?",
+      "options": [
+        "organizing files and directories on storage",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests"
+      ],
+      "answer": "organizing files and directories on storage",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of interrupt in an operating system?",
+      "options": [
+        "notifying the processor that an event needs attention",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests",
+        "controlling access to system resources"
+      ],
+      "answer": "notifying the processor that an event needs attention",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of device driver in an operating system?",
+      "options": [
+        "providing an interface between the OS and hardware",
+        "ordering storage I/O requests",
+        "controlling access to system resources",
+        "verifying an identity"
+      ],
+      "answer": "providing an interface between the OS and hardware",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of context switch in an operating system?",
+      "options": [
+        "changing CPU execution from one process or thread to another",
+        "controlling access to system resources",
+        "verifying an identity",
+        "checking permitted actions"
+      ],
+      "answer": "changing CPU execution from one process or thread to another",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of system call in an operating system?",
+      "options": [
+        "requesting an operating-system service from a program",
+        "verifying an identity",
+        "checking permitted actions",
+        "loading the operating system kernel"
+      ],
+      "answer": "requesting an operating-system service from a program",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of CPU scheduling in an operating system?",
+      "options": [
+        "allocating processor time among runnable processes",
+        "checking permitted actions",
+        "loading the operating system kernel",
+        "interpreting user commands"
+      ],
+      "answer": "allocating processor time among runnable processes",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of memory management in an operating system?",
+      "options": [
+        "allocating and tracking memory used by processes",
+        "loading the operating system kernel",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement"
+      ],
+      "answer": "allocating and tracking memory used by processes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of disk scheduling in an operating system?",
+      "options": [
+        "ordering storage I/O requests",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device"
+      ],
+      "answer": "ordering storage I/O requests",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of protection in an operating system?",
+      "options": [
+        "controlling access to system resources",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time"
+      ],
+      "answer": "controlling access to system resources",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of authentication in an operating system?",
+      "options": [
+        "verifying an identity",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage"
+      ],
+      "answer": "verifying an identity",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of authorization in an operating system?",
+      "options": [
+        "checking permitted actions",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames"
+      ],
+      "answer": "checking permitted actions",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of bootloader in an operating system?",
+      "options": [
+        "loading the operating system kernel",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources"
+      ],
+      "answer": "loading the operating system kernel",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of shell in an operating system?",
+      "options": [
+        "interpreting user commands",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads"
+      ],
+      "answer": "interpreting user commands",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of DMA in an operating system?",
+      "options": [
+        "transferring data between devices and memory with reduced CPU involvement",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage"
+      ],
+      "answer": "transferring data between devices and memory with reduced CPU involvement",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of spooling in an operating system?",
+      "options": [
+        "queueing data for a device",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention"
+      ],
+      "answer": "queueing data for a device",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of process scheduling in an operating system?",
+      "options": [
+        "choosing which ready process receives CPU time",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another"
+      ],
+      "answer": "choosing which ready process receives CPU time",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of virtual memory in an operating system?",
+      "options": [
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program"
+      ],
+      "answer": "providing processes with a virtual address space backed by physical memory and storage",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of paging in an operating system?",
+      "options": [
+        "mapping virtual pages to physical frames",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes"
+      ],
+      "answer": "mapping virtual pages to physical frames",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of deadlock in an operating system?",
+      "options": [
+        "handling processes that wait indefinitely for one another's resources",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes"
+      ],
+      "answer": "handling processes that wait indefinitely for one another's resources",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of semaphore in an operating system?",
+      "options": [
+        "synchronizing concurrent processes or threads",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests"
+      ],
+      "answer": "synchronizing concurrent processes or threads",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of file system in an operating system?",
+      "options": [
+        "organizing files and directories on storage",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests",
+        "controlling access to system resources"
+      ],
+      "answer": "organizing files and directories on storage",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of interrupt in an operating system?",
+      "options": [
+        "notifying the processor that an event needs attention",
+        "ordering storage I/O requests",
+        "controlling access to system resources",
+        "verifying an identity"
+      ],
+      "answer": "notifying the processor that an event needs attention",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of device driver in an operating system?",
+      "options": [
+        "providing an interface between the OS and hardware",
+        "controlling access to system resources",
+        "verifying an identity",
+        "checking permitted actions"
+      ],
+      "answer": "providing an interface between the OS and hardware",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of context switch in an operating system?",
+      "options": [
+        "changing CPU execution from one process or thread to another",
+        "verifying an identity",
+        "checking permitted actions",
+        "loading the operating system kernel"
+      ],
+      "answer": "changing CPU execution from one process or thread to another",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of system call in an operating system?",
+      "options": [
+        "requesting an operating-system service from a program",
+        "checking permitted actions",
+        "loading the operating system kernel",
+        "interpreting user commands"
+      ],
+      "answer": "requesting an operating-system service from a program",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of CPU scheduling in an operating system?",
+      "options": [
+        "allocating processor time among runnable processes",
+        "loading the operating system kernel",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement"
+      ],
+      "answer": "allocating processor time among runnable processes",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of memory management in an operating system?",
+      "options": [
+        "allocating and tracking memory used by processes",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device"
+      ],
+      "answer": "allocating and tracking memory used by processes",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of disk scheduling in an operating system?",
+      "options": [
+        "ordering storage I/O requests",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time"
+      ],
+      "answer": "ordering storage I/O requests",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of protection in an operating system?",
+      "options": [
+        "controlling access to system resources",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage"
+      ],
+      "answer": "controlling access to system resources",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of authentication in an operating system?",
+      "options": [
+        "verifying an identity",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames"
+      ],
+      "answer": "verifying an identity",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of authorization in an operating system?",
+      "options": [
+        "checking permitted actions",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources"
+      ],
+      "answer": "checking permitted actions",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of bootloader in an operating system?",
+      "options": [
+        "loading the operating system kernel",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads"
+      ],
+      "answer": "loading the operating system kernel",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of shell in an operating system?",
+      "options": [
+        "interpreting user commands",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage"
+      ],
+      "answer": "interpreting user commands",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of DMA in an operating system?",
+      "options": [
+        "transferring data between devices and memory with reduced CPU involvement",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention"
+      ],
+      "answer": "transferring data between devices and memory with reduced CPU involvement",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of spooling in an operating system?",
+      "options": [
+        "queueing data for a device",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware"
+      ],
+      "answer": "queueing data for a device",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of process scheduling in an operating system?",
+      "options": [
+        "choosing which ready process receives CPU time",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program"
+      ],
+      "answer": "choosing which ready process receives CPU time",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of virtual memory in an operating system?",
+      "options": [
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes"
+      ],
+      "answer": "providing processes with a virtual address space backed by physical memory and storage",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of paging in an operating system?",
+      "options": [
+        "mapping virtual pages to physical frames",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes"
+      ],
+      "answer": "mapping virtual pages to physical frames",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of deadlock in an operating system?",
+      "options": [
+        "handling processes that wait indefinitely for one another's resources",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests"
+      ],
+      "answer": "handling processes that wait indefinitely for one another's resources",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of semaphore in an operating system?",
+      "options": [
+        "synchronizing concurrent processes or threads",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests",
+        "controlling access to system resources"
+      ],
+      "answer": "synchronizing concurrent processes or threads",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of file system in an operating system?",
+      "options": [
+        "organizing files and directories on storage",
+        "ordering storage I/O requests",
+        "controlling access to system resources",
+        "verifying an identity"
+      ],
+      "answer": "organizing files and directories on storage",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of interrupt in an operating system?",
+      "options": [
+        "notifying the processor that an event needs attention",
+        "controlling access to system resources",
+        "verifying an identity",
+        "checking permitted actions"
+      ],
+      "answer": "notifying the processor that an event needs attention",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of device driver in an operating system?",
+      "options": [
+        "providing an interface between the OS and hardware",
+        "verifying an identity",
+        "checking permitted actions",
+        "loading the operating system kernel"
+      ],
+      "answer": "providing an interface between the OS and hardware",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of context switch in an operating system?",
+      "options": [
+        "changing CPU execution from one process or thread to another",
+        "checking permitted actions",
+        "loading the operating system kernel",
+        "interpreting user commands"
+      ],
+      "answer": "changing CPU execution from one process or thread to another",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of system call in an operating system?",
+      "options": [
+        "requesting an operating-system service from a program",
+        "loading the operating system kernel",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement"
+      ],
+      "answer": "requesting an operating-system service from a program",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of CPU scheduling in an operating system?",
+      "options": [
+        "allocating processor time among runnable processes",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device"
+      ],
+      "answer": "allocating processor time among runnable processes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of memory management in an operating system?",
+      "options": [
+        "allocating and tracking memory used by processes",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time"
+      ],
+      "answer": "allocating and tracking memory used by processes",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of disk scheduling in an operating system?",
+      "options": [
+        "ordering storage I/O requests",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage"
+      ],
+      "answer": "ordering storage I/O requests",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of protection in an operating system?",
+      "options": [
+        "controlling access to system resources",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames"
+      ],
+      "answer": "controlling access to system resources",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of authentication in an operating system?",
+      "options": [
+        "verifying an identity",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources"
+      ],
+      "answer": "verifying an identity",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of authorization in an operating system?",
+      "options": [
+        "checking permitted actions",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads"
+      ],
+      "answer": "checking permitted actions",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of bootloader in an operating system?",
+      "options": [
+        "loading the operating system kernel",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage"
+      ],
+      "answer": "loading the operating system kernel",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of shell in an operating system?",
+      "options": [
+        "interpreting user commands",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention"
+      ],
+      "answer": "interpreting user commands",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of DMA in an operating system?",
+      "options": [
+        "transferring data between devices and memory with reduced CPU involvement",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware"
+      ],
+      "answer": "transferring data between devices and memory with reduced CPU involvement",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of spooling in an operating system?",
+      "options": [
+        "queueing data for a device",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another"
+      ],
+      "answer": "queueing data for a device",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of process scheduling in an operating system?",
+      "options": [
+        "choosing which ready process receives CPU time",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes"
+      ],
+      "answer": "choosing which ready process receives CPU time",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of virtual memory in an operating system?",
+      "options": [
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes"
+      ],
+      "answer": "providing processes with a virtual address space backed by physical memory and storage",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of paging in an operating system?",
+      "options": [
+        "mapping virtual pages to physical frames",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests"
+      ],
+      "answer": "mapping virtual pages to physical frames",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of deadlock in an operating system?",
+      "options": [
+        "handling processes that wait indefinitely for one another's resources",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests",
+        "controlling access to system resources"
+      ],
+      "answer": "handling processes that wait indefinitely for one another's resources",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of semaphore in an operating system?",
+      "options": [
+        "synchronizing concurrent processes or threads",
+        "ordering storage I/O requests",
+        "controlling access to system resources",
+        "verifying an identity"
+      ],
+      "answer": "synchronizing concurrent processes or threads",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of file system in an operating system?",
+      "options": [
+        "organizing files and directories on storage",
+        "controlling access to system resources",
+        "verifying an identity",
+        "checking permitted actions"
+      ],
+      "answer": "organizing files and directories on storage",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of interrupt in an operating system?",
+      "options": [
+        "notifying the processor that an event needs attention",
+        "verifying an identity",
+        "checking permitted actions",
+        "loading the operating system kernel"
+      ],
+      "answer": "notifying the processor that an event needs attention",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of device driver in an operating system?",
+      "options": [
+        "providing an interface between the OS and hardware",
+        "checking permitted actions",
+        "loading the operating system kernel",
+        "interpreting user commands"
+      ],
+      "answer": "providing an interface between the OS and hardware",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of context switch in an operating system?",
+      "options": [
+        "changing CPU execution from one process or thread to another",
+        "loading the operating system kernel",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement"
+      ],
+      "answer": "changing CPU execution from one process or thread to another",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of system call in an operating system?",
+      "options": [
+        "requesting an operating-system service from a program",
+        "interpreting user commands",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device"
+      ],
+      "answer": "requesting an operating-system service from a program",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of CPU scheduling in an operating system?",
+      "options": [
+        "allocating processor time among runnable processes",
+        "transferring data between devices and memory with reduced CPU involvement",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time"
+      ],
+      "answer": "allocating processor time among runnable processes",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of memory management in an operating system?",
+      "options": [
+        "allocating and tracking memory used by processes",
+        "queueing data for a device",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage"
+      ],
+      "answer": "allocating and tracking memory used by processes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of disk scheduling in an operating system?",
+      "options": [
+        "ordering storage I/O requests",
+        "choosing which ready process receives CPU time",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames"
+      ],
+      "answer": "ordering storage I/O requests",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of protection in an operating system?",
+      "options": [
+        "controlling access to system resources",
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources"
+      ],
+      "answer": "controlling access to system resources",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of authentication in an operating system?",
+      "options": [
+        "verifying an identity",
+        "mapping virtual pages to physical frames",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads"
+      ],
+      "answer": "verifying an identity",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of authorization in an operating system?",
+      "options": [
+        "checking permitted actions",
+        "handling processes that wait indefinitely for one another's resources",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage"
+      ],
+      "answer": "checking permitted actions",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of bootloader in an operating system?",
+      "options": [
+        "loading the operating system kernel",
+        "synchronizing concurrent processes or threads",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention"
+      ],
+      "answer": "loading the operating system kernel",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of shell in an operating system?",
+      "options": [
+        "interpreting user commands",
+        "organizing files and directories on storage",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware"
+      ],
+      "answer": "interpreting user commands",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of DMA in an operating system?",
+      "options": [
+        "transferring data between devices and memory with reduced CPU involvement",
+        "notifying the processor that an event needs attention",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another"
+      ],
+      "answer": "transferring data between devices and memory with reduced CPU involvement",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of spooling in an operating system?",
+      "options": [
+        "queueing data for a device",
+        "providing an interface between the OS and hardware",
+        "changing CPU execution from one process or thread to another",
+        "requesting an operating-system service from a program"
+      ],
+      "answer": "queueing data for a device",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of process scheduling in an operating system?",
+      "options": [
+        "choosing which ready process receives CPU time",
+        "requesting an operating-system service from a program",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes"
+      ],
+      "answer": "choosing which ready process receives CPU time",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of virtual memory in an operating system?",
+      "options": [
+        "providing processes with a virtual address space backed by physical memory and storage",
+        "allocating processor time among runnable processes",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests"
+      ],
+      "answer": "providing processes with a virtual address space backed by physical memory and storage",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of paging in an operating system?",
+      "options": [
+        "mapping virtual pages to physical frames",
+        "allocating and tracking memory used by processes",
+        "ordering storage I/O requests",
+        "controlling access to system resources"
+      ],
+      "answer": "mapping virtual pages to physical frames",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of deadlock in an operating system?",
+      "options": [
+        "handling processes that wait indefinitely for one another's resources",
+        "ordering storage I/O requests",
+        "controlling access to system resources",
+        "verifying an identity"
+      ],
+      "answer": "handling processes that wait indefinitely for one another's resources",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is the correct description of semaphore in an operating system?",
+      "options": [
+        "synchronizing concurrent processes or threads",
+        "controlling access to system resources",
+        "verifying an identity",
+        "checking permitted actions"
+      ],
+      "answer": "synchronizing concurrent processes or threads",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the correct description of file system in an operating system?",
+      "options": [
+        "organizing files and directories on storage",
+        "verifying an identity",
+        "checking permitted actions",
+        "loading the operating system kernel"
+      ],
+      "answer": "organizing files and directories on storage",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the correct description of interrupt in an operating system?",
+      "options": [
+        "notifying the processor that an event needs attention",
+        "checking permitted actions",
+        "loading the operating system kernel",
+        "interpreting user commands"
+      ],
+      "answer": "notifying the processor that an event needs attention",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,3602 @@
+[
+  {
+    "question": "Which symbol ends a C statement?",
+    "options": [
+      ";",
+      ":",
+      ".",
+      ","
+    ],
+    "answer": ";",
+    "difficulty": "Easy",
+    "id": 1
+  },
+  {
+    "question": "Which function is the entry point of a C program?",
+    "options": [
+      "start()",
+      "main()",
+      "begin()",
+      "run()"
+    ],
+    "answer": "main()",
+    "difficulty": "Easy",
+    "id": 2
+  },
+  {
+    "question": "Which header is commonly used for printf()?",
+    "options": [
+      "stdio.h",
+      "stdlib.h",
+      "string.h",
+      "math.h"
+    ],
+    "answer": "stdio.h",
+    "difficulty": "Easy",
+    "id": 3
+  },
+  {
+    "question": "Which format specifier is used for int?",
+    "options": [
+      "%f",
+      "%d",
+      "%c",
+      "%s"
+    ],
+    "answer": "%d",
+    "difficulty": "Easy",
+    "id": 4
+  },
+  {
+    "question": "Which format specifier is used for char?",
+    "options": [
+      "%c",
+      "%d",
+      "%f",
+      "%s"
+    ],
+    "answer": "%c",
+    "difficulty": "Easy",
+    "id": 5
+  },
+  {
+    "question": "Which format specifier is used for float?",
+    "options": [
+      "%d",
+      "%f",
+      "%c",
+      "%s"
+    ],
+    "answer": "%f",
+    "difficulty": "Easy",
+    "id": 6
+  },
+  {
+    "question": "Which operator is used for assignment?",
+    "options": [
+      "==",
+      "=",
+      "!=",
+      "<="
+    ],
+    "answer": "=",
+    "difficulty": "Easy",
+    "id": 7
+  },
+  {
+    "question": "Which operator checks equality?",
+    "options": [
+      "=",
+      "==",
+      "!=",
+      "<"
+    ],
+    "answer": "==",
+    "difficulty": "Easy",
+    "id": 8
+  },
+  {
+    "question": "Which keyword declares an integer?",
+    "options": [
+      "int",
+      "integer",
+      "num",
+      "var"
+    ],
+    "answer": "int",
+    "difficulty": "Easy",
+    "id": 9
+  },
+  {
+    "question": "Which keyword declares a character?",
+    "options": [
+      "char",
+      "character",
+      "string",
+      "chr"
+    ],
+    "answer": "char",
+    "difficulty": "Easy",
+    "id": 10
+  },
+  {
+    "question": "Which keyword declares a floating value?",
+    "options": [
+      "float",
+      "decimal",
+      "real",
+      "number"
+    ],
+    "answer": "float",
+    "difficulty": "Easy",
+    "id": 11
+  },
+  {
+    "question": "Which keyword declares a double?",
+    "options": [
+      "double",
+      "decimal",
+      "real64",
+      "dbl"
+    ],
+    "answer": "double",
+    "difficulty": "Easy",
+    "id": 12
+  },
+  {
+    "question": "Which type represents no value?",
+    "options": [
+      "void",
+      "null",
+      "none",
+      "empty"
+    ],
+    "answer": "void",
+    "difficulty": "Easy",
+    "id": 13
+  },
+  {
+    "question": "Which operator gives remainder?",
+    "options": [
+      "%",
+      "/",
+      "//",
+      "rem"
+    ],
+    "answer": "%",
+    "difficulty": "Easy",
+    "id": 14
+  },
+  {
+    "question": "Which operator performs addition?",
+    "options": [
+      "+",
+      "-",
+      "*",
+      "/"
+    ],
+    "answer": "+",
+    "difficulty": "Easy",
+    "id": 15
+  },
+  {
+    "question": "Which operator performs multiplication?",
+    "options": [
+      "*",
+      "+",
+      "%",
+      "/"
+    ],
+    "answer": "*",
+    "difficulty": "Easy",
+    "id": 16
+  },
+  {
+    "question": "Which operator gets a variable's address?",
+    "options": [
+      "&",
+      "*",
+      "@",
+      "#"
+    ],
+    "answer": "&",
+    "difficulty": "Easy",
+    "id": 17
+  },
+  {
+    "question": "Which operator dereferences a pointer?",
+    "options": [
+      "*",
+      "&",
+      "->",
+      "."
+    ],
+    "answer": "*",
+    "difficulty": "Easy",
+    "id": 18
+  },
+  {
+    "question": "Which keyword is used for a condition?",
+    "options": [
+      "if",
+      "when",
+      "check",
+      "condition"
+    ],
+    "answer": "if",
+    "difficulty": "Easy",
+    "id": 19
+  },
+  {
+    "question": "Which keyword handles the false branch?",
+    "options": [
+      "else",
+      "otherwise",
+      "elif",
+      "then"
+    ],
+    "answer": "else",
+    "difficulty": "Easy",
+    "id": 20
+  },
+  {
+    "question": "Which loop is commonly used for a known iteration count?",
+    "options": [
+      "for",
+      "if",
+      "switch",
+      "goto"
+    ],
+    "answer": "for",
+    "difficulty": "Easy",
+    "id": 21
+  },
+  {
+    "question": "Which loop checks its condition before execution?",
+    "options": [
+      "while",
+      "do-while",
+      "switch",
+      "if"
+    ],
+    "answer": "while",
+    "difficulty": "Easy",
+    "id": 22
+  },
+  {
+    "question": "Which loop executes at least once?",
+    "options": [
+      "do-while",
+      "while",
+      "for",
+      "if"
+    ],
+    "answer": "do-while",
+    "difficulty": "Easy",
+    "id": 23
+  },
+  {
+    "question": "Which keyword exits a loop?",
+    "options": [
+      "break",
+      "stop",
+      "leave",
+      "exitloop"
+    ],
+    "answer": "break",
+    "difficulty": "Easy",
+    "id": 24
+  },
+  {
+    "question": "Which keyword skips the current iteration?",
+    "options": [
+      "continue",
+      "skip",
+      "next",
+      "pass"
+    ],
+    "answer": "continue",
+    "difficulty": "Easy",
+    "id": 25
+  },
+  {
+    "question": "Which statement handles multiple fixed choices?",
+    "options": [
+      "switch",
+      "select",
+      "choose",
+      "case"
+    ],
+    "answer": "switch",
+    "difficulty": "Easy",
+    "id": 26
+  },
+  {
+    "question": "Which keyword labels a switch choice?",
+    "options": [
+      "case",
+      "option",
+      "when",
+      "choice"
+    ],
+    "answer": "case",
+    "difficulty": "Easy",
+    "id": 27
+  },
+  {
+    "question": "Which keyword handles unmatched switch cases?",
+    "options": [
+      "default",
+      "else",
+      "otherwise",
+      "fallback"
+    ],
+    "answer": "default",
+    "difficulty": "Easy",
+    "id": 28
+  },
+  {
+    "question": "Which keyword returns a value?",
+    "options": [
+      "return",
+      "send",
+      "give",
+      "back"
+    ],
+    "answer": "return",
+    "difficulty": "Easy",
+    "id": 29
+  },
+  {
+    "question": "Which type stores one character?",
+    "options": [
+      "char",
+      "string",
+      "int",
+      "bool"
+    ],
+    "answer": "char",
+    "difficulty": "Easy",
+    "id": 30
+  },
+  {
+    "question": "Which preprocessor directive includes a header?",
+    "options": [
+      "#include",
+      "#import",
+      "#header",
+      "#using"
+    ],
+    "answer": "#include",
+    "difficulty": "Easy",
+    "id": 31
+  },
+  {
+    "question": "Which directive defines a macro?",
+    "options": [
+      "#define",
+      "#macro",
+      "#const",
+      "#set"
+    ],
+    "answer": "#define",
+    "difficulty": "Easy",
+    "id": 32
+  },
+  {
+    "question": "Which keyword defines a structure?",
+    "options": [
+      "struct",
+      "class",
+      "record",
+      "object"
+    ],
+    "answer": "struct",
+    "difficulty": "Easy",
+    "id": 33
+  },
+  {
+    "question": "Which keyword defines an enumeration?",
+    "options": [
+      "enum",
+      "enumerate",
+      "choice",
+      "list"
+    ],
+    "answer": "enum",
+    "difficulty": "Easy",
+    "id": 34
+  },
+  {
+    "question": "Which keyword creates a type alias?",
+    "options": [
+      "typedef",
+      "alias",
+      "type",
+      "rename"
+    ],
+    "answer": "typedef",
+    "difficulty": "Easy",
+    "id": 35
+  },
+  {
+    "question": "Which operator accesses a struct member through an object?",
+    "options": [
+      ".",
+      "->",
+      "::",
+      ":"
+    ],
+    "answer": ".",
+    "difficulty": "Easy",
+    "id": 36
+  },
+  {
+    "question": "Which operator accesses a struct member through a pointer?",
+    "options": [
+      "->",
+      ".",
+      "::",
+      "=>"
+    ],
+    "answer": "->",
+    "difficulty": "Easy",
+    "id": 37
+  },
+  {
+    "question": "Which function allocates dynamic memory?",
+    "options": [
+      "malloc()",
+      "alloc()",
+      "new()",
+      "create()"
+    ],
+    "answer": "malloc()",
+    "difficulty": "Easy",
+    "id": 38
+  },
+  {
+    "question": "Which function releases dynamic memory?",
+    "options": [
+      "free()",
+      "delete()",
+      "release()",
+      "dispose()"
+    ],
+    "answer": "free()",
+    "difficulty": "Easy",
+    "id": 39
+  },
+  {
+    "question": "Which header declares malloc()?",
+    "options": [
+      "stdlib.h",
+      "stdio.h",
+      "string.h",
+      "memory.h"
+    ],
+    "answer": "stdlib.h",
+    "difficulty": "Easy",
+    "id": 40
+  },
+  {
+    "question": "Which header provides strlen()?",
+    "options": [
+      "string.h",
+      "stdio.h",
+      "stdlib.h",
+      "ctype.h"
+    ],
+    "answer": "string.h",
+    "difficulty": "Easy",
+    "id": 41
+  },
+  {
+    "question": "Which function returns string length?",
+    "options": [
+      "strlen()",
+      "length()",
+      "strsize()",
+      "sizeofstr()"
+    ],
+    "answer": "strlen()",
+    "difficulty": "Easy",
+    "id": 42
+  },
+  {
+    "question": "Which function compares strings?",
+    "options": [
+      "strcmp()",
+      "compare()",
+      "streq()",
+      "strcompare()"
+    ],
+    "answer": "strcmp()",
+    "difficulty": "Easy",
+    "id": 43
+  },
+  {
+    "question": "Which function copies a string?",
+    "options": [
+      "strcpy()",
+      "strcopy()",
+      "copystr()",
+      "strmove()"
+    ],
+    "answer": "strcpy()",
+    "difficulty": "Easy",
+    "id": 44
+  },
+  {
+    "question": "Which function opens a file?",
+    "options": [
+      "fopen()",
+      "openfile()",
+      "fileopen()",
+      "open()"
+    ],
+    "answer": "fopen()",
+    "difficulty": "Easy",
+    "id": 45
+  },
+  {
+    "question": "Which function closes a file?",
+    "options": [
+      "fclose()",
+      "closefile()",
+      "fileclose()",
+      "close()"
+    ],
+    "answer": "fclose()",
+    "difficulty": "Easy",
+    "id": 46
+  },
+  {
+    "question": "Which file mode opens for reading?",
+    "options": [
+      "r",
+      "w",
+      "a",
+      "x"
+    ],
+    "answer": "r",
+    "difficulty": "Easy",
+    "id": 47
+  },
+  {
+    "question": "Which file mode opens for appending?",
+    "options": [
+      "a",
+      "w",
+      "r",
+      "p"
+    ],
+    "answer": "a",
+    "difficulty": "Easy",
+    "id": 48
+  },
+  {
+    "question": "Which logical operator means AND?",
+    "options": [
+      "&&",
+      "||",
+      "&",
+      "and"
+    ],
+    "answer": "&&",
+    "difficulty": "Easy",
+    "id": 49
+  },
+  {
+    "question": "Which logical operator means OR?",
+    "options": [
+      "||",
+      "&&",
+      "|",
+      "or"
+    ],
+    "answer": "||",
+    "difficulty": "Easy",
+    "id": 50
+  },
+  {
+    "question": "Which logical operator means NOT?",
+    "options": [
+      "!",
+      "~",
+      "not",
+      "!="
+    ],
+    "answer": "!",
+    "difficulty": "Easy",
+    "id": 51
+  },
+  {
+    "question": "Which bitwise operator means AND?",
+    "options": [
+      "&",
+      "&&",
+      "|",
+      "^"
+    ],
+    "answer": "&",
+    "difficulty": "Easy",
+    "id": 52
+  },
+  {
+    "question": "Which bitwise operator means OR?",
+    "options": [
+      "|",
+      "||",
+      "&",
+      "^"
+    ],
+    "answer": "|",
+    "difficulty": "Easy",
+    "id": 53
+  },
+  {
+    "question": "Which bitwise operator means XOR?",
+    "options": [
+      "^",
+      "^^",
+      "|",
+      "&"
+    ],
+    "answer": "^",
+    "difficulty": "Easy",
+    "id": 54
+  },
+  {
+    "question": "Which operator shifts left?",
+    "options": [
+      "<<",
+      ">>",
+      "<",
+      "<<<"
+    ],
+    "answer": "<<",
+    "difficulty": "Easy",
+    "id": 55
+  },
+  {
+    "question": "Which operator shifts right?",
+    "options": [
+      ">>",
+      "<<",
+      ">",
+      ">>>"
+    ],
+    "answer": ">>",
+    "difficulty": "Easy",
+    "id": 56
+  },
+  {
+    "question": "Which keyword jumps to a label?",
+    "options": [
+      "goto",
+      "jump",
+      "label",
+      "branch"
+    ],
+    "answer": "goto",
+    "difficulty": "Easy",
+    "id": 57
+  },
+  {
+    "question": "Which operator increments by one?",
+    "options": [
+      "++",
+      "+1",
+      "+=",
+      "**"
+    ],
+    "answer": "++",
+    "difficulty": "Easy",
+    "id": 58
+  },
+  {
+    "question": "Which operator decrements by one?",
+    "options": [
+      "--",
+      "-1",
+      "-=",
+      "//"
+    ],
+    "answer": "--",
+    "difficulty": "Easy",
+    "id": 59
+  },
+  {
+    "question": "Which operator means not equal?",
+    "options": [
+      "!=",
+      "==",
+      "<>",
+      "not="
+    ],
+    "answer": "!=",
+    "difficulty": "Easy",
+    "id": 60
+  },
+  {
+    "question": "Which operator means less than or equal?",
+    "options": [
+      "<=",
+      "=>",
+      "<>",
+      "=<"
+    ],
+    "answer": "<=",
+    "difficulty": "Easy",
+    "id": 61
+  },
+  {
+    "question": "Which operator means greater than or equal?",
+    "options": [
+      ">=",
+      "=>",
+      "><",
+      "=>="
+    ],
+    "answer": ">=",
+    "difficulty": "Easy",
+    "id": 62
+  },
+  {
+    "question": "Which function converts a string to int?",
+    "options": [
+      "atoi()",
+      "itoa()",
+      "strint()",
+      "toint()"
+    ],
+    "answer": "atoi()",
+    "difficulty": "Easy",
+    "id": 63
+  },
+  {
+    "question": "Which header declares atoi()?",
+    "options": [
+      "stdlib.h",
+      "stdio.h",
+      "string.h",
+      "ctype.h"
+    ],
+    "answer": "stdlib.h",
+    "difficulty": "Easy",
+    "id": 64
+  },
+  {
+    "question": "Which function calculates square root?",
+    "options": [
+      "sqrt()",
+      "square()",
+      "root()",
+      "sqr()"
+    ],
+    "answer": "sqrt()",
+    "difficulty": "Easy",
+    "id": 65
+  },
+  {
+    "question": "Which header declares sqrt()?",
+    "options": [
+      "math.h",
+      "stdio.h",
+      "stdlib.h",
+      "string.h"
+    ],
+    "answer": "math.h",
+    "difficulty": "Easy",
+    "id": 66
+  },
+  {
+    "question": "Which function prints a character?",
+    "options": [
+      "putchar()",
+      "printc()",
+      "charout()",
+      "putcharx()"
+    ],
+    "answer": "putchar()",
+    "difficulty": "Easy",
+    "id": 67
+  },
+  {
+    "question": "Which function reads a character?",
+    "options": [
+      "getchar()",
+      "readchar()",
+      "charin()",
+      "getcharx()"
+    ],
+    "answer": "getchar()",
+    "difficulty": "Easy",
+    "id": 68
+  },
+  {
+    "question": "Which header provides isdigit()?",
+    "options": [
+      "ctype.h",
+      "string.h",
+      "stdio.h",
+      "math.h"
+    ],
+    "answer": "ctype.h",
+    "difficulty": "Easy",
+    "id": 69
+  },
+  {
+    "question": "Which function checks for a digit?",
+    "options": [
+      "isdigit()",
+      "isnumber()",
+      "digit()",
+      "checkdigit()"
+    ],
+    "answer": "isdigit()",
+    "difficulty": "Easy",
+    "id": 70
+  },
+  {
+    "question": "What is an array?",
+    "options": [
+      "Collection of elements of the same type",
+      "A function",
+      "A header",
+      "A comment"
+    ],
+    "answer": "Collection of elements of the same type",
+    "difficulty": "Easy",
+    "id": 71
+  },
+  {
+    "question": "What is the first array index in C?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "Depends on compiler"
+    ],
+    "answer": "0",
+    "difficulty": "Easy",
+    "id": 72
+  },
+  {
+    "question": "What is a C string?",
+    "options": [
+      "Null-terminated character sequence",
+      "Built-in string object",
+      "Integer array",
+      "Pointer only"
+    ],
+    "answer": "Null-terminated character sequence",
+    "difficulty": "Easy",
+    "id": 73
+  },
+  {
+    "question": "Which character terminates a C string?",
+    "options": [
+      "\\0",
+      "\\n",
+      "\\t",
+      "EOF"
+    ],
+    "answer": "\\0",
+    "difficulty": "Easy",
+    "id": 74
+  },
+  {
+    "question": "What does EOF commonly mean?",
+    "options": [
+      "End of file",
+      "End of function",
+      "Empty output",
+      "Error of file"
+    ],
+    "answer": "End of file",
+    "difficulty": "Easy",
+    "id": 75
+  },
+  {
+    "question": "What does sizeof return?",
+    "options": [
+      "Size in bytes",
+      "Size in bits",
+      "Address",
+      "Number of elements"
+    ],
+    "answer": "Size in bytes",
+    "difficulty": "Easy",
+    "id": 76
+  },
+  {
+    "question": "Which type is commonly used for double precision?",
+    "options": [
+      "double",
+      "float",
+      "long",
+      "char"
+    ],
+    "answer": "double",
+    "difficulty": "Easy",
+    "id": 77
+  },
+  {
+    "question": "Which keyword makes a variable read-only through its declaration?",
+    "options": [
+      "const",
+      "static",
+      "volatile",
+      "extern"
+    ],
+    "answer": "const",
+    "difficulty": "Easy",
+    "id": 78
+  },
+  {
+    "question": "Which keyword can retain a local variable between calls?",
+    "options": [
+      "static",
+      "auto",
+      "extern",
+      "register"
+    ],
+    "answer": "static",
+    "difficulty": "Easy",
+    "id": 79
+  },
+  {
+    "question": "Which keyword indicates a definition elsewhere?",
+    "options": [
+      "extern",
+      "static",
+      "auto",
+      "register"
+    ],
+    "answer": "extern",
+    "difficulty": "Easy",
+    "id": 80
+  },
+  {
+    "question": "Which storage class suggests register storage?",
+    "options": [
+      "register",
+      "auto",
+      "extern",
+      "static"
+    ],
+    "answer": "register",
+    "difficulty": "Easy",
+    "id": 81
+  },
+  {
+    "question": "Which header provides abs()?",
+    "options": [
+      "stdlib.h",
+      "math.h",
+      "stdio.h",
+      "string.h"
+    ],
+    "answer": "stdlib.h",
+    "difficulty": "Easy",
+    "id": 82
+  },
+  {
+    "question": "Which function terminates a program?",
+    "options": [
+      "exit()",
+      "stop()",
+      "terminate()",
+      "quit()"
+    ],
+    "answer": "exit()",
+    "difficulty": "Easy",
+    "id": 83
+  },
+  {
+    "question": "Which header declares exit()?",
+    "options": [
+      "stdlib.h",
+      "stdio.h",
+      "process.h",
+      "string.h"
+    ],
+    "answer": "stdlib.h",
+    "difficulty": "Easy",
+    "id": 84
+  },
+  {
+    "question": "Which function prints a string with newline?",
+    "options": [
+      "puts()",
+      "gets()",
+      "printfonly()",
+      "printline()"
+    ],
+    "answer": "puts()",
+    "difficulty": "Easy",
+    "id": 85
+  },
+  {
+    "question": "Which function reads a line safely with a size limit?",
+    "options": [
+      "fgets()",
+      "gets()",
+      "puts()",
+      "scanfout()"
+    ],
+    "answer": "fgets()",
+    "difficulty": "Easy",
+    "id": 86
+  },
+  {
+    "question": "Which keyword prevents switch fall-through?",
+    "options": [
+      "break",
+      "continue",
+      "returnonly",
+      "stop"
+    ],
+    "answer": "break",
+    "difficulty": "Easy",
+    "id": 87
+  },
+  {
+    "question": "What does a function prototype provide?",
+    "options": [
+      "Function declaration/interface",
+      "Function result",
+      "Loop",
+      "Variable value"
+    ],
+    "answer": "Function declaration/interface",
+    "difficulty": "Easy",
+    "id": 88
+  },
+  {
+    "question": "Can a C function return a pointer?",
+    "options": [
+      "Yes",
+      "No",
+      "Only main()",
+      "Only void"
+    ],
+    "answer": "Yes",
+    "difficulty": "Easy",
+    "id": 89
+  },
+  {
+    "question": "Can arrays contain different types in standard C?",
+    "options": [
+      "No",
+      "Yes",
+      "Only int/char",
+      "Only float/double"
+    ],
+    "answer": "No",
+    "difficulty": "Easy",
+    "id": 90
+  },
+  {
+    "question": "What does NULL commonly represent?",
+    "options": [
+      "A null pointer value",
+      "Random address",
+      "End of array",
+      "Zero bytes"
+    ],
+    "answer": "A null pointer value",
+    "difficulty": "Easy",
+    "id": 91
+  },
+  {
+    "question": "Which function sorts using a comparison callback?",
+    "options": [
+      "qsort()",
+      "sort()",
+      "arraysort()",
+      "order()"
+    ],
+    "answer": "qsort()",
+    "difficulty": "Easy",
+    "id": 92
+  },
+  {
+    "question": "Which type is used for a file stream pointer?",
+    "options": [
+      "FILE *",
+      "file *",
+      "FILE",
+      "fstream"
+    ],
+    "answer": "FILE *",
+    "difficulty": "Easy",
+    "id": 93
+  },
+  {
+    "question": "Which function writes formatted file output?",
+    "options": [
+      "fprintf()",
+      "fscanf()",
+      "fwritef()",
+      "fileprint()"
+    ],
+    "answer": "fprintf()",
+    "difficulty": "Easy",
+    "id": 94
+  },
+  {
+    "question": "Which function reads formatted file input?",
+    "options": [
+      "fscanf()",
+      "fprintf()",
+      "freadline()",
+      "fileinput()"
+    ],
+    "answer": "fscanf()",
+    "difficulty": "Easy",
+    "id": 95
+  },
+  {
+    "question": "Which function tests the EOF indicator?",
+    "options": [
+      "feof()",
+      "eof()",
+      "isEOF()",
+      "fileend()"
+    ],
+    "answer": "feof()",
+    "difficulty": "Easy",
+    "id": 96
+  },
+  {
+    "question": "What does main normally return on success?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "EOF"
+    ],
+    "answer": "0",
+    "difficulty": "Easy",
+    "id": 97
+  },
+  {
+    "question": "Which statement is used to return from a function?",
+    "options": [
+      "return",
+      "break",
+      "continue",
+      "goto"
+    ],
+    "answer": "return",
+    "difficulty": "Easy",
+    "id": 98
+  },
+  {
+    "question": "What is a function call?",
+    "options": [
+      "Using a function to execute it",
+      "Declaring a variable",
+      "Including a header",
+      "Creating an array"
+    ],
+    "answer": "Using a function to execute it",
+    "difficulty": "Easy",
+    "id": 99
+  },
+  {
+    "question": "What is recursion?",
+    "options": [
+      "A function calling itself",
+      "A loop only",
+      "A pointer",
+      "A macro"
+    ],
+    "answer": "A function calling itself",
+    "difficulty": "Easy",
+    "id": 100
+  },
+  {
+    "question": "What is a base case?",
+    "options": [
+      "Condition that stops recursion",
+      "First variable",
+      "Last array",
+      "Function pointer"
+    ],
+    "answer": "Condition that stops recursion",
+    "difficulty": "Easy",
+    "id": 101
+  },
+  {
+    "question": "What is the output of printf(\"%d\",5+3*2)?",
+    "options": [
+      "11",
+      "16",
+      "13",
+      "10"
+    ],
+    "answer": "11",
+    "difficulty": "Medium",
+    "id": 102
+  },
+  {
+    "question": "What is 10/3 when both operands are int?",
+    "options": [
+      "3",
+      "3.33",
+      "4",
+      "0"
+    ],
+    "answer": "3",
+    "difficulty": "Medium",
+    "id": 103
+  },
+  {
+    "question": "What is 10%3?",
+    "options": [
+      "1",
+      "3",
+      "0",
+      "10"
+    ],
+    "answer": "1",
+    "difficulty": "Medium",
+    "id": 104
+  },
+  {
+    "question": "What is x after int x=5; x+=3;?",
+    "options": [
+      "8",
+      "15",
+      "2",
+      "5"
+    ],
+    "answer": "8",
+    "difficulty": "Medium",
+    "id": 105
+  },
+  {
+    "question": "What is x after int x=5; x*=2;?",
+    "options": [
+      "10",
+      "7",
+      "25",
+      "3"
+    ],
+    "answer": "10",
+    "difficulty": "Medium",
+    "id": 106
+  },
+  {
+    "question": "What does ++x do?",
+    "options": [
+      "Increments x before its value is used",
+      "Decrements x",
+      "Doubles x",
+      "Sets x to zero"
+    ],
+    "answer": "Increments x before its value is used",
+    "difficulty": "Medium",
+    "id": 107
+  },
+  {
+    "question": "What does x++ do?",
+    "options": [
+      "Uses old value then increments",
+      "Increments twice",
+      "Decrements",
+      "Sets to one"
+    ],
+    "answer": "Uses old value then increments",
+    "difficulty": "Medium",
+    "id": 108
+  },
+  {
+    "question": "What is printf(\"%d\",7>5) likely to print?",
+    "options": [
+      "1",
+      "0",
+      "7",
+      "true"
+    ],
+    "answer": "1",
+    "difficulty": "Medium",
+    "id": 109
+  },
+  {
+    "question": "What is false in a C condition?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "NULL only"
+    ],
+    "answer": "0",
+    "difficulty": "Medium",
+    "id": 110
+  },
+  {
+    "question": "What is true in a C condition?",
+    "options": [
+      "Any nonzero value",
+      "Only 1",
+      "Only -1",
+      "Only 255"
+    ],
+    "answer": "Any nonzero value",
+    "difficulty": "Medium",
+    "id": 111
+  },
+  {
+    "question": "What does for(i=0;i<3;i++) print?",
+    "options": [
+      "012",
+      "123",
+      "001122",
+      "321"
+    ],
+    "answer": "012",
+    "difficulty": "Medium",
+    "id": 112
+  },
+  {
+    "question": "How many times does while(i<5) run if i starts at 0 and increments each time?",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "0"
+    ],
+    "answer": "5",
+    "difficulty": "Medium",
+    "id": 113
+  },
+  {
+    "question": "How many times does do{}while(0) execute?",
+    "options": [
+      "1",
+      "0",
+      "2",
+      "Infinite"
+    ],
+    "answer": "1",
+    "difficulty": "Medium",
+    "id": 114
+  },
+  {
+    "question": "What happens when switch break is omitted?",
+    "options": [
+      "Fall-through can occur",
+      "Compilation always fails",
+      "Case is skipped",
+      "Program always exits"
+    ],
+    "answer": "Fall-through can occur",
+    "difficulty": "Medium",
+    "id": 115
+  },
+  {
+    "question": "What is pass-by-value?",
+    "options": [
+      "A copy of the argument value is passed",
+      "Original variable is automatically referenced",
+      "Only pointers pass",
+      "No arguments"
+    ],
+    "answer": "A copy of the argument value is passed",
+    "difficulty": "Medium",
+    "id": 116
+  },
+  {
+    "question": "How can a function modify a caller variable?",
+    "options": [
+      "Pass its address using a pointer",
+      "Use printf",
+      "Use macro only",
+      "Return void"
+    ],
+    "answer": "Pass its address using a pointer",
+    "difficulty": "Medium",
+    "id": 117
+  },
+  {
+    "question": "What does int *p mean?",
+    "options": [
+      "p points to int",
+      "p is an int",
+      "p is an array",
+      "p is a function"
+    ],
+    "answer": "p points to int",
+    "difficulty": "Medium",
+    "id": 118
+  },
+  {
+    "question": "If p points to x, what is *p?",
+    "options": [
+      "Value of x",
+      "Address of p",
+      "Size of x",
+      "New pointer"
+    ],
+    "answer": "Value of x",
+    "difficulty": "Medium",
+    "id": 119
+  },
+  {
+    "question": "What is *(arr+2) for {10,20,30,40}?",
+    "options": [
+      "30",
+      "20",
+      "40",
+      "10"
+    ],
+    "answer": "30",
+    "difficulty": "Medium",
+    "id": 120
+  },
+  {
+    "question": "What does sizeof(a)/sizeof(a[0]) give for a local array?",
+    "options": [
+      "Number of elements",
+      "Bytes of one element",
+      "Address",
+      "Maximum index"
+    ],
+    "answer": "Number of elements",
+    "difficulty": "Medium",
+    "id": 121
+  },
+  {
+    "question": "What is a multidimensional array?",
+    "options": [
+      "Array with more than one index",
+      "Array of chars only",
+      "Pointer only",
+      "Function"
+    ],
+    "answer": "Array with more than one index",
+    "difficulty": "Medium",
+    "id": 122
+  },
+  {
+    "question": "Which declares a 3x4 array?",
+    "options": [
+      "int a[3][4];",
+      "int a(3,4);",
+      "int[3][4] a;",
+      "array a[3,4];"
+    ],
+    "answer": "int a[3][4];",
+    "difficulty": "Medium",
+    "id": 123
+  },
+  {
+    "question": "What does strcmp return for equal strings?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "Length"
+    ],
+    "answer": "0",
+    "difficulty": "Medium",
+    "id": 124
+  },
+  {
+    "question": "What does strcat do?",
+    "options": [
+      "Appends one string to another",
+      "Compares strings",
+      "Copies one char",
+      "Allocates memory"
+    ],
+    "answer": "Appends one string to another",
+    "difficulty": "Medium",
+    "id": 125
+  },
+  {
+    "question": "Why should gets be avoided?",
+    "options": [
+      "It can overflow a buffer",
+      "It cannot read text",
+      "It always returns NULL",
+      "It reads only integers"
+    ],
+    "answer": "It can overflow a buffer",
+    "difficulty": "Medium",
+    "id": 126
+  },
+  {
+    "question": "What does malloc return?",
+    "options": [
+      "Allocated memory pointer or NULL",
+      "An int size",
+      "A file pointer",
+      "A string"
+    ],
+    "answer": "Allocated memory pointer or NULL",
+    "difficulty": "Medium",
+    "id": 127
+  },
+  {
+    "question": "What does calloc do additionally?",
+    "options": [
+      "Initializes allocated bytes to zero",
+      "Always uses stack",
+      "Frees memory",
+      "Returns int"
+    ],
+    "answer": "Initializes allocated bytes to zero",
+    "difficulty": "Medium",
+    "id": 128
+  },
+  {
+    "question": "What does realloc do?",
+    "options": [
+      "Changes size of allocated memory",
+      "Deletes all memory",
+      "Only allocates stack",
+      "Sorts memory"
+    ],
+    "answer": "Changes size of allocated memory",
+    "difficulty": "Medium",
+    "id": 129
+  },
+  {
+    "question": "What is a dangling pointer?",
+    "options": [
+      "Pointer to invalid/lifetime-ended object",
+      "NULL pointer by definition",
+      "Function pointer",
+      "Array pointer"
+    ],
+    "answer": "Pointer to invalid/lifetime-ended object",
+    "difficulty": "Medium",
+    "id": 130
+  },
+  {
+    "question": "What is a structure?",
+    "options": [
+      "User-defined type grouping members",
+      "Loop",
+      "Macro",
+      "String function"
+    ],
+    "answer": "User-defined type grouping members",
+    "difficulty": "Medium",
+    "id": 131
+  },
+  {
+    "question": "What is a union?",
+    "options": [
+      "Members share the same storage",
+      "Array of structs",
+      "Function type",
+      "Loop"
+    ],
+    "answer": "Members share the same storage",
+    "difficulty": "Medium",
+    "id": 132
+  },
+  {
+    "question": "What is an enum?",
+    "options": [
+      "Named integer constants",
+      "Memory allocator",
+      "File reader",
+      "String"
+    ],
+    "answer": "Named integer constants",
+    "difficulty": "Medium",
+    "id": 133
+  },
+  {
+    "question": "What is a header guard used for?",
+    "options": [
+      "Prevent multiple inclusion",
+      "Protect password",
+      "Increase RAM",
+      "Create loop"
+    ],
+    "answer": "Prevent multiple inclusion",
+    "difficulty": "Medium",
+    "id": 134
+  },
+  {
+    "question": "Which directive begins a header guard?",
+    "options": [
+      "#ifndef",
+      "#ifelse",
+      "#guard",
+      "#protect"
+    ],
+    "answer": "#ifndef",
+    "difficulty": "Medium",
+    "id": 135
+  },
+  {
+    "question": "What is conditional compilation?",
+    "options": [
+      "Including/excluding code using preprocessor conditions",
+      "Running two programs",
+      "Compiling only functions",
+      "Using recursion"
+    ],
+    "answer": "Including/excluding code using preprocessor conditions",
+    "difficulty": "Medium",
+    "id": 136
+  },
+  {
+    "question": "What does #define MAX 100 create?",
+    "options": [
+      "A macro replacement",
+      "A variable",
+      "A function",
+      "A type"
+    ],
+    "answer": "A macro replacement",
+    "difficulty": "Medium",
+    "id": 137
+  },
+  {
+    "question": "Which stage produces object code?",
+    "options": [
+      "Compiler",
+      "Linker",
+      "Loader",
+      "Shell"
+    ],
+    "answer": "Compiler",
+    "difficulty": "Medium",
+    "id": 138
+  },
+  {
+    "question": "Which stage combines object files and libraries?",
+    "options": [
+      "Linker",
+      "Compiler",
+      "Preprocessor",
+      "Debugger"
+    ],
+    "answer": "Linker",
+    "difficulty": "Medium",
+    "id": 139
+  },
+  {
+    "question": "What is a segmentation fault usually related to?",
+    "options": [
+      "Invalid memory access",
+      "Correct arithmetic",
+      "Successful compilation",
+      "Valid switch"
+    ],
+    "answer": "Invalid memory access",
+    "difficulty": "Medium",
+    "id": 140
+  },
+  {
+    "question": "What is undefined behavior?",
+    "options": [
+      "Behavior for which the standard imposes no requirements",
+      "Guaranteed runtime error",
+      "Warning only",
+      "Syntax rule"
+    ],
+    "answer": "Behavior for which the standard imposes no requirements",
+    "difficulty": "Medium",
+    "id": 141
+  },
+  {
+    "question": "What is implementation-defined behavior?",
+    "options": [
+      "Implementation chooses and documents a permitted option",
+      "Always undefined",
+      "Always forbidden",
+      "User chooses"
+    ],
+    "answer": "Implementation chooses and documents a permitted option",
+    "difficulty": "Medium",
+    "id": 142
+  },
+  {
+    "question": "What does const int *p mean?",
+    "options": [
+      "Pointer to const int",
+      "Const pointer to int",
+      "Const pointer to const int",
+      "An int"
+    ],
+    "answer": "Pointer to const int",
+    "difficulty": "Medium",
+    "id": 143
+  },
+  {
+    "question": "What does int *const p mean?",
+    "options": [
+      "Const pointer to int",
+      "Pointer to const int",
+      "Const int",
+      "Function"
+    ],
+    "answer": "Const pointer to int",
+    "difficulty": "Medium",
+    "id": 144
+  },
+  {
+    "question": "What is a function pointer?",
+    "options": [
+      "Pointer storing function address",
+      "Pointer to int",
+      "Function returning pointer",
+      "Macro"
+    ],
+    "answer": "Pointer storing function address",
+    "difficulty": "Medium",
+    "id": 145
+  },
+  {
+    "question": "Which declares pointer to function returning int?",
+    "options": [
+      "int (*fp)(int);",
+      "int *fp(int);",
+      "int fp(*int);",
+      "function fp(int);"
+    ],
+    "answer": "int (*fp)(int);",
+    "difficulty": "Medium",
+    "id": 146
+  },
+  {
+    "question": "What is the purpose of qsort comparison function?",
+    "options": [
+      "Defines ordering between elements",
+      "Allocates memory",
+      "Prints array",
+      "Frees array"
+    ],
+    "answer": "Defines ordering between elements",
+    "difficulty": "Medium",
+    "id": 147
+  },
+  {
+    "question": "What is short-circuit evaluation?",
+    "options": [
+      "Later logical operands may not be evaluated",
+      "Compiler runs faster",
+      "Loops are skipped",
+      "All functions skipped"
+    ],
+    "answer": "Later logical operands may not be evaluated",
+    "difficulty": "Medium",
+    "id": 148
+  },
+  {
+    "question": "For A&&B, when can B be skipped?",
+    "options": [
+      "When A is false",
+      "When A is true",
+      "Never",
+      "When B is false"
+    ],
+    "answer": "When A is false",
+    "difficulty": "Medium",
+    "id": 149
+  },
+  {
+    "question": "For A||B, when can B be skipped?",
+    "options": [
+      "When A is true",
+      "When A is false",
+      "Never",
+      "When B is true"
+    ],
+    "answer": "When A is true",
+    "difficulty": "Medium",
+    "id": 150
+  },
+  {
+    "question": "What is operator precedence?",
+    "options": [
+      "Rules for grouping operators",
+      "Number of operators",
+      "Memory order",
+      "Compiler version"
+    ],
+    "answer": "Rules for grouping operators",
+    "difficulty": "Medium",
+    "id": 151
+  },
+  {
+    "question": "Which has higher precedence?",
+    "options": [
+      "* over +",
+      "+ over *",
+      "= over *",
+      "|| over *"
+    ],
+    "answer": "* over +",
+    "difficulty": "Medium",
+    "id": 152
+  },
+  {
+    "question": "What is type casting?",
+    "options": [
+      "Explicit conversion to another type",
+      "Pointer declaration",
+      "Function call",
+      "Array allocation"
+    ],
+    "answer": "Explicit conversion to another type",
+    "difficulty": "Medium",
+    "id": 153
+  },
+  {
+    "question": "What is (float)5/2?",
+    "options": [
+      "2.5",
+      "2",
+      "3",
+      "5"
+    ],
+    "answer": "2.5",
+    "difficulty": "Medium",
+    "id": 154
+  },
+  {
+    "question": "What is implicit conversion?",
+    "options": [
+      "Automatic conversion by language rules",
+      "Cast only",
+      "String copy",
+      "Pointer dereference"
+    ],
+    "answer": "Automatic conversion by language rules",
+    "difficulty": "Medium",
+    "id": 155
+  },
+  {
+    "question": "What does the ternary operator provide?",
+    "options": [
+      "Compact conditional expression",
+      "Loop",
+      "Structure",
+      "File operation"
+    ],
+    "answer": "Compact conditional expression",
+    "difficulty": "Medium",
+    "id": 156
+  },
+  {
+    "question": "Which is the ternary syntax?",
+    "options": [
+      "condition ? expr1 : expr2",
+      "condition : expr1 ? expr2",
+      "if ? else : condition",
+      "expr1 ? condition : expr2"
+    ],
+    "answer": "condition ? expr1 : expr2",
+    "difficulty": "Medium",
+    "id": 157
+  },
+  {
+    "question": "What does volatile communicate?",
+    "options": [
+      "Value may change unexpectedly",
+      "Variable is constant",
+      "Heap allocation",
+      "Variable is global"
+    ],
+    "answer": "Value may change unexpectedly",
+    "difficulty": "Medium",
+    "id": 158
+  },
+  {
+    "question": "Why is the null terminator important?",
+    "options": [
+      "Marks end of a C string",
+      "Adds space",
+      "Marks beginning",
+      "Stores length"
+    ],
+    "answer": "Marks end of a C string",
+    "difficulty": "Medium",
+    "id": 159
+  },
+  {
+    "question": "What can out-of-bounds access cause?",
+    "options": [
+      "Undefined behavior",
+      "Automatic resize",
+      "Compile-time correction",
+      "Only warning always"
+    ],
+    "answer": "Undefined behavior",
+    "difficulty": "Medium",
+    "id": 160
+  },
+  {
+    "question": "What is stack memory commonly used for?",
+    "options": [
+      "Automatic local variables/call frames",
+      "All heap allocations",
+      "Files",
+      "Only globals"
+    ],
+    "answer": "Automatic local variables/call frames",
+    "difficulty": "Medium",
+    "id": 161
+  },
+  {
+    "question": "What is heap memory commonly used for?",
+    "options": [
+      "Dynamic allocation",
+      "Function names",
+      "Directives",
+      "Registers"
+    ],
+    "answer": "Dynamic allocation",
+    "difficulty": "Medium",
+    "id": 162
+  },
+  {
+    "question": "What is a buffer?",
+    "options": [
+      "Temporary data storage region",
+      "Compiler",
+      "Loop",
+      "Header"
+    ],
+    "answer": "Temporary data storage region",
+    "difficulty": "Medium",
+    "id": 163
+  },
+  {
+    "question": "What is assert used for?",
+    "options": [
+      "Checking conditions during development",
+      "Allocating memory",
+      "Sorting",
+      "Opening files"
+    ],
+    "answer": "Checking conditions during development",
+    "difficulty": "Medium",
+    "id": 164
+  },
+  {
+    "question": "Which header declares assert?",
+    "options": [
+      "assert.h",
+      "stdio.h",
+      "stdlib.h",
+      "debug.h"
+    ],
+    "answer": "assert.h",
+    "difficulty": "Medium",
+    "id": 165
+  },
+  {
+    "question": "Which function reads bytes from a stream?",
+    "options": [
+      "fread()",
+      "fprintf()",
+      "fputs()",
+      "fscanf()"
+    ],
+    "answer": "fread()",
+    "difficulty": "Medium",
+    "id": 166
+  },
+  {
+    "question": "Which function writes bytes to a stream?",
+    "options": [
+      "fwrite()",
+      "fscanf()",
+      "fgets()",
+      "fprintf()"
+    ],
+    "answer": "fwrite()",
+    "difficulty": "Medium",
+    "id": 167
+  },
+  {
+    "question": "What does fseek do?",
+    "options": [
+      "Changes file position",
+      "Deletes file",
+      "Flushes all files",
+      "Changes permissions"
+    ],
+    "answer": "Changes file position",
+    "difficulty": "Medium",
+    "id": 168
+  },
+  {
+    "question": "What does ftell return?",
+    "options": [
+      "Current file position",
+      "Always file size",
+      "Number of lines",
+      "File descriptor"
+    ],
+    "answer": "Current file position",
+    "difficulty": "Medium",
+    "id": 169
+  },
+  {
+    "question": "What does rewind do?",
+    "options": [
+      "Moves stream position to beginning",
+      "Deletes file",
+      "Closes stream",
+      "Writes EOF"
+    ],
+    "answer": "Moves stream position to beginning",
+    "difficulty": "Medium",
+    "id": 170
+  },
+  {
+    "question": "What is a variadic function?",
+    "options": [
+      "Function accepting variable number of arguments",
+      "Recursive function",
+      "No-argument function",
+      "Void function"
+    ],
+    "answer": "Function accepting variable number of arguments",
+    "difficulty": "Medium",
+    "id": 171
+  },
+  {
+    "question": "Which header handles variadic arguments?",
+    "options": [
+      "stdarg.h",
+      "varargs.h",
+      "stdio.h",
+      "args.h"
+    ],
+    "answer": "stdarg.h",
+    "difficulty": "Medium",
+    "id": 172
+  },
+  {
+    "question": "Which macro gets the next variadic argument?",
+    "options": [
+      "va_arg",
+      "next_arg",
+      "getarg",
+      "arg_next"
+    ],
+    "answer": "va_arg",
+    "difficulty": "Medium",
+    "id": 173
+  },
+  {
+    "question": "What does va_start do?",
+    "options": [
+      "Initializes variadic argument traversal",
+      "Ends it",
+      "Copies string",
+      "Allocates memory"
+    ],
+    "answer": "Initializes variadic argument traversal",
+    "difficulty": "Medium",
+    "id": 174
+  },
+  {
+    "question": "What does va_end do?",
+    "options": [
+      "Ends variadic argument traversal",
+      "Frees heap",
+      "Closes file",
+      "Returns"
+    ],
+    "answer": "Ends variadic argument traversal",
+    "difficulty": "Medium",
+    "id": 175
+  },
+  {
+    "question": "What is token pasting in a macro?",
+    "options": [
+      "Combining tokens with ##",
+      "Combining runtime strings",
+      "Adding numbers",
+      "Joining arrays"
+    ],
+    "answer": "Combining tokens with ##",
+    "difficulty": "Medium",
+    "id": 176
+  },
+  {
+    "question": "What does # inside a macro do to an argument?",
+    "options": [
+      "Stringizes it",
+      "Includes header",
+      "Concatenates tokens",
+      "Comments it"
+    ],
+    "answer": "Stringizes it",
+    "difficulty": "Medium",
+    "id": 177
+  },
+  {
+    "question": "Which integer overflow is defined to wrap modulo for unsigned types?",
+    "options": [
+      "Unsigned overflow",
+      "Signed overflow",
+      "Float overflow",
+      "Pointer overflow"
+    ],
+    "answer": "Unsigned overflow",
+    "difficulty": "Medium",
+    "id": 178
+  },
+  {
+    "question": "What is signed integer overflow in C?",
+    "options": [
+      "Undefined behavior",
+      "Guaranteed wrap",
+      "Always compiler error",
+      "Always zero"
+    ],
+    "answer": "Undefined behavior",
+    "difficulty": "Medium",
+    "id": 179
+  },
+  {
+    "question": "Why can signed/unsigned comparisons surprise?",
+    "options": [
+      "Usual conversions can convert signed to unsigned",
+      "C rejects them",
+      "Unsigned becomes string",
+      "Arithmetic stops"
+    ],
+    "answer": "Usual conversions can convert signed to unsigned",
+    "difficulty": "Medium",
+    "id": 180
+  },
+  {
+    "question": "Which header provides int32_t?",
+    "options": [
+      "stdint.h",
+      "limits.h",
+      "stddef.h",
+      "stdlib.h"
+    ],
+    "answer": "stdint.h",
+    "difficulty": "Medium",
+    "id": 181
+  },
+  {
+    "question": "What does size_t commonly represent?",
+    "options": [
+      "Object/array sizes",
+      "Signed pointer difference",
+      "Floating value",
+      "File name"
+    ],
+    "answer": "Object/array sizes",
+    "difficulty": "Medium",
+    "id": 182
+  },
+  {
+    "question": "Which header provides size_t?",
+    "options": [
+      "stddef.h",
+      "math.h",
+      "ctype.h",
+      "assert.h"
+    ],
+    "answer": "stddef.h",
+    "difficulty": "Medium",
+    "id": 183
+  },
+  {
+    "question": "What is errno used for?",
+    "options": [
+      "Reporting certain library errors",
+      "Loop counting",
+      "Memory allocation only",
+      "Strings"
+    ],
+    "answer": "Reporting certain library errors",
+    "difficulty": "Medium",
+    "id": 184
+  },
+  {
+    "question": "Which header declares errno?",
+    "options": [
+      "errno.h",
+      "error.h",
+      "stdio.h",
+      "stdlib.h"
+    ],
+    "answer": "errno.h",
+    "difficulty": "Medium",
+    "id": 185
+  },
+  {
+    "question": "What does perror do?",
+    "options": [
+      "Prints message related to errno",
+      "Parses input",
+      "Prints pointer",
+      "Compares files"
+    ],
+    "answer": "Prints message related to errno",
+    "difficulty": "Medium",
+    "id": 186
+  },
+  {
+    "question": "What is a translation unit?",
+    "options": [
+      "Source after preprocessing including headers",
+      "Executable",
+      "Only original file",
+      "Library archive"
+    ],
+    "answer": "Source after preprocessing including headers",
+    "difficulty": "Medium",
+    "id": 187
+  },
+  {
+    "question": "What is a linker error commonly caused by?",
+    "options": [
+      "Missing/multiple symbol definitions",
+      "Indentation",
+      "Loop condition",
+      "Input value"
+    ],
+    "answer": "Missing/multiple symbol definitions",
+    "difficulty": "Medium",
+    "id": 188
+  },
+  {
+    "question": "What is an algorithm?",
+    "options": [
+      "Finite steps to solve a problem",
+      "Data type",
+      "Directive",
+      "Pointer"
+    ],
+    "answer": "Finite steps to solve a problem",
+    "difficulty": "Medium",
+    "id": 189
+  },
+  {
+    "question": "What is binary search complexity?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(n²)",
+      "O(1) always"
+    ],
+    "answer": "O(log n)",
+    "difficulty": "Medium",
+    "id": 190
+  },
+  {
+    "question": "What is merge sort complexity?",
+    "options": [
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)",
+      "O(n) always"
+    ],
+    "answer": "O(n log n)",
+    "difficulty": "Medium",
+    "id": 191
+  },
+  {
+    "question": "What is quicksort average complexity?",
+    "options": [
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)",
+      "O(1)"
+    ],
+    "answer": "O(n log n)",
+    "difficulty": "Medium",
+    "id": 192
+  },
+  {
+    "question": "What is quicksort worst-case complexity?",
+    "options": [
+      "O(n²)",
+      "O(log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": "O(n²)",
+    "difficulty": "Medium",
+    "id": 193
+  },
+  {
+    "question": "What is a stack?",
+    "options": [
+      "LIFO",
+      "FIFO",
+      "Priority only",
+      "Random only"
+    ],
+    "answer": "LIFO",
+    "difficulty": "Medium",
+    "id": 194
+  },
+  {
+    "question": "What is a queue?",
+    "options": [
+      "FIFO",
+      "LIFO",
+      "Tree only",
+      "Random only"
+    ],
+    "answer": "FIFO",
+    "difficulty": "Medium",
+    "id": 195
+  },
+  {
+    "question": "What happens when a pointer is dereferenced after free()?",
+    "options": [
+      "Undefined behavior",
+      "It returns NULL",
+      "It returns zero",
+      "It reallocates"
+    ],
+    "answer": "Undefined behavior",
+    "difficulty": "Hard",
+    "id": 196
+  },
+  {
+    "question": "Why is returning a local variable's address unsafe?",
+    "options": [
+      "Its lifetime ends when the function returns",
+      "Pointers cannot be returned",
+      "Address becomes global",
+      "Compiler converts it to static"
+    ],
+    "answer": "Its lifetime ends when the function returns",
+    "difficulty": "Hard",
+    "id": 197
+  },
+  {
+    "question": "What does memmove handle that memcpy does not?",
+    "options": [
+      "Overlapping memory regions",
+      "Only strings",
+      "Only files",
+      "Only integers"
+    ],
+    "answer": "Overlapping memory regions",
+    "difficulty": "Hard",
+    "id": 198
+  },
+  {
+    "question": "What does memset set?",
+    "options": [
+      "Each byte to a specified unsigned char value",
+      "Each int to integer value",
+      "Only pointers",
+      "Only strings"
+    ],
+    "answer": "Each byte to a specified unsigned char value",
+    "difficulty": "Hard",
+    "id": 199
+  },
+  {
+    "question": "Why is memset(arr,1,sizeof arr) not generally an int-array fill with 1?",
+    "options": [
+      "It writes byte value 0x01 to each byte",
+      "It writes integer 1 to each element",
+      "It only changes first element",
+      "It is always a compile error"
+    ],
+    "answer": "It writes byte value 0x01 to each byte",
+    "difficulty": "Hard",
+    "id": 200
+  },
+  {
+    "question": "What does memcmp compare?",
+    "options": [
+      "Bytes in memory regions",
+      "Null-terminated strings only",
+      "Pointers only",
+      "Files only"
+    ],
+    "answer": "Bytes in memory regions",
+    "difficulty": "Hard",
+    "id": 201
+  },
+  {
+    "question": "What is structure padding?",
+    "options": [
+      "Unused bytes inserted for alignment",
+      "Duplicate members",
+      "String terminator",
+      "Heap metadata"
+    ],
+    "answer": "Unused bytes inserted for alignment",
+    "difficulty": "Hard",
+    "id": 202
+  },
+  {
+    "question": "Why can sizeof(struct S) exceed member-size sum?",
+    "options": [
+      "Padding may be inserted",
+      "Functions are included",
+      "Strings are added",
+      "Members are duplicated"
+    ],
+    "answer": "Padding may be inserted",
+    "difficulty": "Hard",
+    "id": 203
+  },
+  {
+    "question": "What does offsetof provide?",
+    "options": [
+      "Offset of a struct member from its beginning",
+      "Total struct size",
+      "Member value",
+      "Pointer value"
+    ],
+    "answer": "Offset of a struct member from its beginning",
+    "difficulty": "Hard",
+    "id": 204
+  },
+  {
+    "question": "What is a flexible array member?",
+    "options": [
+      "Last struct member declared as an incomplete array",
+      "Automatically resizing array",
+      "C++ vector",
+      "Pointer array"
+    ],
+    "answer": "Last struct member declared as an incomplete array",
+    "difficulty": "Hard",
+    "id": 205
+  },
+  {
+    "question": "What does restrict communicate?",
+    "options": [
+      "An aliasing promise for pointer accesses",
+      "Pointer cannot be NULL",
+      "Memory is read-only",
+      "Pointer is global"
+    ],
+    "answer": "An aliasing promise for pointer accesses",
+    "difficulty": "Hard",
+    "id": 206
+  },
+  {
+    "question": "What does _Atomic provide in C11?",
+    "options": [
+      "Atomic types/operations",
+      "Heap allocation",
+      "Arrays",
+      "Automatic mutexes"
+    ],
+    "answer": "Atomic types/operations",
+    "difficulty": "Hard",
+    "id": 207
+  },
+  {
+    "question": "Does volatile guarantee atomicity?",
+    "options": [
+      "No",
+      "Yes",
+      "Only on 64-bit",
+      "Only for int"
+    ],
+    "answer": "No",
+    "difficulty": "Hard",
+    "id": 208
+  },
+  {
+    "question": "What is a data race?",
+    "options": [
+      "Conflicting unsynchronized shared accesses with at least one write",
+      "Two equal pointers",
+      "Two loops",
+      "File conflict"
+    ],
+    "answer": "Conflicting unsynchronized shared accesses with at least one write",
+    "difficulty": "Hard",
+    "id": 209
+  },
+  {
+    "question": "Why is i=i++ problematic?",
+    "options": [
+      "It can involve unsequenced modification/access and undefined behavior",
+      "It increments twice safely",
+      "It always sets zero",
+      "It is a valid swap"
+    ],
+    "answer": "It can involve unsequenced modification/access and undefined behavior",
+    "difficulty": "Hard",
+    "id": 210
+  },
+  {
+    "question": "What is an lvalue?",
+    "options": [
+      "Expression designating an object/function in relevant contexts",
+      "Only a number literal",
+      "A macro",
+      "A loop"
+    ],
+    "answer": "Expression designating an object/function in relevant contexts",
+    "difficulty": "Hard",
+    "id": 211
+  },
+  {
+    "question": "What is the difference between declaration and definition?",
+    "options": [
+      "Declaration introduces an entity; definition provides it/storage as applicable",
+      "They are always identical",
+      "Declaration only macros",
+      "Definition only loops"
+    ],
+    "answer": "Declaration introduces an entity; definition provides it/storage as applicable",
+    "difficulty": "Hard",
+    "id": 212
+  },
+  {
+    "question": "What happens to an array parameter in a function declaration?",
+    "options": [
+      "It is adjusted to a pointer parameter",
+      "It remains a full array object parameter",
+      "It becomes a struct",
+      "It becomes a reference"
+    ],
+    "answer": "It is adjusted to a pointer parameter",
+    "difficulty": "Hard",
+    "id": 213
+  },
+  {
+    "question": "Why doesn't sizeof on an array parameter give original array size?",
+    "options": [
+      "The parameter is adjusted to a pointer",
+      "sizeof is broken",
+      "Arrays have no size",
+      "Compiler uses recursion"
+    ],
+    "answer": "The parameter is adjusted to a pointer",
+    "difficulty": "Hard",
+    "id": 214
+  },
+  {
+    "question": "Can sizeof be applied to a function type?",
+    "options": [
+      "No",
+      "Yes, returns code size",
+      "Yes, returns 1",
+      "Only main"
+    ],
+    "answer": "No",
+    "difficulty": "Hard",
+    "id": 215
+  },
+  {
+    "question": "What is an opaque type used for?",
+    "options": [
+      "Hiding implementation details behind an interface",
+      "Making pointer NULL",
+      "Sorting",
+      "Preventing compilation"
+    ],
+    "answer": "Hiding implementation details behind an interface",
+    "difficulty": "Hard",
+    "id": 216
+  },
+  {
+    "question": "What does static at file scope give a function?",
+    "options": [
+      "Internal linkage",
+      "Recursion",
+      "Heap storage",
+      "Public linkage"
+    ],
+    "answer": "Internal linkage",
+    "difficulty": "Hard",
+    "id": 217
+  },
+  {
+    "question": "What is internal linkage?",
+    "options": [
+      "Name limited to one translation unit",
+      "Local variable scope only",
+      "Pointer constant",
+      "Binary file"
+    ],
+    "answer": "Name limited to one translation unit",
+    "difficulty": "Hard",
+    "id": 218
+  },
+  {
+    "question": "What is external linkage?",
+    "options": [
+      "Name can refer to same entity across translation units",
+      "Variable stored externally",
+      "Heap pointer",
+      "Recursive function"
+    ],
+    "answer": "Name can refer to same entity across translation units",
+    "difficulty": "Hard",
+    "id": 219
+  },
+  {
+    "question": "What is a null pointer constant?",
+    "options": [
+      "An integer constant expression with value zero or such expression cast to void* in relevant contexts",
+      "Any random address",
+      "Only NULL macro",
+      "Any pointer"
+    ],
+    "answer": "An integer constant expression with value zero or such expression cast to void* in relevant contexts",
+    "difficulty": "Hard",
+    "id": 220
+  },
+  {
+    "question": "What is a wild pointer?",
+    "options": [
+      "Uninitialized pointer",
+      "NULL pointer",
+      "Function pointer",
+      "Const pointer"
+    ],
+    "answer": "Uninitialized pointer",
+    "difficulty": "Hard",
+    "id": 221
+  },
+  {
+    "question": "What is double free?",
+    "options": [
+      "Freeing the same allocation more than once",
+      "Allocating twice",
+      "Freeing two blocks",
+      "Calling calloc"
+    ],
+    "answer": "Freeing the same allocation more than once",
+    "difficulty": "Hard",
+    "id": 222
+  },
+  {
+    "question": "What is use-after-free?",
+    "options": [
+      "Accessing freed storage",
+      "Freeing NULL",
+      "Calling malloc twice",
+      "Using const"
+    ],
+    "answer": "Accessing freed storage",
+    "difficulty": "Hard",
+    "id": 223
+  },
+  {
+    "question": "What is a memory leak?",
+    "options": [
+      "Allocated storage that is no longer reachable/freed",
+      "Syntax error",
+      "Stack overflow",
+      "Null pointer"
+    ],
+    "answer": "Allocated storage that is no longer reachable/freed",
+    "difficulty": "Hard",
+    "id": 224
+  },
+  {
+    "question": "What happens when a pointer is dereferenced after free() in scenario 2?",
+    "options": [
+      "Undefined behavior",
+      "It returns NULL",
+      "It returns zero",
+      "It reallocates"
+    ],
+    "answer": "Undefined behavior",
+    "difficulty": "Hard",
+    "id": 225
+  },
+  {
+    "question": "Why is returning a local variable's address unsafe in scenario 2?",
+    "options": [
+      "Its lifetime ends when the function returns",
+      "Pointers cannot be returned",
+      "Address becomes global",
+      "Compiler converts it to static"
+    ],
+    "answer": "Its lifetime ends when the function returns",
+    "difficulty": "Hard",
+    "id": 226
+  },
+  {
+    "question": "What does memmove handle that memcpy does not in scenario 2?",
+    "options": [
+      "Overlapping memory regions",
+      "Only strings",
+      "Only files",
+      "Only integers"
+    ],
+    "answer": "Overlapping memory regions",
+    "difficulty": "Hard",
+    "id": 227
+  },
+  {
+    "question": "What does memset set in scenario 2?",
+    "options": [
+      "Each byte to a specified unsigned char value",
+      "Each int to integer value",
+      "Only pointers",
+      "Only strings"
+    ],
+    "answer": "Each byte to a specified unsigned char value",
+    "difficulty": "Hard",
+    "id": 228
+  },
+  {
+    "question": "Why is memset(arr,1,sizeof arr) not generally an int-array fill with 1 in scenario 2?",
+    "options": [
+      "It writes byte value 0x01 to each byte",
+      "It writes integer 1 to each element",
+      "It only changes first element",
+      "It is always a compile error"
+    ],
+    "answer": "It writes byte value 0x01 to each byte",
+    "difficulty": "Hard",
+    "id": 229
+  },
+  {
+    "question": "What does memcmp compare in scenario 2?",
+    "options": [
+      "Bytes in memory regions",
+      "Null-terminated strings only",
+      "Pointers only",
+      "Files only"
+    ],
+    "answer": "Bytes in memory regions",
+    "difficulty": "Hard",
+    "id": 230
+  },
+  {
+    "question": "What is structure padding in scenario 2?",
+    "options": [
+      "Unused bytes inserted for alignment",
+      "Duplicate members",
+      "String terminator",
+      "Heap metadata"
+    ],
+    "answer": "Unused bytes inserted for alignment",
+    "difficulty": "Hard",
+    "id": 231
+  },
+  {
+    "question": "Why can sizeof(struct S) exceed member-size sum in scenario 2?",
+    "options": [
+      "Padding may be inserted",
+      "Functions are included",
+      "Strings are added",
+      "Members are duplicated"
+    ],
+    "answer": "Padding may be inserted",
+    "difficulty": "Hard",
+    "id": 232
+  },
+  {
+    "question": "What does offsetof provide in scenario 2?",
+    "options": [
+      "Offset of a struct member from its beginning",
+      "Total struct size",
+      "Member value",
+      "Pointer value"
+    ],
+    "answer": "Offset of a struct member from its beginning",
+    "difficulty": "Hard",
+    "id": 233
+  },
+  {
+    "question": "What is a flexible array member in scenario 2?",
+    "options": [
+      "Last struct member declared as an incomplete array",
+      "Automatically resizing array",
+      "C++ vector",
+      "Pointer array"
+    ],
+    "answer": "Last struct member declared as an incomplete array",
+    "difficulty": "Hard",
+    "id": 234
+  },
+  {
+    "question": "What does restrict communicate in scenario 2?",
+    "options": [
+      "An aliasing promise for pointer accesses",
+      "Pointer cannot be NULL",
+      "Memory is read-only",
+      "Pointer is global"
+    ],
+    "answer": "An aliasing promise for pointer accesses",
+    "difficulty": "Hard",
+    "id": 235
+  },
+  {
+    "question": "What does _Atomic provide in C11 in scenario 2?",
+    "options": [
+      "Atomic types/operations",
+      "Heap allocation",
+      "Arrays",
+      "Automatic mutexes"
+    ],
+    "answer": "Atomic types/operations",
+    "difficulty": "Hard",
+    "id": 236
+  },
+  {
+    "question": "Does volatile guarantee atomicity in scenario 2?",
+    "options": [
+      "No",
+      "Yes",
+      "Only on 64-bit",
+      "Only for int"
+    ],
+    "answer": "No",
+    "difficulty": "Hard",
+    "id": 237
+  },
+  {
+    "question": "What is a data race in scenario 2?",
+    "options": [
+      "Conflicting unsynchronized shared accesses with at least one write",
+      "Two equal pointers",
+      "Two loops",
+      "File conflict"
+    ],
+    "answer": "Conflicting unsynchronized shared accesses with at least one write",
+    "difficulty": "Hard",
+    "id": 238
+  },
+  {
+    "question": "Why is i=i++ problematic in scenario 2?",
+    "options": [
+      "It can involve unsequenced modification/access and undefined behavior",
+      "It increments twice safely",
+      "It always sets zero",
+      "It is a valid swap"
+    ],
+    "answer": "It can involve unsequenced modification/access and undefined behavior",
+    "difficulty": "Hard",
+    "id": 239
+  },
+  {
+    "question": "What is an lvalue in scenario 2?",
+    "options": [
+      "Expression designating an object/function in relevant contexts",
+      "Only a number literal",
+      "A macro",
+      "A loop"
+    ],
+    "answer": "Expression designating an object/function in relevant contexts",
+    "difficulty": "Hard",
+    "id": 240
+  },
+  {
+    "question": "What is the difference between declaration and definition in scenario 2?",
+    "options": [
+      "Declaration introduces an entity; definition provides it/storage as applicable",
+      "They are always identical",
+      "Declaration only macros",
+      "Definition only loops"
+    ],
+    "answer": "Declaration introduces an entity; definition provides it/storage as applicable",
+    "difficulty": "Hard",
+    "id": 241
+  },
+  {
+    "question": "What happens to an array parameter in a function declaration in scenario 2?",
+    "options": [
+      "It is adjusted to a pointer parameter",
+      "It remains a full array object parameter",
+      "It becomes a struct",
+      "It becomes a reference"
+    ],
+    "answer": "It is adjusted to a pointer parameter",
+    "difficulty": "Hard",
+    "id": 242
+  },
+  {
+    "question": "Why doesn't sizeof on an array parameter give original array size in scenario 2?",
+    "options": [
+      "The parameter is adjusted to a pointer",
+      "sizeof is broken",
+      "Arrays have no size",
+      "Compiler uses recursion"
+    ],
+    "answer": "The parameter is adjusted to a pointer",
+    "difficulty": "Hard",
+    "id": 243
+  },
+  {
+    "question": "Can sizeof be applied to a function type in scenario 2?",
+    "options": [
+      "No",
+      "Yes, returns code size",
+      "Yes, returns 1",
+      "Only main"
+    ],
+    "answer": "No",
+    "difficulty": "Hard",
+    "id": 244
+  },
+  {
+    "question": "What is an opaque type used for in scenario 2?",
+    "options": [
+      "Hiding implementation details behind an interface",
+      "Making pointer NULL",
+      "Sorting",
+      "Preventing compilation"
+    ],
+    "answer": "Hiding implementation details behind an interface",
+    "difficulty": "Hard",
+    "id": 245
+  },
+  {
+    "question": "What does static at file scope give a function in scenario 2?",
+    "options": [
+      "Internal linkage",
+      "Recursion",
+      "Heap storage",
+      "Public linkage"
+    ],
+    "answer": "Internal linkage",
+    "difficulty": "Hard",
+    "id": 246
+  },
+  {
+    "question": "What is internal linkage in scenario 2?",
+    "options": [
+      "Name limited to one translation unit",
+      "Local variable scope only",
+      "Pointer constant",
+      "Binary file"
+    ],
+    "answer": "Name limited to one translation unit",
+    "difficulty": "Hard",
+    "id": 247
+  },
+  {
+    "question": "What is external linkage in scenario 2?",
+    "options": [
+      "Name can refer to same entity across translation units",
+      "Variable stored externally",
+      "Heap pointer",
+      "Recursive function"
+    ],
+    "answer": "Name can refer to same entity across translation units",
+    "difficulty": "Hard",
+    "id": 248
+  },
+  {
+    "question": "What is a null pointer constant in scenario 2?",
+    "options": [
+      "An integer constant expression with value zero or such expression cast to void* in relevant contexts",
+      "Any random address",
+      "Only NULL macro",
+      "Any pointer"
+    ],
+    "answer": "An integer constant expression with value zero or such expression cast to void* in relevant contexts",
+    "difficulty": "Hard",
+    "id": 249
+  },
+  {
+    "question": "What is a wild pointer in scenario 2?",
+    "options": [
+      "Uninitialized pointer",
+      "NULL pointer",
+      "Function pointer",
+      "Const pointer"
+    ],
+    "answer": "Uninitialized pointer",
+    "difficulty": "Hard",
+    "id": 250
+  },
+  {
+    "question": "What is double free in scenario 2?",
+    "options": [
+      "Freeing the same allocation more than once",
+      "Allocating twice",
+      "Freeing two blocks",
+      "Calling calloc"
+    ],
+    "answer": "Freeing the same allocation more than once",
+    "difficulty": "Hard",
+    "id": 251
+  },
+  {
+    "question": "What is use-after-free in scenario 2?",
+    "options": [
+      "Accessing freed storage",
+      "Freeing NULL",
+      "Calling malloc twice",
+      "Using const"
+    ],
+    "answer": "Accessing freed storage",
+    "difficulty": "Hard",
+    "id": 252
+  },
+  {
+    "question": "What is a memory leak in scenario 2?",
+    "options": [
+      "Allocated storage that is no longer reachable/freed",
+      "Syntax error",
+      "Stack overflow",
+      "Null pointer"
+    ],
+    "answer": "Allocated storage that is no longer reachable/freed",
+    "difficulty": "Hard",
+    "id": 253
+  },
+  {
+    "question": "What happens when a pointer is dereferenced after free() in scenario 3?",
+    "options": [
+      "Undefined behavior",
+      "It returns NULL",
+      "It returns zero",
+      "It reallocates"
+    ],
+    "answer": "Undefined behavior",
+    "difficulty": "Hard",
+    "id": 254
+  },
+  {
+    "question": "Why is returning a local variable's address unsafe in scenario 3?",
+    "options": [
+      "Its lifetime ends when the function returns",
+      "Pointers cannot be returned",
+      "Address becomes global",
+      "Compiler converts it to static"
+    ],
+    "answer": "Its lifetime ends when the function returns",
+    "difficulty": "Hard",
+    "id": 255
+  },
+  {
+    "question": "What does memmove handle that memcpy does not in scenario 3?",
+    "options": [
+      "Overlapping memory regions",
+      "Only strings",
+      "Only files",
+      "Only integers"
+    ],
+    "answer": "Overlapping memory regions",
+    "difficulty": "Hard",
+    "id": 256
+  },
+  {
+    "question": "What does memset set in scenario 3?",
+    "options": [
+      "Each byte to a specified unsigned char value",
+      "Each int to integer value",
+      "Only pointers",
+      "Only strings"
+    ],
+    "answer": "Each byte to a specified unsigned char value",
+    "difficulty": "Hard",
+    "id": 257
+  },
+  {
+    "question": "Why is memset(arr,1,sizeof arr) not generally an int-array fill with 1 in scenario 3?",
+    "options": [
+      "It writes byte value 0x01 to each byte",
+      "It writes integer 1 to each element",
+      "It only changes first element",
+      "It is always a compile error"
+    ],
+    "answer": "It writes byte value 0x01 to each byte",
+    "difficulty": "Hard",
+    "id": 258
+  },
+  {
+    "question": "What does memcmp compare in scenario 3?",
+    "options": [
+      "Bytes in memory regions",
+      "Null-terminated strings only",
+      "Pointers only",
+      "Files only"
+    ],
+    "answer": "Bytes in memory regions",
+    "difficulty": "Hard",
+    "id": 259
+  },
+  {
+    "question": "What is structure padding in scenario 3?",
+    "options": [
+      "Unused bytes inserted for alignment",
+      "Duplicate members",
+      "String terminator",
+      "Heap metadata"
+    ],
+    "answer": "Unused bytes inserted for alignment",
+    "difficulty": "Hard",
+    "id": 260
+  },
+  {
+    "question": "Why can sizeof(struct S) exceed member-size sum in scenario 3?",
+    "options": [
+      "Padding may be inserted",
+      "Functions are included",
+      "Strings are added",
+      "Members are duplicated"
+    ],
+    "answer": "Padding may be inserted",
+    "difficulty": "Hard",
+    "id": 261
+  },
+  {
+    "question": "What does offsetof provide in scenario 3?",
+    "options": [
+      "Offset of a struct member from its beginning",
+      "Total struct size",
+      "Member value",
+      "Pointer value"
+    ],
+    "answer": "Offset of a struct member from its beginning",
+    "difficulty": "Hard",
+    "id": 262
+  },
+  {
+    "question": "What is a flexible array member in scenario 3?",
+    "options": [
+      "Last struct member declared as an incomplete array",
+      "Automatically resizing array",
+      "C++ vector",
+      "Pointer array"
+    ],
+    "answer": "Last struct member declared as an incomplete array",
+    "difficulty": "Hard",
+    "id": 263
+  },
+  {
+    "question": "What does restrict communicate in scenario 3?",
+    "options": [
+      "An aliasing promise for pointer accesses",
+      "Pointer cannot be NULL",
+      "Memory is read-only",
+      "Pointer is global"
+    ],
+    "answer": "An aliasing promise for pointer accesses",
+    "difficulty": "Hard",
+    "id": 264
+  },
+  {
+    "question": "What does _Atomic provide in C11 in scenario 3?",
+    "options": [
+      "Atomic types/operations",
+      "Heap allocation",
+      "Arrays",
+      "Automatic mutexes"
+    ],
+    "answer": "Atomic types/operations",
+    "difficulty": "Hard",
+    "id": 265
+  },
+  {
+    "question": "Does volatile guarantee atomicity in scenario 3?",
+    "options": [
+      "No",
+      "Yes",
+      "Only on 64-bit",
+      "Only for int"
+    ],
+    "answer": "No",
+    "difficulty": "Hard",
+    "id": 266
+  },
+  {
+    "question": "What is a data race in scenario 3?",
+    "options": [
+      "Conflicting unsynchronized shared accesses with at least one write",
+      "Two equal pointers",
+      "Two loops",
+      "File conflict"
+    ],
+    "answer": "Conflicting unsynchronized shared accesses with at least one write",
+    "difficulty": "Hard",
+    "id": 267
+  },
+  {
+    "question": "Why is i=i++ problematic in scenario 3?",
+    "options": [
+      "It can involve unsequenced modification/access and undefined behavior",
+      "It increments twice safely",
+      "It always sets zero",
+      "It is a valid swap"
+    ],
+    "answer": "It can involve unsequenced modification/access and undefined behavior",
+    "difficulty": "Hard",
+    "id": 268
+  },
+  {
+    "question": "What is an lvalue in scenario 3?",
+    "options": [
+      "Expression designating an object/function in relevant contexts",
+      "Only a number literal",
+      "A macro",
+      "A loop"
+    ],
+    "answer": "Expression designating an object/function in relevant contexts",
+    "difficulty": "Hard",
+    "id": 269
+  },
+  {
+    "question": "What is the difference between declaration and definition in scenario 3?",
+    "options": [
+      "Declaration introduces an entity; definition provides it/storage as applicable",
+      "They are always identical",
+      "Declaration only macros",
+      "Definition only loops"
+    ],
+    "answer": "Declaration introduces an entity; definition provides it/storage as applicable",
+    "difficulty": "Hard",
+    "id": 270
+  },
+  {
+    "question": "What happens to an array parameter in a function declaration in scenario 3?",
+    "options": [
+      "It is adjusted to a pointer parameter",
+      "It remains a full array object parameter",
+      "It becomes a struct",
+      "It becomes a reference"
+    ],
+    "answer": "It is adjusted to a pointer parameter",
+    "difficulty": "Hard",
+    "id": 271
+  },
+  {
+    "question": "Why doesn't sizeof on an array parameter give original array size in scenario 3?",
+    "options": [
+      "The parameter is adjusted to a pointer",
+      "sizeof is broken",
+      "Arrays have no size",
+      "Compiler uses recursion"
+    ],
+    "answer": "The parameter is adjusted to a pointer",
+    "difficulty": "Hard",
+    "id": 272
+  },
+  {
+    "question": "Can sizeof be applied to a function type in scenario 3?",
+    "options": [
+      "No",
+      "Yes, returns code size",
+      "Yes, returns 1",
+      "Only main"
+    ],
+    "answer": "No",
+    "difficulty": "Hard",
+    "id": 273
+  },
+  {
+    "question": "What is an opaque type used for in scenario 3?",
+    "options": [
+      "Hiding implementation details behind an interface",
+      "Making pointer NULL",
+      "Sorting",
+      "Preventing compilation"
+    ],
+    "answer": "Hiding implementation details behind an interface",
+    "difficulty": "Hard",
+    "id": 274
+  },
+  {
+    "question": "What does static at file scope give a function in scenario 3?",
+    "options": [
+      "Internal linkage",
+      "Recursion",
+      "Heap storage",
+      "Public linkage"
+    ],
+    "answer": "Internal linkage",
+    "difficulty": "Hard",
+    "id": 275
+  },
+  {
+    "question": "What is internal linkage in scenario 3?",
+    "options": [
+      "Name limited to one translation unit",
+      "Local variable scope only",
+      "Pointer constant",
+      "Binary file"
+    ],
+    "answer": "Name limited to one translation unit",
+    "difficulty": "Hard",
+    "id": 276
+  },
+  {
+    "question": "What is external linkage in scenario 3?",
+    "options": [
+      "Name can refer to same entity across translation units",
+      "Variable stored externally",
+      "Heap pointer",
+      "Recursive function"
+    ],
+    "answer": "Name can refer to same entity across translation units",
+    "difficulty": "Hard",
+    "id": 277
+  },
+  {
+    "question": "What is a null pointer constant in scenario 3?",
+    "options": [
+      "An integer constant expression with value zero or such expression cast to void* in relevant contexts",
+      "Any random address",
+      "Only NULL macro",
+      "Any pointer"
+    ],
+    "answer": "An integer constant expression with value zero or such expression cast to void* in relevant contexts",
+    "difficulty": "Hard",
+    "id": 278
+  },
+  {
+    "question": "What is a wild pointer in scenario 3?",
+    "options": [
+      "Uninitialized pointer",
+      "NULL pointer",
+      "Function pointer",
+      "Const pointer"
+    ],
+    "answer": "Uninitialized pointer",
+    "difficulty": "Hard",
+    "id": 279
+  },
+  {
+    "question": "What is double free in scenario 3?",
+    "options": [
+      "Freeing the same allocation more than once",
+      "Allocating twice",
+      "Freeing two blocks",
+      "Calling calloc"
+    ],
+    "answer": "Freeing the same allocation more than once",
+    "difficulty": "Hard",
+    "id": 280
+  },
+  {
+    "question": "What is use-after-free in scenario 3?",
+    "options": [
+      "Accessing freed storage",
+      "Freeing NULL",
+      "Calling malloc twice",
+      "Using const"
+    ],
+    "answer": "Accessing freed storage",
+    "difficulty": "Hard",
+    "id": 281
+  },
+  {
+    "question": "What is a memory leak in scenario 3?",
+    "options": [
+      "Allocated storage that is no longer reachable/freed",
+      "Syntax error",
+      "Stack overflow",
+      "Null pointer"
+    ],
+    "answer": "Allocated storage that is no longer reachable/freed",
+    "difficulty": "Hard",
+    "id": 282
+  },
+  {
+    "question": "What happens when a pointer is dereferenced after free() in scenario 4?",
+    "options": [
+      "Undefined behavior",
+      "It returns NULL",
+      "It returns zero",
+      "It reallocates"
+    ],
+    "answer": "Undefined behavior",
+    "difficulty": "Hard",
+    "id": 283
+  },
+  {
+    "question": "Why is returning a local variable's address unsafe in scenario 4?",
+    "options": [
+      "Its lifetime ends when the function returns",
+      "Pointers cannot be returned",
+      "Address becomes global",
+      "Compiler converts it to static"
+    ],
+    "answer": "Its lifetime ends when the function returns",
+    "difficulty": "Hard",
+    "id": 284
+  },
+  {
+    "question": "What does memmove handle that memcpy does not in scenario 4?",
+    "options": [
+      "Overlapping memory regions",
+      "Only strings",
+      "Only files",
+      "Only integers"
+    ],
+    "answer": "Overlapping memory regions",
+    "difficulty": "Hard",
+    "id": 285
+  },
+  {
+    "question": "What does memset set in scenario 4?",
+    "options": [
+      "Each byte to a specified unsigned char value",
+      "Each int to integer value",
+      "Only pointers",
+      "Only strings"
+    ],
+    "answer": "Each byte to a specified unsigned char value",
+    "difficulty": "Hard",
+    "id": 286
+  },
+  {
+    "question": "Why is memset(arr,1,sizeof arr) not generally an int-array fill with 1 in scenario 4?",
+    "options": [
+      "It writes byte value 0x01 to each byte",
+      "It writes integer 1 to each element",
+      "It only changes first element",
+      "It is always a compile error"
+    ],
+    "answer": "It writes byte value 0x01 to each byte",
+    "difficulty": "Hard",
+    "id": 287
+  },
+  {
+    "question": "What does memcmp compare in scenario 4?",
+    "options": [
+      "Bytes in memory regions",
+      "Null-terminated strings only",
+      "Pointers only",
+      "Files only"
+    ],
+    "answer": "Bytes in memory regions",
+    "difficulty": "Hard",
+    "id": 288
+  },
+  {
+    "question": "What is structure padding in scenario 4?",
+    "options": [
+      "Unused bytes inserted for alignment",
+      "Duplicate members",
+      "String terminator",
+      "Heap metadata"
+    ],
+    "answer": "Unused bytes inserted for alignment",
+    "difficulty": "Hard",
+    "id": 289
+  },
+  {
+    "question": "Why can sizeof(struct S) exceed member-size sum in scenario 4?",
+    "options": [
+      "Padding may be inserted",
+      "Functions are included",
+      "Strings are added",
+      "Members are duplicated"
+    ],
+    "answer": "Padding may be inserted",
+    "difficulty": "Hard",
+    "id": 290
+  },
+  {
+    "question": "What does offsetof provide in scenario 4?",
+    "options": [
+      "Offset of a struct member from its beginning",
+      "Total struct size",
+      "Member value",
+      "Pointer value"
+    ],
+    "answer": "Offset of a struct member from its beginning",
+    "difficulty": "Hard",
+    "id": 291
+  },
+  {
+    "question": "What is a flexible array member in scenario 4?",
+    "options": [
+      "Last struct member declared as an incomplete array",
+      "Automatically resizing array",
+      "C++ vector",
+      "Pointer array"
+    ],
+    "answer": "Last struct member declared as an incomplete array",
+    "difficulty": "Hard",
+    "id": 292
+  },
+  {
+    "question": "What does restrict communicate in scenario 4?",
+    "options": [
+      "An aliasing promise for pointer accesses",
+      "Pointer cannot be NULL",
+      "Memory is read-only",
+      "Pointer is global"
+    ],
+    "answer": "An aliasing promise for pointer accesses",
+    "difficulty": "Hard",
+    "id": 293
+  },
+  {
+    "question": "What does _Atomic provide in C11 in scenario 4?",
+    "options": [
+      "Atomic types/operations",
+      "Heap allocation",
+      "Arrays",
+      "Automatic mutexes"
+    ],
+    "answer": "Atomic types/operations",
+    "difficulty": "Hard",
+    "id": 294
+  },
+  {
+    "question": "Does volatile guarantee atomicity in scenario 4?",
+    "options": [
+      "No",
+      "Yes",
+      "Only on 64-bit",
+      "Only for int"
+    ],
+    "answer": "No",
+    "difficulty": "Hard",
+    "id": 295
+  },
+  {
+    "question": "What is a data race in scenario 4?",
+    "options": [
+      "Conflicting unsynchronized shared accesses with at least one write",
+      "Two equal pointers",
+      "Two loops",
+      "File conflict"
+    ],
+    "answer": "Conflicting unsynchronized shared accesses with at least one write",
+    "difficulty": "Hard",
+    "id": 296
+  },
+  {
+    "question": "Why is i=i++ problematic in scenario 4?",
+    "options": [
+      "It can involve unsequenced modification/access and undefined behavior",
+      "It increments twice safely",
+      "It always sets zero",
+      "It is a valid swap"
+    ],
+    "answer": "It can involve unsequenced modification/access and undefined behavior",
+    "difficulty": "Hard",
+    "id": 297
+  },
+  {
+    "question": "What is an lvalue in scenario 4?",
+    "options": [
+      "Expression designating an object/function in relevant contexts",
+      "Only a number literal",
+      "A macro",
+      "A loop"
+    ],
+    "answer": "Expression designating an object/function in relevant contexts",
+    "difficulty": "Hard",
+    "id": 298
+  },
+  {
+    "question": "What is the difference between declaration and definition in scenario 4?",
+    "options": [
+      "Declaration introduces an entity; definition provides it/storage as applicable",
+      "They are always identical",
+      "Declaration only macros",
+      "Definition only loops"
+    ],
+    "answer": "Declaration introduces an entity; definition provides it/storage as applicable",
+    "difficulty": "Hard",
+    "id": 299
+  },
+  {
+    "question": "What happens to an array parameter in a function declaration in scenario 4?",
+    "options": [
+      "It is adjusted to a pointer parameter",
+      "It remains a full array object parameter",
+      "It becomes a struct",
+      "It becomes a reference"
+    ],
+    "answer": "It is adjusted to a pointer parameter",
+    "difficulty": "Hard",
+    "id": 300
+  }
+]

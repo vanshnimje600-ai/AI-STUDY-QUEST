@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #070b18;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* ================= BACKGROUND ================= */
+
+.bg-circle {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.25;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.circle1 {
+    width: 350px;
+    height: 350px;
+    background: #6c4cff;
+    top: 40px;
+    left: -150px;
+}
+
+.circle2 {
+    width: 300px;
+    height: 300px;
+    background: #00c6ff;
+    top: 350px;
+    right: -130px;
+}
+
+.circle3 {
+    width: 250px;
+    height: 250px;
+    background: #ff4ecd;
+    top: 850px;
+    left: 40%;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    width: 100%;
+    padding: 22px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.welcome-user {
+    color: #b9aaff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login-btn {
+    color: white;
+    border: 1px solid #39415f;
+}
+
+.login-btn:hover {
+    background: #151b31;
+}
+
+.register-btn {
+    background: linear-gradient(135deg, #6c4cff, #9b5cff);
+    color: white;
+    box-shadow: 0 8px 25px rgba(108, 76, 255, 0.3);
+}
+
+.register-btn:hover {
+    transform: translateY(-2px);
+}
+
+/* ================= HERO ================= */
+
+.hero {
+    min-height: 680px;
+    padding: 70px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 9px 16px;
+    border: 1px solid #39345c;
+    border-radius: 30px;
+    background: rgba(108, 76, 255, 0.1);
+    color: #b9aaff;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(48px, 6vw, 78px);
+    line-height: 1.05;
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+
+.hero h1 span {
+    background: linear-gradient(90deg, #7d5cff, #d15cff);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    color: #a8aec3;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 580px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+.start-btn,
+.explore-btn {
+    text-decoration: none;
+    padding: 15px 24px;
+    border-radius: 12px;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.start-btn {
+    background: linear-gradient(135deg, #704cff, #a855f7);
+    color: white;
+    box-shadow: 0 12px 35px rgba(112, 76, 255, 0.35);
+}
+
+.start-btn:hover {
+    transform: translateY(-4px);
+}
+
+.explore-btn {
+    border: 1px solid #343b58;
+    color: #d5d8e6;
+}
+
+.explore-btn:hover {
+    background: #11172b;
+}
+
+/* ================= GAME CARD ================= */
+
+.game-card {
+    width: 390px;
+    padding: 25px;
+    border-radius: 24px;
+    background: rgba(19, 25, 48, 0.9);
+    border: 1px solid #303755;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(15px);
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.card-top > span {
+    font-size: 38px;
+}
+
+.card-top small {
+    color: #858da8;
+    font-size: 11px;
+}
+
+.card-top h3 {
+    margin-top: 5px;
+}
+
+.progress-area {
+    margin-bottom: 25px;
+}
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    color: #9da5bd;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background: #252b43;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar div {
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(90deg, #704cff, #c05cff);
+    border-radius: 20px;
+}
+
+/* ================= STATS ================= */
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0;
+    border-top: 1px solid #292f49;
+    border-bottom: 1px solid #292f49;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat strong {
+    display: block;
+    font-size: 19px;
+}
+
+.stat small {
+    color: #777f9c;
+    font-size: 11px;
+}
+
+/* ================= MINI QUESTION ================= */
+
+.mini-question {
+    margin-top: 22px;
+}
+
+.mini-question > span {
+    color: #8f98b4;
+    font-size: 12px;
+}
+
+.mini-question h4 {
+    margin: 12px 0;
+    font-size: 17px;
+}
+
+.fake-option {
+    padding: 11px;
+    border: 1px solid #303752;
+    border-radius: 9px;
+    margin-top: 8px;
+    color: #b8bed0;
+    font-size: 13px;
+}
+
+/* ================= FEATURES ================= */
+
+.features {
+    padding: 80px 7%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.features h2 {
+    font-size: 40px;
+}
+
+.features h2 span {
+    color: #987cff;
+}
+
+.section-subtitle {
+    color: #858da8;
+    margin-top: 12px;
+}
+
+.feature-grid {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.feature-card {
+    padding: 30px 22px;
+    background: #11172b;
+    border: 1px solid #292f49;
+    border-radius: 18px;
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-7px);
+    border-color: #6850d8;
+}
+
+.icon {
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+
+.feature-card h3 {
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #858da8;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+/* ================= QUICK ACTIONS ================= */
+
+.quick-actions {
+    padding: 70px 7%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.quick-actions h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.quick-actions p {
+    color: #858da8;
+    margin-bottom: 25px;
+}
+
+.quick-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.quick-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 13px 22px;
+    border-radius: 10px;
+    border: 1px solid #343b58;
+    background: #11172b;
+    transition: 0.3s;
+}
+
+.quick-buttons a:hover {
+    transform: translateY(-3px);
+    border-color: #7055e8;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    padding: 45px 7%;
+    text-align: center;
+    border-top: 1px solid #222943;
+    color: #777f9b;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-logo {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width: 900px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .hero p {
+        margin: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .game-card {
+        width: min(390px, 100%);
+    }
+
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 18px 5%;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .welcome-user {
+        display: none;
+    }
+
+    .nav-buttons a {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 40px 5%;
+        min-height: auto;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .features {
+        padding: 60px 5%;
+    }
+
+    .features h2 {
+        font-size: 30px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .quick-actions {
+        padding: 50px 5%;
+    }
+
+    .quick-actions h2 {
+        font-size: 27px;
+    }
+}

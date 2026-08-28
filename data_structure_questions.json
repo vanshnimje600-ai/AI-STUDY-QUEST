@@ -1,0 +1,3604 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is a data structure?",
+      "options": [
+        "A way to organize and store data",
+        "A programming language",
+        "An operating system",
+        "A compiler"
+      ],
+      "answer": "A way to organize and store data",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 2,
+      "question": "Which data structure follows FIFO?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Tree",
+        "Graph"
+      ],
+      "answer": "Queue",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 3,
+      "question": "Which data structure follows LIFO?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap",
+        "Graph"
+      ],
+      "answer": "Stack",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 4,
+      "question": "Which structure stores elements in contiguous positions conceptually?",
+      "options": [
+        "Array",
+        "Graph",
+        "Tree",
+        "Hash table"
+      ],
+      "answer": "Array",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 5,
+      "question": "Which structure stores key-value pairs?",
+      "options": [
+        "Array",
+        "Stack",
+        "Dictionary/Hash table",
+        "Queue"
+      ],
+      "answer": "Dictionary/Hash table",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 6,
+      "question": "What is the first index of a typical zero-based array?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "2"
+      ],
+      "answer": "0",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 7,
+      "question": "What is the time complexity of accessing an array element by index?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(1)",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 8,
+      "question": "What is the usual time complexity of linear search?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 9,
+      "question": "Which search requires sorted data?",
+      "options": [
+        "Linear search",
+        "Binary search",
+        "DFS",
+        "BFS"
+      ],
+      "answer": "Binary search",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 10,
+      "question": "What is binary search time complexity on a sorted array?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n²)",
+        "O(1)"
+      ],
+      "answer": "O(log n)",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 11,
+      "question": "Which data structure is best for function call management?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Graph",
+        "Heap"
+      ],
+      "answer": "Stack",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 12,
+      "question": "Which data structure is commonly used for BFS?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Array only",
+        "Heap"
+      ],
+      "answer": "Queue",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 13,
+      "question": "Which data structure is commonly used for DFS?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap only",
+        "Hash table"
+      ],
+      "answer": "Stack",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 14,
+      "question": "What is a linked list node usually made of?",
+      "options": [
+        "Data and link/reference",
+        "Only data",
+        "Only index",
+        "Two arrays"
+      ],
+      "answer": "Data and link/reference",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 15,
+      "question": "What does a singly linked list node point to?",
+      "options": [
+        "Previous node only",
+        "Next node",
+        "Root only",
+        "Any random node"
+      ],
+      "answer": "Next node",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 16,
+      "question": "What does a doubly linked list node usually contain?",
+      "options": [
+        "Only next",
+        "Previous and next references",
+        "Only previous",
+        "No references"
+      ],
+      "answer": "Previous and next references",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 17,
+      "question": "What is the head of a linked list?",
+      "options": [
+        "Last node",
+        "First node/reference to first node",
+        "Middle node",
+        "Largest node"
+      ],
+      "answer": "First node/reference to first node",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 18,
+      "question": "What is the tail of a linked list?",
+      "options": [
+        "First node",
+        "Last node",
+        "Root node",
+        "Random node"
+      ],
+      "answer": "Last node",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 19,
+      "question": "What is insertion at the head of a linked list usually?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(1)",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 20,
+      "question": "Which structure represents hierarchical relationships?",
+      "options": [
+        "Tree",
+        "Queue",
+        "Stack",
+        "Array"
+      ],
+      "answer": "Tree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 21,
+      "question": "What is the top node of a tree called?",
+      "options": [
+        "Leaf",
+        "Root",
+        "Edge",
+        "Child"
+      ],
+      "answer": "Root",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 22,
+      "question": "What is a node with no children called?",
+      "options": [
+        "Root",
+        "Leaf",
+        "Parent",
+        "Sibling"
+      ],
+      "answer": "Leaf",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 23,
+      "question": "What connects two nodes in a tree?",
+      "options": [
+        "Edge",
+        "Index",
+        "Pointer only",
+        "Bucket"
+      ],
+      "answer": "Edge",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 24,
+      "question": "A binary tree node can have at most how many children?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Unlimited"
+      ],
+      "answer": "2",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 25,
+      "question": "What is a binary search tree property?",
+      "options": [
+        "Left values are smaller and right values are larger, typically",
+        "All nodes have two children",
+        "It must be complete",
+        "It stores only strings"
+      ],
+      "answer": "Left values are smaller and right values are larger, typically",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 26,
+      "question": "Which traversal visits Root, Left, Right?",
+      "options": [
+        "Inorder",
+        "Preorder",
+        "Postorder",
+        "Level order"
+      ],
+      "answer": "Preorder",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 27,
+      "question": "Which traversal visits Left, Root, Right?",
+      "options": [
+        "Preorder",
+        "Inorder",
+        "Postorder",
+        "Reverse"
+      ],
+      "answer": "Inorder",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 28,
+      "question": "Which traversal visits Left, Right, Root?",
+      "options": [
+        "Preorder",
+        "Inorder",
+        "Postorder",
+        "Level order"
+      ],
+      "answer": "Postorder",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 29,
+      "question": "Which traversal processes nodes level by level?",
+      "options": [
+        "Level order",
+        "Postorder",
+        "Inorder",
+        "Preorder"
+      ],
+      "answer": "Level order",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 30,
+      "question": "Which data structure is commonly used to implement a priority queue?",
+      "options": [
+        "Heap",
+        "Stack",
+        "Linked list only",
+        "Graph"
+      ],
+      "answer": "Heap",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 31,
+      "question": "In a min-heap, the smallest element is at the?",
+      "options": [
+        "Root",
+        "Last leaf",
+        "Middle",
+        "Any node"
+      ],
+      "answer": "Root",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 32,
+      "question": "In a max-heap, the largest element is at the?",
+      "options": [
+        "Root",
+        "Last leaf",
+        "Middle",
+        "Any node"
+      ],
+      "answer": "Root",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 33,
+      "question": "What is the typical insertion complexity in a binary heap?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": "O(log n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 34,
+      "question": "What is the typical extract-min complexity in a binary heap?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": "O(log n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 35,
+      "question": "What is hashing used for?",
+      "options": [
+        "Fast key-based lookup",
+        "Sorting only",
+        "Tree traversal only",
+        "Memory deletion"
+      ],
+      "answer": "Fast key-based lookup",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 36,
+      "question": "What is a hash collision?",
+      "options": [
+        "Two keys map to the same hash location",
+        "A program crash",
+        "Two arrays merge",
+        "A tree becomes cyclic"
+      ],
+      "answer": "Two keys map to the same hash location",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 37,
+      "question": "Which is a common collision resolution method?",
+      "options": [
+        "Chaining",
+        "Recursion only",
+        "Binary search only",
+        "Sorting"
+      ],
+      "answer": "Chaining",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 38,
+      "question": "What is a graph made of?",
+      "options": [
+        "Vertices and edges",
+        "Stacks and queues",
+        "Arrays only",
+        "Roots and leaves only"
+      ],
+      "answer": "Vertices and edges",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 39,
+      "question": "What is a graph vertex?",
+      "options": [
+        "A node",
+        "An edge",
+        "A weight only",
+        "A path only"
+      ],
+      "answer": "A node",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 40,
+      "question": "What is a graph edge?",
+      "options": [
+        "A connection between vertices",
+        "A vertex",
+        "A root",
+        "A queue"
+      ],
+      "answer": "A connection between vertices",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 41,
+      "question": "What is a directed graph?",
+      "options": [
+        "Edges have direction",
+        "All edges are weighted",
+        "No edges exist",
+        "Every vertex has two children"
+      ],
+      "answer": "Edges have direction",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 42,
+      "question": "What is an undirected graph?",
+      "options": [
+        "Edges have no direction",
+        "Edges always point to root",
+        "It has no vertices",
+        "All edges have weights"
+      ],
+      "answer": "Edges have no direction",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 43,
+      "question": "What is a weighted graph?",
+      "options": [
+        "Edges or vertices have associated weights",
+        "Only vertices exist",
+        "All nodes are leaves",
+        "It must be a tree"
+      ],
+      "answer": "Edges or vertices have associated weights",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 44,
+      "question": "Which algorithm finds shortest paths from a source with non-negative edge weights?",
+      "options": [
+        "Dijkstra's algorithm",
+        "DFS",
+        "Binary search",
+        "Bubble sort"
+      ],
+      "answer": "Dijkstra's algorithm",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 45,
+      "question": "Which algorithm is useful for shortest paths with negative edges but no negative cycle?",
+      "options": [
+        "Bellman-Ford",
+        "Binary search",
+        "BFS only",
+        "Heap sort"
+      ],
+      "answer": "Bellman-Ford",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 46,
+      "question": "Which algorithm finds a minimum spanning tree?",
+      "options": [
+        "Kruskal's algorithm",
+        "DFS only",
+        "Binary search",
+        "Linear search"
+      ],
+      "answer": "Kruskal's algorithm",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 47,
+      "question": "Which other algorithm finds a minimum spanning tree?",
+      "options": [
+        "Prim's algorithm",
+        "Merge sort",
+        "BFS only",
+        "Hashing"
+      ],
+      "answer": "Prim's algorithm",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 48,
+      "question": "What does BFS use to track frontier?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap",
+        "Tree"
+      ],
+      "answer": "Queue",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 49,
+      "question": "What does DFS use in its iterative form?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Hash map only"
+      ],
+      "answer": "Stack",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 50,
+      "question": "What is recursion depth related to?",
+      "options": [
+        "Call stack usage",
+        "Array length only",
+        "Hash collisions",
+        "Graph weights"
+      ],
+      "answer": "Call stack usage",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 51,
+      "question": "What is a circular queue?",
+      "options": [
+        "A queue whose end wraps to the beginning",
+        "A queue with no elements",
+        "A stack with two tops",
+        "A tree queue"
+      ],
+      "answer": "A queue whose end wraps to the beginning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 52,
+      "question": "What is a deque?",
+      "options": [
+        "Double-ended queue",
+        "Double-ended tree",
+        "Dynamic equation",
+        "Data encoder"
+      ],
+      "answer": "Double-ended queue",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 53,
+      "question": "Which structure allows insertion/removal at both ends?",
+      "options": [
+        "Deque",
+        "Stack only",
+        "BST",
+        "Heap only"
+      ],
+      "answer": "Deque",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 54,
+      "question": "What is a sparse matrix?",
+      "options": [
+        "A matrix with mostly zero/empty values",
+        "A matrix with all values nonzero",
+        "A sorted matrix only",
+        "A triangular matrix"
+      ],
+      "answer": "A matrix with mostly zero/empty values",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 55,
+      "question": "What is an adjacency matrix used to represent?",
+      "options": [
+        "Graph connections",
+        "Stack calls",
+        "Linked list nodes only",
+        "Heap levels only"
+      ],
+      "answer": "Graph connections",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 56,
+      "question": "What is an adjacency list?",
+      "options": [
+        "A list of neighbors for each vertex",
+        "A sorted array only",
+        "A stack of edges",
+        "A heap"
+      ],
+      "answer": "A list of neighbors for each vertex",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 57,
+      "question": "Which graph representation is often space-efficient for sparse graphs?",
+      "options": [
+        "Adjacency list",
+        "Adjacency matrix",
+        "2D array always",
+        "Stack"
+      ],
+      "answer": "Adjacency list",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 58,
+      "question": "What is a cycle in a graph?",
+      "options": [
+        "A path that returns to a previously visited vertex",
+        "A graph with no edges",
+        "A tree root",
+        "A sorted list"
+      ],
+      "answer": "A path that returns to a previously visited vertex",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 59,
+      "question": "What is a connected graph?",
+      "options": [
+        "A path exists between every pair of vertices in an undirected graph",
+        "It has one vertex only",
+        "It has no edges",
+        "Every edge is directed"
+      ],
+      "answer": "A path exists between every pair of vertices in an undirected graph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 60,
+      "question": "What is a DAG?",
+      "options": [
+        "Directed acyclic graph",
+        "Dynamic array graph",
+        "Data access graph",
+        "Double adjacency graph"
+      ],
+      "answer": "Directed acyclic graph",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 61,
+      "question": "Which data structure can efficiently represent hierarchical data?",
+      "options": [
+        "Tree",
+        "Queue",
+        "Stack",
+        "Array only"
+      ],
+      "answer": "Tree",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 62,
+      "question": "What is a balanced tree?",
+      "options": [
+        "A tree whose height is kept relatively small",
+        "A tree with equal values",
+        "A tree with no leaves",
+        "A tree with one node"
+      ],
+      "answer": "A tree whose height is kept relatively small",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 63,
+      "question": "What is an AVL tree?",
+      "options": [
+        "A self-balancing binary search tree",
+        "A graph algorithm",
+        "A queue",
+        "A hash table"
+      ],
+      "answer": "A self-balancing binary search tree",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 64,
+      "question": "What is a red-black tree?",
+      "options": [
+        "A self-balancing binary search tree",
+        "A sorting algorithm",
+        "A graph representation",
+        "A queue"
+      ],
+      "answer": "A self-balancing binary search tree",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 65,
+      "question": "What is a trie mainly used for?",
+      "options": [
+        "Prefix-based string lookup",
+        "Numerical sorting only",
+        "Graph coloring",
+        "Stack operations"
+      ],
+      "answer": "Prefix-based string lookup",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 66,
+      "question": "What is dynamic programming?",
+      "options": [
+        "Solving overlapping subproblems and storing results",
+        "Using only dynamic arrays",
+        "Sorting dynamically",
+        "Using recursion without memory"
+      ],
+      "answer": "Solving overlapping subproblems and storing results",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 67,
+      "question": "What is memoization?",
+      "options": [
+        "Caching results of subproblems",
+        "Deleting duplicate data",
+        "Sorting a cache",
+        "Building a heap"
+      ],
+      "answer": "Caching results of subproblems",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 68,
+      "question": "What is tabulation?",
+      "options": [
+        "Bottom-up dynamic programming",
+        "Hashing strings",
+        "Tree traversal only",
+        "Graph coloring only"
+      ],
+      "answer": "Bottom-up dynamic programming",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 69,
+      "question": "What is a greedy algorithm?",
+      "options": [
+        "Makes the best local choice at each step",
+        "Always uses recursion",
+        "Always uses a queue",
+        "Only sorts arrays"
+      ],
+      "answer": "Makes the best local choice at each step",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 70,
+      "question": "What is divide and conquer?",
+      "options": [
+        "Divide problem, solve subproblems, combine results",
+        "Use only one loop",
+        "Build a graph",
+        "Store all data in a stack"
+      ],
+      "answer": "Divide problem, solve subproblems, combine results",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 71,
+      "question": "Which sorting algorithm repeatedly selects a minimum/maximum element?",
+      "options": [
+        "Selection sort",
+        "Merge sort",
+        "Heap sort",
+        "Quick sort"
+      ],
+      "answer": "Selection sort",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 72,
+      "question": "Which sorting algorithm repeatedly swaps adjacent out-of-order elements?",
+      "options": [
+        "Bubble sort",
+        "Merge sort",
+        "Heap sort",
+        "Radix sort"
+      ],
+      "answer": "Bubble sort",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 73,
+      "question": "Which sorting algorithm divides data around a pivot?",
+      "options": [
+        "Quick sort",
+        "Bubble sort",
+        "Selection sort",
+        "Counting sort"
+      ],
+      "answer": "Quick sort",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 74,
+      "question": "Which sorting algorithm merges sorted halves?",
+      "options": [
+        "Merge sort",
+        "Quick sort",
+        "Bubble sort",
+        "Selection sort"
+      ],
+      "answer": "Merge sort",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 75,
+      "question": "What is the average time complexity of quicksort?",
+      "options": [
+        "O(n log n)",
+        "O(n)",
+        "O(n²)",
+        "O(log n)"
+      ],
+      "answer": "O(n log n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 76,
+      "question": "What is the worst-case time complexity of quicksort?",
+      "options": [
+        "O(n²)",
+        "O(n log n)",
+        "O(log n)",
+        "O(n)"
+      ],
+      "answer": "O(n²)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 77,
+      "question": "What is merge sort time complexity?",
+      "options": [
+        "O(n log n)",
+        "O(n²)",
+        "O(log n)",
+        "O(n)"
+      ],
+      "answer": "O(n log n)",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 78,
+      "question": "What is bubble sort worst-case complexity?",
+      "options": [
+        "O(n²)",
+        "O(n log n)",
+        "O(log n)",
+        "O(1)"
+      ],
+      "answer": "O(n²)",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 79,
+      "question": "What is insertion sort best-case complexity for an already sorted array?",
+      "options": [
+        "O(n)",
+        "O(n²)",
+        "O(log n)",
+        "O(1)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 80,
+      "question": "Which sorting algorithm is stable by standard implementation?",
+      "options": [
+        "Merge sort",
+        "Heap sort always",
+        "Selection sort always",
+        "Quick sort always"
+      ],
+      "answer": "Merge sort",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 81,
+      "question": "What is Big-O notation used for?",
+      "options": [
+        "Describing growth of time or space complexity",
+        "Writing comments",
+        "Declaring variables",
+        "Creating classes"
+      ],
+      "answer": "Describing growth of time or space complexity",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 82,
+      "question": "What does O(1) mean?",
+      "options": [
+        "Constant growth",
+        "Linear growth",
+        "Quadratic growth",
+        "Logarithmic growth"
+      ],
+      "answer": "Constant growth",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 83,
+      "question": "What does O(n) mean?",
+      "options": [
+        "Linear growth",
+        "Constant growth",
+        "Quadratic growth",
+        "Exponential growth"
+      ],
+      "answer": "Linear growth",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 84,
+      "question": "What does O(n²) mean?",
+      "options": [
+        "Quadratic growth",
+        "Linear growth",
+        "Constant growth",
+        "Logarithmic growth"
+      ],
+      "answer": "Quadratic growth",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 85,
+      "question": "What does O(log n) usually indicate?",
+      "options": [
+        "Logarithmic growth",
+        "Quadratic growth",
+        "Constant growth",
+        "Exponential growth"
+      ],
+      "answer": "Logarithmic growth",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 86,
+      "question": "What is space complexity?",
+      "options": [
+        "Memory used as input size grows",
+        "Execution time only",
+        "Number of functions",
+        "Number of files"
+      ],
+      "answer": "Memory used as input size grows",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 87,
+      "question": "What is an abstract data type?",
+      "options": [
+        "A logical model defined by operations and behavior",
+        "A Python class only",
+        "A physical memory address",
+        "A compiler"
+      ],
+      "answer": "A logical model defined by operations and behavior",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 88,
+      "question": "What is a priority queue?",
+      "options": [
+        "Elements are served by priority",
+        "Elements are always FIFO",
+        "Elements are always LIFO",
+        "Elements are randomly served"
+      ],
+      "answer": "Elements are served by priority",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 89,
+      "question": "What is the purpose of a sentinel node in a linked list?",
+      "options": [
+        "Simplify boundary cases",
+        "Store the largest value",
+        "Sort the list",
+        "Create a queue"
+      ],
+      "answer": "Simplify boundary cases",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 90,
+      "question": "What is a circular linked list?",
+      "options": [
+        "Last node points back to the first node",
+        "First node points to null",
+        "Every node has two previous nodes",
+        "It has no links"
+      ],
+      "answer": "Last node points back to the first node",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 91,
+      "question": "What is the main disadvantage of an array compared with a linked list for middle insertion?",
+      "options": [
+        "Elements may need shifting",
+        "Arrays cannot store numbers",
+        "Arrays cannot be indexed",
+        "Arrays cannot be traversed"
+      ],
+      "answer": "Elements may need shifting",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 92,
+      "question": "What is the usual search complexity in an unsorted linked list?",
+      "options": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 93,
+      "question": "What is the usual access complexity by position in a linked list?",
+      "options": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 94,
+      "question": "Which structure is suitable for undo operations?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Graph",
+        "Trie"
+      ],
+      "answer": "Stack",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 95,
+      "question": "Which structure is suitable for printer job scheduling?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Tree",
+        "Trie"
+      ],
+      "answer": "Queue",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 96,
+      "question": "Which structure can implement browser back navigation?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Graph"
+      ],
+      "answer": "Stack",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 97,
+      "question": "Which structure is useful for autocomplete?",
+      "options": [
+        "Trie",
+        "Stack",
+        "Queue",
+        "Heap"
+      ],
+      "answer": "Trie",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 98,
+      "question": "What is a data structure? [Practice 98]",
+      "options": [
+        "A way to organize and store data",
+        "A programming language",
+        "An operating system",
+        "A compiler"
+      ],
+      "answer": "A way to organize and store data",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 99,
+      "question": "Which data structure follows FIFO? [Practice 99]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Tree",
+        "Graph"
+      ],
+      "answer": "Queue",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 100,
+      "question": "Which data structure follows LIFO? [Practice 100]",
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap",
+        "Graph"
+      ],
+      "answer": "Stack",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 101,
+      "question": "Which structure stores elements in contiguous positions conceptually? [Practice 101]",
+      "options": [
+        "Array",
+        "Graph",
+        "Tree",
+        "Hash table"
+      ],
+      "answer": "Array",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 102,
+      "question": "Which structure stores key-value pairs? [Practice 102]",
+      "options": [
+        "Array",
+        "Stack",
+        "Dictionary/Hash table",
+        "Queue"
+      ],
+      "answer": "Dictionary/Hash table",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 103,
+      "question": "What is the first index of a typical zero-based array? [Practice 103]",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "2"
+      ],
+      "answer": "0",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 104,
+      "question": "What is the time complexity of accessing an array element by index? [Practice 104]",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(1)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 105,
+      "question": "What is the usual time complexity of linear search? [Practice 105]",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 106,
+      "question": "Which search requires sorted data? [Practice 106]",
+      "options": [
+        "Linear search",
+        "Binary search",
+        "DFS",
+        "BFS"
+      ],
+      "answer": "Binary search",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 107,
+      "question": "What is binary search time complexity on a sorted array? [Practice 107]",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n²)",
+        "O(1)"
+      ],
+      "answer": "O(log n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 108,
+      "question": "Which data structure is best for function call management? [Practice 108]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Graph",
+        "Heap"
+      ],
+      "answer": "Stack",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 109,
+      "question": "Which data structure is commonly used for BFS? [Practice 109]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Array only",
+        "Heap"
+      ],
+      "answer": "Queue",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 110,
+      "question": "Which data structure is commonly used for DFS? [Practice 110]",
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap only",
+        "Hash table"
+      ],
+      "answer": "Stack",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 111,
+      "question": "What is a linked list node usually made of? [Practice 111]",
+      "options": [
+        "Data and link/reference",
+        "Only data",
+        "Only index",
+        "Two arrays"
+      ],
+      "answer": "Data and link/reference",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 112,
+      "question": "What does a singly linked list node point to? [Practice 112]",
+      "options": [
+        "Previous node only",
+        "Next node",
+        "Root only",
+        "Any random node"
+      ],
+      "answer": "Next node",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 113,
+      "question": "What does a doubly linked list node usually contain? [Practice 113]",
+      "options": [
+        "Only next",
+        "Previous and next references",
+        "Only previous",
+        "No references"
+      ],
+      "answer": "Previous and next references",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 114,
+      "question": "What is the head of a linked list? [Practice 114]",
+      "options": [
+        "Last node",
+        "First node/reference to first node",
+        "Middle node",
+        "Largest node"
+      ],
+      "answer": "First node/reference to first node",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 115,
+      "question": "What is the tail of a linked list? [Practice 115]",
+      "options": [
+        "First node",
+        "Last node",
+        "Root node",
+        "Random node"
+      ],
+      "answer": "Last node",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 116,
+      "question": "What is insertion at the head of a linked list usually? [Practice 116]",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(1)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 117,
+      "question": "Which structure represents hierarchical relationships? [Practice 117]",
+      "options": [
+        "Tree",
+        "Queue",
+        "Stack",
+        "Array"
+      ],
+      "answer": "Tree",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 118,
+      "question": "What is the top node of a tree called? [Practice 118]",
+      "options": [
+        "Leaf",
+        "Root",
+        "Edge",
+        "Child"
+      ],
+      "answer": "Root",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 119,
+      "question": "What is a node with no children called? [Practice 119]",
+      "options": [
+        "Root",
+        "Leaf",
+        "Parent",
+        "Sibling"
+      ],
+      "answer": "Leaf",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 120,
+      "question": "What connects two nodes in a tree? [Practice 120]",
+      "options": [
+        "Edge",
+        "Index",
+        "Pointer only",
+        "Bucket"
+      ],
+      "answer": "Edge",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 121,
+      "question": "A binary tree node can have at most how many children? [Practice 121]",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Unlimited"
+      ],
+      "answer": "2",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 122,
+      "question": "What is a binary search tree property? [Practice 122]",
+      "options": [
+        "Left values are smaller and right values are larger, typically",
+        "All nodes have two children",
+        "It must be complete",
+        "It stores only strings"
+      ],
+      "answer": "Left values are smaller and right values are larger, typically",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 123,
+      "question": "Which traversal visits Root, Left, Right? [Practice 123]",
+      "options": [
+        "Inorder",
+        "Preorder",
+        "Postorder",
+        "Level order"
+      ],
+      "answer": "Preorder",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 124,
+      "question": "Which traversal visits Left, Root, Right? [Practice 124]",
+      "options": [
+        "Preorder",
+        "Inorder",
+        "Postorder",
+        "Reverse"
+      ],
+      "answer": "Inorder",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 125,
+      "question": "Which traversal visits Left, Right, Root? [Practice 125]",
+      "options": [
+        "Preorder",
+        "Inorder",
+        "Postorder",
+        "Level order"
+      ],
+      "answer": "Postorder",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 126,
+      "question": "Which traversal processes nodes level by level? [Practice 126]",
+      "options": [
+        "Level order",
+        "Postorder",
+        "Inorder",
+        "Preorder"
+      ],
+      "answer": "Level order",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 127,
+      "question": "Which data structure is commonly used to implement a priority queue? [Practice 127]",
+      "options": [
+        "Heap",
+        "Stack",
+        "Linked list only",
+        "Graph"
+      ],
+      "answer": "Heap",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 128,
+      "question": "In a min-heap, the smallest element is at the? [Practice 128]",
+      "options": [
+        "Root",
+        "Last leaf",
+        "Middle",
+        "Any node"
+      ],
+      "answer": "Root",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 129,
+      "question": "In a max-heap, the largest element is at the? [Practice 129]",
+      "options": [
+        "Root",
+        "Last leaf",
+        "Middle",
+        "Any node"
+      ],
+      "answer": "Root",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 130,
+      "question": "What is the typical insertion complexity in a binary heap? [Practice 130]",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": "O(log n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 131,
+      "question": "What is the typical extract-min complexity in a binary heap? [Practice 131]",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": "O(log n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 132,
+      "question": "What is hashing used for? [Practice 132]",
+      "options": [
+        "Fast key-based lookup",
+        "Sorting only",
+        "Tree traversal only",
+        "Memory deletion"
+      ],
+      "answer": "Fast key-based lookup",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 133,
+      "question": "What is a hash collision? [Practice 133]",
+      "options": [
+        "Two keys map to the same hash location",
+        "A program crash",
+        "Two arrays merge",
+        "A tree becomes cyclic"
+      ],
+      "answer": "Two keys map to the same hash location",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 134,
+      "question": "Which is a common collision resolution method? [Practice 134]",
+      "options": [
+        "Chaining",
+        "Recursion only",
+        "Binary search only",
+        "Sorting"
+      ],
+      "answer": "Chaining",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 135,
+      "question": "What is a graph made of? [Practice 135]",
+      "options": [
+        "Vertices and edges",
+        "Stacks and queues",
+        "Arrays only",
+        "Roots and leaves only"
+      ],
+      "answer": "Vertices and edges",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 136,
+      "question": "What is a graph vertex? [Practice 136]",
+      "options": [
+        "A node",
+        "An edge",
+        "A weight only",
+        "A path only"
+      ],
+      "answer": "A node",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 137,
+      "question": "What is a graph edge? [Practice 137]",
+      "options": [
+        "A connection between vertices",
+        "A vertex",
+        "A root",
+        "A queue"
+      ],
+      "answer": "A connection between vertices",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 138,
+      "question": "What is a directed graph? [Practice 138]",
+      "options": [
+        "Edges have direction",
+        "All edges are weighted",
+        "No edges exist",
+        "Every vertex has two children"
+      ],
+      "answer": "Edges have direction",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 139,
+      "question": "What is an undirected graph? [Practice 139]",
+      "options": [
+        "Edges have no direction",
+        "Edges always point to root",
+        "It has no vertices",
+        "All edges have weights"
+      ],
+      "answer": "Edges have no direction",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 140,
+      "question": "What is a weighted graph? [Practice 140]",
+      "options": [
+        "Edges or vertices have associated weights",
+        "Only vertices exist",
+        "All nodes are leaves",
+        "It must be a tree"
+      ],
+      "answer": "Edges or vertices have associated weights",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 141,
+      "question": "Which algorithm finds shortest paths from a source with non-negative edge weights? [Practice 141]",
+      "options": [
+        "Dijkstra's algorithm",
+        "DFS",
+        "Binary search",
+        "Bubble sort"
+      ],
+      "answer": "Dijkstra's algorithm",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 142,
+      "question": "Which algorithm is useful for shortest paths with negative edges but no negative cycle? [Practice 142]",
+      "options": [
+        "Bellman-Ford",
+        "Binary search",
+        "BFS only",
+        "Heap sort"
+      ],
+      "answer": "Bellman-Ford",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 143,
+      "question": "Which algorithm finds a minimum spanning tree? [Practice 143]",
+      "options": [
+        "Kruskal's algorithm",
+        "DFS only",
+        "Binary search",
+        "Linear search"
+      ],
+      "answer": "Kruskal's algorithm",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 144,
+      "question": "Which other algorithm finds a minimum spanning tree? [Practice 144]",
+      "options": [
+        "Prim's algorithm",
+        "Merge sort",
+        "BFS only",
+        "Hashing"
+      ],
+      "answer": "Prim's algorithm",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 145,
+      "question": "What does BFS use to track frontier? [Practice 145]",
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap",
+        "Tree"
+      ],
+      "answer": "Queue",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 146,
+      "question": "What does DFS use in its iterative form? [Practice 146]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Hash map only"
+      ],
+      "answer": "Stack",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 147,
+      "question": "What is recursion depth related to? [Practice 147]",
+      "options": [
+        "Call stack usage",
+        "Array length only",
+        "Hash collisions",
+        "Graph weights"
+      ],
+      "answer": "Call stack usage",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 148,
+      "question": "What is a circular queue? [Practice 148]",
+      "options": [
+        "A queue whose end wraps to the beginning",
+        "A queue with no elements",
+        "A stack with two tops",
+        "A tree queue"
+      ],
+      "answer": "A queue whose end wraps to the beginning",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 149,
+      "question": "What is a deque? [Practice 149]",
+      "options": [
+        "Double-ended queue",
+        "Double-ended tree",
+        "Dynamic equation",
+        "Data encoder"
+      ],
+      "answer": "Double-ended queue",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 150,
+      "question": "Which structure allows insertion/removal at both ends? [Practice 150]",
+      "options": [
+        "Deque",
+        "Stack only",
+        "BST",
+        "Heap only"
+      ],
+      "answer": "Deque",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 151,
+      "question": "What is a sparse matrix? [Practice 151]",
+      "options": [
+        "A matrix with mostly zero/empty values",
+        "A matrix with all values nonzero",
+        "A sorted matrix only",
+        "A triangular matrix"
+      ],
+      "answer": "A matrix with mostly zero/empty values",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 152,
+      "question": "What is an adjacency matrix used to represent? [Practice 152]",
+      "options": [
+        "Graph connections",
+        "Stack calls",
+        "Linked list nodes only",
+        "Heap levels only"
+      ],
+      "answer": "Graph connections",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 153,
+      "question": "What is an adjacency list? [Practice 153]",
+      "options": [
+        "A list of neighbors for each vertex",
+        "A sorted array only",
+        "A stack of edges",
+        "A heap"
+      ],
+      "answer": "A list of neighbors for each vertex",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 154,
+      "question": "Which graph representation is often space-efficient for sparse graphs? [Practice 154]",
+      "options": [
+        "Adjacency list",
+        "Adjacency matrix",
+        "2D array always",
+        "Stack"
+      ],
+      "answer": "Adjacency list",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 155,
+      "question": "What is a cycle in a graph? [Practice 155]",
+      "options": [
+        "A path that returns to a previously visited vertex",
+        "A graph with no edges",
+        "A tree root",
+        "A sorted list"
+      ],
+      "answer": "A path that returns to a previously visited vertex",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 156,
+      "question": "What is a connected graph? [Practice 156]",
+      "options": [
+        "A path exists between every pair of vertices in an undirected graph",
+        "It has one vertex only",
+        "It has no edges",
+        "Every edge is directed"
+      ],
+      "answer": "A path exists between every pair of vertices in an undirected graph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 157,
+      "question": "What is a DAG? [Practice 157]",
+      "options": [
+        "Directed acyclic graph",
+        "Dynamic array graph",
+        "Data access graph",
+        "Double adjacency graph"
+      ],
+      "answer": "Directed acyclic graph",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 158,
+      "question": "Which data structure can efficiently represent hierarchical data? [Practice 158]",
+      "options": [
+        "Tree",
+        "Queue",
+        "Stack",
+        "Array only"
+      ],
+      "answer": "Tree",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 159,
+      "question": "What is a balanced tree? [Practice 159]",
+      "options": [
+        "A tree whose height is kept relatively small",
+        "A tree with equal values",
+        "A tree with no leaves",
+        "A tree with one node"
+      ],
+      "answer": "A tree whose height is kept relatively small",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 160,
+      "question": "What is an AVL tree? [Practice 160]",
+      "options": [
+        "A self-balancing binary search tree",
+        "A graph algorithm",
+        "A queue",
+        "A hash table"
+      ],
+      "answer": "A self-balancing binary search tree",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 161,
+      "question": "What is a red-black tree? [Practice 161]",
+      "options": [
+        "A self-balancing binary search tree",
+        "A sorting algorithm",
+        "A graph representation",
+        "A queue"
+      ],
+      "answer": "A self-balancing binary search tree",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 162,
+      "question": "What is a trie mainly used for? [Practice 162]",
+      "options": [
+        "Prefix-based string lookup",
+        "Numerical sorting only",
+        "Graph coloring",
+        "Stack operations"
+      ],
+      "answer": "Prefix-based string lookup",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 163,
+      "question": "What is dynamic programming? [Practice 163]",
+      "options": [
+        "Solving overlapping subproblems and storing results",
+        "Using only dynamic arrays",
+        "Sorting dynamically",
+        "Using recursion without memory"
+      ],
+      "answer": "Solving overlapping subproblems and storing results",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 164,
+      "question": "What is memoization? [Practice 164]",
+      "options": [
+        "Caching results of subproblems",
+        "Deleting duplicate data",
+        "Sorting a cache",
+        "Building a heap"
+      ],
+      "answer": "Caching results of subproblems",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 165,
+      "question": "What is tabulation? [Practice 165]",
+      "options": [
+        "Bottom-up dynamic programming",
+        "Hashing strings",
+        "Tree traversal only",
+        "Graph coloring only"
+      ],
+      "answer": "Bottom-up dynamic programming",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 166,
+      "question": "What is a greedy algorithm? [Practice 166]",
+      "options": [
+        "Makes the best local choice at each step",
+        "Always uses recursion",
+        "Always uses a queue",
+        "Only sorts arrays"
+      ],
+      "answer": "Makes the best local choice at each step",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 167,
+      "question": "What is divide and conquer? [Practice 167]",
+      "options": [
+        "Divide problem, solve subproblems, combine results",
+        "Use only one loop",
+        "Build a graph",
+        "Store all data in a stack"
+      ],
+      "answer": "Divide problem, solve subproblems, combine results",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 168,
+      "question": "Which sorting algorithm repeatedly selects a minimum/maximum element? [Practice 168]",
+      "options": [
+        "Selection sort",
+        "Merge sort",
+        "Heap sort",
+        "Quick sort"
+      ],
+      "answer": "Selection sort",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 169,
+      "question": "Which sorting algorithm repeatedly swaps adjacent out-of-order elements? [Practice 169]",
+      "options": [
+        "Bubble sort",
+        "Merge sort",
+        "Heap sort",
+        "Radix sort"
+      ],
+      "answer": "Bubble sort",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 170,
+      "question": "Which sorting algorithm divides data around a pivot? [Practice 170]",
+      "options": [
+        "Quick sort",
+        "Bubble sort",
+        "Selection sort",
+        "Counting sort"
+      ],
+      "answer": "Quick sort",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 171,
+      "question": "Which sorting algorithm merges sorted halves? [Practice 171]",
+      "options": [
+        "Merge sort",
+        "Quick sort",
+        "Bubble sort",
+        "Selection sort"
+      ],
+      "answer": "Merge sort",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 172,
+      "question": "What is the average time complexity of quicksort? [Practice 172]",
+      "options": [
+        "O(n log n)",
+        "O(n)",
+        "O(n²)",
+        "O(log n)"
+      ],
+      "answer": "O(n log n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 173,
+      "question": "What is the worst-case time complexity of quicksort? [Practice 173]",
+      "options": [
+        "O(n²)",
+        "O(n log n)",
+        "O(log n)",
+        "O(n)"
+      ],
+      "answer": "O(n²)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 174,
+      "question": "What is merge sort time complexity? [Practice 174]",
+      "options": [
+        "O(n log n)",
+        "O(n²)",
+        "O(log n)",
+        "O(n)"
+      ],
+      "answer": "O(n log n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 175,
+      "question": "What is bubble sort worst-case complexity? [Practice 175]",
+      "options": [
+        "O(n²)",
+        "O(n log n)",
+        "O(log n)",
+        "O(1)"
+      ],
+      "answer": "O(n²)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 176,
+      "question": "What is insertion sort best-case complexity for an already sorted array? [Practice 176]",
+      "options": [
+        "O(n)",
+        "O(n²)",
+        "O(log n)",
+        "O(1)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 177,
+      "question": "Which sorting algorithm is stable by standard implementation? [Practice 177]",
+      "options": [
+        "Merge sort",
+        "Heap sort always",
+        "Selection sort always",
+        "Quick sort always"
+      ],
+      "answer": "Merge sort",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 178,
+      "question": "What is Big-O notation used for? [Practice 178]",
+      "options": [
+        "Describing growth of time or space complexity",
+        "Writing comments",
+        "Declaring variables",
+        "Creating classes"
+      ],
+      "answer": "Describing growth of time or space complexity",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 179,
+      "question": "What does O(1) mean? [Practice 179]",
+      "options": [
+        "Constant growth",
+        "Linear growth",
+        "Quadratic growth",
+        "Logarithmic growth"
+      ],
+      "answer": "Constant growth",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 180,
+      "question": "What does O(n) mean? [Practice 180]",
+      "options": [
+        "Linear growth",
+        "Constant growth",
+        "Quadratic growth",
+        "Exponential growth"
+      ],
+      "answer": "Linear growth",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 181,
+      "question": "What does O(n²) mean? [Practice 181]",
+      "options": [
+        "Quadratic growth",
+        "Linear growth",
+        "Constant growth",
+        "Logarithmic growth"
+      ],
+      "answer": "Quadratic growth",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 182,
+      "question": "What does O(log n) usually indicate? [Practice 182]",
+      "options": [
+        "Logarithmic growth",
+        "Quadratic growth",
+        "Constant growth",
+        "Exponential growth"
+      ],
+      "answer": "Logarithmic growth",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 183,
+      "question": "What is space complexity? [Practice 183]",
+      "options": [
+        "Memory used as input size grows",
+        "Execution time only",
+        "Number of functions",
+        "Number of files"
+      ],
+      "answer": "Memory used as input size grows",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 184,
+      "question": "What is an abstract data type? [Practice 184]",
+      "options": [
+        "A logical model defined by operations and behavior",
+        "A Python class only",
+        "A physical memory address",
+        "A compiler"
+      ],
+      "answer": "A logical model defined by operations and behavior",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 185,
+      "question": "What is a priority queue? [Practice 185]",
+      "options": [
+        "Elements are served by priority",
+        "Elements are always FIFO",
+        "Elements are always LIFO",
+        "Elements are randomly served"
+      ],
+      "answer": "Elements are served by priority",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 186,
+      "question": "What is the purpose of a sentinel node in a linked list? [Practice 186]",
+      "options": [
+        "Simplify boundary cases",
+        "Store the largest value",
+        "Sort the list",
+        "Create a queue"
+      ],
+      "answer": "Simplify boundary cases",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 187,
+      "question": "What is a circular linked list? [Practice 187]",
+      "options": [
+        "Last node points back to the first node",
+        "First node points to null",
+        "Every node has two previous nodes",
+        "It has no links"
+      ],
+      "answer": "Last node points back to the first node",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 188,
+      "question": "What is the main disadvantage of an array compared with a linked list for middle insertion? [Practice 188]",
+      "options": [
+        "Elements may need shifting",
+        "Arrays cannot store numbers",
+        "Arrays cannot be indexed",
+        "Arrays cannot be traversed"
+      ],
+      "answer": "Elements may need shifting",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 189,
+      "question": "What is the usual search complexity in an unsorted linked list? [Practice 189]",
+      "options": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 190,
+      "question": "What is the usual access complexity by position in a linked list? [Practice 190]",
+      "options": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 191,
+      "question": "Which structure is suitable for undo operations? [Practice 191]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Graph",
+        "Trie"
+      ],
+      "answer": "Stack",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 192,
+      "question": "Which structure is suitable for printer job scheduling? [Practice 192]",
+      "options": [
+        "Queue",
+        "Stack",
+        "Tree",
+        "Trie"
+      ],
+      "answer": "Queue",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 193,
+      "question": "Which structure can implement browser back navigation? [Practice 193]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Graph"
+      ],
+      "answer": "Stack",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 194,
+      "question": "Which structure is useful for autocomplete? [Practice 194]",
+      "options": [
+        "Trie",
+        "Stack",
+        "Queue",
+        "Heap"
+      ],
+      "answer": "Trie",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 195,
+      "question": "What is a data structure? [Practice 195]",
+      "options": [
+        "A way to organize and store data",
+        "A programming language",
+        "An operating system",
+        "A compiler"
+      ],
+      "answer": "A way to organize and store data",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 196,
+      "question": "Which data structure follows FIFO? [Practice 196]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Tree",
+        "Graph"
+      ],
+      "answer": "Queue",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 197,
+      "question": "Which data structure follows LIFO? [Practice 197]",
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap",
+        "Graph"
+      ],
+      "answer": "Stack",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 198,
+      "question": "Which structure stores elements in contiguous positions conceptually? [Practice 198]",
+      "options": [
+        "Array",
+        "Graph",
+        "Tree",
+        "Hash table"
+      ],
+      "answer": "Array",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 199,
+      "question": "Which structure stores key-value pairs? [Practice 199]",
+      "options": [
+        "Array",
+        "Stack",
+        "Dictionary/Hash table",
+        "Queue"
+      ],
+      "answer": "Dictionary/Hash table",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 200,
+      "question": "What is the first index of a typical zero-based array? [Practice 200]",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "2"
+      ],
+      "answer": "0",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 201,
+      "question": "What is the time complexity of accessing an array element by index? [Practice 201]",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(1)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 202,
+      "question": "What is the usual time complexity of linear search? [Practice 202]",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 203,
+      "question": "Which search requires sorted data? [Practice 203]",
+      "options": [
+        "Linear search",
+        "Binary search",
+        "DFS",
+        "BFS"
+      ],
+      "answer": "Binary search",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 204,
+      "question": "What is binary search time complexity on a sorted array? [Practice 204]",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n²)",
+        "O(1)"
+      ],
+      "answer": "O(log n)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 205,
+      "question": "Which data structure is best for function call management? [Practice 205]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Graph",
+        "Heap"
+      ],
+      "answer": "Stack",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 206,
+      "question": "Which data structure is commonly used for BFS? [Practice 206]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Array only",
+        "Heap"
+      ],
+      "answer": "Queue",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 207,
+      "question": "Which data structure is commonly used for DFS? [Practice 207]",
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap only",
+        "Hash table"
+      ],
+      "answer": "Stack",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 208,
+      "question": "What is a linked list node usually made of? [Practice 208]",
+      "options": [
+        "Data and link/reference",
+        "Only data",
+        "Only index",
+        "Two arrays"
+      ],
+      "answer": "Data and link/reference",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 209,
+      "question": "What does a singly linked list node point to? [Practice 209]",
+      "options": [
+        "Previous node only",
+        "Next node",
+        "Root only",
+        "Any random node"
+      ],
+      "answer": "Next node",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 210,
+      "question": "What does a doubly linked list node usually contain? [Practice 210]",
+      "options": [
+        "Only next",
+        "Previous and next references",
+        "Only previous",
+        "No references"
+      ],
+      "answer": "Previous and next references",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 211,
+      "question": "What is the head of a linked list? [Practice 211]",
+      "options": [
+        "Last node",
+        "First node/reference to first node",
+        "Middle node",
+        "Largest node"
+      ],
+      "answer": "First node/reference to first node",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 212,
+      "question": "What is the tail of a linked list? [Practice 212]",
+      "options": [
+        "First node",
+        "Last node",
+        "Root node",
+        "Random node"
+      ],
+      "answer": "Last node",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 213,
+      "question": "What is insertion at the head of a linked list usually? [Practice 213]",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(1)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 214,
+      "question": "Which structure represents hierarchical relationships? [Practice 214]",
+      "options": [
+        "Tree",
+        "Queue",
+        "Stack",
+        "Array"
+      ],
+      "answer": "Tree",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 215,
+      "question": "What is the top node of a tree called? [Practice 215]",
+      "options": [
+        "Leaf",
+        "Root",
+        "Edge",
+        "Child"
+      ],
+      "answer": "Root",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 216,
+      "question": "What is a node with no children called? [Practice 216]",
+      "options": [
+        "Root",
+        "Leaf",
+        "Parent",
+        "Sibling"
+      ],
+      "answer": "Leaf",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 217,
+      "question": "What connects two nodes in a tree? [Practice 217]",
+      "options": [
+        "Edge",
+        "Index",
+        "Pointer only",
+        "Bucket"
+      ],
+      "answer": "Edge",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 218,
+      "question": "A binary tree node can have at most how many children? [Practice 218]",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Unlimited"
+      ],
+      "answer": "2",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 219,
+      "question": "What is a binary search tree property? [Practice 219]",
+      "options": [
+        "Left values are smaller and right values are larger, typically",
+        "All nodes have two children",
+        "It must be complete",
+        "It stores only strings"
+      ],
+      "answer": "Left values are smaller and right values are larger, typically",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 220,
+      "question": "Which traversal visits Root, Left, Right? [Practice 220]",
+      "options": [
+        "Inorder",
+        "Preorder",
+        "Postorder",
+        "Level order"
+      ],
+      "answer": "Preorder",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 221,
+      "question": "Which traversal visits Left, Root, Right? [Practice 221]",
+      "options": [
+        "Preorder",
+        "Inorder",
+        "Postorder",
+        "Reverse"
+      ],
+      "answer": "Inorder",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 222,
+      "question": "Which traversal visits Left, Right, Root? [Practice 222]",
+      "options": [
+        "Preorder",
+        "Inorder",
+        "Postorder",
+        "Level order"
+      ],
+      "answer": "Postorder",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 223,
+      "question": "Which traversal processes nodes level by level? [Practice 223]",
+      "options": [
+        "Level order",
+        "Postorder",
+        "Inorder",
+        "Preorder"
+      ],
+      "answer": "Level order",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 224,
+      "question": "Which data structure is commonly used to implement a priority queue? [Practice 224]",
+      "options": [
+        "Heap",
+        "Stack",
+        "Linked list only",
+        "Graph"
+      ],
+      "answer": "Heap",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 225,
+      "question": "In a min-heap, the smallest element is at the? [Practice 225]",
+      "options": [
+        "Root",
+        "Last leaf",
+        "Middle",
+        "Any node"
+      ],
+      "answer": "Root",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 226,
+      "question": "In a max-heap, the largest element is at the? [Practice 226]",
+      "options": [
+        "Root",
+        "Last leaf",
+        "Middle",
+        "Any node"
+      ],
+      "answer": "Root",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 227,
+      "question": "What is the typical insertion complexity in a binary heap? [Practice 227]",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": "O(log n)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 228,
+      "question": "What is the typical extract-min complexity in a binary heap? [Practice 228]",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": "O(log n)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 229,
+      "question": "What is hashing used for? [Practice 229]",
+      "options": [
+        "Fast key-based lookup",
+        "Sorting only",
+        "Tree traversal only",
+        "Memory deletion"
+      ],
+      "answer": "Fast key-based lookup",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 230,
+      "question": "What is a hash collision? [Practice 230]",
+      "options": [
+        "Two keys map to the same hash location",
+        "A program crash",
+        "Two arrays merge",
+        "A tree becomes cyclic"
+      ],
+      "answer": "Two keys map to the same hash location",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 231,
+      "question": "Which is a common collision resolution method? [Practice 231]",
+      "options": [
+        "Chaining",
+        "Recursion only",
+        "Binary search only",
+        "Sorting"
+      ],
+      "answer": "Chaining",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 232,
+      "question": "What is a graph made of? [Practice 232]",
+      "options": [
+        "Vertices and edges",
+        "Stacks and queues",
+        "Arrays only",
+        "Roots and leaves only"
+      ],
+      "answer": "Vertices and edges",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 233,
+      "question": "What is a graph vertex? [Practice 233]",
+      "options": [
+        "A node",
+        "An edge",
+        "A weight only",
+        "A path only"
+      ],
+      "answer": "A node",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 234,
+      "question": "What is a graph edge? [Practice 234]",
+      "options": [
+        "A connection between vertices",
+        "A vertex",
+        "A root",
+        "A queue"
+      ],
+      "answer": "A connection between vertices",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 235,
+      "question": "What is a directed graph? [Practice 235]",
+      "options": [
+        "Edges have direction",
+        "All edges are weighted",
+        "No edges exist",
+        "Every vertex has two children"
+      ],
+      "answer": "Edges have direction",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 236,
+      "question": "What is an undirected graph? [Practice 236]",
+      "options": [
+        "Edges have no direction",
+        "Edges always point to root",
+        "It has no vertices",
+        "All edges have weights"
+      ],
+      "answer": "Edges have no direction",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 237,
+      "question": "What is a weighted graph? [Practice 237]",
+      "options": [
+        "Edges or vertices have associated weights",
+        "Only vertices exist",
+        "All nodes are leaves",
+        "It must be a tree"
+      ],
+      "answer": "Edges or vertices have associated weights",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 238,
+      "question": "Which algorithm finds shortest paths from a source with non-negative edge weights? [Practice 238]",
+      "options": [
+        "Dijkstra's algorithm",
+        "DFS",
+        "Binary search",
+        "Bubble sort"
+      ],
+      "answer": "Dijkstra's algorithm",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 239,
+      "question": "Which algorithm is useful for shortest paths with negative edges but no negative cycle? [Practice 239]",
+      "options": [
+        "Bellman-Ford",
+        "Binary search",
+        "BFS only",
+        "Heap sort"
+      ],
+      "answer": "Bellman-Ford",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 240,
+      "question": "Which algorithm finds a minimum spanning tree? [Practice 240]",
+      "options": [
+        "Kruskal's algorithm",
+        "DFS only",
+        "Binary search",
+        "Linear search"
+      ],
+      "answer": "Kruskal's algorithm",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 241,
+      "question": "Which other algorithm finds a minimum spanning tree? [Practice 241]",
+      "options": [
+        "Prim's algorithm",
+        "Merge sort",
+        "BFS only",
+        "Hashing"
+      ],
+      "answer": "Prim's algorithm",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 242,
+      "question": "What does BFS use to track frontier? [Practice 242]",
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap",
+        "Tree"
+      ],
+      "answer": "Queue",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 243,
+      "question": "What does DFS use in its iterative form? [Practice 243]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Hash map only"
+      ],
+      "answer": "Stack",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 244,
+      "question": "What is recursion depth related to? [Practice 244]",
+      "options": [
+        "Call stack usage",
+        "Array length only",
+        "Hash collisions",
+        "Graph weights"
+      ],
+      "answer": "Call stack usage",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 245,
+      "question": "What is a circular queue? [Practice 245]",
+      "options": [
+        "A queue whose end wraps to the beginning",
+        "A queue with no elements",
+        "A stack with two tops",
+        "A tree queue"
+      ],
+      "answer": "A queue whose end wraps to the beginning",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 246,
+      "question": "What is a deque? [Practice 246]",
+      "options": [
+        "Double-ended queue",
+        "Double-ended tree",
+        "Dynamic equation",
+        "Data encoder"
+      ],
+      "answer": "Double-ended queue",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 247,
+      "question": "Which structure allows insertion/removal at both ends? [Practice 247]",
+      "options": [
+        "Deque",
+        "Stack only",
+        "BST",
+        "Heap only"
+      ],
+      "answer": "Deque",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 248,
+      "question": "What is a sparse matrix? [Practice 248]",
+      "options": [
+        "A matrix with mostly zero/empty values",
+        "A matrix with all values nonzero",
+        "A sorted matrix only",
+        "A triangular matrix"
+      ],
+      "answer": "A matrix with mostly zero/empty values",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 249,
+      "question": "What is an adjacency matrix used to represent? [Practice 249]",
+      "options": [
+        "Graph connections",
+        "Stack calls",
+        "Linked list nodes only",
+        "Heap levels only"
+      ],
+      "answer": "Graph connections",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 250,
+      "question": "What is an adjacency list? [Practice 250]",
+      "options": [
+        "A list of neighbors for each vertex",
+        "A sorted array only",
+        "A stack of edges",
+        "A heap"
+      ],
+      "answer": "A list of neighbors for each vertex",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 251,
+      "question": "Which graph representation is often space-efficient for sparse graphs? [Practice 251]",
+      "options": [
+        "Adjacency list",
+        "Adjacency matrix",
+        "2D array always",
+        "Stack"
+      ],
+      "answer": "Adjacency list",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 252,
+      "question": "What is a cycle in a graph? [Practice 252]",
+      "options": [
+        "A path that returns to a previously visited vertex",
+        "A graph with no edges",
+        "A tree root",
+        "A sorted list"
+      ],
+      "answer": "A path that returns to a previously visited vertex",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 253,
+      "question": "What is a connected graph? [Practice 253]",
+      "options": [
+        "A path exists between every pair of vertices in an undirected graph",
+        "It has one vertex only",
+        "It has no edges",
+        "Every edge is directed"
+      ],
+      "answer": "A path exists between every pair of vertices in an undirected graph",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 254,
+      "question": "What is a DAG? [Practice 254]",
+      "options": [
+        "Directed acyclic graph",
+        "Dynamic array graph",
+        "Data access graph",
+        "Double adjacency graph"
+      ],
+      "answer": "Directed acyclic graph",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 255,
+      "question": "Which data structure can efficiently represent hierarchical data? [Practice 255]",
+      "options": [
+        "Tree",
+        "Queue",
+        "Stack",
+        "Array only"
+      ],
+      "answer": "Tree",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 256,
+      "question": "What is a balanced tree? [Practice 256]",
+      "options": [
+        "A tree whose height is kept relatively small",
+        "A tree with equal values",
+        "A tree with no leaves",
+        "A tree with one node"
+      ],
+      "answer": "A tree whose height is kept relatively small",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 257,
+      "question": "What is an AVL tree? [Practice 257]",
+      "options": [
+        "A self-balancing binary search tree",
+        "A graph algorithm",
+        "A queue",
+        "A hash table"
+      ],
+      "answer": "A self-balancing binary search tree",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 258,
+      "question": "What is a red-black tree? [Practice 258]",
+      "options": [
+        "A self-balancing binary search tree",
+        "A sorting algorithm",
+        "A graph representation",
+        "A queue"
+      ],
+      "answer": "A self-balancing binary search tree",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 259,
+      "question": "What is a trie mainly used for? [Practice 259]",
+      "options": [
+        "Prefix-based string lookup",
+        "Numerical sorting only",
+        "Graph coloring",
+        "Stack operations"
+      ],
+      "answer": "Prefix-based string lookup",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 260,
+      "question": "What is dynamic programming? [Practice 260]",
+      "options": [
+        "Solving overlapping subproblems and storing results",
+        "Using only dynamic arrays",
+        "Sorting dynamically",
+        "Using recursion without memory"
+      ],
+      "answer": "Solving overlapping subproblems and storing results",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 261,
+      "question": "What is memoization? [Practice 261]",
+      "options": [
+        "Caching results of subproblems",
+        "Deleting duplicate data",
+        "Sorting a cache",
+        "Building a heap"
+      ],
+      "answer": "Caching results of subproblems",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 262,
+      "question": "What is tabulation? [Practice 262]",
+      "options": [
+        "Bottom-up dynamic programming",
+        "Hashing strings",
+        "Tree traversal only",
+        "Graph coloring only"
+      ],
+      "answer": "Bottom-up dynamic programming",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 263,
+      "question": "What is a greedy algorithm? [Practice 263]",
+      "options": [
+        "Makes the best local choice at each step",
+        "Always uses recursion",
+        "Always uses a queue",
+        "Only sorts arrays"
+      ],
+      "answer": "Makes the best local choice at each step",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 264,
+      "question": "What is divide and conquer? [Practice 264]",
+      "options": [
+        "Divide problem, solve subproblems, combine results",
+        "Use only one loop",
+        "Build a graph",
+        "Store all data in a stack"
+      ],
+      "answer": "Divide problem, solve subproblems, combine results",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 265,
+      "question": "Which sorting algorithm repeatedly selects a minimum/maximum element? [Practice 265]",
+      "options": [
+        "Selection sort",
+        "Merge sort",
+        "Heap sort",
+        "Quick sort"
+      ],
+      "answer": "Selection sort",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 266,
+      "question": "Which sorting algorithm repeatedly swaps adjacent out-of-order elements? [Practice 266]",
+      "options": [
+        "Bubble sort",
+        "Merge sort",
+        "Heap sort",
+        "Radix sort"
+      ],
+      "answer": "Bubble sort",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 267,
+      "question": "Which sorting algorithm divides data around a pivot? [Practice 267]",
+      "options": [
+        "Quick sort",
+        "Bubble sort",
+        "Selection sort",
+        "Counting sort"
+      ],
+      "answer": "Quick sort",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 268,
+      "question": "Which sorting algorithm merges sorted halves? [Practice 268]",
+      "options": [
+        "Merge sort",
+        "Quick sort",
+        "Bubble sort",
+        "Selection sort"
+      ],
+      "answer": "Merge sort",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 269,
+      "question": "What is the average time complexity of quicksort? [Practice 269]",
+      "options": [
+        "O(n log n)",
+        "O(n)",
+        "O(n²)",
+        "O(log n)"
+      ],
+      "answer": "O(n log n)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 270,
+      "question": "What is the worst-case time complexity of quicksort? [Practice 270]",
+      "options": [
+        "O(n²)",
+        "O(n log n)",
+        "O(log n)",
+        "O(n)"
+      ],
+      "answer": "O(n²)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 271,
+      "question": "What is merge sort time complexity? [Practice 271]",
+      "options": [
+        "O(n log n)",
+        "O(n²)",
+        "O(log n)",
+        "O(n)"
+      ],
+      "answer": "O(n log n)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 272,
+      "question": "What is bubble sort worst-case complexity? [Practice 272]",
+      "options": [
+        "O(n²)",
+        "O(n log n)",
+        "O(log n)",
+        "O(1)"
+      ],
+      "answer": "O(n²)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 273,
+      "question": "What is insertion sort best-case complexity for an already sorted array? [Practice 273]",
+      "options": [
+        "O(n)",
+        "O(n²)",
+        "O(log n)",
+        "O(1)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 274,
+      "question": "Which sorting algorithm is stable by standard implementation? [Practice 274]",
+      "options": [
+        "Merge sort",
+        "Heap sort always",
+        "Selection sort always",
+        "Quick sort always"
+      ],
+      "answer": "Merge sort",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 275,
+      "question": "What is Big-O notation used for? [Practice 275]",
+      "options": [
+        "Describing growth of time or space complexity",
+        "Writing comments",
+        "Declaring variables",
+        "Creating classes"
+      ],
+      "answer": "Describing growth of time or space complexity",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 276,
+      "question": "What does O(1) mean? [Practice 276]",
+      "options": [
+        "Constant growth",
+        "Linear growth",
+        "Quadratic growth",
+        "Logarithmic growth"
+      ],
+      "answer": "Constant growth",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 277,
+      "question": "What does O(n) mean? [Practice 277]",
+      "options": [
+        "Linear growth",
+        "Constant growth",
+        "Quadratic growth",
+        "Exponential growth"
+      ],
+      "answer": "Linear growth",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 278,
+      "question": "What does O(n²) mean? [Practice 278]",
+      "options": [
+        "Quadratic growth",
+        "Linear growth",
+        "Constant growth",
+        "Logarithmic growth"
+      ],
+      "answer": "Quadratic growth",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 279,
+      "question": "What does O(log n) usually indicate? [Practice 279]",
+      "options": [
+        "Logarithmic growth",
+        "Quadratic growth",
+        "Constant growth",
+        "Exponential growth"
+      ],
+      "answer": "Logarithmic growth",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 280,
+      "question": "What is space complexity? [Practice 280]",
+      "options": [
+        "Memory used as input size grows",
+        "Execution time only",
+        "Number of functions",
+        "Number of files"
+      ],
+      "answer": "Memory used as input size grows",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 281,
+      "question": "What is an abstract data type? [Practice 281]",
+      "options": [
+        "A logical model defined by operations and behavior",
+        "A Python class only",
+        "A physical memory address",
+        "A compiler"
+      ],
+      "answer": "A logical model defined by operations and behavior",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 282,
+      "question": "What is a priority queue? [Practice 282]",
+      "options": [
+        "Elements are served by priority",
+        "Elements are always FIFO",
+        "Elements are always LIFO",
+        "Elements are randomly served"
+      ],
+      "answer": "Elements are served by priority",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 283,
+      "question": "What is the purpose of a sentinel node in a linked list? [Practice 283]",
+      "options": [
+        "Simplify boundary cases",
+        "Store the largest value",
+        "Sort the list",
+        "Create a queue"
+      ],
+      "answer": "Simplify boundary cases",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 284,
+      "question": "What is a circular linked list? [Practice 284]",
+      "options": [
+        "Last node points back to the first node",
+        "First node points to null",
+        "Every node has two previous nodes",
+        "It has no links"
+      ],
+      "answer": "Last node points back to the first node",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 285,
+      "question": "What is the main disadvantage of an array compared with a linked list for middle insertion? [Practice 285]",
+      "options": [
+        "Elements may need shifting",
+        "Arrays cannot store numbers",
+        "Arrays cannot be indexed",
+        "Arrays cannot be traversed"
+      ],
+      "answer": "Elements may need shifting",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 286,
+      "question": "What is the usual search complexity in an unsorted linked list? [Practice 286]",
+      "options": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 287,
+      "question": "What is the usual access complexity by position in a linked list? [Practice 287]",
+      "options": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 288,
+      "question": "Which structure is suitable for undo operations? [Practice 288]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Graph",
+        "Trie"
+      ],
+      "answer": "Stack",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 289,
+      "question": "Which structure is suitable for printer job scheduling? [Practice 289]",
+      "options": [
+        "Queue",
+        "Stack",
+        "Tree",
+        "Trie"
+      ],
+      "answer": "Queue",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 290,
+      "question": "Which structure can implement browser back navigation? [Practice 290]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Graph"
+      ],
+      "answer": "Stack",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 291,
+      "question": "Which structure is useful for autocomplete? [Practice 291]",
+      "options": [
+        "Trie",
+        "Stack",
+        "Queue",
+        "Heap"
+      ],
+      "answer": "Trie",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 292,
+      "question": "What is a data structure? [Practice 292]",
+      "options": [
+        "A way to organize and store data",
+        "A programming language",
+        "An operating system",
+        "A compiler"
+      ],
+      "answer": "A way to organize and store data",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 293,
+      "question": "Which data structure follows FIFO? [Practice 293]",
+      "options": [
+        "Stack",
+        "Queue",
+        "Tree",
+        "Graph"
+      ],
+      "answer": "Queue",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 294,
+      "question": "Which data structure follows LIFO? [Practice 294]",
+      "options": [
+        "Queue",
+        "Stack",
+        "Heap",
+        "Graph"
+      ],
+      "answer": "Stack",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 295,
+      "question": "Which structure stores elements in contiguous positions conceptually? [Practice 295]",
+      "options": [
+        "Array",
+        "Graph",
+        "Tree",
+        "Hash table"
+      ],
+      "answer": "Array",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 296,
+      "question": "Which structure stores key-value pairs? [Practice 296]",
+      "options": [
+        "Array",
+        "Stack",
+        "Dictionary/Hash table",
+        "Queue"
+      ],
+      "answer": "Dictionary/Hash table",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 297,
+      "question": "What is the first index of a typical zero-based array? [Practice 297]",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "2"
+      ],
+      "answer": "0",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 298,
+      "question": "What is the time complexity of accessing an array element by index? [Practice 298]",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(1)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 299,
+      "question": "What is the usual time complexity of linear search? [Practice 299]",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 300,
+      "question": "Which search requires sorted data? [Practice 300]",
+      "options": [
+        "Linear search",
+        "Binary search",
+        "DFS",
+        "BFS"
+      ],
+      "answer": "Binary search",
+      "difficulty": "Hard"
+    }
+  ]
+}

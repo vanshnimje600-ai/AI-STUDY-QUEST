@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Study Quest - Result</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/result.css') }}">
+</head>
+
+<body>
+
+<div class="result-page">
+
+    <div class="result-card">
+
+        <div class="trophy">🏆</div>
+
+        <h1>Quiz Completed!</h1>
+
+        <p class="subtitle">
+            Great job! Here is your performance.
+        </p>
+
+        <div class="score-circle">
+            <div class="score">
+                {{ score }}/{{ total }}
+            </div>
+
+            <div class="score-label">
+                Score
+            </div>
+        </div>
+
+        <div class="stats">
+
+            <div class="stat">
+                <span>📊</span>
+                <strong>{{ percentage }}%</strong>
+                <small>Percentage</small>
+            </div>
+
+            <div class="stat">
+                <span>✅</span>
+                <strong>{{ score }}</strong>
+                <small>Correct</small>
+            </div>
+
+            <div class="stat">
+                <span>❌</span>
+                <strong>{{ wrong }}</strong>
+                <small>Wrong</small>
+            </div>
+
+        </div>
+
+
+        {% if wrong_answers %}
+
+        <div class="wrong-section">
+
+            <h2>Review Wrong Answers</h2>
+
+            {% for item in wrong_answers %}
+
+            <div class="wrong-card">
+
+                <p class="wrong-question">
+                    {{ loop.index }}. {{ item.question }}
+                </p>
+
+                <p class="your-answer">
+                    Your answer:
+                    <span>{{ item.your_answer }}</span>
+                </p>
+
+                <p class="correct-answer">
+                    Correct answer:
+                    <span>{{ item.correct_answer }}</span>
+                </p>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+        {% endif %}
+
+
+        <div class="buttons">
+
+            <a href="{{ url_for('subjects') }}"
+               class="btn primary">
+                🎮 Play Again
+            </a>
+
+            <a href="{{ url_for('leaderboard') }}"
+               class="btn secondary">
+                🏆 Leaderboard
+            </a>
+
+            <a href="{{ url_for('history') }}"
+               class="btn secondary">
+                📚 History
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

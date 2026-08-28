@@ -1,0 +1,3304 @@
+{
+  "questions": [
+    {
+      "question": "DBMS stands for?",
+      "options": [
+        "Database Management System",
+        "Data Backup Management Service",
+        "Database Memory System",
+        "Data Business Management System"
+      ],
+      "answer": "Database Management System",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a database?",
+      "options": [
+        "An organized collection of data",
+        "A programming language",
+        "A network cable",
+        "A CPU register"
+      ],
+      "answer": "An organized collection of data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which language is commonly used for relational databases?",
+      "options": [
+        "SQL",
+        "HTML",
+        "CSS",
+        "XML"
+      ],
+      "answer": "SQL",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is data redundancy?",
+      "options": [
+        "Unnecessary duplication of data",
+        "Data encryption",
+        "Data compression",
+        "Data deletion"
+      ],
+      "answer": "Unnecessary duplication of data",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is metadata?",
+      "options": [
+        "Data about data",
+        "Deleted data",
+        "Only passwords",
+        "Temporary data"
+      ],
+      "answer": "Data about data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a database schema?",
+      "options": [
+        "Logical structure of a database",
+        "A backup file",
+        "A programming loop",
+        "A network cable"
+      ],
+      "answer": "Logical structure of a database",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a database instance?",
+      "options": [
+        "Data stored at a particular time",
+        "Database design only",
+        "A SQL keyword",
+        "A server cable"
+      ],
+      "answer": "Data stored at a particular time",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a table in the relational model?",
+      "options": [
+        "A relation",
+        "A tuple",
+        "An attribute",
+        "A domain"
+      ],
+      "answer": "A relation",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a row in a relational table called?",
+      "options": [
+        "Tuple",
+        "Attribute",
+        "Domain",
+        "Schema"
+      ],
+      "answer": "Tuple",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a column in a relational table called?",
+      "options": [
+        "Attribute",
+        "Tuple",
+        "Relation",
+        "Record"
+      ],
+      "answer": "Attribute",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What uniquely identifies a row?",
+      "options": [
+        "Primary key",
+        "View",
+        "Index only",
+        "Database name"
+      ],
+      "answer": "Primary key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What does a foreign key do?",
+      "options": [
+        "References a key in another table",
+        "Stores passwords",
+        "Sorts rows",
+        "Deletes tables"
+      ],
+      "answer": "References a key in another table",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a candidate key?",
+      "options": [
+        "A key that can uniquely identify tuples",
+        "A password",
+        "A view",
+        "A table name"
+      ],
+      "answer": "A key that can uniquely identify tuples",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is an alternate key?",
+      "options": [
+        "A candidate key not chosen as primary key",
+        "A foreign key",
+        "A password",
+        "An index"
+      ],
+      "answer": "A candidate key not chosen as primary key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a composite key?",
+      "options": [
+        "A key made of multiple attributes",
+        "A password key",
+        "A foreign key only",
+        "A single attribute key"
+      ],
+      "answer": "A key made of multiple attributes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which command retrieves data?",
+      "options": [
+        "SELECT",
+        "INSERT",
+        "DELETE",
+        "UPDATE"
+      ],
+      "answer": "SELECT",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which command inserts rows?",
+      "options": [
+        "INSERT",
+        "SELECT",
+        "DROP",
+        "ALTER"
+      ],
+      "answer": "INSERT",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which command modifies rows?",
+      "options": [
+        "UPDATE",
+        "INSERT",
+        "CREATE",
+        "GRANT"
+      ],
+      "answer": "UPDATE",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which command removes rows?",
+      "options": [
+        "DELETE",
+        "DROP",
+        "ALTER",
+        "SELECT"
+      ],
+      "answer": "DELETE",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which command removes a table?",
+      "options": [
+        "DROP TABLE",
+        "DELETE TABLE",
+        "CLEAR TABLE",
+        "REMOVE TABLE"
+      ],
+      "answer": "DROP TABLE",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which clause filters rows?",
+      "options": [
+        "WHERE",
+        "ORDER BY",
+        "GROUP BY",
+        "HAVING"
+      ],
+      "answer": "WHERE",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which clause sorts results?",
+      "options": [
+        "ORDER BY",
+        "GROUP BY",
+        "WHERE",
+        "HAVING"
+      ],
+      "answer": "ORDER BY",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which clause groups rows?",
+      "options": [
+        "GROUP BY",
+        "ORDER BY",
+        "WHERE",
+        "SORT BY"
+      ],
+      "answer": "GROUP BY",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which clause filters groups?",
+      "options": [
+        "HAVING",
+        "WHERE",
+        "GROUP BY",
+        "ORDER BY"
+      ],
+      "answer": "HAVING",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which keyword removes duplicate results?",
+      "options": [
+        "DISTINCT",
+        "UNIQUE",
+        "ONLY",
+        "DIFFERENT"
+      ],
+      "answer": "DISTINCT",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which function counts rows?",
+      "options": [
+        "COUNT",
+        "SUM",
+        "AVG",
+        "MAX"
+      ],
+      "answer": "COUNT",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which function calculates an average?",
+      "options": [
+        "AVG",
+        "SUM",
+        "COUNT",
+        "MIN"
+      ],
+      "answer": "AVG",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which function returns the largest value?",
+      "options": [
+        "MAX",
+        "MIN",
+        "AVG",
+        "SUM"
+      ],
+      "answer": "MAX",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which function returns the smallest value?",
+      "options": [
+        "MIN",
+        "MAX",
+        "AVG",
+        "COUNT"
+      ],
+      "answer": "MIN",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which function adds numeric values?",
+      "options": [
+        "SUM",
+        "COUNT",
+        "AVG",
+        "MAX"
+      ],
+      "answer": "SUM",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which constraint prevents NULL values?",
+      "options": [
+        "NOT NULL",
+        "UNIQUE",
+        "CHECK",
+        "DEFAULT"
+      ],
+      "answer": "NOT NULL",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which constraint prevents duplicate values?",
+      "options": [
+        "UNIQUE",
+        "NOT NULL",
+        "DEFAULT",
+        "CHECK"
+      ],
+      "answer": "UNIQUE",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which constraint validates a condition?",
+      "options": [
+        "CHECK",
+        "UNIQUE",
+        "DEFAULT",
+        "INDEX"
+      ],
+      "answer": "CHECK",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which constraint supplies a value automatically?",
+      "options": [
+        "DEFAULT",
+        "CHECK",
+        "UNIQUE",
+        "PRIMARY KEY"
+      ],
+      "answer": "DEFAULT",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which operator checks a range?",
+      "options": [
+        "BETWEEN",
+        "WITHIN",
+        "RANGE",
+        "INRANGE"
+      ],
+      "answer": "BETWEEN",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which operator checks membership in a list?",
+      "options": [
+        "IN",
+        "LIST",
+        "MATCH",
+        "MEMBER"
+      ],
+      "answer": "IN",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which operator is used for pattern matching?",
+      "options": [
+        "LIKE",
+        "MATCHES",
+        "PATTERN",
+        "FIND"
+      ],
+      "answer": "LIKE",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "In LIKE, which wildcard means any sequence?",
+      "options": [
+        "%",
+        "_",
+        "*",
+        "?"
+      ],
+      "answer": "%",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "In LIKE, which wildcard means one character?",
+      "options": [
+        "_",
+        "%",
+        "?",
+        "*"
+      ],
+      "answer": "_",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement changes table structure?",
+      "options": [
+        "ALTER TABLE",
+        "UPDATE TABLE",
+        "MODIFY ROW",
+        "CHANGE TABLE"
+      ],
+      "answer": "ALTER TABLE",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a view?",
+      "options": [
+        "A virtual table based on a query",
+        "A backup copy",
+        "A primary key",
+        "A transaction log"
+      ],
+      "answer": "A virtual table based on a query",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which command gives privileges?",
+      "options": [
+        "GRANT",
+        "ALLOW",
+        "PERMIT",
+        "ACCESS"
+      ],
+      "answer": "GRANT",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which command removes privileges?",
+      "options": [
+        "REVOKE",
+        "REMOVE",
+        "DENY",
+        "DELETE"
+      ],
+      "answer": "REVOKE",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which join returns matching rows from both tables?",
+      "options": [
+        "INNER JOIN",
+        "LEFT JOIN",
+        "RIGHT JOIN",
+        "FULL JOIN"
+      ],
+      "answer": "INNER JOIN",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which join keeps all rows from the left table?",
+      "options": [
+        "LEFT JOIN",
+        "INNER JOIN",
+        "RIGHT JOIN",
+        "CROSS JOIN"
+      ],
+      "answer": "LEFT JOIN",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which join keeps all rows from the right table?",
+      "options": [
+        "RIGHT JOIN",
+        "LEFT JOIN",
+        "INNER JOIN",
+        "SELF JOIN"
+      ],
+      "answer": "RIGHT JOIN",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which join keeps rows from both sides?",
+      "options": [
+        "FULL OUTER JOIN",
+        "INNER JOIN",
+        "LEFT JOIN",
+        "CROSS JOIN"
+      ],
+      "answer": "FULL OUTER JOIN",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which join creates a Cartesian product?",
+      "options": [
+        "CROSS JOIN",
+        "INNER JOIN",
+        "LEFT JOIN",
+        "NATURAL JOIN"
+      ],
+      "answer": "CROSS JOIN",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a self join?",
+      "options": [
+        "Joining a table with itself",
+        "Joining two databases",
+        "Joining a table with a transaction",
+        "Joining only views"
+      ],
+      "answer": "Joining a table with itself",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is referential integrity?",
+      "options": [
+        "Foreign-key references remain valid",
+        "All data is duplicated",
+        "Every table has an index",
+        "All values are unique"
+      ],
+      "answer": "Foreign-key references remain valid",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is entity integrity?",
+      "options": [
+        "A primary key cannot be NULL",
+        "Every column is unique",
+        "Foreign keys cannot exist",
+        "Every table has two keys"
+      ],
+      "answer": "A primary key cannot be NULL",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a surrogate key?",
+      "options": [
+        "An artificial identifier for a row",
+        "A password",
+        "A foreign key only",
+        "A table name"
+      ],
+      "answer": "An artificial identifier for a row",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a natural key?",
+      "options": [
+        "A meaningful real-world attribute used as a key",
+        "A random identifier",
+        "A password",
+        "An index"
+      ],
+      "answer": "A meaningful real-world attribute used as a key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is normalization mainly used for?",
+      "options": [
+        "Reducing redundancy and anomalies",
+        "Increasing duplication",
+        "Removing all keys",
+        "Avoiding relationships"
+      ],
+      "answer": "Reducing redundancy and anomalies",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which normal form removes repeating groups?",
+      "options": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "BCNF"
+      ],
+      "answer": "1NF",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which normal form removes partial dependency?",
+      "options": [
+        "2NF",
+        "1NF",
+        "3NF",
+        "4NF"
+      ],
+      "answer": "2NF",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which normal form removes transitive dependency?",
+      "options": [
+        "3NF",
+        "1NF",
+        "2NF",
+        "4NF"
+      ],
+      "answer": "3NF",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "BCNF is stricter than?",
+      "options": [
+        "3NF",
+        "1NF",
+        "4NF",
+        "5NF"
+      ],
+      "answer": "3NF",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a partial dependency?",
+      "options": [
+        "A non-key attribute depends on part of a composite key",
+        "A key depends on a key",
+        "A table has no key",
+        "A foreign key is NULL"
+      ],
+      "answer": "A non-key attribute depends on part of a composite key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a transitive dependency?",
+      "options": [
+        "A non-key attribute depends on another non-key attribute",
+        "A key depends on itself",
+        "Two primary keys exist",
+        "No dependency exists"
+      ],
+      "answer": "A non-key attribute depends on another non-key attribute",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which normal form handles multivalued dependencies?",
+      "options": [
+        "4NF",
+        "2NF",
+        "3NF",
+        "BCNF"
+      ],
+      "answer": "4NF",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a functional dependency?",
+      "options": [
+        "One attribute set determines another",
+        "A table depends on a server",
+        "A query depends on a password",
+        "A key depends on hardware"
+      ],
+      "answer": "One attribute set determines another",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is lossless decomposition?",
+      "options": [
+        "Joining decomposed relations recreates the original without spurious tuples",
+        "Deleting duplicates",
+        "Removing dependencies",
+        "Combining all tables"
+      ],
+      "answer": "Joining decomposed relations recreates the original without spurious tuples",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is dependency preservation?",
+      "options": [
+        "Dependencies can be enforced without joining decomposed relations",
+        "All dependencies are removed",
+        "Tables cannot be joined",
+        "Only primary keys remain"
+      ],
+      "answer": "Dependencies can be enforced without joining decomposed relations",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a transaction?",
+      "options": [
+        "A logical unit of database work",
+        "A database password",
+        "A table column",
+        "A network packet"
+      ],
+      "answer": "A logical unit of database work",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What does ACID stand for?",
+      "options": [
+        "Atomicity, Consistency, Isolation, Durability",
+        "Accuracy, Control, Integrity, Data",
+        "Access, Consistency, Isolation, Data",
+        "Atomicity, Control, Integrity, Durability"
+      ],
+      "answer": "Atomicity, Consistency, Isolation, Durability",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which ACID property means all-or-nothing?",
+      "options": [
+        "Atomicity",
+        "Consistency",
+        "Isolation",
+        "Durability"
+      ],
+      "answer": "Atomicity",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which ACID property maintains valid states?",
+      "options": [
+        "Consistency",
+        "Atomicity",
+        "Isolation",
+        "Durability"
+      ],
+      "answer": "Consistency",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which ACID property controls concurrent visibility?",
+      "options": [
+        "Isolation",
+        "Atomicity",
+        "Consistency",
+        "Durability"
+      ],
+      "answer": "Isolation",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which ACID property preserves committed data after failure?",
+      "options": [
+        "Durability",
+        "Atomicity",
+        "Isolation",
+        "Consistency"
+      ],
+      "answer": "Durability",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which command permanently saves a transaction?",
+      "options": [
+        "COMMIT",
+        "ROLLBACK",
+        "SAVEPOINT",
+        "CANCEL"
+      ],
+      "answer": "COMMIT",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which command undoes uncommitted changes?",
+      "options": [
+        "ROLLBACK",
+        "COMMIT",
+        "GRANT",
+        "MERGE"
+      ],
+      "answer": "ROLLBACK",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a savepoint?",
+      "options": [
+        "A point to which a transaction can roll back",
+        "A backup database",
+        "A primary key",
+        "A table constraint"
+      ],
+      "answer": "A point to which a transaction can roll back",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a serial schedule?",
+      "options": [
+        "Transactions execute without interleaving",
+        "Transactions always deadlock",
+        "Only reads execute",
+        "All operations roll back"
+      ],
+      "answer": "Transactions execute without interleaving",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is serializability?",
+      "options": [
+        "A concurrent schedule equivalent to a serial schedule",
+        "A type of index",
+        "A backup method",
+        "A data type"
+      ],
+      "answer": "A concurrent schedule equivalent to a serial schedule",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a dirty read?",
+      "options": [
+        "Reading data written by an uncommitted transaction",
+        "Reading an indexed row",
+        "Reading a NULL",
+        "Reading duplicate data"
+      ],
+      "answer": "Reading data written by an uncommitted transaction",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a non-repeatable read?",
+      "options": [
+        "The same row returns different committed values in one transaction",
+        "A query returns no rows",
+        "A row is duplicated",
+        "A transaction rolls back"
+      ],
+      "answer": "The same row returns different committed values in one transaction",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a phantom read?",
+      "options": [
+        "A repeated range query sees new or removed rows",
+        "A row becomes NULL",
+        "A table disappears",
+        "An index becomes corrupt"
+      ],
+      "answer": "A repeated range query sees new or removed rows",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which isolation level permits dirty reads?",
+      "options": [
+        "Read Uncommitted",
+        "Read Committed",
+        "Repeatable Read",
+        "Serializable"
+      ],
+      "answer": "Read Uncommitted",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which isolation level prevents dirty reads but may allow non-repeatable reads?",
+      "options": [
+        "Read Committed",
+        "Read Uncommitted",
+        "Serializable",
+        "Repeatable Read"
+      ],
+      "answer": "Read Committed",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which standard isolation level is strongest?",
+      "options": [
+        "Serializable",
+        "Read Uncommitted",
+        "Read Committed",
+        "None"
+      ],
+      "answer": "Serializable",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is two-phase locking?",
+      "options": [
+        "A protocol with growing and shrinking lock phases",
+        "A two-table join",
+        "A two-key constraint",
+        "A backup protocol"
+      ],
+      "answer": "A protocol with growing and shrinking lock phases",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a shared lock used for?",
+      "options": [
+        "Reading data",
+        "Deleting data only",
+        "Creating databases",
+        "Changing passwords"
+      ],
+      "answer": "Reading data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is an exclusive lock used for?",
+      "options": [
+        "Writing or modifying data",
+        "Reading only",
+        "Creating users",
+        "Sorting results"
+      ],
+      "answer": "Writing or modifying data",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a deadlock?",
+      "options": [
+        "Transactions wait indefinitely for each other",
+        "A failed SELECT",
+        "A missing table",
+        "A duplicate row"
+      ],
+      "answer": "Transactions wait indefinitely for each other",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which condition can cause deadlock?",
+      "options": [
+        "Circular wait",
+        "Only reads",
+        "Unique constraints",
+        "Index creation"
+      ],
+      "answer": "Circular wait",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is starvation?",
+      "options": [
+        "A transaction waits indefinitely because others keep receiving resources",
+        "A database loses data",
+        "A table becomes empty",
+        "A query returns NULL"
+      ],
+      "answer": "A transaction waits indefinitely because others keep receiving resources",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is an index?",
+      "options": [
+        "A data structure that can speed up retrieval",
+        "A backup copy",
+        "A transaction",
+        "A constraint only"
+      ],
+      "answer": "A data structure that can speed up retrieval",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a B+ tree commonly used for?",
+      "options": [
+        "Database indexing",
+        "Password hashing",
+        "Transaction rollback",
+        "Network routing"
+      ],
+      "answer": "Database indexing",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a hash index especially useful for?",
+      "options": [
+        "Equality searches",
+        "Range searches only",
+        "Sorting all rows",
+        "Creating foreign keys"
+      ],
+      "answer": "Equality searches",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a query optimizer?",
+      "options": [
+        "A component that chooses an efficient execution plan",
+        "A backup utility",
+        "A login manager",
+        "A table editor"
+      ],
+      "answer": "A component that chooses an efficient execution plan",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a stored procedure?",
+      "options": [
+        "A stored set of SQL statements that can be executed",
+        "A table",
+        "A foreign key",
+        "An index file"
+      ],
+      "answer": "A stored set of SQL statements that can be executed",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a trigger?",
+      "options": [
+        "An action automatically invoked by specified database events",
+        "A primary key",
+        "A backup",
+        "A query result"
+      ],
+      "answer": "An action automatically invoked by specified database events",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a cursor?",
+      "options": [
+        "A mechanism for processing query results row by row",
+        "A primary key",
+        "A constraint",
+        "A backup"
+      ],
+      "answer": "A mechanism for processing query results row by row",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is database recovery?",
+      "options": [
+        "Restoring consistency after failures",
+        "Creating a table",
+        "Sorting rows",
+        "Writing SQL"
+      ],
+      "answer": "Restoring consistency after failures",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a transaction log?",
+      "options": [
+        "A record of database changes",
+        "A user interface",
+        "A table key",
+        "A network cable"
+      ],
+      "answer": "A record of database changes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is write-ahead logging?",
+      "options": [
+        "Log records are written before corresponding data pages",
+        "Data is deleted before logging",
+        "Only SELECTs are logged",
+        "Logs are written after shutdown"
+      ],
+      "answer": "Log records are written before corresponding data pages",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a checkpoint?",
+      "options": [
+        "A recovery point that reduces recovery work",
+        "A primary key",
+        "A query result",
+        "An index"
+      ],
+      "answer": "A recovery point that reduces recovery work",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is database backup?",
+      "options": [
+        "A copy of database data for recovery",
+        "A query plan",
+        "A constraint",
+        "An index"
+      ],
+      "answer": "A copy of database data for recovery",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is horizontal fragmentation?",
+      "options": [
+        "Splitting a relation by rows",
+        "Splitting by columns",
+        "Deleting columns",
+        "Duplicating tables"
+      ],
+      "answer": "Splitting a relation by rows",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is vertical fragmentation?",
+      "options": [
+        "Splitting a relation by columns",
+        "Splitting by rows",
+        "Deleting rows",
+        "Duplicating indexes"
+      ],
+      "answer": "Splitting a relation by columns",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a distributed DBMS?",
+      "options": [
+        "A DBMS managing data across networked sites",
+        "A DBMS with one table",
+        "A local text file",
+        "A compiler"
+      ],
+      "answer": "A DBMS managing data across networked sites",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is data independence?",
+      "options": [
+        "Changing one schema level without affecting higher levels",
+        "Deleting data independently",
+        "Avoiding keys",
+        "Running without SQL"
+      ],
+      "answer": "Changing one schema level without affecting higher levels",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is physical data independence?",
+      "options": [
+        "Changing physical storage without changing the logical schema",
+        "Changing SQL without hardware",
+        "Changing users without passwords",
+        "Changing values without rows"
+      ],
+      "answer": "Changing physical storage without changing the logical schema",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is logical data independence?",
+      "options": [
+        "Changing logical schema without changing external views as far as possible",
+        "Changing disk hardware only",
+        "Changing passwords",
+        "Changing indexes only"
+      ],
+      "answer": "Changing logical schema without changing external views as far as possible",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which schema represents user-specific views?",
+      "options": [
+        "External schema",
+        "Conceptual schema",
+        "Internal schema",
+        "Backup schema"
+      ],
+      "answer": "External schema",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which schema represents the overall logical structure?",
+      "options": [
+        "Conceptual schema",
+        "External schema",
+        "Internal schema",
+        "Backup schema"
+      ],
+      "answer": "Conceptual schema",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which schema represents physical storage?",
+      "options": [
+        "Internal schema",
+        "External schema",
+        "Conceptual schema",
+        "View schema"
+      ],
+      "answer": "Internal schema",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is an ER model used for?",
+      "options": [
+        "Conceptual database design",
+        "Transaction logging",
+        "Query execution only",
+        "Password encryption"
+      ],
+      "answer": "Conceptual database design",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is an entity?",
+      "options": [
+        "A distinguishable real-world object or concept",
+        "Only a column",
+        "A query",
+        "A transaction"
+      ],
+      "answer": "A distinguishable real-world object or concept",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a relationship in an ER model?",
+      "options": [
+        "An association among entities",
+        "A password",
+        "A column constraint",
+        "An index"
+      ],
+      "answer": "An association among entities",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a weak entity?",
+      "options": [
+        "An entity that depends on another entity for identification",
+        "An entity with no attributes",
+        "A deleted entity",
+        "A table with no rows"
+      ],
+      "answer": "An entity that depends on another entity for identification",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is cardinality?",
+      "options": [
+        "The number of entity instances participating in a relationship",
+        "Number of SQL keywords",
+        "Number of indexes",
+        "Number of databases"
+      ],
+      "answer": "The number of entity instances participating in a relationship",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which cardinality has one entity related to many entities?",
+      "options": [
+        "One-to-many",
+        "One-to-one",
+        "Many-to-one only",
+        "Many-to-many only"
+      ],
+      "answer": "One-to-many",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which cardinality allows many instances on both sides?",
+      "options": [
+        "Many-to-many",
+        "One-to-one",
+        "One-to-many only",
+        "Zero-to-one"
+      ],
+      "answer": "Many-to-many",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is participation constraint?",
+      "options": [
+        "Whether every entity must participate in a relationship",
+        "Whether a column is indexed",
+        "Whether a table is sorted",
+        "Whether SQL is case-sensitive"
+      ],
+      "answer": "Whether every entity must participate in a relationship",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is an attribute?",
+      "options": [
+        "A property of an entity",
+        "A relationship only",
+        "A database server",
+        "A transaction"
+      ],
+      "answer": "A property of an entity",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is a multivalued attribute?",
+      "options": [
+        "An attribute that can have multiple values for one entity",
+        "An attribute with one value only",
+        "A numeric-only attribute",
+        "A deleted field"
+      ],
+      "answer": "An attribute that can have multiple values for one entity",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is a derived attribute?",
+      "options": [
+        "An attribute calculated from other data",
+        "A primary key only",
+        "A foreign key only",
+        "A deleted field"
+      ],
+      "answer": "An attribute calculated from other data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is a composite attribute?",
+      "options": [
+        "An attribute divisible into subattributes",
+        "An attribute with multiple rows",
+        "A key with no fields",
+        "A foreign key"
+      ],
+      "answer": "An attribute divisible into subattributes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Database Management System?",
+      "options": [
+        "Database Management System",
+        "Data Backup Management Service",
+        "Database Memory System",
+        "Data Business Management System"
+      ],
+      "answer": "Database Management System",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of An organized collection of data?",
+      "options": [
+        "An organized collection of data",
+        "A programming language",
+        "A network cable",
+        "A CPU register"
+      ],
+      "answer": "An organized collection of data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with SQL?",
+      "options": [
+        "SQL",
+        "HTML",
+        "CSS",
+        "XML"
+      ],
+      "answer": "SQL",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Unnecessary duplication of data?",
+      "options": [
+        "Unnecessary duplication of data",
+        "Data encryption",
+        "Data compression",
+        "Data deletion"
+      ],
+      "answer": "Unnecessary duplication of data",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Data about data?",
+      "options": [
+        "Data about data",
+        "Deleted data",
+        "Only passwords",
+        "Temporary data"
+      ],
+      "answer": "Data about data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Logical structure of a database?",
+      "options": [
+        "Logical structure of a database",
+        "A backup file",
+        "A programming loop",
+        "A network cable"
+      ],
+      "answer": "Logical structure of a database",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Data stored at a particular time?",
+      "options": [
+        "Data stored at a particular time",
+        "Database design only",
+        "A SQL keyword",
+        "A server cable"
+      ],
+      "answer": "Data stored at a particular time",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A relation?",
+      "options": [
+        "A relation",
+        "A tuple",
+        "An attribute",
+        "A domain"
+      ],
+      "answer": "A relation",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Tuple?",
+      "options": [
+        "Tuple",
+        "Attribute",
+        "Domain",
+        "Schema"
+      ],
+      "answer": "Tuple",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Attribute?",
+      "options": [
+        "Attribute",
+        "Tuple",
+        "Relation",
+        "Record"
+      ],
+      "answer": "Attribute",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Primary key?",
+      "options": [
+        "Primary key",
+        "View",
+        "Index only",
+        "Database name"
+      ],
+      "answer": "Primary key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with References a key in another table?",
+      "options": [
+        "References a key in another table",
+        "Stores passwords",
+        "Sorts rows",
+        "Deletes tables"
+      ],
+      "answer": "References a key in another table",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes A key that can uniquely identify tuples?",
+      "options": [
+        "A key that can uniquely identify tuples",
+        "A password",
+        "A view",
+        "A table name"
+      ],
+      "answer": "A key that can uniquely identify tuples",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A candidate key not chosen as primary key?",
+      "options": [
+        "A candidate key not chosen as primary key",
+        "A foreign key",
+        "A password",
+        "An index"
+      ],
+      "answer": "A candidate key not chosen as primary key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A key made of multiple attributes?",
+      "options": [
+        "A key made of multiple attributes",
+        "A password key",
+        "A foreign key only",
+        "A single attribute key"
+      ],
+      "answer": "A key made of multiple attributes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes SELECT?",
+      "options": [
+        "SELECT",
+        "INSERT",
+        "DELETE",
+        "UPDATE"
+      ],
+      "answer": "SELECT",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of INSERT?",
+      "options": [
+        "INSERT",
+        "SELECT",
+        "DROP",
+        "ALTER"
+      ],
+      "answer": "INSERT",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with UPDATE?",
+      "options": [
+        "UPDATE",
+        "INSERT",
+        "CREATE",
+        "GRANT"
+      ],
+      "answer": "UPDATE",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes DELETE?",
+      "options": [
+        "DELETE",
+        "DROP",
+        "ALTER",
+        "SELECT"
+      ],
+      "answer": "DELETE",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of DROP TABLE?",
+      "options": [
+        "DROP TABLE",
+        "DELETE TABLE",
+        "CLEAR TABLE",
+        "REMOVE TABLE"
+      ],
+      "answer": "DROP TABLE",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with WHERE?",
+      "options": [
+        "WHERE",
+        "ORDER BY",
+        "GROUP BY",
+        "HAVING"
+      ],
+      "answer": "WHERE",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes ORDER BY?",
+      "options": [
+        "ORDER BY",
+        "GROUP BY",
+        "WHERE",
+        "HAVING"
+      ],
+      "answer": "ORDER BY",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of GROUP BY?",
+      "options": [
+        "GROUP BY",
+        "ORDER BY",
+        "WHERE",
+        "SORT BY"
+      ],
+      "answer": "GROUP BY",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with HAVING?",
+      "options": [
+        "HAVING",
+        "WHERE",
+        "GROUP BY",
+        "ORDER BY"
+      ],
+      "answer": "HAVING",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes DISTINCT?",
+      "options": [
+        "DISTINCT",
+        "UNIQUE",
+        "ONLY",
+        "DIFFERENT"
+      ],
+      "answer": "DISTINCT",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of COUNT?",
+      "options": [
+        "COUNT",
+        "SUM",
+        "AVG",
+        "MAX"
+      ],
+      "answer": "COUNT",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with AVG?",
+      "options": [
+        "AVG",
+        "SUM",
+        "COUNT",
+        "MIN"
+      ],
+      "answer": "AVG",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes MAX?",
+      "options": [
+        "MAX",
+        "MIN",
+        "AVG",
+        "SUM"
+      ],
+      "answer": "MAX",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of MIN?",
+      "options": [
+        "MIN",
+        "MAX",
+        "AVG",
+        "COUNT"
+      ],
+      "answer": "MIN",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with SUM?",
+      "options": [
+        "SUM",
+        "COUNT",
+        "AVG",
+        "MAX"
+      ],
+      "answer": "SUM",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes NOT NULL?",
+      "options": [
+        "NOT NULL",
+        "UNIQUE",
+        "CHECK",
+        "DEFAULT"
+      ],
+      "answer": "NOT NULL",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of UNIQUE?",
+      "options": [
+        "UNIQUE",
+        "NOT NULL",
+        "DEFAULT",
+        "CHECK"
+      ],
+      "answer": "UNIQUE",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with CHECK?",
+      "options": [
+        "CHECK",
+        "UNIQUE",
+        "DEFAULT",
+        "INDEX"
+      ],
+      "answer": "CHECK",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes DEFAULT?",
+      "options": [
+        "DEFAULT",
+        "CHECK",
+        "UNIQUE",
+        "PRIMARY KEY"
+      ],
+      "answer": "DEFAULT",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of BETWEEN?",
+      "options": [
+        "BETWEEN",
+        "WITHIN",
+        "RANGE",
+        "INRANGE"
+      ],
+      "answer": "BETWEEN",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with IN?",
+      "options": [
+        "IN",
+        "LIST",
+        "MATCH",
+        "MEMBER"
+      ],
+      "answer": "IN",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes LIKE?",
+      "options": [
+        "LIKE",
+        "MATCHES",
+        "PATTERN",
+        "FIND"
+      ],
+      "answer": "LIKE",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of %?",
+      "options": [
+        "%",
+        "_",
+        "*",
+        "?"
+      ],
+      "answer": "%",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with _?",
+      "options": [
+        "_",
+        "%",
+        "?",
+        "*"
+      ],
+      "answer": "_",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes ALTER TABLE?",
+      "options": [
+        "ALTER TABLE",
+        "UPDATE TABLE",
+        "MODIFY ROW",
+        "CHANGE TABLE"
+      ],
+      "answer": "ALTER TABLE",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A virtual table based on a query?",
+      "options": [
+        "A virtual table based on a query",
+        "A backup copy",
+        "A primary key",
+        "A transaction log"
+      ],
+      "answer": "A virtual table based on a query",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with GRANT?",
+      "options": [
+        "GRANT",
+        "ALLOW",
+        "PERMIT",
+        "ACCESS"
+      ],
+      "answer": "GRANT",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes REVOKE?",
+      "options": [
+        "REVOKE",
+        "REMOVE",
+        "DENY",
+        "DELETE"
+      ],
+      "answer": "REVOKE",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of INNER JOIN?",
+      "options": [
+        "INNER JOIN",
+        "LEFT JOIN",
+        "RIGHT JOIN",
+        "FULL JOIN"
+      ],
+      "answer": "INNER JOIN",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with LEFT JOIN?",
+      "options": [
+        "LEFT JOIN",
+        "INNER JOIN",
+        "RIGHT JOIN",
+        "CROSS JOIN"
+      ],
+      "answer": "LEFT JOIN",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes RIGHT JOIN?",
+      "options": [
+        "RIGHT JOIN",
+        "LEFT JOIN",
+        "INNER JOIN",
+        "SELF JOIN"
+      ],
+      "answer": "RIGHT JOIN",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of FULL OUTER JOIN?",
+      "options": [
+        "FULL OUTER JOIN",
+        "INNER JOIN",
+        "LEFT JOIN",
+        "CROSS JOIN"
+      ],
+      "answer": "FULL OUTER JOIN",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with CROSS JOIN?",
+      "options": [
+        "CROSS JOIN",
+        "INNER JOIN",
+        "LEFT JOIN",
+        "NATURAL JOIN"
+      ],
+      "answer": "CROSS JOIN",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Joining a table with itself?",
+      "options": [
+        "Joining a table with itself",
+        "Joining two databases",
+        "Joining a table with a transaction",
+        "Joining only views"
+      ],
+      "answer": "Joining a table with itself",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Foreign-key references remain valid?",
+      "options": [
+        "Foreign-key references remain valid",
+        "All data is duplicated",
+        "Every table has an index",
+        "All values are unique"
+      ],
+      "answer": "Foreign-key references remain valid",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A primary key cannot be NULL?",
+      "options": [
+        "A primary key cannot be NULL",
+        "Every column is unique",
+        "Foreign keys cannot exist",
+        "Every table has two keys"
+      ],
+      "answer": "A primary key cannot be NULL",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes An artificial identifier for a row?",
+      "options": [
+        "An artificial identifier for a row",
+        "A password",
+        "A foreign key only",
+        "A table name"
+      ],
+      "answer": "An artificial identifier for a row",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A meaningful real-world attribute used as a key?",
+      "options": [
+        "A meaningful real-world attribute used as a key",
+        "A random identifier",
+        "A password",
+        "An index"
+      ],
+      "answer": "A meaningful real-world attribute used as a key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Reducing redundancy and anomalies?",
+      "options": [
+        "Reducing redundancy and anomalies",
+        "Increasing duplication",
+        "Removing all keys",
+        "Avoiding relationships"
+      ],
+      "answer": "Reducing redundancy and anomalies",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes 1NF?",
+      "options": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "BCNF"
+      ],
+      "answer": "1NF",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of 2NF?",
+      "options": [
+        "2NF",
+        "1NF",
+        "3NF",
+        "4NF"
+      ],
+      "answer": "2NF",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with 3NF?",
+      "options": [
+        "3NF",
+        "1NF",
+        "2NF",
+        "4NF"
+      ],
+      "answer": "3NF",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes 3NF?",
+      "options": [
+        "3NF",
+        "1NF",
+        "4NF",
+        "5NF"
+      ],
+      "answer": "3NF",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A non-key attribute depends on part of a composite key?",
+      "options": [
+        "A non-key attribute depends on part of a composite key",
+        "A key depends on a key",
+        "A table has no key",
+        "A foreign key is NULL"
+      ],
+      "answer": "A non-key attribute depends on part of a composite key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A non-key attribute depends on another non-key attribute?",
+      "options": [
+        "A non-key attribute depends on another non-key attribute",
+        "A key depends on itself",
+        "Two primary keys exist",
+        "No dependency exists"
+      ],
+      "answer": "A non-key attribute depends on another non-key attribute",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes 4NF?",
+      "options": [
+        "4NF",
+        "2NF",
+        "3NF",
+        "BCNF"
+      ],
+      "answer": "4NF",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of One attribute set determines another?",
+      "options": [
+        "One attribute set determines another",
+        "A table depends on a server",
+        "A query depends on a password",
+        "A key depends on hardware"
+      ],
+      "answer": "One attribute set determines another",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Joining decomposed relations recreates the original without spurious tuples?",
+      "options": [
+        "Joining decomposed relations recreates the original without spurious tuples",
+        "Deleting duplicates",
+        "Removing dependencies",
+        "Combining all tables"
+      ],
+      "answer": "Joining decomposed relations recreates the original without spurious tuples",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Dependencies can be enforced without joining decomposed relations?",
+      "options": [
+        "Dependencies can be enforced without joining decomposed relations",
+        "All dependencies are removed",
+        "Tables cannot be joined",
+        "Only primary keys remain"
+      ],
+      "answer": "Dependencies can be enforced without joining decomposed relations",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A logical unit of database work?",
+      "options": [
+        "A logical unit of database work",
+        "A database password",
+        "A table column",
+        "A network packet"
+      ],
+      "answer": "A logical unit of database work",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Atomicity, Consistency, Isolation, Durability?",
+      "options": [
+        "Atomicity, Consistency, Isolation, Durability",
+        "Accuracy, Control, Integrity, Data",
+        "Access, Consistency, Isolation, Data",
+        "Atomicity, Control, Integrity, Durability"
+      ],
+      "answer": "Atomicity, Consistency, Isolation, Durability",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Atomicity?",
+      "options": [
+        "Atomicity",
+        "Consistency",
+        "Isolation",
+        "Durability"
+      ],
+      "answer": "Atomicity",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Consistency?",
+      "options": [
+        "Consistency",
+        "Atomicity",
+        "Isolation",
+        "Durability"
+      ],
+      "answer": "Consistency",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Isolation?",
+      "options": [
+        "Isolation",
+        "Atomicity",
+        "Consistency",
+        "Durability"
+      ],
+      "answer": "Isolation",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Durability?",
+      "options": [
+        "Durability",
+        "Atomicity",
+        "Isolation",
+        "Consistency"
+      ],
+      "answer": "Durability",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of COMMIT?",
+      "options": [
+        "COMMIT",
+        "ROLLBACK",
+        "SAVEPOINT",
+        "CANCEL"
+      ],
+      "answer": "COMMIT",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with ROLLBACK?",
+      "options": [
+        "ROLLBACK",
+        "COMMIT",
+        "GRANT",
+        "MERGE"
+      ],
+      "answer": "ROLLBACK",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes A point to which a transaction can roll back?",
+      "options": [
+        "A point to which a transaction can roll back",
+        "A backup database",
+        "A primary key",
+        "A table constraint"
+      ],
+      "answer": "A point to which a transaction can roll back",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Transactions execute without interleaving?",
+      "options": [
+        "Transactions execute without interleaving",
+        "Transactions always deadlock",
+        "Only reads execute",
+        "All operations roll back"
+      ],
+      "answer": "Transactions execute without interleaving",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A concurrent schedule equivalent to a serial schedule?",
+      "options": [
+        "A concurrent schedule equivalent to a serial schedule",
+        "A type of index",
+        "A backup method",
+        "A data type"
+      ],
+      "answer": "A concurrent schedule equivalent to a serial schedule",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Reading data written by an uncommitted transaction?",
+      "options": [
+        "Reading data written by an uncommitted transaction",
+        "Reading an indexed row",
+        "Reading a NULL",
+        "Reading duplicate data"
+      ],
+      "answer": "Reading data written by an uncommitted transaction",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of The same row returns different committed values in one transaction?",
+      "options": [
+        "The same row returns different committed values in one transaction",
+        "A query returns no rows",
+        "A row is duplicated",
+        "A transaction rolls back"
+      ],
+      "answer": "The same row returns different committed values in one transaction",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A repeated range query sees new or removed rows?",
+      "options": [
+        "A repeated range query sees new or removed rows",
+        "A row becomes NULL",
+        "A table disappears",
+        "An index becomes corrupt"
+      ],
+      "answer": "A repeated range query sees new or removed rows",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Read Uncommitted?",
+      "options": [
+        "Read Uncommitted",
+        "Read Committed",
+        "Repeatable Read",
+        "Serializable"
+      ],
+      "answer": "Read Uncommitted",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Read Committed?",
+      "options": [
+        "Read Committed",
+        "Read Uncommitted",
+        "Serializable",
+        "Repeatable Read"
+      ],
+      "answer": "Read Committed",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Serializable?",
+      "options": [
+        "Serializable",
+        "Read Uncommitted",
+        "Read Committed",
+        "None"
+      ],
+      "answer": "Serializable",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes A protocol with growing and shrinking lock phases?",
+      "options": [
+        "A protocol with growing and shrinking lock phases",
+        "A two-table join",
+        "A two-key constraint",
+        "A backup protocol"
+      ],
+      "answer": "A protocol with growing and shrinking lock phases",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Reading data?",
+      "options": [
+        "Reading data",
+        "Deleting data only",
+        "Creating databases",
+        "Changing passwords"
+      ],
+      "answer": "Reading data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Writing or modifying data?",
+      "options": [
+        "Writing or modifying data",
+        "Reading only",
+        "Creating users",
+        "Sorting results"
+      ],
+      "answer": "Writing or modifying data",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Transactions wait indefinitely for each other?",
+      "options": [
+        "Transactions wait indefinitely for each other",
+        "A failed SELECT",
+        "A missing table",
+        "A duplicate row"
+      ],
+      "answer": "Transactions wait indefinitely for each other",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Circular wait?",
+      "options": [
+        "Circular wait",
+        "Only reads",
+        "Unique constraints",
+        "Index creation"
+      ],
+      "answer": "Circular wait",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A transaction waits indefinitely because others keep receiving resources?",
+      "options": [
+        "A transaction waits indefinitely because others keep receiving resources",
+        "A database loses data",
+        "A table becomes empty",
+        "A query returns NULL"
+      ],
+      "answer": "A transaction waits indefinitely because others keep receiving resources",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes A data structure that can speed up retrieval?",
+      "options": [
+        "A data structure that can speed up retrieval",
+        "A backup copy",
+        "A transaction",
+        "A constraint only"
+      ],
+      "answer": "A data structure that can speed up retrieval",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Database indexing?",
+      "options": [
+        "Database indexing",
+        "Password hashing",
+        "Transaction rollback",
+        "Network routing"
+      ],
+      "answer": "Database indexing",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Equality searches?",
+      "options": [
+        "Equality searches",
+        "Range searches only",
+        "Sorting all rows",
+        "Creating foreign keys"
+      ],
+      "answer": "Equality searches",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes A component that chooses an efficient execution plan?",
+      "options": [
+        "A component that chooses an efficient execution plan",
+        "A backup utility",
+        "A login manager",
+        "A table editor"
+      ],
+      "answer": "A component that chooses an efficient execution plan",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A stored set of SQL statements that can be executed?",
+      "options": [
+        "A stored set of SQL statements that can be executed",
+        "A table",
+        "A foreign key",
+        "An index file"
+      ],
+      "answer": "A stored set of SQL statements that can be executed",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with An action automatically invoked by specified database events?",
+      "options": [
+        "An action automatically invoked by specified database events",
+        "A primary key",
+        "A backup",
+        "A query result"
+      ],
+      "answer": "An action automatically invoked by specified database events",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes A mechanism for processing query results row by row?",
+      "options": [
+        "A mechanism for processing query results row by row",
+        "A primary key",
+        "A constraint",
+        "A backup"
+      ],
+      "answer": "A mechanism for processing query results row by row",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Restoring consistency after failures?",
+      "options": [
+        "Restoring consistency after failures",
+        "Creating a table",
+        "Sorting rows",
+        "Writing SQL"
+      ],
+      "answer": "Restoring consistency after failures",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A record of database changes?",
+      "options": [
+        "A record of database changes",
+        "A user interface",
+        "A table key",
+        "A network cable"
+      ],
+      "answer": "A record of database changes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Log records are written before corresponding data pages?",
+      "options": [
+        "Log records are written before corresponding data pages",
+        "Data is deleted before logging",
+        "Only SELECTs are logged",
+        "Logs are written after shutdown"
+      ],
+      "answer": "Log records are written before corresponding data pages",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A recovery point that reduces recovery work?",
+      "options": [
+        "A recovery point that reduces recovery work",
+        "A primary key",
+        "A query result",
+        "An index"
+      ],
+      "answer": "A recovery point that reduces recovery work",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A copy of database data for recovery?",
+      "options": [
+        "A copy of database data for recovery",
+        "A query plan",
+        "A constraint",
+        "An index"
+      ],
+      "answer": "A copy of database data for recovery",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Splitting a relation by rows?",
+      "options": [
+        "Splitting a relation by rows",
+        "Splitting by columns",
+        "Deleting columns",
+        "Duplicating tables"
+      ],
+      "answer": "Splitting a relation by rows",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Splitting a relation by columns?",
+      "options": [
+        "Splitting a relation by columns",
+        "Splitting by rows",
+        "Deleting rows",
+        "Duplicating indexes"
+      ],
+      "answer": "Splitting a relation by columns",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A DBMS managing data across networked sites?",
+      "options": [
+        "A DBMS managing data across networked sites",
+        "A DBMS with one table",
+        "A local text file",
+        "A compiler"
+      ],
+      "answer": "A DBMS managing data across networked sites",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Changing one schema level without affecting higher levels?",
+      "options": [
+        "Changing one schema level without affecting higher levels",
+        "Deleting data independently",
+        "Avoiding keys",
+        "Running without SQL"
+      ],
+      "answer": "Changing one schema level without affecting higher levels",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Changing physical storage without changing the logical schema?",
+      "options": [
+        "Changing physical storage without changing the logical schema",
+        "Changing SQL without hardware",
+        "Changing users without passwords",
+        "Changing values without rows"
+      ],
+      "answer": "Changing physical storage without changing the logical schema",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Changing logical schema without changing external views as far as possible?",
+      "options": [
+        "Changing logical schema without changing external views as far as possible",
+        "Changing disk hardware only",
+        "Changing passwords",
+        "Changing indexes only"
+      ],
+      "answer": "Changing logical schema without changing external views as far as possible",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes External schema?",
+      "options": [
+        "External schema",
+        "Conceptual schema",
+        "Internal schema",
+        "Backup schema"
+      ],
+      "answer": "External schema",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Conceptual schema?",
+      "options": [
+        "Conceptual schema",
+        "External schema",
+        "Internal schema",
+        "Backup schema"
+      ],
+      "answer": "Conceptual schema",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Internal schema?",
+      "options": [
+        "Internal schema",
+        "External schema",
+        "Conceptual schema",
+        "View schema"
+      ],
+      "answer": "Internal schema",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Conceptual database design?",
+      "options": [
+        "Conceptual database design",
+        "Transaction logging",
+        "Query execution only",
+        "Password encryption"
+      ],
+      "answer": "Conceptual database design",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A distinguishable real-world object or concept?",
+      "options": [
+        "A distinguishable real-world object or concept",
+        "Only a column",
+        "A query",
+        "A transaction"
+      ],
+      "answer": "A distinguishable real-world object or concept",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with An association among entities?",
+      "options": [
+        "An association among entities",
+        "A password",
+        "A column constraint",
+        "An index"
+      ],
+      "answer": "An association among entities",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes An entity that depends on another entity for identification?",
+      "options": [
+        "An entity that depends on another entity for identification",
+        "An entity with no attributes",
+        "A deleted entity",
+        "A table with no rows"
+      ],
+      "answer": "An entity that depends on another entity for identification",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of The number of entity instances participating in a relationship?",
+      "options": [
+        "The number of entity instances participating in a relationship",
+        "Number of SQL keywords",
+        "Number of indexes",
+        "Number of databases"
+      ],
+      "answer": "The number of entity instances participating in a relationship",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with One-to-many?",
+      "options": [
+        "One-to-many",
+        "One-to-one",
+        "Many-to-one only",
+        "Many-to-many only"
+      ],
+      "answer": "One-to-many",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Many-to-many?",
+      "options": [
+        "Many-to-many",
+        "One-to-one",
+        "One-to-many only",
+        "Zero-to-one"
+      ],
+      "answer": "Many-to-many",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Whether every entity must participate in a relationship?",
+      "options": [
+        "Whether every entity must participate in a relationship",
+        "Whether a column is indexed",
+        "Whether a table is sorted",
+        "Whether SQL is case-sensitive"
+      ],
+      "answer": "Whether every entity must participate in a relationship",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A property of an entity?",
+      "options": [
+        "A property of an entity",
+        "A relationship only",
+        "A database server",
+        "A transaction"
+      ],
+      "answer": "A property of an entity",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes An attribute that can have multiple values for one entity?",
+      "options": [
+        "An attribute that can have multiple values for one entity",
+        "An attribute with one value only",
+        "A numeric-only attribute",
+        "A deleted field"
+      ],
+      "answer": "An attribute that can have multiple values for one entity",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of An attribute calculated from other data?",
+      "options": [
+        "An attribute calculated from other data",
+        "A primary key only",
+        "A foreign key only",
+        "A deleted field"
+      ],
+      "answer": "An attribute calculated from other data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with An attribute divisible into subattributes?",
+      "options": [
+        "An attribute divisible into subattributes",
+        "An attribute with multiple rows",
+        "A key with no fields",
+        "A foreign key"
+      ],
+      "answer": "An attribute divisible into subattributes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Database Management System?",
+      "options": [
+        "Database Management System",
+        "Data Backup Management Service",
+        "Database Memory System",
+        "Data Business Management System"
+      ],
+      "answer": "Database Management System",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of An organized collection of data?",
+      "options": [
+        "An organized collection of data",
+        "A programming language",
+        "A network cable",
+        "A CPU register"
+      ],
+      "answer": "An organized collection of data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with SQL?",
+      "options": [
+        "SQL",
+        "HTML",
+        "CSS",
+        "XML"
+      ],
+      "answer": "SQL",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Unnecessary duplication of data?",
+      "options": [
+        "Unnecessary duplication of data",
+        "Data encryption",
+        "Data compression",
+        "Data deletion"
+      ],
+      "answer": "Unnecessary duplication of data",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Data about data?",
+      "options": [
+        "Data about data",
+        "Deleted data",
+        "Only passwords",
+        "Temporary data"
+      ],
+      "answer": "Data about data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Logical structure of a database?",
+      "options": [
+        "Logical structure of a database",
+        "A backup file",
+        "A programming loop",
+        "A network cable"
+      ],
+      "answer": "Logical structure of a database",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Data stored at a particular time?",
+      "options": [
+        "Data stored at a particular time",
+        "Database design only",
+        "A SQL keyword",
+        "A server cable"
+      ],
+      "answer": "Data stored at a particular time",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A relation?",
+      "options": [
+        "A relation",
+        "A tuple",
+        "An attribute",
+        "A domain"
+      ],
+      "answer": "A relation",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Tuple?",
+      "options": [
+        "Tuple",
+        "Attribute",
+        "Domain",
+        "Schema"
+      ],
+      "answer": "Tuple",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Attribute?",
+      "options": [
+        "Attribute",
+        "Tuple",
+        "Relation",
+        "Record"
+      ],
+      "answer": "Attribute",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Primary key?",
+      "options": [
+        "Primary key",
+        "View",
+        "Index only",
+        "Database name"
+      ],
+      "answer": "Primary key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with References a key in another table?",
+      "options": [
+        "References a key in another table",
+        "Stores passwords",
+        "Sorts rows",
+        "Deletes tables"
+      ],
+      "answer": "References a key in another table",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes A key that can uniquely identify tuples?",
+      "options": [
+        "A key that can uniquely identify tuples",
+        "A password",
+        "A view",
+        "A table name"
+      ],
+      "answer": "A key that can uniquely identify tuples",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A candidate key not chosen as primary key?",
+      "options": [
+        "A candidate key not chosen as primary key",
+        "A foreign key",
+        "A password",
+        "An index"
+      ],
+      "answer": "A candidate key not chosen as primary key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A key made of multiple attributes?",
+      "options": [
+        "A key made of multiple attributes",
+        "A password key",
+        "A foreign key only",
+        "A single attribute key"
+      ],
+      "answer": "A key made of multiple attributes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes SELECT?",
+      "options": [
+        "SELECT",
+        "INSERT",
+        "DELETE",
+        "UPDATE"
+      ],
+      "answer": "SELECT",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of INSERT?",
+      "options": [
+        "INSERT",
+        "SELECT",
+        "DROP",
+        "ALTER"
+      ],
+      "answer": "INSERT",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with UPDATE?",
+      "options": [
+        "UPDATE",
+        "INSERT",
+        "CREATE",
+        "GRANT"
+      ],
+      "answer": "UPDATE",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes DELETE?",
+      "options": [
+        "DELETE",
+        "DROP",
+        "ALTER",
+        "SELECT"
+      ],
+      "answer": "DELETE",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of DROP TABLE?",
+      "options": [
+        "DROP TABLE",
+        "DELETE TABLE",
+        "CLEAR TABLE",
+        "REMOVE TABLE"
+      ],
+      "answer": "DROP TABLE",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with WHERE?",
+      "options": [
+        "WHERE",
+        "ORDER BY",
+        "GROUP BY",
+        "HAVING"
+      ],
+      "answer": "WHERE",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes ORDER BY?",
+      "options": [
+        "ORDER BY",
+        "GROUP BY",
+        "WHERE",
+        "HAVING"
+      ],
+      "answer": "ORDER BY",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of GROUP BY?",
+      "options": [
+        "GROUP BY",
+        "ORDER BY",
+        "WHERE",
+        "SORT BY"
+      ],
+      "answer": "GROUP BY",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with HAVING?",
+      "options": [
+        "HAVING",
+        "WHERE",
+        "GROUP BY",
+        "ORDER BY"
+      ],
+      "answer": "HAVING",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes DISTINCT?",
+      "options": [
+        "DISTINCT",
+        "UNIQUE",
+        "ONLY",
+        "DIFFERENT"
+      ],
+      "answer": "DISTINCT",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of COUNT?",
+      "options": [
+        "COUNT",
+        "SUM",
+        "AVG",
+        "MAX"
+      ],
+      "answer": "COUNT",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with AVG?",
+      "options": [
+        "AVG",
+        "SUM",
+        "COUNT",
+        "MIN"
+      ],
+      "answer": "AVG",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes MAX?",
+      "options": [
+        "MAX",
+        "MIN",
+        "AVG",
+        "SUM"
+      ],
+      "answer": "MAX",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of MIN?",
+      "options": [
+        "MIN",
+        "MAX",
+        "AVG",
+        "COUNT"
+      ],
+      "answer": "MIN",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with SUM?",
+      "options": [
+        "SUM",
+        "COUNT",
+        "AVG",
+        "MAX"
+      ],
+      "answer": "SUM",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes NOT NULL?",
+      "options": [
+        "NOT NULL",
+        "UNIQUE",
+        "CHECK",
+        "DEFAULT"
+      ],
+      "answer": "NOT NULL",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of UNIQUE?",
+      "options": [
+        "UNIQUE",
+        "NOT NULL",
+        "DEFAULT",
+        "CHECK"
+      ],
+      "answer": "UNIQUE",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with CHECK?",
+      "options": [
+        "CHECK",
+        "UNIQUE",
+        "DEFAULT",
+        "INDEX"
+      ],
+      "answer": "CHECK",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes DEFAULT?",
+      "options": [
+        "DEFAULT",
+        "CHECK",
+        "UNIQUE",
+        "PRIMARY KEY"
+      ],
+      "answer": "DEFAULT",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of BETWEEN?",
+      "options": [
+        "BETWEEN",
+        "WITHIN",
+        "RANGE",
+        "INRANGE"
+      ],
+      "answer": "BETWEEN",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with IN?",
+      "options": [
+        "IN",
+        "LIST",
+        "MATCH",
+        "MEMBER"
+      ],
+      "answer": "IN",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes LIKE?",
+      "options": [
+        "LIKE",
+        "MATCHES",
+        "PATTERN",
+        "FIND"
+      ],
+      "answer": "LIKE",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of %?",
+      "options": [
+        "%",
+        "_",
+        "*",
+        "?"
+      ],
+      "answer": "%",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with _?",
+      "options": [
+        "_",
+        "%",
+        "?",
+        "*"
+      ],
+      "answer": "_",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes ALTER TABLE?",
+      "options": [
+        "ALTER TABLE",
+        "UPDATE TABLE",
+        "MODIFY ROW",
+        "CHANGE TABLE"
+      ],
+      "answer": "ALTER TABLE",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A virtual table based on a query?",
+      "options": [
+        "A virtual table based on a query",
+        "A backup copy",
+        "A primary key",
+        "A transaction log"
+      ],
+      "answer": "A virtual table based on a query",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with GRANT?",
+      "options": [
+        "GRANT",
+        "ALLOW",
+        "PERMIT",
+        "ACCESS"
+      ],
+      "answer": "GRANT",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes REVOKE?",
+      "options": [
+        "REVOKE",
+        "REMOVE",
+        "DENY",
+        "DELETE"
+      ],
+      "answer": "REVOKE",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of INNER JOIN?",
+      "options": [
+        "INNER JOIN",
+        "LEFT JOIN",
+        "RIGHT JOIN",
+        "FULL JOIN"
+      ],
+      "answer": "INNER JOIN",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with LEFT JOIN?",
+      "options": [
+        "LEFT JOIN",
+        "INNER JOIN",
+        "RIGHT JOIN",
+        "CROSS JOIN"
+      ],
+      "answer": "LEFT JOIN",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes RIGHT JOIN?",
+      "options": [
+        "RIGHT JOIN",
+        "LEFT JOIN",
+        "INNER JOIN",
+        "SELF JOIN"
+      ],
+      "answer": "RIGHT JOIN",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of FULL OUTER JOIN?",
+      "options": [
+        "FULL OUTER JOIN",
+        "INNER JOIN",
+        "LEFT JOIN",
+        "CROSS JOIN"
+      ],
+      "answer": "FULL OUTER JOIN",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with CROSS JOIN?",
+      "options": [
+        "CROSS JOIN",
+        "INNER JOIN",
+        "LEFT JOIN",
+        "NATURAL JOIN"
+      ],
+      "answer": "CROSS JOIN",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes Joining a table with itself?",
+      "options": [
+        "Joining a table with itself",
+        "Joining two databases",
+        "Joining a table with a transaction",
+        "Joining only views"
+      ],
+      "answer": "Joining a table with itself",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of Foreign-key references remain valid?",
+      "options": [
+        "Foreign-key references remain valid",
+        "All data is duplicated",
+        "Every table has an index",
+        "All values are unique"
+      ],
+      "answer": "Foreign-key references remain valid",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A primary key cannot be NULL?",
+      "options": [
+        "A primary key cannot be NULL",
+        "Every column is unique",
+        "Foreign keys cannot exist",
+        "Every table has two keys"
+      ],
+      "answer": "A primary key cannot be NULL",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes An artificial identifier for a row?",
+      "options": [
+        "An artificial identifier for a row",
+        "A password",
+        "A foreign key only",
+        "A table name"
+      ],
+      "answer": "An artificial identifier for a row",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A meaningful real-world attribute used as a key?",
+      "options": [
+        "A meaningful real-world attribute used as a key",
+        "A random identifier",
+        "A password",
+        "An index"
+      ],
+      "answer": "A meaningful real-world attribute used as a key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with Reducing redundancy and anomalies?",
+      "options": [
+        "Reducing redundancy and anomalies",
+        "Increasing duplication",
+        "Removing all keys",
+        "Avoiding relationships"
+      ],
+      "answer": "Reducing redundancy and anomalies",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes 1NF?",
+      "options": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "BCNF"
+      ],
+      "answer": "1NF",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of 2NF?",
+      "options": [
+        "2NF",
+        "1NF",
+        "3NF",
+        "4NF"
+      ],
+      "answer": "2NF",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with 3NF?",
+      "options": [
+        "3NF",
+        "1NF",
+        "2NF",
+        "4NF"
+      ],
+      "answer": "3NF",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which statement correctly describes 3NF?",
+      "options": [
+        "3NF",
+        "1NF",
+        "4NF",
+        "5NF"
+      ],
+      "answer": "3NF",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "What is the primary purpose or meaning of A non-key attribute depends on part of a composite key?",
+      "options": [
+        "A non-key attribute depends on part of a composite key",
+        "A key depends on a key",
+        "A table has no key",
+        "A foreign key is NULL"
+      ],
+      "answer": "A non-key attribute depends on part of a composite key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which option is associated with A non-key attribute depends on another non-key attribute?",
+      "options": [
+        "A non-key attribute depends on another non-key attribute",
+        "A key depends on itself",
+        "Two primary keys exist",
+        "No dependency exists"
+      ],
+      "answer": "A non-key attribute depends on another non-key attribute",
+      "difficulty": "Hard"
+    }
+  ]
+}

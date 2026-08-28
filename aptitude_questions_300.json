@@ -1,0 +1,3010 @@
+{
+  "Aptitude": {
+    "Easy": [
+      {
+        "question": "What is 20 + 10?",
+        "options": [
+          "25",
+          "35",
+          "40",
+          "30"
+        ],
+        "answer": "30"
+      },
+      {
+        "question": "What is 101 - 26?",
+        "options": [
+          "85",
+          "70",
+          "75",
+          "80"
+        ],
+        "answer": "75"
+      },
+      {
+        "question": "What is 5 × 6?",
+        "options": [
+          "32",
+          "35",
+          "28",
+          "30"
+        ],
+        "answer": "30"
+      },
+      {
+        "question": "What is 48 ÷ 6?",
+        "options": [
+          "9",
+          "7",
+          "8",
+          "10"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What is 30% of 300?",
+        "options": [
+          "100",
+          "80",
+          "180",
+          "90"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "Average of 15, 25, 35?",
+        "options": [
+          "27.0",
+          "30.0",
+          "23.0",
+          "25.0"
+        ],
+        "answer": "25.0"
+      },
+      {
+        "question": "What is the square of 11?",
+        "options": [
+          "120",
+          "122",
+          "121",
+          "242"
+        ],
+        "answer": "121"
+      },
+      {
+        "question": "A car covers 70 km in 5 hours. Speed?",
+        "options": [
+          "19.0",
+          "28.0",
+          "14.0",
+          "9.0"
+        ],
+        "answer": "14.0"
+      },
+      {
+        "question": "CP ₹200, profit 10%. Find SP.",
+        "options": [
+          "220.00000000000003",
+          "200.00000000000003",
+          "240.00000000000003",
+          "210"
+        ],
+        "answer": "220.00000000000003"
+      },
+      {
+        "question": "Find the sum of 3 and 6.",
+        "options": [
+          "7",
+          "18",
+          "9",
+          "11"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "What is 30 + 20?",
+        "options": [
+          "45",
+          "55",
+          "60",
+          "50"
+        ],
+        "answer": "50"
+      },
+      {
+        "question": "What is 111 - 36?",
+        "options": [
+          "85",
+          "70",
+          "80",
+          "75"
+        ],
+        "answer": "75"
+      },
+      {
+        "question": "What is 7 × 9?",
+        "options": [
+          "68",
+          "65",
+          "63",
+          "61"
+        ],
+        "answer": "63"
+      },
+      {
+        "question": "What is 81 ÷ 9?",
+        "options": [
+          "8",
+          "11",
+          "10",
+          "9"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "What is 30% of 400?",
+        "options": [
+          "120",
+          "130",
+          "240",
+          "110"
+        ],
+        "answer": "120"
+      },
+      {
+        "question": "Average of 15, 25, 35?",
+        "options": [
+          "30.0",
+          "25.0",
+          "23.0",
+          "27.0"
+        ],
+        "answer": "25.0"
+      },
+      {
+        "question": "What is the square of 11?",
+        "options": [
+          "122",
+          "242",
+          "120",
+          "121"
+        ],
+        "answer": "121"
+      },
+      {
+        "question": "A car covers 110 km in 3 hours. Speed?",
+        "options": [
+          "41.666666666666664",
+          "73.33333333333333",
+          "36.666666666666664",
+          "31.666666666666664"
+        ],
+        "answer": "36.666666666666664"
+      },
+      {
+        "question": "CP ₹300, profit 20%. Find SP.",
+        "options": [
+          "320",
+          "340.0",
+          "380.0",
+          "360.0"
+        ],
+        "answer": "360.0"
+      },
+      {
+        "question": "Find the sum of 5 and 4.",
+        "options": [
+          "9",
+          "11",
+          "7",
+          "18"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "What is 40 + 30?",
+        "options": [
+          "70",
+          "65",
+          "80",
+          "75"
+        ],
+        "answer": "70"
+      },
+      {
+        "question": "What is 121 - 46?",
+        "options": [
+          "75",
+          "85",
+          "70",
+          "80"
+        ],
+        "answer": "75"
+      },
+      {
+        "question": "What is 9 × 5?",
+        "options": [
+          "47",
+          "50",
+          "43",
+          "45"
+        ],
+        "answer": "45"
+      },
+      {
+        "question": "What is 50 ÷ 5?",
+        "options": [
+          "9",
+          "12",
+          "10",
+          "11"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "What is 30% of 100?",
+        "options": [
+          "20",
+          "30",
+          "40",
+          "60"
+        ],
+        "answer": "30"
+      },
+      {
+        "question": "Average of 15, 25, 35?",
+        "options": [
+          "27.0",
+          "30.0",
+          "25.0",
+          "23.0"
+        ],
+        "answer": "25.0"
+      },
+      {
+        "question": "What is the square of 11?",
+        "options": [
+          "242",
+          "120",
+          "122",
+          "121"
+        ],
+        "answer": "121"
+      },
+      {
+        "question": "A car covers 90 km in 5 hours. Speed?",
+        "options": [
+          "23.0",
+          "36.0",
+          "18.0",
+          "13.0"
+        ],
+        "answer": "18.0"
+      },
+      {
+        "question": "CP ₹400, profit 10%. Find SP.",
+        "options": [
+          "410",
+          "460.00000000000006",
+          "440.00000000000006",
+          "420.00000000000006"
+        ],
+        "answer": "440.00000000000006"
+      },
+      {
+        "question": "Find the sum of 7 and 8.",
+        "options": [
+          "15",
+          "17",
+          "13",
+          "30"
+        ],
+        "answer": "15"
+      },
+      {
+        "question": "What is 50 + 40?",
+        "options": [
+          "85",
+          "90",
+          "100",
+          "95"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "What is 131 - 56?",
+        "options": [
+          "75",
+          "85",
+          "70",
+          "80"
+        ],
+        "answer": "75"
+      },
+      {
+        "question": "What is 3 × 8?",
+        "options": [
+          "24",
+          "26",
+          "22",
+          "29"
+        ],
+        "answer": "24"
+      },
+      {
+        "question": "What is 88 ÷ 8?",
+        "options": [
+          "12",
+          "13",
+          "11",
+          "10"
+        ],
+        "answer": "11"
+      },
+      {
+        "question": "What is 30% of 200?",
+        "options": [
+          "70",
+          "50",
+          "60",
+          "120"
+        ],
+        "answer": "60"
+      },
+      {
+        "question": "Average of 15, 25, 35?",
+        "options": [
+          "27.0",
+          "23.0",
+          "30.0",
+          "25.0"
+        ],
+        "answer": "25.0"
+      },
+      {
+        "question": "What is the square of 11?",
+        "options": [
+          "122",
+          "121",
+          "120",
+          "242"
+        ],
+        "answer": "121"
+      },
+      {
+        "question": "A car covers 70 km in 3 hours. Speed?",
+        "options": [
+          "23.333333333333332",
+          "18.333333333333332",
+          "28.333333333333332",
+          "46.666666666666664"
+        ],
+        "answer": "23.333333333333332"
+      },
+      {
+        "question": "CP ₹500, profit 20%. Find SP.",
+        "options": [
+          "620.0",
+          "600.0",
+          "520",
+          "580.0"
+        ],
+        "answer": "600.0"
+      },
+      {
+        "question": "Find the sum of 9 and 6.",
+        "options": [
+          "30",
+          "17",
+          "13",
+          "15"
+        ],
+        "answer": "15"
+      },
+      {
+        "question": "What is 60 + 50?",
+        "options": [
+          "120",
+          "115",
+          "110",
+          "105"
+        ],
+        "answer": "110"
+      },
+      {
+        "question": "What is 141 - 66?",
+        "options": [
+          "70",
+          "80",
+          "75",
+          "85"
+        ],
+        "answer": "75"
+      },
+      {
+        "question": "What is 5 × 4?",
+        "options": [
+          "25",
+          "22",
+          "18",
+          "20"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "What is 48 ÷ 4?",
+        "options": [
+          "14",
+          "12",
+          "11",
+          "13"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "What is 30% of 300?",
+        "options": [
+          "100",
+          "90",
+          "180",
+          "80"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "Average of 15, 25, 35?",
+        "options": [
+          "23.0",
+          "25.0",
+          "30.0",
+          "27.0"
+        ],
+        "answer": "25.0"
+      },
+      {
+        "question": "What is the square of 11?",
+        "options": [
+          "242",
+          "122",
+          "120",
+          "121"
+        ],
+        "answer": "121"
+      },
+      {
+        "question": "A car covers 110 km in 5 hours. Speed?",
+        "options": [
+          "27.0",
+          "17.0",
+          "22.0",
+          "44.0"
+        ],
+        "answer": "22.0"
+      },
+      {
+        "question": "CP ₹200, profit 10%. Find SP.",
+        "options": [
+          "210",
+          "220.00000000000003",
+          "240.00000000000003",
+          "200.00000000000003"
+        ],
+        "answer": "220.00000000000003"
+      },
+      {
+        "question": "Find the sum of 3 and 4.",
+        "options": [
+          "9",
+          "5",
+          "14",
+          "7"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "What is 70 + 60?",
+        "options": [
+          "140",
+          "135",
+          "125",
+          "130"
+        ],
+        "answer": "130"
+      },
+      {
+        "question": "What is 151 - 76?",
+        "options": [
+          "80",
+          "85",
+          "70",
+          "75"
+        ],
+        "answer": "75"
+      },
+      {
+        "question": "What is 7 × 7?",
+        "options": [
+          "49",
+          "54",
+          "47",
+          "51"
+        ],
+        "answer": "49"
+      },
+      {
+        "question": "What is 91 ÷ 7?",
+        "options": [
+          "13",
+          "12",
+          "15",
+          "14"
+        ],
+        "answer": "13"
+      },
+      {
+        "question": "What is 30% of 400?",
+        "options": [
+          "240",
+          "120",
+          "110",
+          "130"
+        ],
+        "answer": "120"
+      },
+      {
+        "question": "Average of 15, 25, 35?",
+        "options": [
+          "25.0",
+          "30.0",
+          "27.0",
+          "23.0"
+        ],
+        "answer": "25.0"
+      },
+      {
+        "question": "What is the square of 11?",
+        "options": [
+          "121",
+          "122",
+          "120",
+          "242"
+        ],
+        "answer": "121"
+      },
+      {
+        "question": "A car covers 90 km in 3 hours. Speed?",
+        "options": [
+          "35.0",
+          "25.0",
+          "60.0",
+          "30.0"
+        ],
+        "answer": "30.0"
+      },
+      {
+        "question": "CP ₹300, profit 20%. Find SP.",
+        "options": [
+          "340.0",
+          "320",
+          "380.0",
+          "360.0"
+        ],
+        "answer": "360.0"
+      },
+      {
+        "question": "Find the sum of 5 and 8.",
+        "options": [
+          "26",
+          "13",
+          "11",
+          "15"
+        ],
+        "answer": "13"
+      },
+      {
+        "question": "What is 80 + 70?",
+        "options": [
+          "155",
+          "145",
+          "160",
+          "150"
+        ],
+        "answer": "150"
+      },
+      {
+        "question": "What is 161 - 86?",
+        "options": [
+          "85",
+          "70",
+          "75",
+          "80"
+        ],
+        "answer": "75"
+      },
+      {
+        "question": "What is 9 × 10?",
+        "options": [
+          "92",
+          "95",
+          "90",
+          "88"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "What is 15 ÷ 3?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "4"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "What is 30% of 100?",
+        "options": [
+          "60",
+          "30",
+          "20",
+          "40"
+        ],
+        "answer": "30"
+      },
+      {
+        "question": "Average of 15, 25, 35?",
+        "options": [
+          "23.0",
+          "27.0",
+          "25.0",
+          "30.0"
+        ],
+        "answer": "25.0"
+      },
+      {
+        "question": "What is the square of 11?",
+        "options": [
+          "122",
+          "120",
+          "121",
+          "242"
+        ],
+        "answer": "121"
+      },
+      {
+        "question": "A car covers 70 km in 5 hours. Speed?",
+        "options": [
+          "28.0",
+          "19.0",
+          "9.0",
+          "14.0"
+        ],
+        "answer": "14.0"
+      },
+      {
+        "question": "CP ₹400, profit 10%. Find SP.",
+        "options": [
+          "440.00000000000006",
+          "410",
+          "460.00000000000006",
+          "420.00000000000006"
+        ],
+        "answer": "440.00000000000006"
+      },
+      {
+        "question": "Find the sum of 7 and 6.",
+        "options": [
+          "15",
+          "13",
+          "11",
+          "26"
+        ],
+        "answer": "13"
+      },
+      {
+        "question": "What is 90 + 80?",
+        "options": [
+          "165",
+          "175",
+          "180",
+          "170"
+        ],
+        "answer": "170"
+      },
+      {
+        "question": "What is 171 - 96?",
+        "options": [
+          "80",
+          "85",
+          "75",
+          "70"
+        ],
+        "answer": "75"
+      },
+      {
+        "question": "What is 3 × 6?",
+        "options": [
+          "16",
+          "23",
+          "18",
+          "20"
+        ],
+        "answer": "18"
+      },
+      {
+        "question": "What is 36 ÷ 6?",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "7"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "What is 30% of 200?",
+        "options": [
+          "120",
+          "60",
+          "70",
+          "50"
+        ],
+        "answer": "60"
+      },
+      {
+        "question": "Average of 15, 25, 35?",
+        "options": [
+          "23.0",
+          "30.0",
+          "27.0",
+          "25.0"
+        ],
+        "answer": "25.0"
+      },
+      {
+        "question": "What is the square of 11?",
+        "options": [
+          "122",
+          "242",
+          "120",
+          "121"
+        ],
+        "answer": "121"
+      },
+      {
+        "question": "A car covers 110 km in 3 hours. Speed?",
+        "options": [
+          "41.666666666666664",
+          "31.666666666666664",
+          "73.33333333333333",
+          "36.666666666666664"
+        ],
+        "answer": "36.666666666666664"
+      },
+      {
+        "question": "CP ₹500, profit 20%. Find SP.",
+        "options": [
+          "600.0",
+          "580.0",
+          "620.0",
+          "520"
+        ],
+        "answer": "600.0"
+      },
+      {
+        "question": "Find the sum of 9 and 4.",
+        "options": [
+          "11",
+          "13",
+          "26",
+          "15"
+        ],
+        "answer": "13"
+      },
+      {
+        "question": "What is 100 + 90?",
+        "options": [
+          "185",
+          "190",
+          "200",
+          "195"
+        ],
+        "answer": "190"
+      },
+      {
+        "question": "What is 181 - 106?",
+        "options": [
+          "75",
+          "70",
+          "80",
+          "85"
+        ],
+        "answer": "75"
+      },
+      {
+        "question": "What is 5 × 9?",
+        "options": [
+          "45",
+          "50",
+          "47",
+          "43"
+        ],
+        "answer": "45"
+      },
+      {
+        "question": "What is 63 ÷ 9?",
+        "options": [
+          "6",
+          "9",
+          "7",
+          "8"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "What is 30% of 300?",
+        "options": [
+          "180",
+          "80",
+          "90",
+          "100"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "Average of 15, 25, 35?",
+        "options": [
+          "27.0",
+          "30.0",
+          "25.0",
+          "23.0"
+        ],
+        "answer": "25.0"
+      },
+      {
+        "question": "What is the square of 11?",
+        "options": [
+          "122",
+          "121",
+          "120",
+          "242"
+        ],
+        "answer": "121"
+      },
+      {
+        "question": "A car covers 90 km in 5 hours. Speed?",
+        "options": [
+          "23.0",
+          "36.0",
+          "13.0",
+          "18.0"
+        ],
+        "answer": "18.0"
+      },
+      {
+        "question": "CP ₹200, profit 10%. Find SP.",
+        "options": [
+          "210",
+          "200.00000000000003",
+          "220.00000000000003",
+          "240.00000000000003"
+        ],
+        "answer": "220.00000000000003"
+      },
+      {
+        "question": "Find the sum of 3 and 8.",
+        "options": [
+          "9",
+          "11",
+          "22",
+          "13"
+        ],
+        "answer": "11"
+      },
+      {
+        "question": "What is 110 + 100?",
+        "options": [
+          "220",
+          "210",
+          "205",
+          "215"
+        ],
+        "answer": "210"
+      },
+      {
+        "question": "What is 191 - 116?",
+        "options": [
+          "85",
+          "70",
+          "80",
+          "75"
+        ],
+        "answer": "75"
+      },
+      {
+        "question": "What is 7 × 5?",
+        "options": [
+          "40",
+          "37",
+          "35",
+          "33"
+        ],
+        "answer": "35"
+      },
+      {
+        "question": "What is 40 ÷ 5?",
+        "options": [
+          "8",
+          "7",
+          "10",
+          "9"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What is 30% of 400?",
+        "options": [
+          "120",
+          "240",
+          "110",
+          "130"
+        ],
+        "answer": "120"
+      },
+      {
+        "question": "Average of 15, 25, 35?",
+        "options": [
+          "23.0",
+          "25.0",
+          "27.0",
+          "30.0"
+        ],
+        "answer": "25.0"
+      },
+      {
+        "question": "What is the square of 11?",
+        "options": [
+          "120",
+          "242",
+          "122",
+          "121"
+        ],
+        "answer": "121"
+      },
+      {
+        "question": "A car covers 70 km in 3 hours. Speed?",
+        "options": [
+          "28.333333333333332",
+          "46.666666666666664",
+          "18.333333333333332",
+          "23.333333333333332"
+        ],
+        "answer": "23.333333333333332"
+      },
+      {
+        "question": "CP ₹300, profit 20%. Find SP.",
+        "options": [
+          "320",
+          "380.0",
+          "360.0",
+          "340.0"
+        ],
+        "answer": "360.0"
+      },
+      {
+        "question": "Find the sum of 5 and 6.",
+        "options": [
+          "9",
+          "13",
+          "22",
+          "11"
+        ],
+        "answer": "11"
+      }
+    ],
+    "Medium": [
+      {
+        "question": "Salary ₹500 increases by 10%. New salary?",
+        "options": [
+          "650.0",
+          "600.0",
+          "550.0",
+          "500.0"
+        ],
+        "answer": "550.0"
+      },
+      {
+        "question": "₹140 is divided in ratio 3:4. First share?",
+        "options": [
+          "80.0",
+          "60.0",
+          "120.0",
+          "40.0"
+        ],
+        "answer": "60.0"
+      },
+      {
+        "question": "CP ₹500, profit 20%. Find SP.",
+        "options": [
+          "625.0",
+          "600.0",
+          "520",
+          "575.0"
+        ],
+        "answer": "600.0"
+      },
+      {
+        "question": "180 km at 55 km/h takes how many hours?",
+        "options": [
+          "2.272727272727273",
+          "3.272727272727273",
+          "5.272727272727273",
+          "4.272727272727273"
+        ],
+        "answer": "3.272727272727273"
+      },
+      {
+        "question": "Average of 24, 34, 44?",
+        "options": [
+          "37.0",
+          "39.0",
+          "31.0",
+          "34.0"
+        ],
+        "answer": "34.0"
+      },
+      {
+        "question": "Number of pairs from 13 objects?",
+        "options": [
+          "156",
+          "78",
+          "91",
+          "77"
+        ],
+        "answer": "78"
+      },
+      {
+        "question": "6th term: first term 12, difference 5?",
+        "options": [
+          "47",
+          "42",
+          "37",
+          "32"
+        ],
+        "answer": "37"
+      },
+      {
+        "question": "6 workers take 22 days. 8 workers take?",
+        "options": [
+          "14.5",
+          "16.5",
+          "18.5",
+          "21.5"
+        ],
+        "answer": "16.5"
+      },
+      {
+        "question": "If x=18, y=5, find xy.",
+        "options": [
+          "180",
+          "95",
+          "72",
+          "90"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "Probability with 3 favorable outcomes out of 11?",
+        "options": [
+          "0.09090909090909091",
+          "0.36363636363636365",
+          "0.2727272727272727",
+          "0.18181818181818182"
+        ],
+        "answer": "0.2727272727272727"
+      },
+      {
+        "question": "Salary ₹700 increases by 10%. New salary?",
+        "options": [
+          "870.0000000000001",
+          "820.0000000000001",
+          "770.0000000000001",
+          "720.0000000000001"
+        ],
+        "answer": "770.0000000000001"
+      },
+      {
+        "question": "₹280 is divided in ratio 7:7. First share?",
+        "options": [
+          "140.0",
+          "280.0",
+          "120.0",
+          "160.0"
+        ],
+        "answer": "140.0"
+      },
+      {
+        "question": "CP ₹600, profit 10%. Find SP.",
+        "options": [
+          "685.0",
+          "660.0",
+          "635.0",
+          "610"
+        ],
+        "answer": "660.0"
+      },
+      {
+        "question": "240 km at 55 km/h takes how many hours?",
+        "options": [
+          "5.363636363636363",
+          "3.3636363636363633",
+          "6.363636363636363",
+          "4.363636363636363"
+        ],
+        "answer": "4.363636363636363"
+      },
+      {
+        "question": "Average of 20, 32, 44?",
+        "options": [
+          "29.0",
+          "37.0",
+          "35.0",
+          "32.0"
+        ],
+        "answer": "32.0"
+      },
+      {
+        "question": "Number of pairs from 15 objects?",
+        "options": [
+          "120",
+          "104",
+          "105",
+          "210"
+        ],
+        "answer": "105"
+      },
+      {
+        "question": "6th term: first term 16, difference 3?",
+        "options": [
+          "37",
+          "31",
+          "34",
+          "28"
+        ],
+        "answer": "31"
+      },
+      {
+        "question": "6 workers take 22 days. 8 workers take?",
+        "options": [
+          "18.5",
+          "21.5",
+          "16.5",
+          "14.5"
+        ],
+        "answer": "16.5"
+      },
+      {
+        "question": "If x=10, y=5, find xy.",
+        "options": [
+          "100",
+          "40",
+          "55",
+          "50"
+        ],
+        "answer": "50"
+      },
+      {
+        "question": "Probability with 5 favorable outcomes out of 13?",
+        "options": [
+          "0.46153846153846156",
+          "0.15384615384615385",
+          "0.38461538461538464",
+          "0.07692307692307693"
+        ],
+        "answer": "0.38461538461538464"
+      },
+      {
+        "question": "Salary ₹900 increases by 10%. New salary?",
+        "options": [
+          "940.0000000000001",
+          "990.0000000000001",
+          "1090.0",
+          "1040.0"
+        ],
+        "answer": "990.0000000000001"
+      },
+      {
+        "question": "₹160 is divided in ratio 5:3. First share?",
+        "options": [
+          "100.0",
+          "200.0",
+          "80.0",
+          "120.0"
+        ],
+        "answer": "100.0"
+      },
+      {
+        "question": "CP ₹700, profit 20%. Find SP.",
+        "options": [
+          "865.0",
+          "840.0",
+          "815.0",
+          "720"
+        ],
+        "answer": "840.0"
+      },
+      {
+        "question": "160 km at 55 km/h takes how many hours?",
+        "options": [
+          "3.909090909090909",
+          "4.909090909090909",
+          "2.909090909090909",
+          "1.9090909090909092"
+        ],
+        "answer": "2.909090909090909"
+      },
+      {
+        "question": "Average of 23, 30, 44?",
+        "options": [
+          "29.333333333333336",
+          "35.333333333333336",
+          "32.333333333333336",
+          "37.333333333333336"
+        ],
+        "answer": "32.333333333333336"
+      },
+      {
+        "question": "Number of pairs from 9 objects?",
+        "options": [
+          "35",
+          "72",
+          "36",
+          "45"
+        ],
+        "answer": "36"
+      },
+      {
+        "question": "6th term: first term 14, difference 5?",
+        "options": [
+          "49",
+          "39",
+          "44",
+          "34"
+        ],
+        "answer": "39"
+      },
+      {
+        "question": "6 workers take 22 days. 8 workers take?",
+        "options": [
+          "21.5",
+          "14.5",
+          "16.5",
+          "18.5"
+        ],
+        "answer": "16.5"
+      },
+      {
+        "question": "If x=11, y=5, find xy.",
+        "options": [
+          "55",
+          "44",
+          "60",
+          "110"
+        ],
+        "answer": "55"
+      },
+      {
+        "question": "Probability with 3 favorable outcomes out of 15?",
+        "options": [
+          "0.26666666666666666",
+          "0.13333333333333333",
+          "0.06666666666666667",
+          "0.2"
+        ],
+        "answer": "0.2"
+      },
+      {
+        "question": "Salary ₹1100 increases by 10%. New salary?",
+        "options": [
+          "1210.0",
+          "1260.0",
+          "1160.0",
+          "1310.0"
+        ],
+        "answer": "1210.0"
+      },
+      {
+        "question": "₹180 is divided in ratio 3:6. First share?",
+        "options": [
+          "40.0",
+          "80.0",
+          "120.0",
+          "60.0"
+        ],
+        "answer": "60.0"
+      },
+      {
+        "question": "CP ₹400, profit 10%. Find SP.",
+        "options": [
+          "440.00000000000006",
+          "410",
+          "415.00000000000006",
+          "465.00000000000006"
+        ],
+        "answer": "440.00000000000006"
+      },
+      {
+        "question": "220 km at 55 km/h takes how many hours?",
+        "options": [
+          "3.0",
+          "5.0",
+          "6.0",
+          "4.0"
+        ],
+        "answer": "4.0"
+      },
+      {
+        "question": "Average of 26, 34, 44?",
+        "options": [
+          "34.666666666666664",
+          "37.666666666666664",
+          "39.666666666666664",
+          "31.666666666666664"
+        ],
+        "answer": "34.666666666666664"
+      },
+      {
+        "question": "Number of pairs from 11 objects?",
+        "options": [
+          "66",
+          "55",
+          "54",
+          "110"
+        ],
+        "answer": "55"
+      },
+      {
+        "question": "6th term: first term 12, difference 3?",
+        "options": [
+          "30",
+          "27",
+          "24",
+          "33"
+        ],
+        "answer": "27"
+      },
+      {
+        "question": "6 workers take 22 days. 8 workers take?",
+        "options": [
+          "21.5",
+          "18.5",
+          "16.5",
+          "14.5"
+        ],
+        "answer": "16.5"
+      },
+      {
+        "question": "If x=12, y=5, find xy.",
+        "options": [
+          "65",
+          "120",
+          "48",
+          "60"
+        ],
+        "answer": "60"
+      },
+      {
+        "question": "Probability with 5 favorable outcomes out of 17?",
+        "options": [
+          "0.35294117647058826",
+          "0.29411764705882354",
+          "0.058823529411764705",
+          "0.11764705882352941"
+        ],
+        "answer": "0.29411764705882354"
+      },
+      {
+        "question": "Salary ₹500 increases by 10%. New salary?",
+        "options": [
+          "550.0",
+          "600.0",
+          "650.0",
+          "500.0"
+        ],
+        "answer": "550.0"
+      },
+      {
+        "question": "₹320 is divided in ratio 7:9. First share?",
+        "options": [
+          "280.0",
+          "160.0",
+          "120.0",
+          "140.0"
+        ],
+        "answer": "140.0"
+      },
+      {
+        "question": "CP ₹500, profit 20%. Find SP.",
+        "options": [
+          "600.0",
+          "625.0",
+          "520",
+          "575.0"
+        ],
+        "answer": "600.0"
+      },
+      {
+        "question": "140 km at 55 km/h takes how many hours?",
+        "options": [
+          "2.5454545454545454",
+          "4.545454545454545",
+          "3.5454545454545454",
+          "1.5454545454545454"
+        ],
+        "answer": "2.5454545454545454"
+      },
+      {
+        "question": "Average of 22, 32, 44?",
+        "options": [
+          "29.666666666666664",
+          "37.666666666666664",
+          "32.666666666666664",
+          "35.666666666666664"
+        ],
+        "answer": "32.666666666666664"
+      },
+      {
+        "question": "Number of pairs from 13 objects?",
+        "options": [
+          "91",
+          "78",
+          "77",
+          "156"
+        ],
+        "answer": "78"
+      },
+      {
+        "question": "6th term: first term 16, difference 5?",
+        "options": [
+          "51",
+          "41",
+          "46",
+          "36"
+        ],
+        "answer": "41"
+      },
+      {
+        "question": "6 workers take 22 days. 8 workers take?",
+        "options": [
+          "21.5",
+          "16.5",
+          "18.5",
+          "14.5"
+        ],
+        "answer": "16.5"
+      },
+      {
+        "question": "If x=13, y=5, find xy.",
+        "options": [
+          "65",
+          "70",
+          "52",
+          "130"
+        ],
+        "answer": "65"
+      },
+      {
+        "question": "Probability with 3 favorable outcomes out of 11?",
+        "options": [
+          "0.2727272727272727",
+          "0.18181818181818182",
+          "0.09090909090909091",
+          "0.36363636363636365"
+        ],
+        "answer": "0.2727272727272727"
+      },
+      {
+        "question": "Salary ₹700 increases by 10%. New salary?",
+        "options": [
+          "770.0000000000001",
+          "870.0000000000001",
+          "720.0000000000001",
+          "820.0000000000001"
+        ],
+        "answer": "770.0000000000001"
+      },
+      {
+        "question": "₹200 is divided in ratio 5:5. First share?",
+        "options": [
+          "200.0",
+          "100.0",
+          "80.0",
+          "120.0"
+        ],
+        "answer": "100.0"
+      },
+      {
+        "question": "CP ₹600, profit 10%. Find SP.",
+        "options": [
+          "660.0",
+          "685.0",
+          "610",
+          "635.0"
+        ],
+        "answer": "660.0"
+      },
+      {
+        "question": "200 km at 55 km/h takes how many hours?",
+        "options": [
+          "2.6363636363636362",
+          "4.636363636363637",
+          "5.636363636363637",
+          "3.6363636363636362"
+        ],
+        "answer": "3.6363636363636362"
+      },
+      {
+        "question": "Average of 25, 30, 44?",
+        "options": [
+          "38.0",
+          "30.0",
+          "33.0",
+          "36.0"
+        ],
+        "answer": "33.0"
+      },
+      {
+        "question": "Number of pairs from 15 objects?",
+        "options": [
+          "120",
+          "104",
+          "210",
+          "105"
+        ],
+        "answer": "105"
+      },
+      {
+        "question": "6th term: first term 14, difference 3?",
+        "options": [
+          "32",
+          "29",
+          "26",
+          "35"
+        ],
+        "answer": "29"
+      },
+      {
+        "question": "6 workers take 22 days. 8 workers take?",
+        "options": [
+          "14.5",
+          "16.5",
+          "18.5",
+          "21.5"
+        ],
+        "answer": "16.5"
+      },
+      {
+        "question": "If x=14, y=5, find xy.",
+        "options": [
+          "70",
+          "56",
+          "75",
+          "140"
+        ],
+        "answer": "70"
+      },
+      {
+        "question": "Probability with 5 favorable outcomes out of 13?",
+        "options": [
+          "0.46153846153846156",
+          "0.15384615384615385",
+          "0.38461538461538464",
+          "0.07692307692307693"
+        ],
+        "answer": "0.38461538461538464"
+      },
+      {
+        "question": "Salary ₹900 increases by 10%. New salary?",
+        "options": [
+          "940.0000000000001",
+          "1090.0",
+          "1040.0",
+          "990.0000000000001"
+        ],
+        "answer": "990.0000000000001"
+      },
+      {
+        "question": "₹220 is divided in ratio 3:8. First share?",
+        "options": [
+          "60.0",
+          "120.0",
+          "40.0",
+          "80.0"
+        ],
+        "answer": "60.0"
+      },
+      {
+        "question": "CP ₹700, profit 20%. Find SP.",
+        "options": [
+          "865.0",
+          "720",
+          "815.0",
+          "840.0"
+        ],
+        "answer": "840.0"
+      },
+      {
+        "question": "120 km at 55 km/h takes how many hours?",
+        "options": [
+          "1.1818181818181817",
+          "4.181818181818182",
+          "3.1818181818181817",
+          "2.1818181818181817"
+        ],
+        "answer": "2.1818181818181817"
+      },
+      {
+        "question": "Average of 21, 34, 44?",
+        "options": [
+          "33.0",
+          "36.0",
+          "30.0",
+          "38.0"
+        ],
+        "answer": "33.0"
+      },
+      {
+        "question": "Number of pairs from 9 objects?",
+        "options": [
+          "36",
+          "45",
+          "35",
+          "72"
+        ],
+        "answer": "36"
+      },
+      {
+        "question": "6th term: first term 12, difference 5?",
+        "options": [
+          "32",
+          "42",
+          "37",
+          "47"
+        ],
+        "answer": "37"
+      },
+      {
+        "question": "6 workers take 22 days. 8 workers take?",
+        "options": [
+          "14.5",
+          "16.5",
+          "18.5",
+          "21.5"
+        ],
+        "answer": "16.5"
+      },
+      {
+        "question": "If x=15, y=5, find xy.",
+        "options": [
+          "75",
+          "80",
+          "150",
+          "60"
+        ],
+        "answer": "75"
+      },
+      {
+        "question": "Probability with 3 favorable outcomes out of 15?",
+        "options": [
+          "0.2",
+          "0.13333333333333333",
+          "0.26666666666666666",
+          "0.06666666666666667"
+        ],
+        "answer": "0.2"
+      },
+      {
+        "question": "Salary ₹1100 increases by 10%. New salary?",
+        "options": [
+          "1310.0",
+          "1260.0",
+          "1160.0",
+          "1210.0"
+        ],
+        "answer": "1210.0"
+      },
+      {
+        "question": "₹220 is divided in ratio 7:4. First share?",
+        "options": [
+          "140.0",
+          "120.0",
+          "280.0",
+          "160.0"
+        ],
+        "answer": "140.0"
+      },
+      {
+        "question": "CP ₹400, profit 10%. Find SP.",
+        "options": [
+          "465.00000000000006",
+          "440.00000000000006",
+          "410",
+          "415.00000000000006"
+        ],
+        "answer": "440.00000000000006"
+      },
+      {
+        "question": "180 km at 55 km/h takes how many hours?",
+        "options": [
+          "5.272727272727273",
+          "2.272727272727273",
+          "3.272727272727273",
+          "4.272727272727273"
+        ],
+        "answer": "3.272727272727273"
+      },
+      {
+        "question": "Average of 24, 32, 44?",
+        "options": [
+          "36.333333333333336",
+          "33.333333333333336",
+          "30.333333333333336",
+          "38.333333333333336"
+        ],
+        "answer": "33.333333333333336"
+      },
+      {
+        "question": "Number of pairs from 11 objects?",
+        "options": [
+          "54",
+          "110",
+          "55",
+          "66"
+        ],
+        "answer": "55"
+      },
+      {
+        "question": "6th term: first term 16, difference 3?",
+        "options": [
+          "31",
+          "28",
+          "34",
+          "37"
+        ],
+        "answer": "31"
+      },
+      {
+        "question": "6 workers take 22 days. 8 workers take?",
+        "options": [
+          "18.5",
+          "14.5",
+          "16.5",
+          "21.5"
+        ],
+        "answer": "16.5"
+      },
+      {
+        "question": "If x=16, y=5, find xy.",
+        "options": [
+          "64",
+          "80",
+          "85",
+          "160"
+        ],
+        "answer": "80"
+      },
+      {
+        "question": "Probability with 5 favorable outcomes out of 17?",
+        "options": [
+          "0.11764705882352941",
+          "0.29411764705882354",
+          "0.058823529411764705",
+          "0.35294117647058826"
+        ],
+        "answer": "0.29411764705882354"
+      },
+      {
+        "question": "Salary ₹500 increases by 10%. New salary?",
+        "options": [
+          "550.0",
+          "650.0",
+          "600.0",
+          "500.0"
+        ],
+        "answer": "550.0"
+      },
+      {
+        "question": "₹240 is divided in ratio 5:7. First share?",
+        "options": [
+          "120.0",
+          "100.0",
+          "80.0",
+          "200.0"
+        ],
+        "answer": "100.0"
+      },
+      {
+        "question": "CP ₹500, profit 20%. Find SP.",
+        "options": [
+          "575.0",
+          "625.0",
+          "600.0",
+          "520"
+        ],
+        "answer": "600.0"
+      },
+      {
+        "question": "240 km at 55 km/h takes how many hours?",
+        "options": [
+          "3.3636363636363633",
+          "4.363636363636363",
+          "5.363636363636363",
+          "6.363636363636363"
+        ],
+        "answer": "4.363636363636363"
+      },
+      {
+        "question": "Average of 20, 30, 44?",
+        "options": [
+          "31.333333333333332",
+          "28.333333333333332",
+          "34.33333333333333",
+          "36.33333333333333"
+        ],
+        "answer": "31.333333333333332"
+      },
+      {
+        "question": "Number of pairs from 13 objects?",
+        "options": [
+          "77",
+          "78",
+          "156",
+          "91"
+        ],
+        "answer": "78"
+      },
+      {
+        "question": "6th term: first term 14, difference 5?",
+        "options": [
+          "34",
+          "49",
+          "44",
+          "39"
+        ],
+        "answer": "39"
+      },
+      {
+        "question": "6 workers take 22 days. 8 workers take?",
+        "options": [
+          "21.5",
+          "18.5",
+          "14.5",
+          "16.5"
+        ],
+        "answer": "16.5"
+      },
+      {
+        "question": "If x=17, y=5, find xy.",
+        "options": [
+          "68",
+          "85",
+          "170",
+          "90"
+        ],
+        "answer": "85"
+      },
+      {
+        "question": "Probability with 3 favorable outcomes out of 11?",
+        "options": [
+          "0.36363636363636365",
+          "0.18181818181818182",
+          "0.09090909090909091",
+          "0.2727272727272727"
+        ],
+        "answer": "0.2727272727272727"
+      },
+      {
+        "question": "Salary ₹700 increases by 10%. New salary?",
+        "options": [
+          "870.0000000000001",
+          "820.0000000000001",
+          "770.0000000000001",
+          "720.0000000000001"
+        ],
+        "answer": "770.0000000000001"
+      },
+      {
+        "question": "₹120 is divided in ratio 3:3. First share?",
+        "options": [
+          "60.0",
+          "120.0",
+          "80.0",
+          "40.0"
+        ],
+        "answer": "60.0"
+      },
+      {
+        "question": "CP ₹600, profit 10%. Find SP.",
+        "options": [
+          "660.0",
+          "610",
+          "685.0",
+          "635.0"
+        ],
+        "answer": "660.0"
+      },
+      {
+        "question": "160 km at 55 km/h takes how many hours?",
+        "options": [
+          "1.9090909090909092",
+          "4.909090909090909",
+          "3.909090909090909",
+          "2.909090909090909"
+        ],
+        "answer": "2.909090909090909"
+      },
+      {
+        "question": "Average of 23, 34, 44?",
+        "options": [
+          "30.666666666666664",
+          "38.666666666666664",
+          "36.666666666666664",
+          "33.666666666666664"
+        ],
+        "answer": "33.666666666666664"
+      },
+      {
+        "question": "Number of pairs from 15 objects?",
+        "options": [
+          "120",
+          "210",
+          "104",
+          "105"
+        ],
+        "answer": "105"
+      },
+      {
+        "question": "6th term: first term 12, difference 3?",
+        "options": [
+          "30",
+          "24",
+          "33",
+          "27"
+        ],
+        "answer": "27"
+      },
+      {
+        "question": "6 workers take 22 days. 8 workers take?",
+        "options": [
+          "18.5",
+          "21.5",
+          "14.5",
+          "16.5"
+        ],
+        "answer": "16.5"
+      },
+      {
+        "question": "If x=18, y=5, find xy.",
+        "options": [
+          "72",
+          "180",
+          "90",
+          "95"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "Probability with 5 favorable outcomes out of 13?",
+        "options": [
+          "0.07692307692307693",
+          "0.46153846153846156",
+          "0.15384615384615385",
+          "0.38461538461538464"
+        ],
+        "answer": "0.38461538461538464"
+      }
+    ],
+    "Hard": [
+      {
+        "question": "Value rises 10% then falls 5%. Net change?",
+        "options": [
+          "4.50%",
+          "9.50%",
+          "-0.50%",
+          "5%"
+        ],
+        "answer": "4.50%"
+      },
+      {
+        "question": "A finishes in 7 days, B in 9. Together?",
+        "options": [
+          "4.9375",
+          "5.9375",
+          "3.9375",
+          "2.9375"
+        ],
+        "answer": "3.9375"
+      },
+      {
+        "question": "180m train at 72 km/h passes a pole in how many seconds?",
+        "options": [
+          "7.0",
+          "9.0",
+          "14.0",
+          "11.0"
+        ],
+        "answer": "9.0"
+      },
+      {
+        "question": "₹8000 at 8% compound interest for 2 years. CI?",
+        "options": [
+          "1581.2000000000007",
+          "1231.2000000000007",
+          "1431.2000000000007",
+          "1331.2000000000007"
+        ],
+        "answer": "1331.2000000000007"
+      },
+      {
+        "question": "Weighted average of 30 and 50 with weights 14 and 24?",
+        "options": [
+          "45.63157894736842",
+          "42.63157894736842",
+          "39.63157894736842",
+          "40.0"
+        ],
+        "answer": "42.63157894736842"
+      },
+      {
+        "question": "If roots of x² − 13x + 17=0 are α,β, find α+β.",
+        "options": [
+          "17",
+          "-4",
+          "30",
+          "13"
+        ],
+        "answer": "13"
+      },
+      {
+        "question": "Box has 5 red and 5 blue balls. P(red)?",
+        "options": [
+          "0.4",
+          "0.5",
+          "0.6",
+          "0.5"
+        ],
+        "answer": "0.5"
+      },
+      {
+        "question": "Smaller clock-hand angle at 9:35?",
+        "options": [
+          "87.5°",
+          "102.5°",
+          "67.5°",
+          "77.5°"
+        ],
+        "answer": "77.5°"
+      },
+      {
+        "question": "Pipe fills in 6h, leak empties in 11h. Together?",
+        "options": [
+          "13.2",
+          "15.2",
+          "17.2",
+          "11.2"
+        ],
+        "answer": "13.2"
+      },
+      {
+        "question": "Remainder when 29 is divided by 5?",
+        "options": [
+          "2",
+          "0",
+          "4",
+          "1"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "Value rises 10% then falls 15%. Net change?",
+        "options": [
+          "-5%",
+          "-11.50%",
+          "-1.50%",
+          "-6.50%"
+        ],
+        "answer": "-6.50%"
+      },
+      {
+        "question": "A finishes in 7 days, B in 11. Together?",
+        "options": [
+          "6.277777777777778",
+          "3.2777777777777777",
+          "5.277777777777778",
+          "4.277777777777778"
+        ],
+        "answer": "4.277777777777778"
+      },
+      {
+        "question": "120m train at 54 km/h passes a pole in how many seconds?",
+        "options": [
+          "10.0",
+          "8.0",
+          "6.0",
+          "13.0"
+        ],
+        "answer": "8.0"
+      },
+      {
+        "question": "₹8000 at 6% compound interest for 3 years. CI?",
+        "options": [
+          "1428.1280000000006",
+          "1628.1280000000006",
+          "1528.1280000000006",
+          "1778.1280000000006"
+        ],
+        "answer": "1528.1280000000006"
+      },
+      {
+        "question": "Weighted average of 40 and 60 with weights 14 and 24?",
+        "options": [
+          "52.63157894736842",
+          "49.63157894736842",
+          "55.63157894736842",
+          "50.0"
+        ],
+        "answer": "52.63157894736842"
+      },
+      {
+        "question": "If roots of x² − 9x + 19=0 are α,β, find α+β.",
+        "options": [
+          "-10",
+          "9",
+          "19",
+          "28"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "Box has 3 red and 5 blue balls. P(red)?",
+        "options": [
+          "0.275",
+          "0.475",
+          "0.625",
+          "0.375"
+        ],
+        "answer": "0.375"
+      },
+      {
+        "question": "Smaller clock-hand angle at 9:25?",
+        "options": [
+          "132.5°",
+          "122.5°",
+          "47.5°",
+          "142.5°"
+        ],
+        "answer": "132.5°"
+      },
+      {
+        "question": "Pipe fills in 8h, leak empties in 11h. Together?",
+        "options": [
+          "33.33333333333333",
+          "31.333333333333332",
+          "29.333333333333332",
+          "27.333333333333332"
+        ],
+        "answer": "29.333333333333332"
+      },
+      {
+        "question": "Remainder when 39 is divided by 8?",
+        "options": [
+          "2",
+          "0",
+          "7",
+          "1"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "Value rises 10% then falls 5%. Net change?",
+        "options": [
+          "4.50%",
+          "-0.50%",
+          "5%",
+          "9.50%"
+        ],
+        "answer": "4.50%"
+      },
+      {
+        "question": "A finishes in 7 days, B in 9. Together?",
+        "options": [
+          "3.9375",
+          "5.9375",
+          "4.9375",
+          "2.9375"
+        ],
+        "answer": "3.9375"
+      },
+      {
+        "question": "240m train at 72 km/h passes a pole in how many seconds?",
+        "options": [
+          "14.0",
+          "17.0",
+          "10.0",
+          "12.0"
+        ],
+        "answer": "12.0"
+      },
+      {
+        "question": "₹8000 at 8% compound interest for 4 years. CI?",
+        "options": [
+          "2783.9116800000024",
+          "2983.9116800000024",
+          "3133.9116800000024",
+          "2883.9116800000024"
+        ],
+        "answer": "2883.9116800000024"
+      },
+      {
+        "question": "Weighted average of 30 and 50 with weights 14 and 24?",
+        "options": [
+          "45.63157894736842",
+          "42.63157894736842",
+          "39.63157894736842",
+          "40.0"
+        ],
+        "answer": "42.63157894736842"
+      },
+      {
+        "question": "If roots of x² − 12x + 13=0 are α,β, find α+β.",
+        "options": [
+          "12",
+          "13",
+          "25",
+          "-1"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "Box has 5 red and 5 blue balls. P(red)?",
+        "options": [
+          "0.5",
+          "0.6",
+          "0.5",
+          "0.4"
+        ],
+        "answer": "0.5"
+      },
+      {
+        "question": "Smaller clock-hand angle at 9:15?",
+        "options": [
+          "7.5°",
+          "182.5°",
+          "172.5°",
+          "162.5°"
+        ],
+        "answer": "172.5°"
+      },
+      {
+        "question": "Pipe fills in 6h, leak empties in 11h. Together?",
+        "options": [
+          "13.2",
+          "11.2",
+          "17.2",
+          "15.2"
+        ],
+        "answer": "13.2"
+      },
+      {
+        "question": "Remainder when 49 is divided by 4?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "Value rises 10% then falls 15%. Net change?",
+        "options": [
+          "-6.50%",
+          "-1.50%",
+          "-11.50%",
+          "-5%"
+        ],
+        "answer": "-6.50%"
+      },
+      {
+        "question": "A finishes in 7 days, B in 11. Together?",
+        "options": [
+          "4.277777777777778",
+          "5.277777777777778",
+          "6.277777777777778",
+          "3.2777777777777777"
+        ],
+        "answer": "4.277777777777778"
+      },
+      {
+        "question": "180m train at 54 km/h passes a pole in how many seconds?",
+        "options": [
+          "12.0",
+          "17.0",
+          "14.0",
+          "10.0"
+        ],
+        "answer": "12.0"
+      },
+      {
+        "question": "₹8000 at 6% compound interest for 2 years. CI?",
+        "options": [
+          "1238.800000000001",
+          "888.8000000000012",
+          "988.8000000000012",
+          "1088.800000000001"
+        ],
+        "answer": "988.8000000000012"
+      },
+      {
+        "question": "Weighted average of 40 and 60 with weights 14 and 24?",
+        "options": [
+          "55.63157894736842",
+          "50.0",
+          "52.63157894736842",
+          "49.63157894736842"
+        ],
+        "answer": "52.63157894736842"
+      },
+      {
+        "question": "If roots of x² − 8x + 15=0 are α,β, find α+β.",
+        "options": [
+          "23",
+          "-7",
+          "8",
+          "15"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "Box has 3 red and 5 blue balls. P(red)?",
+        "options": [
+          "0.375",
+          "0.625",
+          "0.275",
+          "0.475"
+        ],
+        "answer": "0.375"
+      },
+      {
+        "question": "Smaller clock-hand angle at 9:05?",
+        "options": [
+          "107.5°",
+          "127.5°",
+          "62.5°",
+          "117.5°"
+        ],
+        "answer": "117.5°"
+      },
+      {
+        "question": "Pipe fills in 8h, leak empties in 11h. Together?",
+        "options": [
+          "27.333333333333332",
+          "29.333333333333332",
+          "33.33333333333333",
+          "31.333333333333332"
+        ],
+        "answer": "29.333333333333332"
+      },
+      {
+        "question": "Remainder when 59 is divided by 7?",
+        "options": [
+          "4",
+          "6",
+          "3",
+          "5"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "Value rises 10% then falls 5%. Net change?",
+        "options": [
+          "9.50%",
+          "5%",
+          "4.50%",
+          "-0.50%"
+        ],
+        "answer": "4.50%"
+      },
+      {
+        "question": "A finishes in 7 days, B in 9. Together?",
+        "options": [
+          "4.9375",
+          "3.9375",
+          "5.9375",
+          "2.9375"
+        ],
+        "answer": "3.9375"
+      },
+      {
+        "question": "120m train at 72 km/h passes a pole in how many seconds?",
+        "options": [
+          "8.0",
+          "4.0",
+          "6.0",
+          "11.0"
+        ],
+        "answer": "6.0"
+      },
+      {
+        "question": "₹8000 at 8% compound interest for 3 years. CI?",
+        "options": [
+          "2077.6960000000013",
+          "2327.6960000000013",
+          "2177.6960000000013",
+          "1977.6960000000013"
+        ],
+        "answer": "2077.6960000000013"
+      },
+      {
+        "question": "Weighted average of 30 and 50 with weights 14 and 24?",
+        "options": [
+          "39.63157894736842",
+          "42.63157894736842",
+          "45.63157894736842",
+          "40.0"
+        ],
+        "answer": "42.63157894736842"
+      },
+      {
+        "question": "If roots of x² − 11x + 17=0 are α,β, find α+β.",
+        "options": [
+          "-6",
+          "28",
+          "17",
+          "11"
+        ],
+        "answer": "11"
+      },
+      {
+        "question": "Box has 5 red and 5 blue balls. P(red)?",
+        "options": [
+          "0.6",
+          "0.5",
+          "0.4",
+          "0.5"
+        ],
+        "answer": "0.5"
+      },
+      {
+        "question": "Smaller clock-hand angle at 9:55?",
+        "options": [
+          "42.5°",
+          "22.5°",
+          "32.5°",
+          "147.5°"
+        ],
+        "answer": "32.5°"
+      },
+      {
+        "question": "Pipe fills in 6h, leak empties in 11h. Together?",
+        "options": [
+          "11.2",
+          "17.2",
+          "13.2",
+          "15.2"
+        ],
+        "answer": "13.2"
+      },
+      {
+        "question": "Remainder when 69 is divided by 3?",
+        "options": [
+          "1",
+          "2",
+          "0",
+          "0"
+        ],
+        "answer": "0"
+      },
+      {
+        "question": "Value rises 10% then falls 15%. Net change?",
+        "options": [
+          "-1.50%",
+          "-6.50%",
+          "-11.50%",
+          "-5%"
+        ],
+        "answer": "-6.50%"
+      },
+      {
+        "question": "A finishes in 7 days, B in 11. Together?",
+        "options": [
+          "4.277777777777778",
+          "3.2777777777777777",
+          "5.277777777777778",
+          "6.277777777777778"
+        ],
+        "answer": "4.277777777777778"
+      },
+      {
+        "question": "240m train at 54 km/h passes a pole in how many seconds?",
+        "options": [
+          "16.0",
+          "18.0",
+          "21.0",
+          "14.0"
+        ],
+        "answer": "16.0"
+      },
+      {
+        "question": "₹8000 at 6% compound interest for 4 years. CI?",
+        "options": [
+          "2199.8156800000024",
+          "2099.8156800000024",
+          "2349.8156800000024",
+          "1999.8156800000024"
+        ],
+        "answer": "2099.8156800000024"
+      },
+      {
+        "question": "Weighted average of 40 and 60 with weights 14 and 24?",
+        "options": [
+          "55.63157894736842",
+          "49.63157894736842",
+          "50.0",
+          "52.63157894736842"
+        ],
+        "answer": "52.63157894736842"
+      },
+      {
+        "question": "If roots of x² − 14x + 19=0 are α,β, find α+β.",
+        "options": [
+          "19",
+          "14",
+          "-5",
+          "33"
+        ],
+        "answer": "14"
+      },
+      {
+        "question": "Box has 3 red and 5 blue balls. P(red)?",
+        "options": [
+          "0.275",
+          "0.475",
+          "0.375",
+          "0.625"
+        ],
+        "answer": "0.375"
+      },
+      {
+        "question": "Smaller clock-hand angle at 9:45?",
+        "options": [
+          "32.5°",
+          "12.5°",
+          "157.5°",
+          "22.5°"
+        ],
+        "answer": "22.5°"
+      },
+      {
+        "question": "Pipe fills in 8h, leak empties in 11h. Together?",
+        "options": [
+          "29.333333333333332",
+          "27.333333333333332",
+          "31.333333333333332",
+          "33.33333333333333"
+        ],
+        "answer": "29.333333333333332"
+      },
+      {
+        "question": "Remainder when 79 is divided by 6?",
+        "options": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "Value rises 10% then falls 5%. Net change?",
+        "options": [
+          "4.50%",
+          "9.50%",
+          "5%",
+          "-0.50%"
+        ],
+        "answer": "4.50%"
+      },
+      {
+        "question": "A finishes in 7 days, B in 9. Together?",
+        "options": [
+          "4.9375",
+          "2.9375",
+          "3.9375",
+          "5.9375"
+        ],
+        "answer": "3.9375"
+      },
+      {
+        "question": "180m train at 72 km/h passes a pole in how many seconds?",
+        "options": [
+          "11.0",
+          "9.0",
+          "14.0",
+          "7.0"
+        ],
+        "answer": "9.0"
+      },
+      {
+        "question": "₹8000 at 8% compound interest for 2 years. CI?",
+        "options": [
+          "1431.2000000000007",
+          "1231.2000000000007",
+          "1331.2000000000007",
+          "1581.2000000000007"
+        ],
+        "answer": "1331.2000000000007"
+      },
+      {
+        "question": "Weighted average of 30 and 50 with weights 14 and 24?",
+        "options": [
+          "39.63157894736842",
+          "42.63157894736842",
+          "40.0",
+          "45.63157894736842"
+        ],
+        "answer": "42.63157894736842"
+      },
+      {
+        "question": "If roots of x² − 10x + 13=0 are α,β, find α+β.",
+        "options": [
+          "13",
+          "23",
+          "-3",
+          "10"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "Box has 5 red and 5 blue balls. P(red)?",
+        "options": [
+          "0.5",
+          "0.5",
+          "0.4",
+          "0.6"
+        ],
+        "answer": "0.5"
+      },
+      {
+        "question": "Smaller clock-hand angle at 9:35?",
+        "options": [
+          "67.5°",
+          "87.5°",
+          "77.5°",
+          "102.5°"
+        ],
+        "answer": "77.5°"
+      },
+      {
+        "question": "Pipe fills in 6h, leak empties in 11h. Together?",
+        "options": [
+          "13.2",
+          "15.2",
+          "17.2",
+          "11.2"
+        ],
+        "answer": "13.2"
+      },
+      {
+        "question": "Remainder when 89 is divided by 9?",
+        "options": [
+          "8",
+          "0",
+          "2",
+          "1"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "Value rises 10% then falls 15%. Net change?",
+        "options": [
+          "-1.50%",
+          "-11.50%",
+          "-6.50%",
+          "-5%"
+        ],
+        "answer": "-6.50%"
+      },
+      {
+        "question": "A finishes in 7 days, B in 11. Together?",
+        "options": [
+          "4.277777777777778",
+          "5.277777777777778",
+          "3.2777777777777777",
+          "6.277777777777778"
+        ],
+        "answer": "4.277777777777778"
+      },
+      {
+        "question": "120m train at 54 km/h passes a pole in how many seconds?",
+        "options": [
+          "10.0",
+          "13.0",
+          "8.0",
+          "6.0"
+        ],
+        "answer": "8.0"
+      },
+      {
+        "question": "₹8000 at 6% compound interest for 3 years. CI?",
+        "options": [
+          "1778.1280000000006",
+          "1528.1280000000006",
+          "1428.1280000000006",
+          "1628.1280000000006"
+        ],
+        "answer": "1528.1280000000006"
+      },
+      {
+        "question": "Weighted average of 40 and 60 with weights 14 and 24?",
+        "options": [
+          "55.63157894736842",
+          "52.63157894736842",
+          "50.0",
+          "49.63157894736842"
+        ],
+        "answer": "52.63157894736842"
+      },
+      {
+        "question": "If roots of x² − 13x + 15=0 are α,β, find α+β.",
+        "options": [
+          "13",
+          "28",
+          "-2",
+          "15"
+        ],
+        "answer": "13"
+      },
+      {
+        "question": "Box has 3 red and 5 blue balls. P(red)?",
+        "options": [
+          "0.275",
+          "0.625",
+          "0.375",
+          "0.475"
+        ],
+        "answer": "0.375"
+      },
+      {
+        "question": "Smaller clock-hand angle at 9:25?",
+        "options": [
+          "122.5°",
+          "142.5°",
+          "132.5°",
+          "47.5°"
+        ],
+        "answer": "132.5°"
+      },
+      {
+        "question": "Pipe fills in 8h, leak empties in 11h. Together?",
+        "options": [
+          "29.333333333333332",
+          "33.33333333333333",
+          "31.333333333333332",
+          "27.333333333333332"
+        ],
+        "answer": "29.333333333333332"
+      },
+      {
+        "question": "Remainder when 99 is divided by 5?",
+        "options": [
+          "0",
+          "4",
+          "2",
+          "1"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "Value rises 10% then falls 5%. Net change?",
+        "options": [
+          "4.50%",
+          "-0.50%",
+          "5%",
+          "9.50%"
+        ],
+        "answer": "4.50%"
+      },
+      {
+        "question": "A finishes in 7 days, B in 9. Together?",
+        "options": [
+          "3.9375",
+          "2.9375",
+          "4.9375",
+          "5.9375"
+        ],
+        "answer": "3.9375"
+      },
+      {
+        "question": "240m train at 72 km/h passes a pole in how many seconds?",
+        "options": [
+          "10.0",
+          "17.0",
+          "14.0",
+          "12.0"
+        ],
+        "answer": "12.0"
+      },
+      {
+        "question": "₹8000 at 8% compound interest for 4 years. CI?",
+        "options": [
+          "2883.9116800000024",
+          "3133.9116800000024",
+          "2983.9116800000024",
+          "2783.9116800000024"
+        ],
+        "answer": "2883.9116800000024"
+      },
+      {
+        "question": "Weighted average of 30 and 50 with weights 14 and 24?",
+        "options": [
+          "39.63157894736842",
+          "40.0",
+          "45.63157894736842",
+          "42.63157894736842"
+        ],
+        "answer": "42.63157894736842"
+      },
+      {
+        "question": "If roots of x² − 9x + 17=0 are α,β, find α+β.",
+        "options": [
+          "26",
+          "9",
+          "17",
+          "-8"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "Box has 5 red and 5 blue balls. P(red)?",
+        "options": [
+          "0.5",
+          "0.4",
+          "0.6",
+          "0.5"
+        ],
+        "answer": "0.5"
+      },
+      {
+        "question": "Smaller clock-hand angle at 9:15?",
+        "options": [
+          "172.5°",
+          "182.5°",
+          "162.5°",
+          "7.5°"
+        ],
+        "answer": "172.5°"
+      },
+      {
+        "question": "Pipe fills in 6h, leak empties in 11h. Together?",
+        "options": [
+          "11.2",
+          "15.2",
+          "17.2",
+          "13.2"
+        ],
+        "answer": "13.2"
+      },
+      {
+        "question": "Remainder when 109 is divided by 8?",
+        "options": [
+          "5",
+          "7",
+          "0",
+          "6"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "Value rises 10% then falls 15%. Net change?",
+        "options": [
+          "-1.50%",
+          "-11.50%",
+          "-6.50%",
+          "-5%"
+        ],
+        "answer": "-6.50%"
+      },
+      {
+        "question": "A finishes in 7 days, B in 11. Together?",
+        "options": [
+          "6.277777777777778",
+          "4.277777777777778",
+          "3.2777777777777777",
+          "5.277777777777778"
+        ],
+        "answer": "4.277777777777778"
+      },
+      {
+        "question": "180m train at 54 km/h passes a pole in how many seconds?",
+        "options": [
+          "14.0",
+          "12.0",
+          "17.0",
+          "10.0"
+        ],
+        "answer": "12.0"
+      },
+      {
+        "question": "₹8000 at 6% compound interest for 2 years. CI?",
+        "options": [
+          "1088.800000000001",
+          "888.8000000000012",
+          "988.8000000000012",
+          "1238.800000000001"
+        ],
+        "answer": "988.8000000000012"
+      },
+      {
+        "question": "Weighted average of 40 and 60 with weights 14 and 24?",
+        "options": [
+          "49.63157894736842",
+          "50.0",
+          "55.63157894736842",
+          "52.63157894736842"
+        ],
+        "answer": "52.63157894736842"
+      },
+      {
+        "question": "If roots of x² − 12x + 19=0 are α,β, find α+β.",
+        "options": [
+          "12",
+          "31",
+          "-7",
+          "19"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "Box has 3 red and 5 blue balls. P(red)?",
+        "options": [
+          "0.375",
+          "0.275",
+          "0.625",
+          "0.475"
+        ],
+        "answer": "0.375"
+      },
+      {
+        "question": "Smaller clock-hand angle at 9:05?",
+        "options": [
+          "107.5°",
+          "127.5°",
+          "117.5°",
+          "62.5°"
+        ],
+        "answer": "117.5°"
+      },
+      {
+        "question": "Pipe fills in 8h, leak empties in 11h. Together?",
+        "options": [
+          "27.333333333333332",
+          "29.333333333333332",
+          "33.33333333333333",
+          "31.333333333333332"
+        ],
+        "answer": "29.333333333333332"
+      },
+      {
+        "question": "Remainder when 119 is divided by 4?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "answer": "3"
+      }
+    ]
+  }
+}

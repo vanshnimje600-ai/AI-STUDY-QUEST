@@ -1,0 +1,3602 @@
+[
+  {
+    "id": 1,
+    "question": "Which keyword defines a class in Java?",
+    "options": [
+      "class",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "class",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "question": "Which method is the entry point of a Java application?",
+    "options": [
+      "main()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "main()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "question": "Which keyword creates an object?",
+    "options": [
+      "new",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "new",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 4,
+    "question": "Which primitive type stores true or false?",
+    "options": [
+      "boolean",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "boolean",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5,
+    "question": "Which primitive type stores a single Unicode character?",
+    "options": [
+      "char",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "char",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "question": "Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "int",
+      "String",
+      "Object",
+      "double"
+    ],
+    "answer": "int",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7,
+    "question": "Which primitive type stores a 64-bit signed integer?",
+    "options": [
+      "long",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "long",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 8,
+    "question": "Which primitive type is commonly used for decimal values?",
+    "options": [
+      "double",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "double",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 9,
+    "question": "Which keyword prevents reassignment of a variable?",
+    "options": [
+      "final",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "final",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 10,
+    "question": "Which keyword is used for class inheritance?",
+    "options": [
+      "extends",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "extends",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 11,
+    "question": "Which keyword is used when a class implements an interface?",
+    "options": [
+      "implements",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "implements",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 12,
+    "question": "Which keyword refers to the current object?",
+    "options": [
+      "this",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "this",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 13,
+    "question": "Which keyword refers to the immediate superclass?",
+    "options": [
+      "super",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "super",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 14,
+    "question": "Which package is automatically available in Java?",
+    "options": [
+      "java.lang",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "java.lang",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 15,
+    "question": "Which class provides standard console output?",
+    "options": [
+      "System",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "System",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 16,
+    "question": "Which method prints text and then moves to a new line?",
+    "options": [
+      "println()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "println()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 17,
+    "question": "Which method prints formatted output?",
+    "options": [
+      "printf()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "printf()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 18,
+    "question": "Which class is commonly used for keyboard input?",
+    "options": [
+      "Scanner",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Scanner",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 19,
+    "question": "Which package contains Scanner?",
+    "options": [
+      "java.util",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "java.util",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 20,
+    "question": "Which access modifier provides the widest normal access?",
+    "options": [
+      "public",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "public",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 21,
+    "question": "Which access modifier restricts access to the declaring class?",
+    "options": [
+      "private",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "private",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 22,
+    "question": "Which access modifier supports package access and subclass access?",
+    "options": [
+      "protected",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "protected",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 23,
+    "question": "What is the access level when no access modifier is written?",
+    "options": [
+      "package-private",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "package-private",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 24,
+    "question": "Which keyword prevents a class from being inherited?",
+    "options": [
+      "final",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "final",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 25,
+    "question": "Which keyword begins exception-handling code?",
+    "options": [
+      "try",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "try",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 26,
+    "question": "Which keyword handles an exception?",
+    "options": [
+      "catch",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "catch",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 27,
+    "question": "Which block normally executes after try/catch processing?",
+    "options": [
+      "finally",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "finally",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 28,
+    "question": "Which keyword explicitly throws an exception?",
+    "options": [
+      "throw",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "throw",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 29,
+    "question": "Which keyword declares exceptions in a method signature?",
+    "options": [
+      "throws",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "throws",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 30,
+    "question": "What is the root class of the Java class hierarchy?",
+    "options": [
+      "Object",
+      "String",
+      "int",
+      "double"
+    ],
+    "answer": "Object",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 31,
+    "question": "Which method compares String contents?",
+    "options": [
+      "equals()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "equals()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 32,
+    "question": "Which operator compares primitive values for equality?",
+    "options": [
+      "==",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "==",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 33,
+    "question": "Which operator performs short-circuit logical AND?",
+    "options": [
+      "&&",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "&&",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 34,
+    "question": "Which operator performs short-circuit logical OR?",
+    "options": [
+      "||",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "||",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 35,
+    "question": "Which operator represents logical NOT?",
+    "options": [
+      "!",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "!",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 36,
+    "question": "Which keyword exits a loop immediately?",
+    "options": [
+      "break",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "break",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 37,
+    "question": "Which keyword skips the current loop iteration?",
+    "options": [
+      "continue",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "continue",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 38,
+    "question": "Which keyword returns a value from a method?",
+    "options": [
+      "return",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "return",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 39,
+    "question": "Which loop executes its body at least once?",
+    "options": [
+      "do-while",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "do-while",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 40,
+    "question": "Which loop is commonly used when the iteration count is known?",
+    "options": [
+      "for",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "for",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 41,
+    "question": "Which keyword declares an interface?",
+    "options": [
+      "interface",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "interface",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 42,
+    "question": "Which keyword declares an abstract class or method?",
+    "options": [
+      "abstract",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "abstract",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 43,
+    "question": "Which keyword declares a class-level member?",
+    "options": [
+      "static",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "static",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 44,
+    "question": "Which keyword imports a class or package?",
+    "options": [
+      "import",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "import",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 45,
+    "question": "Which keyword declares a package?",
+    "options": [
+      "package",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "package",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 46,
+    "question": "Which primitive integer type uses 8 bits?",
+    "options": [
+      "byte",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "byte",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 47,
+    "question": "Which primitive integer type uses 16 bits?",
+    "options": [
+      "short",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "short",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 48,
+    "question": "How many bits does Java int use?",
+    "options": [
+      "32",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "32",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 49,
+    "question": "How many bits does Java long use?",
+    "options": [
+      "64",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "64",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 50,
+    "question": "How many bits does Java char use?",
+    "options": [
+      "16",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "16",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 51,
+    "question": "Which Java class represents an immutable character sequence?",
+    "options": [
+      "String",
+      "Object",
+      "int",
+      "double"
+    ],
+    "answer": "String",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 52,
+    "question": "Which class provides a mutable character sequence without synchronization?",
+    "options": [
+      "StringBuilder",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "StringBuilder",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 53,
+    "question": "Which class provides a synchronized mutable character sequence?",
+    "options": [
+      "StringBuffer",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "StringBuffer",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 54,
+    "question": "Which collection stores unique elements?",
+    "options": [
+      "Set",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Set",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 55,
+    "question": "Which collection stores key-value pairs?",
+    "options": [
+      "Map",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Map",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 56,
+    "question": "Which collection allows duplicate elements in sequence?",
+    "options": [
+      "List",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "List",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 57,
+    "question": "Which class implements a resizable array?",
+    "options": [
+      "ArrayList",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "ArrayList",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 58,
+    "question": "Which class implements a hash-based set?",
+    "options": [
+      "HashSet",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "HashSet",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 59,
+    "question": "Which class implements a hash-based map?",
+    "options": [
+      "HashMap",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "HashMap",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 60,
+    "question": "Which collection is associated with FIFO behavior?",
+    "options": [
+      "Queue",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Queue",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 61,
+    "question": "Which collection follows LIFO behavior?",
+    "options": [
+      "Stack",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Stack",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 62,
+    "question": "Which keyword declares an enumeration?",
+    "options": [
+      "enum",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "enum",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 63,
+    "question": "Which method starts a Thread?",
+    "options": [
+      "start()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "start()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 64,
+    "question": "Which method contains the work performed by a Thread?",
+    "options": [
+      "run()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "run()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 65,
+    "question": "Which interface is commonly used to define thread work?",
+    "options": [
+      "Runnable",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Runnable",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 66,
+    "question": "Which class represents a thread?",
+    "options": [
+      "Thread",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Thread",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 67,
+    "question": "Which exception results from integer division by zero?",
+    "options": [
+      "ArithmeticException",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "ArithmeticException",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 68,
+    "question": "Which exception occurs for an invalid array index?",
+    "options": [
+      "ArrayIndexOutOfBoundsException",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "ArrayIndexOutOfBoundsException",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 69,
+    "question": "Which exception commonly occurs when using a null reference?",
+    "options": [
+      "NullPointerException",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "NullPointerException",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 70,
+    "question": "Which wrapper class represents int?",
+    "options": [
+      "Integer",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Integer",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 71,
+    "question": "Which wrapper class represents double?",
+    "options": [
+      "Double",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Double",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 72,
+    "question": "Which wrapper class represents boolean?",
+    "options": [
+      "Boolean",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Boolean",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 73,
+    "question": "What does OOP stand for?",
+    "options": [
+      "Object-Oriented Programming",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Object-Oriented Programming",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 74,
+    "question": "Which OOP concept hides internal implementation details?",
+    "options": [
+      "Encapsulation",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Encapsulation",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 75,
+    "question": "Which OOP concept lets a class acquire features from another class?",
+    "options": [
+      "Inheritance",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Inheritance",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 76,
+    "question": "Which OOP concept allows one interface to have multiple implementations?",
+    "options": [
+      "Polymorphism",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Polymorphism",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 77,
+    "question": "Which OOP concept focuses on essential features while hiding details?",
+    "options": [
+      "Abstraction",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Abstraction",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 78,
+    "question": "What is an object created from a class called?",
+    "options": [
+      "Instance",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Instance",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 79,
+    "question": "Which operator gives the remainder of integer division?",
+    "options": [
+      "%",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "%",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 80,
+    "question": "What is the first index of a Java array?",
+    "options": [
+      "0",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "0",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 81,
+    "question": "Which field gives the number of elements in an array?",
+    "options": [
+      "length",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "length",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 82,
+    "question": "Which method gives the number of elements in an ArrayList?",
+    "options": [
+      "size()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "size()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 83,
+    "question": "Which class provides common mathematical functions?",
+    "options": [
+      "Math",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Math",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 84,
+    "question": "Which Math method returns the larger of two values?",
+    "options": [
+      "max()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "max()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 85,
+    "question": "Which Math method returns a square root?",
+    "options": [
+      "sqrt()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "sqrt()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 86,
+    "question": "Which keyword starts a conditional statement?",
+    "options": [
+      "if",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "if",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 87,
+    "question": "Which keyword provides an alternative branch of if?",
+    "options": [
+      "else",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "else",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 88,
+    "question": "Which statement selects among multiple cases?",
+    "options": [
+      "switch",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "switch",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 89,
+    "question": "Which keyword labels a switch branch?",
+    "options": [
+      "case",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "case",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 90,
+    "question": "Which switch label handles no matching case?",
+    "options": [
+      "default",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "default",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 91,
+    "question": "Which method converts a String to int?",
+    "options": [
+      "Integer.parseInt()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Integer.parseInt()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 92,
+    "question": "Which method converts a String to double?",
+    "options": [
+      "Double.parseDouble()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Double.parseDouble()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 93,
+    "question": "Which method returns the length of a String?",
+    "options": [
+      "length()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "length()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 94,
+    "question": "Which method converts a String to lowercase?",
+    "options": [
+      "toLowerCase()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "toLowerCase()",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 95,
+    "question": "What is method overloading?",
+    "options": [
+      "Same method name with different parameter lists",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Same method name with different parameter lists",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 96,
+    "question": "What is method overriding?",
+    "options": [
+      "A subclass provides a new implementation of an inherited method",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "A subclass provides a new implementation of an inherited method",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 97,
+    "question": "Does Java support multiple inheritance of classes?",
+    "options": [
+      "No",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "No",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 98,
+    "question": "How can Java achieve multiple inheritance of type?",
+    "options": [
+      "By implementing multiple interfaces",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "By implementing multiple interfaces",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 99,
+    "question": "Can a constructor be inherited?",
+    "options": [
+      "No",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "No",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 100,
+    "question": "Can a constructor be overridden?",
+    "options": [
+      "No",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "No",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 101,
+    "question": "Which statement correctly describes a class in Java?",
+    "options": [
+      "class",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "class",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 102,
+    "question": "Which statement correctly describes a Java application?",
+    "options": [
+      "main()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "main()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 103,
+    "question": "Which statement correctly describes an object?",
+    "options": [
+      "new",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "new",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 104,
+    "question": "Which statement correctly describes boolean in Java?",
+    "options": [
+      "boolean",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "boolean",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 105,
+    "question": "Which statement correctly describes char in Java?",
+    "options": [
+      "char",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "char",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 106,
+    "question": "Which statement correctly describes int in Java?",
+    "options": [
+      "int",
+      "String",
+      "Object",
+      "double"
+    ],
+    "answer": "int",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 107,
+    "question": "Which statement correctly describes long in Java?",
+    "options": [
+      "long",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "long",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 108,
+    "question": "Which statement correctly describes double in Java?",
+    "options": [
+      "double",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "double",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 109,
+    "question": "Which statement correctly describes final in Java?",
+    "options": [
+      "final",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "final",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 110,
+    "question": "Which statement correctly describes extends in Java?",
+    "options": [
+      "extends",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "extends",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 111,
+    "question": "Which statement correctly describes implements in Java?",
+    "options": [
+      "implements",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "implements",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 112,
+    "question": "Which statement correctly describes this in Java?",
+    "options": [
+      "this",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "this",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 113,
+    "question": "Which statement correctly describes super in Java?",
+    "options": [
+      "super",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "super",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 114,
+    "question": "Which statement correctly describes java.lang in Java?",
+    "options": [
+      "java.lang",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "java.lang",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 115,
+    "question": "Which statement correctly describes System in Java?",
+    "options": [
+      "System",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "System",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 116,
+    "question": "Which statement correctly describes println in Java?",
+    "options": [
+      "println()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "println()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 117,
+    "question": "Which statement correctly describes printf in Java?",
+    "options": [
+      "printf()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "printf()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 118,
+    "question": "Which statement correctly describes Scanner in Java?",
+    "options": [
+      "Scanner",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Scanner",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 119,
+    "question": "Which statement correctly describes java.util in Java?",
+    "options": [
+      "java.util",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "java.util",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 120,
+    "question": "Which statement correctly describes public in Java?",
+    "options": [
+      "public",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "public",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 121,
+    "question": "Which statement correctly describes private in Java?",
+    "options": [
+      "private",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "private",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 122,
+    "question": "Which statement correctly describes protected in Java?",
+    "options": [
+      "protected",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "protected",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 123,
+    "question": "Which statement correctly describes package-private in Java?",
+    "options": [
+      "package-private",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "package-private",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 124,
+    "question": "Which statement correctly describes final class in Java?",
+    "options": [
+      "final",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "final",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 125,
+    "question": "Which statement correctly describes try in Java?",
+    "options": [
+      "try",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "try",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 126,
+    "question": "Which statement correctly describes catch in Java?",
+    "options": [
+      "catch",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "catch",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 127,
+    "question": "Which statement correctly describes finally in Java?",
+    "options": [
+      "finally",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "finally",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 128,
+    "question": "Which statement correctly describes throw in Java?",
+    "options": [
+      "throw",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "throw",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 129,
+    "question": "Which statement correctly describes throws in Java?",
+    "options": [
+      "throws",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "throws",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 130,
+    "question": "Which statement correctly describes Object in Java?",
+    "options": [
+      "Object",
+      "String",
+      "int",
+      "double"
+    ],
+    "answer": "Object",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 131,
+    "question": "Which statement correctly describes String equals in Java?",
+    "options": [
+      "equals()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "equals()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 132,
+    "question": "Which statement correctly describes equality operator in Java?",
+    "options": [
+      "==",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "==",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 133,
+    "question": "Which statement correctly describes logical AND in Java?",
+    "options": [
+      "&&",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "&&",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 134,
+    "question": "Which statement correctly describes logical OR in Java?",
+    "options": [
+      "||",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "||",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 135,
+    "question": "Which statement correctly describes logical NOT in Java?",
+    "options": [
+      "!",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "!",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 136,
+    "question": "Which statement correctly describes break in Java?",
+    "options": [
+      "break",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "break",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 137,
+    "question": "Which statement correctly describes continue in Java?",
+    "options": [
+      "continue",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "continue",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 138,
+    "question": "Which statement correctly describes return in Java?",
+    "options": [
+      "return",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "return",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 139,
+    "question": "Which statement correctly describes do while in Java?",
+    "options": [
+      "do-while",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "do-while",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 140,
+    "question": "Which statement correctly describes for loop in Java?",
+    "options": [
+      "for",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "for",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 141,
+    "question": "Which statement correctly describes interface in Java?",
+    "options": [
+      "interface",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "interface",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 142,
+    "question": "Which statement correctly describes abstract in Java?",
+    "options": [
+      "abstract",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "abstract",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 143,
+    "question": "Which statement correctly describes static in Java?",
+    "options": [
+      "static",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "static",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 144,
+    "question": "Which statement correctly describes import in Java?",
+    "options": [
+      "import",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "import",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 145,
+    "question": "Which statement correctly describes package in Java?",
+    "options": [
+      "package",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "package",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 146,
+    "question": "Which statement correctly describes byte in Java?",
+    "options": [
+      "byte",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "byte",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 147,
+    "question": "Which statement correctly describes short in Java?",
+    "options": [
+      "short",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "short",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 148,
+    "question": "Which statement correctly describes int size in Java?",
+    "options": [
+      "32",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "32",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 149,
+    "question": "Which statement correctly describes long size in Java?",
+    "options": [
+      "64",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "64",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 150,
+    "question": "Which statement correctly describes char size in Java?",
+    "options": [
+      "16",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "16",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 151,
+    "question": "Which statement correctly describes String immutable in Java?",
+    "options": [
+      "String",
+      "Object",
+      "int",
+      "double"
+    ],
+    "answer": "String",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 152,
+    "question": "Which statement correctly describes StringBuilder in Java?",
+    "options": [
+      "StringBuilder",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "StringBuilder",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 153,
+    "question": "Which statement correctly describes StringBuffer in Java?",
+    "options": [
+      "StringBuffer",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "StringBuffer",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 154,
+    "question": "Which statement correctly describes Set in Java?",
+    "options": [
+      "Set",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Set",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 155,
+    "question": "Which statement correctly describes Map in Java?",
+    "options": [
+      "Map",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Map",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 156,
+    "question": "Which statement correctly describes List in Java?",
+    "options": [
+      "List",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "List",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 157,
+    "question": "Which statement correctly describes ArrayList in Java?",
+    "options": [
+      "ArrayList",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "ArrayList",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 158,
+    "question": "Which statement correctly describes HashSet in Java?",
+    "options": [
+      "HashSet",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "HashSet",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 159,
+    "question": "Which statement correctly describes HashMap in Java?",
+    "options": [
+      "HashMap",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "HashMap",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 160,
+    "question": "Which statement correctly describes Queue in Java?",
+    "options": [
+      "Queue",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Queue",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 161,
+    "question": "Which statement correctly describes Stack in Java?",
+    "options": [
+      "Stack",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Stack",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 162,
+    "question": "Which statement correctly describes enum in Java?",
+    "options": [
+      "enum",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "enum",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 163,
+    "question": "Which statement correctly describes Thread start in Java?",
+    "options": [
+      "start()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "start()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 164,
+    "question": "Which statement correctly describes Thread run in Java?",
+    "options": [
+      "run()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "run()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 165,
+    "question": "Which statement correctly describes Runnable in Java?",
+    "options": [
+      "Runnable",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Runnable",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 166,
+    "question": "Which statement correctly describes Thread in Java?",
+    "options": [
+      "Thread",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Thread",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 167,
+    "question": "Which statement correctly describes ArithmeticException in Java?",
+    "options": [
+      "ArithmeticException",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "ArithmeticException",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 168,
+    "question": "Which statement correctly describes ArrayIndexOutOfBoundsException in Java?",
+    "options": [
+      "ArrayIndexOutOfBoundsException",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "ArrayIndexOutOfBoundsException",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 169,
+    "question": "Which statement correctly describes NullPointerException in Java?",
+    "options": [
+      "NullPointerException",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "NullPointerException",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 170,
+    "question": "Which statement correctly describes Integer in Java?",
+    "options": [
+      "Integer",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Integer",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 171,
+    "question": "Which statement correctly describes Double in Java?",
+    "options": [
+      "Double",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Double",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 172,
+    "question": "Which statement correctly describes Boolean in Java?",
+    "options": [
+      "Boolean",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Boolean",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 173,
+    "question": "Which statement correctly describes OOP in Java?",
+    "options": [
+      "Object-Oriented Programming",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Object-Oriented Programming",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 174,
+    "question": "Which statement correctly describes encapsulation in Java?",
+    "options": [
+      "Encapsulation",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Encapsulation",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 175,
+    "question": "Which statement correctly describes inheritance in Java?",
+    "options": [
+      "Inheritance",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Inheritance",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 176,
+    "question": "Which statement correctly describes polymorphism in Java?",
+    "options": [
+      "Polymorphism",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Polymorphism",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 177,
+    "question": "Which statement correctly describes abstraction in Java?",
+    "options": [
+      "Abstraction",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Abstraction",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 178,
+    "question": "Which statement correctly describes instance in Java?",
+    "options": [
+      "Instance",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Instance",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 179,
+    "question": "Which statement correctly describes remainder in Java?",
+    "options": [
+      "%",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "%",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 180,
+    "question": "Which statement correctly describes array first index in Java?",
+    "options": [
+      "0",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "0",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 181,
+    "question": "Which statement correctly describes array length in Java?",
+    "options": [
+      "length",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "length",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 182,
+    "question": "Which statement correctly describes ArrayList size in Java?",
+    "options": [
+      "size()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "size()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 183,
+    "question": "Which statement correctly describes Math class in Java?",
+    "options": [
+      "Math",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Math",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 184,
+    "question": "Which statement correctly describes Math max in Java?",
+    "options": [
+      "max()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "max()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 185,
+    "question": "Which statement correctly describes Math sqrt in Java?",
+    "options": [
+      "sqrt()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "sqrt()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 186,
+    "question": "Which statement correctly describes if in Java?",
+    "options": [
+      "if",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "if",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 187,
+    "question": "Which statement correctly describes else in Java?",
+    "options": [
+      "else",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "else",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 188,
+    "question": "Which statement correctly describes switch in Java?",
+    "options": [
+      "switch",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "switch",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 189,
+    "question": "Which statement correctly describes case in Java?",
+    "options": [
+      "case",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "case",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 190,
+    "question": "Which statement correctly describes default in Java?",
+    "options": [
+      "default",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "default",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 191,
+    "question": "Which statement correctly describes parseInt in Java?",
+    "options": [
+      "Integer.parseInt()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Integer.parseInt()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 192,
+    "question": "Which statement correctly describes parseDouble in Java?",
+    "options": [
+      "Double.parseDouble()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Double.parseDouble()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 193,
+    "question": "Which statement correctly describes String length in Java?",
+    "options": [
+      "length()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "length()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 194,
+    "question": "Which statement correctly describes String lowercase in Java?",
+    "options": [
+      "toLowerCase()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "toLowerCase()",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 195,
+    "question": "Which statement correctly describes overloading in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Same method name with different parameter lists",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 196,
+    "question": "Which statement correctly describes overriding in Java?",
+    "options": [
+      "A subclass provides a new implementation of an inherited method",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "A subclass provides a new implementation of an inherited method",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 197,
+    "question": "Which statement correctly describes multiple class inheritance in Java?",
+    "options": [
+      "No",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "No",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 198,
+    "question": "Which statement correctly describes multiple interfaces in Java?",
+    "options": [
+      "By implementing multiple interfaces",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "By implementing multiple interfaces",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 199,
+    "question": "Which statement correctly describes constructor inheritance in Java?",
+    "options": [
+      "No",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "No",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 200,
+    "question": "Which statement correctly describes constructor overriding in Java?",
+    "options": [
+      "No",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "No",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 201,
+    "question": "Which statement is most accurate about class keyword in Java?",
+    "options": [
+      "class",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "class",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 202,
+    "question": "Which statement is most accurate about main method in Java?",
+    "options": [
+      "main()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "main()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 203,
+    "question": "Which statement is most accurate about object creation in Java?",
+    "options": [
+      "new",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "new",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 204,
+    "question": "Which statement is most accurate about boolean in Java?",
+    "options": [
+      "boolean",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "boolean",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 205,
+    "question": "Which statement is most accurate about char in Java?",
+    "options": [
+      "char",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "char",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 206,
+    "question": "Which statement is most accurate about int in Java?",
+    "options": [
+      "int",
+      "String",
+      "Object",
+      "double"
+    ],
+    "answer": "int",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 207,
+    "question": "Which statement is most accurate about long in Java?",
+    "options": [
+      "long",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "long",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 208,
+    "question": "Which statement is most accurate about double in Java?",
+    "options": [
+      "double",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "double",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 209,
+    "question": "Which statement is most accurate about final in Java?",
+    "options": [
+      "final",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "final",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 210,
+    "question": "Which statement is most accurate about extends in Java?",
+    "options": [
+      "extends",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "extends",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 211,
+    "question": "Which statement is most accurate about implements in Java?",
+    "options": [
+      "implements",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "implements",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 212,
+    "question": "Which statement is most accurate about this in Java?",
+    "options": [
+      "this",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "this",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 213,
+    "question": "Which statement is most accurate about super in Java?",
+    "options": [
+      "super",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "super",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 214,
+    "question": "Which statement is most accurate about java.lang in Java?",
+    "options": [
+      "java.lang",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "java.lang",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 215,
+    "question": "Which statement is most accurate about System in Java?",
+    "options": [
+      "System",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "System",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 216,
+    "question": "Which statement is most accurate about println in Java?",
+    "options": [
+      "println()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "println()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 217,
+    "question": "Which statement is most accurate about printf in Java?",
+    "options": [
+      "printf()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "printf()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 218,
+    "question": "Which statement is most accurate about Scanner in Java?",
+    "options": [
+      "Scanner",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Scanner",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 219,
+    "question": "Which statement is most accurate about java.util in Java?",
+    "options": [
+      "java.util",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "java.util",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 220,
+    "question": "Which statement is most accurate about public in Java?",
+    "options": [
+      "public",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "public",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 221,
+    "question": "Which statement is most accurate about private in Java?",
+    "options": [
+      "private",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "private",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 222,
+    "question": "Which statement is most accurate about protected in Java?",
+    "options": [
+      "protected",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "protected",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 223,
+    "question": "Which statement is most accurate about package-private in Java?",
+    "options": [
+      "package-private",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "package-private",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 224,
+    "question": "Which statement is most accurate about final class in Java?",
+    "options": [
+      "final",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "final",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 225,
+    "question": "Which statement is most accurate about try in Java?",
+    "options": [
+      "try",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "try",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 226,
+    "question": "Which statement is most accurate about catch in Java?",
+    "options": [
+      "catch",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "catch",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 227,
+    "question": "Which statement is most accurate about finally in Java?",
+    "options": [
+      "finally",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "finally",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 228,
+    "question": "Which statement is most accurate about throw in Java?",
+    "options": [
+      "throw",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "throw",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 229,
+    "question": "Which statement is most accurate about throws in Java?",
+    "options": [
+      "throws",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "throws",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 230,
+    "question": "Which statement is most accurate about Object in Java?",
+    "options": [
+      "Object",
+      "String",
+      "int",
+      "double"
+    ],
+    "answer": "Object",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 231,
+    "question": "Given two separate String objects containing the same text, which method should be used to compare their contents?",
+    "options": [
+      "equals()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "equals()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 232,
+    "question": "When comparing two primitive int variables for equality, which operator should be used?",
+    "options": [
+      "==",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "==",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 233,
+    "question": "Which statement is most accurate about logical AND in Java?",
+    "options": [
+      "&&",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "&&",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 234,
+    "question": "Which statement is most accurate about logical OR in Java?",
+    "options": [
+      "||",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "||",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 235,
+    "question": "Which statement is most accurate about logical NOT in Java?",
+    "options": [
+      "!",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "!",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 236,
+    "question": "Which statement is most accurate about break in Java?",
+    "options": [
+      "break",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "break",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 237,
+    "question": "Which statement is most accurate about continue in Java?",
+    "options": [
+      "continue",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "continue",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 238,
+    "question": "Which statement is most accurate about return in Java?",
+    "options": [
+      "return",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "return",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 239,
+    "question": "Which statement is most accurate about do while in Java?",
+    "options": [
+      "do-while",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "do-while",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 240,
+    "question": "Which statement is most accurate about for loop in Java?",
+    "options": [
+      "for",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "for",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 241,
+    "question": "Which statement is most accurate about interface in Java?",
+    "options": [
+      "interface",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "interface",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 242,
+    "question": "Which statement is most accurate about abstract in Java?",
+    "options": [
+      "abstract",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "abstract",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 243,
+    "question": "Which statement is most accurate about static in Java?",
+    "options": [
+      "static",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "static",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 244,
+    "question": "Which statement is most accurate about import in Java?",
+    "options": [
+      "import",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "import",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 245,
+    "question": "Which statement is most accurate about package in Java?",
+    "options": [
+      "package",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "package",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 246,
+    "question": "Which statement is most accurate about byte in Java?",
+    "options": [
+      "byte",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "byte",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 247,
+    "question": "Which statement is most accurate about short in Java?",
+    "options": [
+      "short",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "short",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 248,
+    "question": "Which statement is most accurate about int size in Java?",
+    "options": [
+      "32",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "32",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 249,
+    "question": "Which statement is most accurate about long size in Java?",
+    "options": [
+      "64",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "64",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 250,
+    "question": "Which statement is most accurate about char size in Java?",
+    "options": [
+      "16",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "16",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 251,
+    "question": "Which statement is most accurate about String immutable in Java?",
+    "options": [
+      "String",
+      "Object",
+      "int",
+      "double"
+    ],
+    "answer": "String",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 252,
+    "question": "Which statement is most accurate about StringBuilder in Java?",
+    "options": [
+      "StringBuilder",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "StringBuilder",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 253,
+    "question": "Which statement is most accurate about StringBuffer in Java?",
+    "options": [
+      "StringBuffer",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "StringBuffer",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 254,
+    "question": "Which statement is most accurate about Set in Java?",
+    "options": [
+      "Set",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Set",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 255,
+    "question": "Which statement is most accurate about Map in Java?",
+    "options": [
+      "Map",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Map",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 256,
+    "question": "Which statement is most accurate about List in Java?",
+    "options": [
+      "List",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "List",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 257,
+    "question": "Which statement is most accurate about ArrayList in Java?",
+    "options": [
+      "ArrayList",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "ArrayList",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 258,
+    "question": "Which statement is most accurate about HashSet in Java?",
+    "options": [
+      "HashSet",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "HashSet",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 259,
+    "question": "Which statement is most accurate about HashMap in Java?",
+    "options": [
+      "HashMap",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "HashMap",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 260,
+    "question": "Which statement is most accurate about Queue in Java?",
+    "options": [
+      "Queue",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Queue",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 261,
+    "question": "Which statement is most accurate about Stack in Java?",
+    "options": [
+      "Stack",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Stack",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 262,
+    "question": "Which statement is most accurate about enum in Java?",
+    "options": [
+      "enum",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "enum",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 263,
+    "question": "Which statement is most accurate about Thread start in Java?",
+    "options": [
+      "start()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "start()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 264,
+    "question": "Which statement is most accurate about Thread run in Java?",
+    "options": [
+      "run()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "run()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 265,
+    "question": "Which statement is most accurate about Runnable in Java?",
+    "options": [
+      "Runnable",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Runnable",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 266,
+    "question": "Which statement is most accurate about Thread in Java?",
+    "options": [
+      "Thread",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Thread",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 267,
+    "question": "Which statement is most accurate about ArithmeticException in Java?",
+    "options": [
+      "ArithmeticException",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "ArithmeticException",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 268,
+    "question": "Which statement is most accurate about ArrayIndexOutOfBoundsException in Java?",
+    "options": [
+      "ArrayIndexOutOfBoundsException",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "ArrayIndexOutOfBoundsException",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 269,
+    "question": "Which statement is most accurate about NullPointerException in Java?",
+    "options": [
+      "NullPointerException",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "NullPointerException",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 270,
+    "question": "Which statement is most accurate about Integer in Java?",
+    "options": [
+      "Integer",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Integer",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 271,
+    "question": "Which statement is most accurate about Double in Java?",
+    "options": [
+      "Double",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Double",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 272,
+    "question": "Which statement is most accurate about Boolean in Java?",
+    "options": [
+      "Boolean",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Boolean",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 273,
+    "question": "Which statement is most accurate about OOP in Java?",
+    "options": [
+      "Object-Oriented Programming",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Object-Oriented Programming",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 274,
+    "question": "Which statement is most accurate about encapsulation in Java?",
+    "options": [
+      "Encapsulation",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Encapsulation",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 275,
+    "question": "Which statement is most accurate about inheritance in Java?",
+    "options": [
+      "Inheritance",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Inheritance",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 276,
+    "question": "Which statement is most accurate about polymorphism in Java?",
+    "options": [
+      "Polymorphism",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Polymorphism",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 277,
+    "question": "Which statement is most accurate about abstraction in Java?",
+    "options": [
+      "Abstraction",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Abstraction",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 278,
+    "question": "Which statement is most accurate about instance in Java?",
+    "options": [
+      "Instance",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Instance",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 279,
+    "question": "Which statement is most accurate about remainder in Java?",
+    "options": [
+      "%",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "%",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 280,
+    "question": "For an int array created with length 5, what is the smallest valid index?",
+    "options": [
+      "0",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "0",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 281,
+    "question": "For an array containing exactly 7 elements, which field evaluates to 7?",
+    "options": [
+      "length",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "length",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 282,
+    "question": "For an ArrayList containing exactly 7 elements, which method returns 7?",
+    "options": [
+      "size()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "size()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 283,
+    "question": "Which statement is most accurate about Math class in Java?",
+    "options": [
+      "Math",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Math",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 284,
+    "question": "Which statement is most accurate about Math max in Java?",
+    "options": [
+      "max()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "max()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 285,
+    "question": "Which statement is most accurate about Math sqrt in Java?",
+    "options": [
+      "sqrt()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "sqrt()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 286,
+    "question": "Which statement is most accurate about if in Java?",
+    "options": [
+      "if",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "if",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 287,
+    "question": "Which statement is most accurate about else in Java?",
+    "options": [
+      "else",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "else",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 288,
+    "question": "Which statement is most accurate about switch in Java?",
+    "options": [
+      "switch",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "switch",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 289,
+    "question": "Which statement is most accurate about case in Java?",
+    "options": [
+      "case",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "case",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 290,
+    "question": "Which statement is most accurate about default in Java?",
+    "options": [
+      "default",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "default",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 291,
+    "question": "Which statement is most accurate about parseInt in Java?",
+    "options": [
+      "Integer.parseInt()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Integer.parseInt()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 292,
+    "question": "Which statement is most accurate about parseDouble in Java?",
+    "options": [
+      "Double.parseDouble()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Double.parseDouble()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 293,
+    "question": "Which statement is most accurate about String length in Java?",
+    "options": [
+      "length()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "length()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 294,
+    "question": "Which statement is most accurate about String lowercase in Java?",
+    "options": [
+      "toLowerCase()",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "toLowerCase()",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 295,
+    "question": "A class contains calculate(int) and calculate(double). What Java feature is demonstrated?",
+    "options": [
+      "Same method name with different parameter lists",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "Same method name with different parameter lists",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 296,
+    "question": "A subclass replaces the implementation of an inherited instance method with the same signature. What feature is this?",
+    "options": [
+      "A subclass provides a new implementation of an inherited method",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "A subclass provides a new implementation of an inherited method",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 297,
+    "question": "Can one Java class directly extend two classes?",
+    "options": [
+      "No",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "No",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 298,
+    "question": "How can a Java class inherit behavior contracts from multiple types?",
+    "options": [
+      "By implementing multiple interfaces",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "By implementing multiple interfaces",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 299,
+    "question": "Which statement is most accurate about constructor inheritance in Java?",
+    "options": [
+      "No",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "No",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 300,
+    "question": "Which statement is most accurate about constructor overriding in Java?",
+    "options": [
+      "No",
+      "String",
+      "Object",
+      "int"
+    ],
+    "answer": "No",
+    "difficulty": "Hard"
+  }
+]

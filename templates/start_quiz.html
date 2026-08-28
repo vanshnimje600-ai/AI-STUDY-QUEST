@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Quiz</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/start_quiz.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎮 AI Study Quest</h1>
+
+    <h2>Ready to Start?</h2>
+
+    <div class="details">
+
+        <p><strong>📚 Subject:</strong> {{ subject }}</p>
+
+        <p><strong>🎯 Difficulty:</strong> {{ difficulty }}</p>
+
+        <p><strong>❓ Questions:</strong> 10</p>
+
+        <p><strong>⏱ Time:</strong> 15 Seconds Per Question</p>
+
+        <p><strong>🏆 Reward:</strong> XP + Score</p>
+
+    </div>
+
+    <form action="/start_quiz" method="POST">
+
+        <input type="hidden" name="subject" value="{{ subject }}">
+        <input type="hidden" name="difficulty" value="{{ difficulty }}">
+
+        <button type="submit">
+            ▶ Start Quiz
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

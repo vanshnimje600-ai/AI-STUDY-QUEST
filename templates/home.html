@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Study Quest</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="bg-circle circle1"></div>
+    <div class="bg-circle circle2"></div>
+    <div class="bg-circle circle3"></div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🎮 AI Study Quest
+        </div>
+
+        <div class="nav-buttons">
+
+            <!-- Current user is already logged in -->
+            <span class="welcome-user">
+                👋 {{ username }}
+            </span>
+
+            <!-- Go to subjects -->
+            <a href="/subjects" class="login-btn">
+                Start Quiz
+            </a>
+
+            <!-- Register route -->
+            <a href="/register" class="register-btn">
+                Register
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main class="hero">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                ⚡ AI Powered Learning Game
+            </div>
+
+            <h1>
+                Learn.
+                <span>Play.</span>
+                Conquer.
+            </h1>
+
+            <p>
+                Welcome to AI Study Quest, {{ username }}!
+                Turn your study time into an exciting gaming experience.
+                Test your knowledge, improve your skills and climb the
+                leaderboard.
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <!-- IMPORTANT:
+                     User is already logged in,
+                     so directly open subjects -->
+                <a href="/subjects" class="start-btn">
+                    🚀 Start Your Quest
+                </a>
+
+                <a href="#features" class="explore-btn">
+                    Explore Features ↓
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= GAME CARD ================= -->
+
+        <div class="game-card">
+
+            <div class="card-top">
+
+                <span>🎯</span>
+
+                <div>
+
+                    <small>
+                        YOUR QUEST
+                    </small>
+
+                    <h3>
+                        Knowledge Challenge
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <!-- Progress -->
+
+            <div class="progress-area">
+
+                <div class="progress-info">
+
+                    <span>
+                        Quiz Progress
+                    </span>
+
+                    <span>
+                        70%
+                    </span>
+
+                </div>
+
+
+                <div class="progress-bar">
+
+                    <div></div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Stats -->
+
+            <div class="stats">
+
+                <div class="stat">
+
+                    <strong>
+                        10
+                    </strong>
+
+                    <small>
+                        Questions
+                    </small>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong>
+                        05:00
+                    </strong>
+
+                    <small>
+                        Time
+                    </small>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong>
+                        🏆
+                    </strong>
+
+                    <small>
+                        Rewards
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <!-- Mini Question -->
+
+            <div class="mini-question">
+
+                <span>
+                    Question 7 / 10
+                </span>
+
+                <h4>
+                    Ready to test your knowledge?
+                </h4>
+
+
+                <div class="fake-option">
+                    A. Let's go 🚀
+                </div>
+
+
+                <div class="fake-option">
+                    B. Maybe later
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section id="features" class="features">
+
+        <h2>
+            Everything You Need to
+            <span>Level Up</span>
+        </h2>
+
+        <p class="section-subtitle">
+            Study smarter while enjoying the experience.
+        </p>
+
+
+        <div class="feature-grid">
+
+
+            <!-- AI -->
+
+            <div class="feature-card">
+
+                <div class="icon">
+                    🤖
+                </div>
+
+                <h3>
+                    AI Powered
+                </h3>
+
+                <p>
+                    Smart quizzes designed to make learning
+                    more engaging and interactive.
+                </p>
+
+            </div>
+
+
+            <!-- Subjects -->
+
+            <div class="feature-card">
+
+                <div class="icon">
+                    🎯
+                </div>
+
+                <h3>
+                    Multiple Subjects
+                </h3>
+
+                <p>
+                    Practice programming, aptitude and
+                    many other subjects.
+                </p>
+
+            </div>
+
+
+            <!-- Timer -->
+
+            <div class="feature-card">
+
+                <div class="icon">
+                    ⏱️
+                </div>
+
+                <h3>
+                    Timed Quizzes
+                </h3>
+
+                <p>
+                    Challenge yourself with exciting
+                    timed quiz sessions.
+                </p>
+
+            </div>
+
+
+            <!-- Leaderboard -->
+
+            <div class="feature-card">
+
+                <div class="icon">
+                    🏆
+                </div>
+
+                <h3>
+                    Leaderboard
+                </h3>
+
+                <p>
+                    Compete with other players and
+                    reach the top.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= QUICK ACTIONS ================= -->
+
+    <section class="quick-actions">
+
+        <h2>
+            Ready for your next challenge?
+        </h2>
+
+        <p>
+            Choose a subject and start your quest.
+        </p>
+
+
+        <div class="quick-buttons">
+
+            <a href="/subjects">
+                🎮 Play Quiz
+            </a>
+
+            <a href="/leaderboard">
+                🏆 Leaderboard
+            </a>
+
+            <a href="/history">
+                📜 History
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            🎮 AI Study Quest
+        </div>
+
+        <p>
+            Learn • Play • Improve
+        </p>
+
+        <small>
+            © 2026 AI Study Quest. All rights reserved.
+        </small>
+
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Study Quest - History</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/history.css') }}">
+</head>
+
+<body>
+
+<div class="history-page">
+
+    <div class="history-card">
+
+        <!-- HEADER -->
+        <div class="history-header">
+
+            <div class="icon">
+                📚
+            </div>
+
+            <h1>Quiz History</h1>
+
+            <p>
+                Your previous quiz performances
+            </p>
+
+            {% if username %}
+            <div class="username">
+                👤 {{ username }}
+            </div>
+            {% endif %}
+
+        </div>
+
+
+        <!-- HISTORY -->
+        {% if history %}
+
+        <div class="history-list">
+
+            {% for item in history %}
+
+            <div class="history-item">
+
+    <div class="history-main">
+
+        <div class="subject">
+            {{ item[0] }}
+        </div>
+
+        <div class="details">
+
+            <span>
+                🎯 Score: {{ item[2] }}
+            </span>
+
+            <span>
+                📊 Difficulty: {{ item[1] }}
+            </span>
+
+        </div>
+
+    </div>
+
+    <div class="history-score">
+
+        <strong>
+            {{ item[2] }}
+        </strong>
+
+        <small>
+            Score
+        </small>
+
+    </div>
+
+</div>
+
+            {% endfor %}
+
+        </div>
+
+        {% else %}
+
+        <div class="empty-history">
+
+            <div class="empty-icon">
+                🎮
+            </div>
+
+            <h2>No Quiz History Yet</h2>
+
+            <p>
+                Complete your first quiz and your result
+                will appear here.
+            </p>
+
+        </div>
+
+        {% endif %}
+
+
+        <!-- BUTTONS -->
+
+        <div class="buttons">
+
+            <a href="{{ url_for('subjects') }}"
+               class="btn primary">
+                🎮 Play Quiz
+            </a>
+
+            <a href="{{ url_for('leaderboard') }}"
+               class="btn secondary">
+                🏆 Leaderboard
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

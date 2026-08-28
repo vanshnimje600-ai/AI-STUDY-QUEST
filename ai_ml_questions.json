@@ -1,0 +1,3304 @@
+{
+  "questions": [
+    {
+      "question": "What is artificial intelligence in AI and machine learning?",
+      "options": [
+        "an activation function that outputs max(0,x)",
+        "predicting a discrete class or category",
+        "the field of building systems that perform tasks associated with intelligent behavior",
+        "learned weights applied locally in convolution"
+      ],
+      "answer": "the field of building systems that perform tasks associated with intelligent behavior",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes machine learning?",
+      "options": [
+        "a technique used to discourage overly complex models",
+        "a field where models learn patterns from data",
+        "designing prompts to obtain useful model behavior",
+        "regularization based on the sum of absolute parameter values"
+      ],
+      "answer": "a field where models learn patterns from data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of supervised learning?",
+      "options": [
+        "learning from labeled training examples",
+        "a negative case incorrectly predicted as positive",
+        "further training a pretrained model on a specific dataset or task",
+        "a mathematical framework for sequential decision-making under uncertainty"
+      ],
+      "answer": "learning from labeled training examples",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is unsupervised learning in AI and machine learning?",
+      "options": [
+        "creating varied training examples from existing data",
+        "learning patterns from data without target labels",
+        "sensitivity of a model to changes in its training data",
+        "designing prompts to obtain useful model behavior"
+      ],
+      "answer": "learning patterns from data without target labels",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes reinforcement learning?",
+      "options": [
+        "designing prompts to obtain useful model behavior",
+        "predicting a continuous numerical value",
+        "learning through interaction using rewards and penalties",
+        "a technique used to discourage overly complex models"
+      ],
+      "answer": "learning through interaction using rewards and penalties",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of classification?",
+      "options": [
+        "a mechanism that weights the relevance of different inputs",
+        "predicting a discrete class or category",
+        "a method that predicts using nearby training examples",
+        "further training a pretrained model on a specific dataset or task"
+      ],
+      "answer": "predicting a discrete class or category",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is regression in AI and machine learning?",
+      "options": [
+        "scaling values to a specified range or normalized scale",
+        "the area under the ROC curve",
+        "training models on resampled datasets and combining their outputs",
+        "predicting a continuous numerical value"
+      ],
+      "answer": "predicting a continuous numerical value",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes clustering?",
+      "options": [
+        "the area under the ROC curve",
+        "a language model trained on large text datasets",
+        "grouping similar data points without predefined labels",
+        "a model that predicts a continuous value using a linear relationship"
+      ],
+      "answer": "grouping similar data points without predefined labels",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of feature?",
+      "options": [
+        "a method that predicts using nearby training examples",
+        "using a model that is too simple to capture important patterns",
+        "computing gradients by propagating error information backward",
+        "an input variable used by a machine-learning model"
+      ],
+      "answer": "an input variable used by a machine-learning model",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is label in AI and machine learning?",
+      "options": [
+        "sensitivity of a model to changes in its training data",
+        "the target value associated with a supervised-learning example",
+        "a function that transforms a neural-network unit's input",
+        "regularization based on the sum of squared parameter values"
+      ],
+      "answer": "the target value associated with a supervised-learning example",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes training data?",
+      "options": [
+        "data used to fit a machine-learning model",
+        "a system that predicts items or content a user may prefer",
+        "the proportion of actual positives that are correctly identified",
+        "computing gradients by propagating error information backward"
+      ],
+      "answer": "data used to fit a machine-learning model",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of validation data?",
+      "options": [
+        "training models on resampled datasets and combining their outputs",
+        "the harmonic mean of precision and recall",
+        "a model commonly used for classification probabilities",
+        "data used to tune or select a model during development"
+      ],
+      "answer": "data used to tune or select a model during development",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is test data in AI and machine learning?",
+      "options": [
+        "a function measuring model prediction error",
+        "using a model that is too simple to capture important patterns",
+        "boosting based on sequential models fitted to gradients of a loss",
+        "data reserved for final evaluation"
+      ],
+      "answer": "data reserved for final evaluation",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes overfitting?",
+      "options": [
+        "AI systems that generate new content",
+        "a model commonly used for classification probabilities",
+        "learning training data too closely and generalizing poorly",
+        "reusing knowledge from a pretrained model for another task"
+      ],
+      "answer": "learning training data too closely and generalizing poorly",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of underfitting?",
+      "options": [
+        "using a model that is too simple to capture important patterns",
+        "splitting text into tokens for processing",
+        "a curve showing true-positive rate against false-positive rate",
+        "a probabilistic classifier using conditional independence assumptions"
+      ],
+      "answer": "using a model that is too simple to capture important patterns",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is bias in AI and machine learning?",
+      "options": [
+        "systematic error associated with restrictive model assumptions",
+        "a negative case incorrectly predicted as positive",
+        "AI systems that generate new content",
+        "one complete pass through the training dataset"
+      ],
+      "answer": "systematic error associated with restrictive model assumptions",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes variance?",
+      "options": [
+        "regularization based on the sum of squared parameter values",
+        "a model commonly used for classification probabilities",
+        "sensitivity of a model to changes in its training data",
+        "an adaptive gradient-based optimization algorithm"
+      ],
+      "answer": "sensitivity of a model to changes in its training data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of generalization?",
+      "options": [
+        "performance on previously unseen data",
+        "the field concerned with computational processing of human language",
+        "an activation function producing values between 0 and 1",
+        "reusing knowledge from a pretrained model for another task"
+      ],
+      "answer": "performance on previously unseen data",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is cross-validation in AI and machine learning?",
+      "options": [
+        "regularization based on the sum of squared parameter values",
+        "creating varied training examples from existing data",
+        "a trainable offset added to a model unit",
+        "a method for evaluating models across multiple data splits"
+      ],
+      "answer": "a method for evaluating models across multiple data splits",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes k-fold cross-validation?",
+      "options": [
+        "a trainable offset added to a model unit",
+        "learning from labeled training examples",
+        "cross-validation that divides data into k folds",
+        "an ensemble of decision trees"
+      ],
+      "answer": "cross-validation that divides data into k folds",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of linear regression?",
+      "options": [
+        "designing prompts to obtain useful model behavior",
+        "an activation function that outputs max(0,x)",
+        "randomly disabling some neural units during training",
+        "a model that predicts a continuous value using a linear relationship"
+      ],
+      "answer": "a model that predicts a continuous value using a linear relationship",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is logistic regression in AI and machine learning?",
+      "options": [
+        "a model commonly used for classification probabilities",
+        "an activation function producing values between 0 and 1",
+        "cross-validation that divides data into k folds",
+        "designing prompts to obtain useful model behavior"
+      ],
+      "answer": "a model commonly used for classification probabilities",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes decision tree?",
+      "options": [
+        "using a model that is too simple to capture important patterns",
+        "an operation that reduces spatial dimensions or summarizes local features",
+        "a probabilistic classifier using conditional independence assumptions",
+        "a model that makes predictions through a sequence of decision rules"
+      ],
+      "answer": "a model that makes predictions through a sequence of decision rules",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of random forest?",
+      "options": [
+        "a trainable offset added to a model unit",
+        "regularization based on the sum of absolute parameter values",
+        "computing neural-network outputs from inputs through layers",
+        "an ensemble of decision trees"
+      ],
+      "answer": "an ensemble of decision trees",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is support vector machine in AI and machine learning?",
+      "options": [
+        "input instructions or context given to a generative model",
+        "training models on resampled datasets and combining their outputs",
+        "a model that finds separating boundaries using support vectors",
+        "a model that predicts a continuous value using a linear relationship"
+      ],
+      "answer": "a model that finds separating boundaries using support vectors",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes k-nearest neighbors?",
+      "options": [
+        "a method that predicts using nearby training examples",
+        "stopping training when validation performance stops improving",
+        "an activation function producing values between 0 and 1",
+        "a table summarizing classification predictions by actual and predicted class"
+      ],
+      "answer": "a method that predicts using nearby training examples",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of naive Bayes?",
+      "options": [
+        "input instructions or context given to a generative model",
+        "learning training data too closely and generalizing poorly",
+        "an operation applying learned filters across local regions",
+        "a probabilistic classifier using conditional independence assumptions"
+      ],
+      "answer": "a probabilistic classifier using conditional independence assumptions",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is gradient descent in AI and machine learning?",
+      "options": [
+        "an optimization method that updates parameters toward lower loss",
+        "an activation function that outputs max(0,x)",
+        "using a model that is too simple to capture important patterns",
+        "a model that predicts a continuous value using a linear relationship"
+      ],
+      "answer": "an optimization method that updates parameters toward lower loss",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes learning rate?",
+      "options": [
+        "locating and classifying objects in an image",
+        "a parameter controlling the size of optimization updates",
+        "grouping similar data points without predefined labels",
+        "an input variable used by a machine-learning model"
+      ],
+      "answer": "a parameter controlling the size of optimization updates",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of loss function?",
+      "options": [
+        "a model that makes predictions through a sequence of decision rules",
+        "the field of building systems that perform tasks associated with intelligent behavior",
+        "a curve showing true-positive rate against false-positive rate",
+        "a function measuring model prediction error"
+      ],
+      "answer": "a function measuring model prediction error",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is regularization in AI and machine learning?",
+      "options": [
+        "assigning a class label to each image pixel",
+        "a technique used to discourage overly complex models",
+        "input instructions or context given to a generative model",
+        "randomly disabling some neural units during training"
+      ],
+      "answer": "a technique used to discourage overly complex models",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes L1 regularization?",
+      "options": [
+        "a table summarizing classification predictions by actual and predicted class",
+        "regularization based on the sum of absolute parameter values",
+        "a group of training examples processed together",
+        "an activation function producing values between -1 and 1"
+      ],
+      "answer": "regularization based on the sum of absolute parameter values",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of L2 regularization?",
+      "options": [
+        "a group of training examples processed together",
+        "a language model trained on large text datasets",
+        "regularization based on the sum of squared parameter values",
+        "a mathematical framework for sequential decision-making under uncertainty"
+      ],
+      "answer": "regularization based on the sum of squared parameter values",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is normalization in AI and machine learning?",
+      "options": [
+        "scaling values to a specified range or normalized scale",
+        "further training a pretrained model on a specific dataset or task",
+        "assigning an image to one or more predefined categories",
+        "using a model that is too simple to capture important patterns"
+      ],
+      "answer": "scaling values to a specified range or normalized scale",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes standardization?",
+      "options": [
+        "transforming values using their mean and standard deviation",
+        "assigning an image to one or more predefined categories",
+        "learning training data too closely and generalizing poorly",
+        "a model commonly used for classification probabilities"
+      ],
+      "answer": "transforming values using their mean and standard deviation",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of confusion matrix?",
+      "options": [
+        "a positive case correctly predicted as positive",
+        "a function measuring model prediction error",
+        "a negative case incorrectly predicted as positive",
+        "a table summarizing classification predictions by actual and predicted class"
+      ],
+      "answer": "a table summarizing classification predictions by actual and predicted class",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is accuracy in AI and machine learning?",
+      "options": [
+        "a training or model setting chosen outside ordinary learned parameters",
+        "computing neural-network outputs from inputs through layers",
+        "an ensemble of decision trees",
+        "the proportion of correct predictions"
+      ],
+      "answer": "the proportion of correct predictions",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes precision?",
+      "options": [
+        "the proportion of predicted positives that are actually positive",
+        "combining multiple models to improve predictions",
+        "a relatively small group of examples used for one update",
+        "an ensemble of decision trees"
+      ],
+      "answer": "the proportion of predicted positives that are actually positive",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of recall?",
+      "options": [
+        "the proportion of actual positives that are correctly identified",
+        "the proportion of predicted positives that are actually positive",
+        "the target value associated with a supervised-learning example",
+        "learned weights applied locally in convolution"
+      ],
+      "answer": "the proportion of actual positives that are correctly identified",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is F1 score in AI and machine learning?",
+      "options": [
+        "creating varied training examples from existing data",
+        "the proportion of predicted positives that are actually positive",
+        "one complete pass through the training dataset",
+        "the harmonic mean of precision and recall"
+      ],
+      "answer": "the harmonic mean of precision and recall",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes ROC curve?",
+      "options": [
+        "a gated recurrent neural-network architecture",
+        "a curve showing true-positive rate against false-positive rate",
+        "learning patterns from data without target labels",
+        "creating varied training examples from existing data"
+      ],
+      "answer": "a curve showing true-positive rate against false-positive rate",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of AUC?",
+      "options": [
+        "the area under the ROC curve",
+        "the field concerned with extracting information from images or video",
+        "a negative case correctly predicted as negative",
+        "the field concerned with computational processing of human language"
+      ],
+      "answer": "the area under the ROC curve",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is true positive in AI and machine learning?",
+      "options": [
+        "cross-validation that divides data into k folds",
+        "scaling values to a specified range or normalized scale",
+        "a positive case correctly predicted as positive",
+        "gradient-based optimization using individual or small samples"
+      ],
+      "answer": "a positive case correctly predicted as positive",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes true negative?",
+      "options": [
+        "data used to tune or select a model during development",
+        "systematic error associated with restrictive model assumptions",
+        "predicting a discrete class or category",
+        "a negative case correctly predicted as negative"
+      ],
+      "answer": "a negative case correctly predicted as negative",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of false positive?",
+      "options": [
+        "a function that transforms a neural-network unit's input",
+        "a negative case incorrectly predicted as positive",
+        "a relatively small group of examples used for one update",
+        "attention where a sequence relates its elements to one another"
+      ],
+      "answer": "a negative case incorrectly predicted as positive",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is false negative in AI and machine learning?",
+      "options": [
+        "a positive case incorrectly predicted as negative",
+        "the target value associated with a supervised-learning example",
+        "a gated recurrent neural-network architecture",
+        "computing gradients by propagating error information backward"
+      ],
+      "answer": "a positive case incorrectly predicted as negative",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes neural network?",
+      "options": [
+        "the proportion of predicted positives that are actually positive",
+        "a neural-network architecture designed for sequential data",
+        "boosting based on sequential models fitted to gradients of a loss",
+        "a model composed of connected computational units"
+      ],
+      "answer": "a model composed of connected computational units",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of perceptron?",
+      "options": [
+        "stopping training when validation performance stops improving",
+        "a basic linear neural-network unit",
+        "a curve showing true-positive rate against false-positive rate",
+        "a neural-network architecture designed for sequential data"
+      ],
+      "answer": "a basic linear neural-network unit",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is activation function in AI and machine learning?",
+      "options": [
+        "a training or model setting chosen outside ordinary learned parameters",
+        "a function that transforms a neural-network unit's input",
+        "learning patterns from data without target labels",
+        "an activation function producing values between -1 and 1"
+      ],
+      "answer": "a function that transforms a neural-network unit's input",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes sigmoid?",
+      "options": [
+        "input instructions or context given to a generative model",
+        "the proportion of correct predictions",
+        "an adaptive gradient-based optimization algorithm",
+        "an activation function producing values between 0 and 1"
+      ],
+      "answer": "an activation function producing values between 0 and 1",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of ReLU?",
+      "options": [
+        "a model that makes predictions through a sequence of decision rules",
+        "a field where models learn patterns from data",
+        "locating and classifying objects in an image",
+        "an activation function that outputs max(0,x)"
+      ],
+      "answer": "an activation function that outputs max(0,x)",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is tanh in AI and machine learning?",
+      "options": [
+        "stopping training when validation performance stops improving",
+        "a system that predicts items or content a user may prefer",
+        "an algorithm used to update trainable model parameters",
+        "an activation function producing values between -1 and 1"
+      ],
+      "answer": "an activation function producing values between -1 and 1",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes softmax?",
+      "options": [
+        "performance on previously unseen data",
+        "a function commonly converting logits into multiclass probabilities",
+        "the field of building systems that perform tasks associated with intelligent behavior",
+        "the target value associated with a supervised-learning example"
+      ],
+      "answer": "a function commonly converting logits into multiclass probabilities",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of forward propagation?",
+      "options": [
+        "computing neural-network outputs from inputs through layers",
+        "a language model trained on large text datasets",
+        "sequentially building models that focus on earlier errors",
+        "an adaptive gradient-based optimization algorithm"
+      ],
+      "answer": "computing neural-network outputs from inputs through layers",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is backpropagation in AI and machine learning?",
+      "options": [
+        "assigning a class label to each image pixel",
+        "computing gradients by propagating error information backward",
+        "creating varied training examples from existing data",
+        "combining multiple models to improve predictions"
+      ],
+      "answer": "computing gradients by propagating error information backward",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes weight?",
+      "options": [
+        "an optimization method that updates parameters toward lower loss",
+        "the proportion of predicted positives that are actually positive",
+        "AI systems that generate new content",
+        "a trainable parameter controlling a connection's contribution"
+      ],
+      "answer": "a trainable parameter controlling a connection's contribution",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of bias parameter?",
+      "options": [
+        "assigning a class label to each image pixel",
+        "randomly disabling some neural units during training",
+        "designing prompts to obtain useful model behavior",
+        "a trainable offset added to a model unit"
+      ],
+      "answer": "a trainable offset added to a model unit",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is epoch in AI and machine learning?",
+      "options": [
+        "a method that predicts using nearby training examples",
+        "a system that predicts items or content a user may prefer",
+        "a probabilistic classifier using conditional independence assumptions",
+        "one complete pass through the training dataset"
+      ],
+      "answer": "one complete pass through the training dataset",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes batch?",
+      "options": [
+        "a group of training examples processed together",
+        "predicting a discrete class or category",
+        "the target value associated with a supervised-learning example",
+        "a neural-network architecture designed for sequential data"
+      ],
+      "answer": "a group of training examples processed together",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of mini-batch?",
+      "options": [
+        "a relatively small group of examples used for one update",
+        "a neural-network architecture built around attention mechanisms",
+        "regularization based on the sum of absolute parameter values",
+        "an operation that reduces spatial dimensions or summarizes local features"
+      ],
+      "answer": "a relatively small group of examples used for one update",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is optimizer in AI and machine learning?",
+      "options": [
+        "systematic error associated with restrictive model assumptions",
+        "data reserved for final evaluation",
+        "an algorithm used to update trainable model parameters",
+        "a gradient-boosting implementation"
+      ],
+      "answer": "an algorithm used to update trainable model parameters",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes stochastic gradient descent?",
+      "options": [
+        "learning patterns from data without target labels",
+        "gradient-based optimization using individual or small samples",
+        "scaling values to a specified range or normalized scale",
+        "randomly disabling some neural units during training"
+      ],
+      "answer": "gradient-based optimization using individual or small samples",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of Adam optimizer?",
+      "options": [
+        "a training or model setting chosen outside ordinary learned parameters",
+        "locating and classifying objects in an image",
+        "transforming values using their mean and standard deviation",
+        "an adaptive gradient-based optimization algorithm"
+      ],
+      "answer": "an adaptive gradient-based optimization algorithm",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is CNN in AI and machine learning?",
+      "options": [
+        "a neural-network architecture widely used for spatial data such as images",
+        "an input variable used by a machine-learning model",
+        "a function measuring model prediction error",
+        "splitting text into tokens for processing"
+      ],
+      "answer": "a neural-network architecture widely used for spatial data such as images",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes convolution?",
+      "options": [
+        "the field concerned with extracting information from images or video",
+        "assigning an image to one or more predefined categories",
+        "an operation applying learned filters across local regions",
+        "regularization based on the sum of squared parameter values"
+      ],
+      "answer": "an operation applying learned filters across local regions",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of pooling?",
+      "options": [
+        "a neural-network architecture widely used for spatial data such as images",
+        "a parameter controlling the size of optimization updates",
+        "an operation that reduces spatial dimensions or summarizes local features",
+        "a mechanism that weights the relevance of different inputs"
+      ],
+      "answer": "an operation that reduces spatial dimensions or summarizes local features",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is filter in AI and machine learning?",
+      "options": [
+        "sequentially building models that focus on earlier errors",
+        "using a model that is too simple to capture important patterns",
+        "learned weights applied locally in convolution",
+        "searching for effective hyperparameter values"
+      ],
+      "answer": "learned weights applied locally in convolution",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes feature map?",
+      "options": [
+        "a recurrent architecture designed to retain information over longer sequences",
+        "the field concerned with computational processing of human language",
+        "the output produced by applying convolutional filters",
+        "searching for effective hyperparameter values"
+      ],
+      "answer": "the output produced by applying convolutional filters",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of RNN?",
+      "options": [
+        "a neural-network architecture designed for sequential data",
+        "an algorithm used to update trainable model parameters",
+        "a language model trained on large text datasets",
+        "locating and classifying objects in an image"
+      ],
+      "answer": "a neural-network architecture designed for sequential data",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is LSTM in AI and machine learning?",
+      "options": [
+        "an activation function producing values between -1 and 1",
+        "an ensemble of decision trees",
+        "a recurrent architecture designed to retain information over longer sequences",
+        "further training a pretrained model on a specific dataset or task"
+      ],
+      "answer": "a recurrent architecture designed to retain information over longer sequences",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes GRU?",
+      "options": [
+        "computing gradients by propagating error information backward",
+        "the proportion of correct predictions",
+        "a gated recurrent neural-network architecture",
+        "identifying observations that differ substantially from expected patterns"
+      ],
+      "answer": "a gated recurrent neural-network architecture",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of attention?",
+      "options": [
+        "a trainable offset added to a model unit",
+        "stopping training when validation performance stops improving",
+        "a mechanism that weights the relevance of different inputs",
+        "a model that predicts a continuous value using a linear relationship"
+      ],
+      "answer": "a mechanism that weights the relevance of different inputs",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is transformer in AI and machine learning?",
+      "options": [
+        "an adaptive gradient-based optimization algorithm",
+        "identifying observations that differ substantially from expected patterns",
+        "a neural-network architecture built around attention mechanisms",
+        "scaling values to a specified range or normalized scale"
+      ],
+      "answer": "a neural-network architecture built around attention mechanisms",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes self-attention?",
+      "options": [
+        "computing neural-network outputs from inputs through layers",
+        "an activation function producing values between 0 and 1",
+        "attention where a sequence relates its elements to one another",
+        "a positive case incorrectly predicted as negative"
+      ],
+      "answer": "attention where a sequence relates its elements to one another",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of embedding?",
+      "options": [
+        "a neural-network architecture built around attention mechanisms",
+        "a dense numerical representation of an item or token",
+        "gradient-based optimization using individual or small samples",
+        "cross-validation that divides data into k folds"
+      ],
+      "answer": "a dense numerical representation of an item or token",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is tokenization in AI and machine learning?",
+      "options": [
+        "splitting text into tokens for processing",
+        "an activation function producing values between 0 and 1",
+        "a dense numerical representation of an item or token",
+        "a method that predicts using nearby training examples"
+      ],
+      "answer": "splitting text into tokens for processing",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes natural language processing?",
+      "options": [
+        "learned weights applied locally in convolution",
+        "regularization based on the sum of squared parameter values",
+        "the field concerned with computational processing of human language",
+        "a technique used to discourage overly complex models"
+      ],
+      "answer": "the field concerned with computational processing of human language",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of computer vision?",
+      "options": [
+        "an input variable used by a machine-learning model",
+        "a neural-network architecture designed for sequential data",
+        "a trainable offset added to a model unit",
+        "the field concerned with extracting information from images or video"
+      ],
+      "answer": "the field concerned with extracting information from images or video",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is image classification in AI and machine learning?",
+      "options": [
+        "identifying observations that differ substantially from expected patterns",
+        "a probabilistic classifier using conditional independence assumptions",
+        "assigning an image to one or more predefined categories",
+        "a field where models learn patterns from data"
+      ],
+      "answer": "assigning an image to one or more predefined categories",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes object detection?",
+      "options": [
+        "locating and classifying objects in an image",
+        "AI systems that generate new content",
+        "a table summarizing classification predictions by actual and predicted class",
+        "a system that predicts items or content a user may prefer"
+      ],
+      "answer": "locating and classifying objects in an image",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of semantic segmentation?",
+      "options": [
+        "assigning an image to one or more predefined categories",
+        "sequentially building models that focus on earlier errors",
+        "assigning a class label to each image pixel",
+        "transforming values using their mean and standard deviation"
+      ],
+      "answer": "assigning a class label to each image pixel",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is generative AI in AI and machine learning?",
+      "options": [
+        "AI systems that generate new content",
+        "a neural-network architecture built around attention mechanisms",
+        "gradient-based optimization using individual or small samples",
+        "searching for effective hyperparameter values"
+      ],
+      "answer": "AI systems that generate new content",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes large language model?",
+      "options": [
+        "a trainable parameter controlling a connection's contribution",
+        "an ensemble of decision trees",
+        "a language model trained on large text datasets",
+        "a field where models learn patterns from data"
+      ],
+      "answer": "a language model trained on large text datasets",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of prompt?",
+      "options": [
+        "a gradient-boosting implementation",
+        "a language model trained on large text datasets",
+        "a training or model setting chosen outside ordinary learned parameters",
+        "input instructions or context given to a generative model"
+      ],
+      "answer": "input instructions or context given to a generative model",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is prompt engineering in AI and machine learning?",
+      "options": [
+        "a positive case correctly predicted as positive",
+        "a parameter controlling the size of optimization updates",
+        "designing prompts to obtain useful model behavior",
+        "sequentially building models that focus on earlier errors"
+      ],
+      "answer": "designing prompts to obtain useful model behavior",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes fine-tuning?",
+      "options": [
+        "further training a pretrained model on a specific dataset or task",
+        "a model that predicts a continuous value using a linear relationship",
+        "a model composed of connected computational units",
+        "the field of building systems that perform tasks associated with intelligent behavior"
+      ],
+      "answer": "further training a pretrained model on a specific dataset or task",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of transfer learning?",
+      "options": [
+        "a training or model setting chosen outside ordinary learned parameters",
+        "reusing knowledge from a pretrained model for another task",
+        "grouping similar data points without predefined labels",
+        "regularization based on the sum of squared parameter values"
+      ],
+      "answer": "reusing knowledge from a pretrained model for another task",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is data augmentation in AI and machine learning?",
+      "options": [
+        "grouping similar data points without predefined labels",
+        "a parameter controlling the size of optimization updates",
+        "a negative case correctly predicted as negative",
+        "creating varied training examples from existing data"
+      ],
+      "answer": "creating varied training examples from existing data",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes hyperparameter?",
+      "options": [
+        "designing prompts to obtain useful model behavior",
+        "the proportion of correct predictions",
+        "a training or model setting chosen outside ordinary learned parameters",
+        "a negative case incorrectly predicted as positive"
+      ],
+      "answer": "a training or model setting chosen outside ordinary learned parameters",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of hyperparameter tuning?",
+      "options": [
+        "learning training data too closely and generalizing poorly",
+        "the proportion of correct predictions",
+        "searching for effective hyperparameter values",
+        "a relatively small group of examples used for one update"
+      ],
+      "answer": "searching for effective hyperparameter values",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is early stopping in AI and machine learning?",
+      "options": [
+        "a dense numerical representation of an item or token",
+        "a model that makes predictions through a sequence of decision rules",
+        "a function commonly converting logits into multiclass probabilities",
+        "stopping training when validation performance stops improving"
+      ],
+      "answer": "stopping training when validation performance stops improving",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes dropout?",
+      "options": [
+        "a gradient-boosting implementation",
+        "randomly disabling some neural units during training",
+        "the proportion of predicted positives that are actually positive",
+        "assigning an image to one or more predefined categories"
+      ],
+      "answer": "randomly disabling some neural units during training",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of ensemble learning?",
+      "options": [
+        "the field concerned with computational processing of human language",
+        "an activation function that outputs max(0,x)",
+        "combining multiple models to improve predictions",
+        "learning through interaction using rewards and penalties"
+      ],
+      "answer": "combining multiple models to improve predictions",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is bagging in AI and machine learning?",
+      "options": [
+        "computing neural-network outputs from inputs through layers",
+        "a method that predicts using nearby training examples",
+        "training models on resampled datasets and combining their outputs",
+        "a negative case incorrectly predicted as positive"
+      ],
+      "answer": "training models on resampled datasets and combining their outputs",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes boosting?",
+      "options": [
+        "an activation function that outputs max(0,x)",
+        "randomly disabling some neural units during training",
+        "an optimization method that updates parameters toward lower loss",
+        "sequentially building models that focus on earlier errors"
+      ],
+      "answer": "sequentially building models that focus on earlier errors",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of gradient boosting?",
+      "options": [
+        "a curve showing true-positive rate against false-positive rate",
+        "data used to fit a machine-learning model",
+        "boosting based on sequential models fitted to gradients of a loss",
+        "learned weights applied locally in convolution"
+      ],
+      "answer": "boosting based on sequential models fitted to gradients of a loss",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is XGBoost in AI and machine learning?",
+      "options": [
+        "a neural-network architecture widely used for spatial data such as images",
+        "a gradient-boosting implementation",
+        "further training a pretrained model on a specific dataset or task",
+        "transforming values using their mean and standard deviation"
+      ],
+      "answer": "a gradient-boosting implementation",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes recommendation system?",
+      "options": [
+        "a system that predicts items or content a user may prefer",
+        "grouping similar data points without predefined labels",
+        "a neural-network architecture built around attention mechanisms",
+        "a table summarizing classification predictions by actual and predicted class"
+      ],
+      "answer": "a system that predicts items or content a user may prefer",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of anomaly detection?",
+      "options": [
+        "identifying observations that differ substantially from expected patterns",
+        "a negative case correctly predicted as negative",
+        "a function measuring model prediction error",
+        "a table summarizing classification predictions by actual and predicted class"
+      ],
+      "answer": "identifying observations that differ substantially from expected patterns",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is Markov decision process in AI and machine learning?",
+      "options": [
+        "a mathematical framework for sequential decision-making under uncertainty",
+        "assigning a class label to each image pixel",
+        "a neural-network architecture designed for sequential data",
+        "an operation applying learned filters across local regions"
+      ],
+      "answer": "a mathematical framework for sequential decision-making under uncertainty",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes artificial intelligence?",
+      "options": [
+        "the field of building systems that perform tasks associated with intelligent behavior",
+        "a dense numerical representation of an item or token",
+        "learning through interaction using rewards and penalties",
+        "a positive case correctly predicted as positive"
+      ],
+      "answer": "the field of building systems that perform tasks associated with intelligent behavior",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of machine learning?",
+      "options": [
+        "a field where models learn patterns from data",
+        "a neural-network architecture built around attention mechanisms",
+        "the target value associated with a supervised-learning example",
+        "assigning an image to one or more predefined categories"
+      ],
+      "answer": "a field where models learn patterns from data",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is supervised learning in AI and machine learning?",
+      "options": [
+        "learning from labeled training examples",
+        "the proportion of predicted positives that are actually positive",
+        "predicting a discrete class or category",
+        "input instructions or context given to a generative model"
+      ],
+      "answer": "learning from labeled training examples",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes unsupervised learning?",
+      "options": [
+        "learning patterns from data without target labels",
+        "the field of building systems that perform tasks associated with intelligent behavior",
+        "a dense numerical representation of an item or token",
+        "a language model trained on large text datasets"
+      ],
+      "answer": "learning patterns from data without target labels",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of reinforcement learning?",
+      "options": [
+        "a function measuring model prediction error",
+        "searching for effective hyperparameter values",
+        "learning through interaction using rewards and penalties",
+        "a dense numerical representation of an item or token"
+      ],
+      "answer": "learning through interaction using rewards and penalties",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is classification in AI and machine learning?",
+      "options": [
+        "predicting a discrete class or category",
+        "training models on resampled datasets and combining their outputs",
+        "a model that makes predictions through a sequence of decision rules",
+        "attention where a sequence relates its elements to one another"
+      ],
+      "answer": "predicting a discrete class or category",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes regression?",
+      "options": [
+        "predicting a continuous numerical value",
+        "scaling values to a specified range or normalized scale",
+        "a basic linear neural-network unit",
+        "creating varied training examples from existing data"
+      ],
+      "answer": "predicting a continuous numerical value",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of clustering?",
+      "options": [
+        "grouping similar data points without predefined labels",
+        "splitting text into tokens for processing",
+        "an algorithm used to update trainable model parameters",
+        "predicting a discrete class or category"
+      ],
+      "answer": "grouping similar data points without predefined labels",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is feature in AI and machine learning?",
+      "options": [
+        "a neural-network architecture widely used for spatial data such as images",
+        "learning training data too closely and generalizing poorly",
+        "an input variable used by a machine-learning model",
+        "data used to tune or select a model during development"
+      ],
+      "answer": "an input variable used by a machine-learning model",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes label?",
+      "options": [
+        "learning patterns from data without target labels",
+        "the target value associated with a supervised-learning example",
+        "a neural-network architecture designed for sequential data",
+        "randomly disabling some neural units during training"
+      ],
+      "answer": "the target value associated with a supervised-learning example",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of training data?",
+      "options": [
+        "data used to fit a machine-learning model",
+        "an ensemble of decision trees",
+        "regularization based on the sum of absolute parameter values",
+        "predicting a discrete class or category"
+      ],
+      "answer": "data used to fit a machine-learning model",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is validation data in AI and machine learning?",
+      "options": [
+        "data used to tune or select a model during development",
+        "a negative case correctly predicted as negative",
+        "a model composed of connected computational units",
+        "learning patterns from data without target labels"
+      ],
+      "answer": "data used to tune or select a model during development",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes test data?",
+      "options": [
+        "an optimization method that updates parameters toward lower loss",
+        "a neural-network architecture widely used for spatial data such as images",
+        "data reserved for final evaluation",
+        "a table summarizing classification predictions by actual and predicted class"
+      ],
+      "answer": "data reserved for final evaluation",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of overfitting?",
+      "options": [
+        "AI systems that generate new content",
+        "learning training data too closely and generalizing poorly",
+        "the area under the ROC curve",
+        "data reserved for final evaluation"
+      ],
+      "answer": "learning training data too closely and generalizing poorly",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is underfitting in AI and machine learning?",
+      "options": [
+        "using a model that is too simple to capture important patterns",
+        "a model commonly used for classification probabilities",
+        "the field concerned with computational processing of human language",
+        "predicting a continuous numerical value"
+      ],
+      "answer": "using a model that is too simple to capture important patterns",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes bias?",
+      "options": [
+        "learning training data too closely and generalizing poorly",
+        "regularization based on the sum of absolute parameter values",
+        "a relatively small group of examples used for one update",
+        "systematic error associated with restrictive model assumptions"
+      ],
+      "answer": "systematic error associated with restrictive model assumptions",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of variance?",
+      "options": [
+        "sensitivity of a model to changes in its training data",
+        "further training a pretrained model on a specific dataset or task",
+        "a recurrent architecture designed to retain information over longer sequences",
+        "a mechanism that weights the relevance of different inputs"
+      ],
+      "answer": "sensitivity of a model to changes in its training data",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is generalization in AI and machine learning?",
+      "options": [
+        "training models on resampled datasets and combining their outputs",
+        "a field where models learn patterns from data",
+        "performance on previously unseen data",
+        "further training a pretrained model on a specific dataset or task"
+      ],
+      "answer": "performance on previously unseen data",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes cross-validation?",
+      "options": [
+        "learning patterns from data without target labels",
+        "a method for evaluating models across multiple data splits",
+        "input instructions or context given to a generative model",
+        "assigning a class label to each image pixel"
+      ],
+      "answer": "a method for evaluating models across multiple data splits",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of k-fold cross-validation?",
+      "options": [
+        "a model that predicts a continuous value using a linear relationship",
+        "the proportion of actual positives that are correctly identified",
+        "a relatively small group of examples used for one update",
+        "cross-validation that divides data into k folds"
+      ],
+      "answer": "cross-validation that divides data into k folds",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is linear regression in AI and machine learning?",
+      "options": [
+        "a model that predicts a continuous value using a linear relationship",
+        "a trainable offset added to a model unit",
+        "input instructions or context given to a generative model",
+        "cross-validation that divides data into k folds"
+      ],
+      "answer": "a model that predicts a continuous value using a linear relationship",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes logistic regression?",
+      "options": [
+        "splitting text into tokens for processing",
+        "boosting based on sequential models fitted to gradients of a loss",
+        "a model commonly used for classification probabilities",
+        "sensitivity of a model to changes in its training data"
+      ],
+      "answer": "a model commonly used for classification probabilities",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of decision tree?",
+      "options": [
+        "a model that makes predictions through a sequence of decision rules",
+        "assigning a class label to each image pixel",
+        "a trainable parameter controlling a connection's contribution",
+        "a language model trained on large text datasets"
+      ],
+      "answer": "a model that makes predictions through a sequence of decision rules",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is random forest in AI and machine learning?",
+      "options": [
+        "the field of building systems that perform tasks associated with intelligent behavior",
+        "an algorithm used to update trainable model parameters",
+        "gradient-based optimization using individual or small samples",
+        "an ensemble of decision trees"
+      ],
+      "answer": "an ensemble of decision trees",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes support vector machine?",
+      "options": [
+        "a method for evaluating models across multiple data splits",
+        "transforming values using their mean and standard deviation",
+        "a model that finds separating boundaries using support vectors",
+        "data reserved for final evaluation"
+      ],
+      "answer": "a model that finds separating boundaries using support vectors",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of k-nearest neighbors?",
+      "options": [
+        "a method that predicts using nearby training examples",
+        "an algorithm used to update trainable model parameters",
+        "a function commonly converting logits into multiclass probabilities",
+        "predicting a continuous numerical value"
+      ],
+      "answer": "a method that predicts using nearby training examples",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is naive Bayes in AI and machine learning?",
+      "options": [
+        "learning from labeled training examples",
+        "splitting text into tokens for processing",
+        "a probabilistic classifier using conditional independence assumptions",
+        "a neural-network architecture widely used for spatial data such as images"
+      ],
+      "answer": "a probabilistic classifier using conditional independence assumptions",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes gradient descent?",
+      "options": [
+        "a function measuring model prediction error",
+        "an optimization method that updates parameters toward lower loss",
+        "an adaptive gradient-based optimization algorithm",
+        "a group of training examples processed together"
+      ],
+      "answer": "an optimization method that updates parameters toward lower loss",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of learning rate?",
+      "options": [
+        "a neural-network architecture widely used for spatial data such as images",
+        "a trainable offset added to a model unit",
+        "an activation function producing values between -1 and 1",
+        "a parameter controlling the size of optimization updates"
+      ],
+      "answer": "a parameter controlling the size of optimization updates",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is loss function in AI and machine learning?",
+      "options": [
+        "identifying observations that differ substantially from expected patterns",
+        "training models on resampled datasets and combining their outputs",
+        "a function measuring model prediction error",
+        "a negative case incorrectly predicted as positive"
+      ],
+      "answer": "a function measuring model prediction error",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes regularization?",
+      "options": [
+        "the proportion of predicted positives that are actually positive",
+        "a model that finds separating boundaries using support vectors",
+        "a technique used to discourage overly complex models",
+        "the proportion of actual positives that are correctly identified"
+      ],
+      "answer": "a technique used to discourage overly complex models",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of L1 regularization?",
+      "options": [
+        "a parameter controlling the size of optimization updates",
+        "a field where models learn patterns from data",
+        "regularization based on the sum of absolute parameter values",
+        "the area under the ROC curve"
+      ],
+      "answer": "regularization based on the sum of absolute parameter values",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is L2 regularization in AI and machine learning?",
+      "options": [
+        "assigning an image to one or more predefined categories",
+        "regularization based on the sum of squared parameter values",
+        "gradient-based optimization using individual or small samples",
+        "computing gradients by propagating error information backward"
+      ],
+      "answer": "regularization based on the sum of squared parameter values",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes normalization?",
+      "options": [
+        "identifying observations that differ substantially from expected patterns",
+        "scaling values to a specified range or normalized scale",
+        "one complete pass through the training dataset",
+        "gradient-based optimization using individual or small samples"
+      ],
+      "answer": "scaling values to a specified range or normalized scale",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of standardization?",
+      "options": [
+        "data used to fit a machine-learning model",
+        "identifying observations that differ substantially from expected patterns",
+        "transforming values using their mean and standard deviation",
+        "a function commonly converting logits into multiclass probabilities"
+      ],
+      "answer": "transforming values using their mean and standard deviation",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is confusion matrix in AI and machine learning?",
+      "options": [
+        "sequentially building models that focus on earlier errors",
+        "a table summarizing classification predictions by actual and predicted class",
+        "a positive case correctly predicted as positive",
+        "gradient-based optimization using individual or small samples"
+      ],
+      "answer": "a table summarizing classification predictions by actual and predicted class",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes accuracy?",
+      "options": [
+        "scaling values to a specified range or normalized scale",
+        "an activation function producing values between 0 and 1",
+        "the proportion of correct predictions",
+        "sequentially building models that focus on earlier errors"
+      ],
+      "answer": "the proportion of correct predictions",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of precision?",
+      "options": [
+        "gradient-based optimization using individual or small samples",
+        "an operation that reduces spatial dimensions or summarizes local features",
+        "a neural-network architecture designed for sequential data",
+        "the proportion of predicted positives that are actually positive"
+      ],
+      "answer": "the proportion of predicted positives that are actually positive",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is recall in AI and machine learning?",
+      "options": [
+        "regularization based on the sum of squared parameter values",
+        "scaling values to a specified range or normalized scale",
+        "the proportion of actual positives that are correctly identified",
+        "a mechanism that weights the relevance of different inputs"
+      ],
+      "answer": "the proportion of actual positives that are correctly identified",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes F1 score?",
+      "options": [
+        "the proportion of correct predictions",
+        "a group of training examples processed together",
+        "using a model that is too simple to capture important patterns",
+        "the harmonic mean of precision and recall"
+      ],
+      "answer": "the harmonic mean of precision and recall",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of ROC curve?",
+      "options": [
+        "identifying observations that differ substantially from expected patterns",
+        "assigning an image to one or more predefined categories",
+        "the proportion of correct predictions",
+        "a curve showing true-positive rate against false-positive rate"
+      ],
+      "answer": "a curve showing true-positive rate against false-positive rate",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is AUC in AI and machine learning?",
+      "options": [
+        "a table summarizing classification predictions by actual and predicted class",
+        "identifying observations that differ substantially from expected patterns",
+        "systematic error associated with restrictive model assumptions",
+        "the area under the ROC curve"
+      ],
+      "answer": "the area under the ROC curve",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes true positive?",
+      "options": [
+        "an ensemble of decision trees",
+        "attention where a sequence relates its elements to one another",
+        "a positive case correctly predicted as positive",
+        "the proportion of correct predictions"
+      ],
+      "answer": "a positive case correctly predicted as positive",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of true negative?",
+      "options": [
+        "a table summarizing classification predictions by actual and predicted class",
+        "a relatively small group of examples used for one update",
+        "a negative case correctly predicted as negative",
+        "learning training data too closely and generalizing poorly"
+      ],
+      "answer": "a negative case correctly predicted as negative",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is false positive in AI and machine learning?",
+      "options": [
+        "further training a pretrained model on a specific dataset or task",
+        "a negative case incorrectly predicted as positive",
+        "a basic linear neural-network unit",
+        "a training or model setting chosen outside ordinary learned parameters"
+      ],
+      "answer": "a negative case incorrectly predicted as positive",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes false negative?",
+      "options": [
+        "a probabilistic classifier using conditional independence assumptions",
+        "a model composed of connected computational units",
+        "regularization based on the sum of absolute parameter values",
+        "a positive case incorrectly predicted as negative"
+      ],
+      "answer": "a positive case incorrectly predicted as negative",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of neural network?",
+      "options": [
+        "a mechanism that weights the relevance of different inputs",
+        "data used to fit a machine-learning model",
+        "data reserved for final evaluation",
+        "a model composed of connected computational units"
+      ],
+      "answer": "a model composed of connected computational units",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is perceptron in AI and machine learning?",
+      "options": [
+        "gradient-based optimization using individual or small samples",
+        "a basic linear neural-network unit",
+        "splitting text into tokens for processing",
+        "a neural-network architecture built around attention mechanisms"
+      ],
+      "answer": "a basic linear neural-network unit",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes activation function?",
+      "options": [
+        "learning from labeled training examples",
+        "data used to tune or select a model during development",
+        "a relatively small group of examples used for one update",
+        "a function that transforms a neural-network unit's input"
+      ],
+      "answer": "a function that transforms a neural-network unit's input",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of sigmoid?",
+      "options": [
+        "a basic linear neural-network unit",
+        "a parameter controlling the size of optimization updates",
+        "an activation function producing values between 0 and 1",
+        "a technique used to discourage overly complex models"
+      ],
+      "answer": "an activation function producing values between 0 and 1",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is ReLU in AI and machine learning?",
+      "options": [
+        "a field where models learn patterns from data",
+        "a neural-network architecture designed for sequential data",
+        "an activation function that outputs max(0,x)",
+        "a basic linear neural-network unit"
+      ],
+      "answer": "an activation function that outputs max(0,x)",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes tanh?",
+      "options": [
+        "a recurrent architecture designed to retain information over longer sequences",
+        "a training or model setting chosen outside ordinary learned parameters",
+        "an activation function producing values between -1 and 1",
+        "a trainable parameter controlling a connection's contribution"
+      ],
+      "answer": "an activation function producing values between -1 and 1",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of softmax?",
+      "options": [
+        "a function that transforms a neural-network unit's input",
+        "learning through interaction using rewards and penalties",
+        "a function commonly converting logits into multiclass probabilities",
+        "a recurrent architecture designed to retain information over longer sequences"
+      ],
+      "answer": "a function commonly converting logits into multiclass probabilities",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is forward propagation in AI and machine learning?",
+      "options": [
+        "a parameter controlling the size of optimization updates",
+        "computing neural-network outputs from inputs through layers",
+        "a neural-network architecture built around attention mechanisms",
+        "a mathematical framework for sequential decision-making under uncertainty"
+      ],
+      "answer": "computing neural-network outputs from inputs through layers",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes backpropagation?",
+      "options": [
+        "locating and classifying objects in an image",
+        "computing gradients by propagating error information backward",
+        "regularization based on the sum of absolute parameter values",
+        "the proportion of correct predictions"
+      ],
+      "answer": "computing gradients by propagating error information backward",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of weight?",
+      "options": [
+        "a trainable parameter controlling a connection's contribution",
+        "cross-validation that divides data into k folds",
+        "training models on resampled datasets and combining their outputs",
+        "a system that predicts items or content a user may prefer"
+      ],
+      "answer": "a trainable parameter controlling a connection's contribution",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is bias parameter in AI and machine learning?",
+      "options": [
+        "a neural-network architecture built around attention mechanisms",
+        "systematic error associated with restrictive model assumptions",
+        "a trainable offset added to a model unit",
+        "splitting text into tokens for processing"
+      ],
+      "answer": "a trainable offset added to a model unit",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes epoch?",
+      "options": [
+        "searching for effective hyperparameter values",
+        "a dense numerical representation of an item or token",
+        "an activation function producing values between 0 and 1",
+        "one complete pass through the training dataset"
+      ],
+      "answer": "one complete pass through the training dataset",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of batch?",
+      "options": [
+        "a group of training examples processed together",
+        "creating varied training examples from existing data",
+        "the field concerned with computational processing of human language",
+        "training models on resampled datasets and combining their outputs"
+      ],
+      "answer": "a group of training examples processed together",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is mini-batch in AI and machine learning?",
+      "options": [
+        "a function measuring model prediction error",
+        "boosting based on sequential models fitted to gradients of a loss",
+        "a relatively small group of examples used for one update",
+        "a mathematical framework for sequential decision-making under uncertainty"
+      ],
+      "answer": "a relatively small group of examples used for one update",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes optimizer?",
+      "options": [
+        "an adaptive gradient-based optimization algorithm",
+        "sensitivity of a model to changes in its training data",
+        "searching for effective hyperparameter values",
+        "an algorithm used to update trainable model parameters"
+      ],
+      "answer": "an algorithm used to update trainable model parameters",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of stochastic gradient descent?",
+      "options": [
+        "gradient-based optimization using individual or small samples",
+        "an activation function producing values between -1 and 1",
+        "predicting a discrete class or category",
+        "an adaptive gradient-based optimization algorithm"
+      ],
+      "answer": "gradient-based optimization using individual or small samples",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is Adam optimizer in AI and machine learning?",
+      "options": [
+        "a trainable offset added to a model unit",
+        "an adaptive gradient-based optimization algorithm",
+        "a positive case correctly predicted as positive",
+        "grouping similar data points without predefined labels"
+      ],
+      "answer": "an adaptive gradient-based optimization algorithm",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes CNN?",
+      "options": [
+        "a neural-network architecture widely used for spatial data such as images",
+        "an activation function producing values between -1 and 1",
+        "a dense numerical representation of an item or token",
+        "a table summarizing classification predictions by actual and predicted class"
+      ],
+      "answer": "a neural-network architecture widely used for spatial data such as images",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of convolution?",
+      "options": [
+        "an operation applying learned filters across local regions",
+        "identifying observations that differ substantially from expected patterns",
+        "reusing knowledge from a pretrained model for another task",
+        "a gated recurrent neural-network architecture"
+      ],
+      "answer": "an operation applying learned filters across local regions",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is pooling in AI and machine learning?",
+      "options": [
+        "the target value associated with a supervised-learning example",
+        "a curve showing true-positive rate against false-positive rate",
+        "the harmonic mean of precision and recall",
+        "an operation that reduces spatial dimensions or summarizes local features"
+      ],
+      "answer": "an operation that reduces spatial dimensions or summarizes local features",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes filter?",
+      "options": [
+        "combining multiple models to improve predictions",
+        "a table summarizing classification predictions by actual and predicted class",
+        "a technique used to discourage overly complex models",
+        "learned weights applied locally in convolution"
+      ],
+      "answer": "learned weights applied locally in convolution",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of feature map?",
+      "options": [
+        "a training or model setting chosen outside ordinary learned parameters",
+        "the output produced by applying convolutional filters",
+        "learning from labeled training examples",
+        "combining multiple models to improve predictions"
+      ],
+      "answer": "the output produced by applying convolutional filters",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is RNN in AI and machine learning?",
+      "options": [
+        "a neural-network architecture designed for sequential data",
+        "a positive case correctly predicted as positive",
+        "an optimization method that updates parameters toward lower loss",
+        "an operation that reduces spatial dimensions or summarizes local features"
+      ],
+      "answer": "a neural-network architecture designed for sequential data",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes LSTM?",
+      "options": [
+        "a function measuring model prediction error",
+        "a technique used to discourage overly complex models",
+        "computing gradients by propagating error information backward",
+        "a recurrent architecture designed to retain information over longer sequences"
+      ],
+      "answer": "a recurrent architecture designed to retain information over longer sequences",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of GRU?",
+      "options": [
+        "assigning a class label to each image pixel",
+        "a gated recurrent neural-network architecture",
+        "predicting a discrete class or category",
+        "a positive case correctly predicted as positive"
+      ],
+      "answer": "a gated recurrent neural-network architecture",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is attention in AI and machine learning?",
+      "options": [
+        "a mechanism that weights the relevance of different inputs",
+        "the proportion of correct predictions",
+        "an operation applying learned filters across local regions",
+        "a curve showing true-positive rate against false-positive rate"
+      ],
+      "answer": "a mechanism that weights the relevance of different inputs",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes transformer?",
+      "options": [
+        "a system that predicts items or content a user may prefer",
+        "a neural-network architecture built around attention mechanisms",
+        "a model composed of connected computational units",
+        "stopping training when validation performance stops improving"
+      ],
+      "answer": "a neural-network architecture built around attention mechanisms",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of self-attention?",
+      "options": [
+        "stopping training when validation performance stops improving",
+        "a curve showing true-positive rate against false-positive rate",
+        "attention where a sequence relates its elements to one another",
+        "a trainable offset added to a model unit"
+      ],
+      "answer": "attention where a sequence relates its elements to one another",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is embedding in AI and machine learning?",
+      "options": [
+        "a model composed of connected computational units",
+        "a dense numerical representation of an item or token",
+        "randomly disabling some neural units during training",
+        "a trainable offset added to a model unit"
+      ],
+      "answer": "a dense numerical representation of an item or token",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes tokenization?",
+      "options": [
+        "data reserved for final evaluation",
+        "a training or model setting chosen outside ordinary learned parameters",
+        "splitting text into tokens for processing",
+        "stopping training when validation performance stops improving"
+      ],
+      "answer": "splitting text into tokens for processing",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of natural language processing?",
+      "options": [
+        "the field concerned with computational processing of human language",
+        "reusing knowledge from a pretrained model for another task",
+        "a model that makes predictions through a sequence of decision rules",
+        "a neural-network architecture built around attention mechanisms"
+      ],
+      "answer": "the field concerned with computational processing of human language",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is computer vision in AI and machine learning?",
+      "options": [
+        "the field concerned with extracting information from images or video",
+        "a function commonly converting logits into multiclass probabilities",
+        "an activation function producing values between 0 and 1",
+        "a technique used to discourage overly complex models"
+      ],
+      "answer": "the field concerned with extracting information from images or video",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes image classification?",
+      "options": [
+        "predicting a discrete class or category",
+        "assigning an image to one or more predefined categories",
+        "a dense numerical representation of an item or token",
+        "a model that finds separating boundaries using support vectors"
+      ],
+      "answer": "assigning an image to one or more predefined categories",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of object detection?",
+      "options": [
+        "regularization based on the sum of squared parameter values",
+        "locating and classifying objects in an image",
+        "the output produced by applying convolutional filters",
+        "a curve showing true-positive rate against false-positive rate"
+      ],
+      "answer": "locating and classifying objects in an image",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is semantic segmentation in AI and machine learning?",
+      "options": [
+        "a technique used to discourage overly complex models",
+        "assigning a class label to each image pixel",
+        "learned weights applied locally in convolution",
+        "a trainable parameter controlling a connection's contribution"
+      ],
+      "answer": "assigning a class label to each image pixel",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes generative AI?",
+      "options": [
+        "AI systems that generate new content",
+        "a model that finds separating boundaries using support vectors",
+        "an optimization method that updates parameters toward lower loss",
+        "the field of building systems that perform tasks associated with intelligent behavior"
+      ],
+      "answer": "AI systems that generate new content",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of large language model?",
+      "options": [
+        "a negative case correctly predicted as negative",
+        "a language model trained on large text datasets",
+        "a probabilistic classifier using conditional independence assumptions",
+        "a positive case correctly predicted as positive"
+      ],
+      "answer": "a language model trained on large text datasets",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is prompt in AI and machine learning?",
+      "options": [
+        "a model commonly used for classification probabilities",
+        "scaling values to a specified range or normalized scale",
+        "a gradient-boosting implementation",
+        "input instructions or context given to a generative model"
+      ],
+      "answer": "input instructions or context given to a generative model",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes prompt engineering?",
+      "options": [
+        "the output produced by applying convolutional filters",
+        "an algorithm used to update trainable model parameters",
+        "designing prompts to obtain useful model behavior",
+        "a model that finds separating boundaries using support vectors"
+      ],
+      "answer": "designing prompts to obtain useful model behavior",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of fine-tuning?",
+      "options": [
+        "identifying observations that differ substantially from expected patterns",
+        "boosting based on sequential models fitted to gradients of a loss",
+        "data reserved for final evaluation",
+        "further training a pretrained model on a specific dataset or task"
+      ],
+      "answer": "further training a pretrained model on a specific dataset or task",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is transfer learning in AI and machine learning?",
+      "options": [
+        "splitting text into tokens for processing",
+        "the harmonic mean of precision and recall",
+        "reusing knowledge from a pretrained model for another task",
+        "using a model that is too simple to capture important patterns"
+      ],
+      "answer": "reusing knowledge from a pretrained model for another task",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes data augmentation?",
+      "options": [
+        "a negative case incorrectly predicted as positive",
+        "a function measuring model prediction error",
+        "creating varied training examples from existing data",
+        "a model composed of connected computational units"
+      ],
+      "answer": "creating varied training examples from existing data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of hyperparameter?",
+      "options": [
+        "a gated recurrent neural-network architecture",
+        "a training or model setting chosen outside ordinary learned parameters",
+        "a mechanism that weights the relevance of different inputs",
+        "a table summarizing classification predictions by actual and predicted class"
+      ],
+      "answer": "a training or model setting chosen outside ordinary learned parameters",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is hyperparameter tuning in AI and machine learning?",
+      "options": [
+        "an adaptive gradient-based optimization algorithm",
+        "searching for effective hyperparameter values",
+        "the harmonic mean of precision and recall",
+        "a neural-network architecture widely used for spatial data such as images"
+      ],
+      "answer": "searching for effective hyperparameter values",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes early stopping?",
+      "options": [
+        "stopping training when validation performance stops improving",
+        "a negative case incorrectly predicted as positive",
+        "a trainable parameter controlling a connection's contribution",
+        "an activation function producing values between -1 and 1"
+      ],
+      "answer": "stopping training when validation performance stops improving",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of dropout?",
+      "options": [
+        "randomly disabling some neural units during training",
+        "learning training data too closely and generalizing poorly",
+        "the harmonic mean of precision and recall",
+        "an optimization method that updates parameters toward lower loss"
+      ],
+      "answer": "randomly disabling some neural units during training",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is ensemble learning in AI and machine learning?",
+      "options": [
+        "a language model trained on large text datasets",
+        "data reserved for final evaluation",
+        "a curve showing true-positive rate against false-positive rate",
+        "combining multiple models to improve predictions"
+      ],
+      "answer": "combining multiple models to improve predictions",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes bagging?",
+      "options": [
+        "training models on resampled datasets and combining their outputs",
+        "one complete pass through the training dataset",
+        "the target value associated with a supervised-learning example",
+        "input instructions or context given to a generative model"
+      ],
+      "answer": "training models on resampled datasets and combining their outputs",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of boosting?",
+      "options": [
+        "sequentially building models that focus on earlier errors",
+        "the harmonic mean of precision and recall",
+        "an algorithm used to update trainable model parameters",
+        "combining multiple models to improve predictions"
+      ],
+      "answer": "sequentially building models that focus on earlier errors",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is gradient boosting in AI and machine learning?",
+      "options": [
+        "assigning a class label to each image pixel",
+        "boosting based on sequential models fitted to gradients of a loss",
+        "a recurrent architecture designed to retain information over longer sequences",
+        "a model that makes predictions through a sequence of decision rules"
+      ],
+      "answer": "boosting based on sequential models fitted to gradients of a loss",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes XGBoost?",
+      "options": [
+        "a parameter controlling the size of optimization updates",
+        "combining multiple models to improve predictions",
+        "learning training data too closely and generalizing poorly",
+        "a gradient-boosting implementation"
+      ],
+      "answer": "a gradient-boosting implementation",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of recommendation system?",
+      "options": [
+        "input instructions or context given to a generative model",
+        "stopping training when validation performance stops improving",
+        "a trainable offset added to a model unit",
+        "a system that predicts items or content a user may prefer"
+      ],
+      "answer": "a system that predicts items or content a user may prefer",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is anomaly detection in AI and machine learning?",
+      "options": [
+        "regularization based on the sum of squared parameter values",
+        "identifying observations that differ substantially from expected patterns",
+        "data used to fit a machine-learning model",
+        "regularization based on the sum of absolute parameter values"
+      ],
+      "answer": "identifying observations that differ substantially from expected patterns",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes Markov decision process?",
+      "options": [
+        "a mathematical framework for sequential decision-making under uncertainty",
+        "learning through interaction using rewards and penalties",
+        "regularization based on the sum of absolute parameter values",
+        "learning patterns from data without target labels"
+      ],
+      "answer": "a mathematical framework for sequential decision-making under uncertainty",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of artificial intelligence?",
+      "options": [
+        "the field of building systems that perform tasks associated with intelligent behavior",
+        "the proportion of correct predictions",
+        "using a model that is too simple to capture important patterns",
+        "computing gradients by propagating error information backward"
+      ],
+      "answer": "the field of building systems that perform tasks associated with intelligent behavior",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is machine learning in AI and machine learning?",
+      "options": [
+        "an operation applying learned filters across local regions",
+        "cross-validation that divides data into k folds",
+        "a field where models learn patterns from data",
+        "boosting based on sequential models fitted to gradients of a loss"
+      ],
+      "answer": "a field where models learn patterns from data",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes supervised learning?",
+      "options": [
+        "learning from labeled training examples",
+        "a trainable parameter controlling a connection's contribution",
+        "the harmonic mean of precision and recall",
+        "scaling values to a specified range or normalized scale"
+      ],
+      "answer": "learning from labeled training examples",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of unsupervised learning?",
+      "options": [
+        "a system that predicts items or content a user may prefer",
+        "a model that finds separating boundaries using support vectors",
+        "learning through interaction using rewards and penalties",
+        "learning patterns from data without target labels"
+      ],
+      "answer": "learning patterns from data without target labels",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is reinforcement learning in AI and machine learning?",
+      "options": [
+        "learning through interaction using rewards and penalties",
+        "the target value associated with a supervised-learning example",
+        "an optimization method that updates parameters toward lower loss",
+        "an activation function producing values between 0 and 1"
+      ],
+      "answer": "learning through interaction using rewards and penalties",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes classification?",
+      "options": [
+        "a model that predicts a continuous value using a linear relationship",
+        "a negative case incorrectly predicted as positive",
+        "a group of training examples processed together",
+        "predicting a discrete class or category"
+      ],
+      "answer": "predicting a discrete class or category",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of regression?",
+      "options": [
+        "a model commonly used for classification probabilities",
+        "predicting a continuous numerical value",
+        "a model that predicts a continuous value using a linear relationship",
+        "using a model that is too simple to capture important patterns"
+      ],
+      "answer": "predicting a continuous numerical value",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is clustering in AI and machine learning?",
+      "options": [
+        "a method that predicts using nearby training examples",
+        "boosting based on sequential models fitted to gradients of a loss",
+        "grouping similar data points without predefined labels",
+        "an optimization method that updates parameters toward lower loss"
+      ],
+      "answer": "grouping similar data points without predefined labels",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes feature?",
+      "options": [
+        "an input variable used by a machine-learning model",
+        "the area under the ROC curve",
+        "a mathematical framework for sequential decision-making under uncertainty",
+        "a neural-network architecture designed for sequential data"
+      ],
+      "answer": "an input variable used by a machine-learning model",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of label?",
+      "options": [
+        "predicting a discrete class or category",
+        "the target value associated with a supervised-learning example",
+        "a curve showing true-positive rate against false-positive rate",
+        "input instructions or context given to a generative model"
+      ],
+      "answer": "the target value associated with a supervised-learning example",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is training data in AI and machine learning?",
+      "options": [
+        "data used to fit a machine-learning model",
+        "a curve showing true-positive rate against false-positive rate",
+        "transforming values using their mean and standard deviation",
+        "an input variable used by a machine-learning model"
+      ],
+      "answer": "data used to fit a machine-learning model",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes validation data?",
+      "options": [
+        "data used to tune or select a model during development",
+        "a function commonly converting logits into multiclass probabilities",
+        "systematic error associated with restrictive model assumptions",
+        "a curve showing true-positive rate against false-positive rate"
+      ],
+      "answer": "data used to tune or select a model during development",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of test data?",
+      "options": [
+        "predicting a continuous numerical value",
+        "designing prompts to obtain useful model behavior",
+        "data reserved for final evaluation",
+        "a model that finds separating boundaries using support vectors"
+      ],
+      "answer": "data reserved for final evaluation",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is overfitting in AI and machine learning?",
+      "options": [
+        "computing gradients by propagating error information backward",
+        "learning training data too closely and generalizing poorly",
+        "a table summarizing classification predictions by actual and predicted class",
+        "a model commonly used for classification probabilities"
+      ],
+      "answer": "learning training data too closely and generalizing poorly",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes underfitting?",
+      "options": [
+        "learning patterns from data without target labels",
+        "an operation applying learned filters across local regions",
+        "using a model that is too simple to capture important patterns",
+        "a gated recurrent neural-network architecture"
+      ],
+      "answer": "using a model that is too simple to capture important patterns",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of bias?",
+      "options": [
+        "locating and classifying objects in an image",
+        "a gated recurrent neural-network architecture",
+        "systematic error associated with restrictive model assumptions",
+        "a technique used to discourage overly complex models"
+      ],
+      "answer": "systematic error associated with restrictive model assumptions",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is variance in AI and machine learning?",
+      "options": [
+        "a neural-network architecture widely used for spatial data such as images",
+        "training models on resampled datasets and combining their outputs",
+        "sensitivity of a model to changes in its training data",
+        "the proportion of predicted positives that are actually positive"
+      ],
+      "answer": "sensitivity of a model to changes in its training data",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes generalization?",
+      "options": [
+        "one complete pass through the training dataset",
+        "a neural-network architecture designed for sequential data",
+        "performance on previously unseen data",
+        "stopping training when validation performance stops improving"
+      ],
+      "answer": "performance on previously unseen data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of cross-validation?",
+      "options": [
+        "a method for evaluating models across multiple data splits",
+        "sensitivity of a model to changes in its training data",
+        "the target value associated with a supervised-learning example",
+        "using a model that is too simple to capture important patterns"
+      ],
+      "answer": "a method for evaluating models across multiple data splits",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is k-fold cross-validation in AI and machine learning?",
+      "options": [
+        "an activation function producing values between -1 and 1",
+        "identifying observations that differ substantially from expected patterns",
+        "cross-validation that divides data into k folds",
+        "grouping similar data points without predefined labels"
+      ],
+      "answer": "cross-validation that divides data into k folds",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes linear regression?",
+      "options": [
+        "cross-validation that divides data into k folds",
+        "an operation applying learned filters across local regions",
+        "a model that predicts a continuous value using a linear relationship",
+        "predicting a continuous numerical value"
+      ],
+      "answer": "a model that predicts a continuous value using a linear relationship",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of logistic regression?",
+      "options": [
+        "a recurrent architecture designed to retain information over longer sequences",
+        "a model commonly used for classification probabilities",
+        "the area under the ROC curve",
+        "the field concerned with computational processing of human language"
+      ],
+      "answer": "a model commonly used for classification probabilities",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is decision tree in AI and machine learning?",
+      "options": [
+        "a system that predicts items or content a user may prefer",
+        "a model that makes predictions through a sequence of decision rules",
+        "a mechanism that weights the relevance of different inputs",
+        "a positive case correctly predicted as positive"
+      ],
+      "answer": "a model that makes predictions through a sequence of decision rules",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes random forest?",
+      "options": [
+        "an ensemble of decision trees",
+        "an input variable used by a machine-learning model",
+        "assigning a class label to each image pixel",
+        "input instructions or context given to a generative model"
+      ],
+      "answer": "an ensemble of decision trees",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of support vector machine?",
+      "options": [
+        "a gated recurrent neural-network architecture",
+        "a method that predicts using nearby training examples",
+        "a neural-network architecture widely used for spatial data such as images",
+        "a model that finds separating boundaries using support vectors"
+      ],
+      "answer": "a model that finds separating boundaries using support vectors",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is k-nearest neighbors in AI and machine learning?",
+      "options": [
+        "splitting text into tokens for processing",
+        "using a model that is too simple to capture important patterns",
+        "designing prompts to obtain useful model behavior",
+        "a method that predicts using nearby training examples"
+      ],
+      "answer": "a method that predicts using nearby training examples",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes naive Bayes?",
+      "options": [
+        "computing gradients by propagating error information backward",
+        "a probabilistic classifier using conditional independence assumptions",
+        "using a model that is too simple to capture important patterns",
+        "gradient-based optimization using individual or small samples"
+      ],
+      "answer": "a probabilistic classifier using conditional independence assumptions",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of gradient descent?",
+      "options": [
+        "grouping similar data points without predefined labels",
+        "the area under the ROC curve",
+        "an optimization method that updates parameters toward lower loss",
+        "an operation that reduces spatial dimensions or summarizes local features"
+      ],
+      "answer": "an optimization method that updates parameters toward lower loss",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is learning rate in AI and machine learning?",
+      "options": [
+        "regularization based on the sum of squared parameter values",
+        "a dense numerical representation of an item or token",
+        "a parameter controlling the size of optimization updates",
+        "an optimization method that updates parameters toward lower loss"
+      ],
+      "answer": "a parameter controlling the size of optimization updates",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes loss function?",
+      "options": [
+        "scaling values to a specified range or normalized scale",
+        "a function measuring model prediction error",
+        "transforming values using their mean and standard deviation",
+        "a gradient-boosting implementation"
+      ],
+      "answer": "a function measuring model prediction error",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of regularization?",
+      "options": [
+        "a technique used to discourage overly complex models",
+        "the field of building systems that perform tasks associated with intelligent behavior",
+        "a neural-network architecture built around attention mechanisms",
+        "an algorithm used to update trainable model parameters"
+      ],
+      "answer": "a technique used to discourage overly complex models",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is L1 regularization in AI and machine learning?",
+      "options": [
+        "boosting based on sequential models fitted to gradients of a loss",
+        "regularization based on the sum of absolute parameter values",
+        "a field where models learn patterns from data",
+        "an activation function producing values between 0 and 1"
+      ],
+      "answer": "regularization based on the sum of absolute parameter values",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes L2 regularization?",
+      "options": [
+        "AI systems that generate new content",
+        "regularization based on the sum of squared parameter values",
+        "a group of training examples processed together",
+        "grouping similar data points without predefined labels"
+      ],
+      "answer": "regularization based on the sum of squared parameter values",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of normalization?",
+      "options": [
+        "an optimization method that updates parameters toward lower loss",
+        "one complete pass through the training dataset",
+        "an activation function producing values between 0 and 1",
+        "scaling values to a specified range or normalized scale"
+      ],
+      "answer": "scaling values to a specified range or normalized scale",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is standardization in AI and machine learning?",
+      "options": [
+        "locating and classifying objects in an image",
+        "searching for effective hyperparameter values",
+        "transforming values using their mean and standard deviation",
+        "a model composed of connected computational units"
+      ],
+      "answer": "transforming values using their mean and standard deviation",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes confusion matrix?",
+      "options": [
+        "a table summarizing classification predictions by actual and predicted class",
+        "a mathematical framework for sequential decision-making under uncertainty",
+        "a negative case correctly predicted as negative",
+        "an activation function that outputs max(0,x)"
+      ],
+      "answer": "a table summarizing classification predictions by actual and predicted class",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of accuracy?",
+      "options": [
+        "assigning a class label to each image pixel",
+        "the proportion of correct predictions",
+        "an operation applying learned filters across local regions",
+        "a function measuring model prediction error"
+      ],
+      "answer": "the proportion of correct predictions",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is precision in AI and machine learning?",
+      "options": [
+        "computing gradients by propagating error information backward",
+        "a function that transforms a neural-network unit's input",
+        "attention where a sequence relates its elements to one another",
+        "the proportion of predicted positives that are actually positive"
+      ],
+      "answer": "the proportion of predicted positives that are actually positive",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes recall?",
+      "options": [
+        "splitting text into tokens for processing",
+        "the proportion of actual positives that are correctly identified",
+        "a neural-network architecture widely used for spatial data such as images",
+        "assigning a class label to each image pixel"
+      ],
+      "answer": "the proportion of actual positives that are correctly identified",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of F1 score?",
+      "options": [
+        "an operation that reduces spatial dimensions or summarizes local features",
+        "further training a pretrained model on a specific dataset or task",
+        "the harmonic mean of precision and recall",
+        "a mathematical framework for sequential decision-making under uncertainty"
+      ],
+      "answer": "the harmonic mean of precision and recall",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is ROC curve in AI and machine learning?",
+      "options": [
+        "a neural-network architecture widely used for spatial data such as images",
+        "a model commonly used for classification probabilities",
+        "performance on previously unseen data",
+        "a curve showing true-positive rate against false-positive rate"
+      ],
+      "answer": "a curve showing true-positive rate against false-positive rate",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes AUC?",
+      "options": [
+        "the area under the ROC curve",
+        "an operation applying learned filters across local regions",
+        "a probabilistic classifier using conditional independence assumptions",
+        "a field where models learn patterns from data"
+      ],
+      "answer": "the area under the ROC curve",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of true positive?",
+      "options": [
+        "sensitivity of a model to changes in its training data",
+        "a model that makes predictions through a sequence of decision rules",
+        "a neural-network architecture widely used for spatial data such as images",
+        "a positive case correctly predicted as positive"
+      ],
+      "answer": "a positive case correctly predicted as positive",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is true negative in AI and machine learning?",
+      "options": [
+        "a negative case correctly predicted as negative",
+        "splitting text into tokens for processing",
+        "randomly disabling some neural units during training",
+        "reusing knowledge from a pretrained model for another task"
+      ],
+      "answer": "a negative case correctly predicted as negative",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes false positive?",
+      "options": [
+        "a negative case incorrectly predicted as positive",
+        "identifying observations that differ substantially from expected patterns",
+        "a function measuring model prediction error",
+        "further training a pretrained model on a specific dataset or task"
+      ],
+      "answer": "a negative case incorrectly predicted as positive",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of false negative?",
+      "options": [
+        "sequentially building models that focus on earlier errors",
+        "using a model that is too simple to capture important patterns",
+        "a positive case incorrectly predicted as negative",
+        "assigning an image to one or more predefined categories"
+      ],
+      "answer": "a positive case incorrectly predicted as negative",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is neural network in AI and machine learning?",
+      "options": [
+        "a training or model setting chosen outside ordinary learned parameters",
+        "a model composed of connected computational units",
+        "learning through interaction using rewards and penalties",
+        "a neural-network architecture designed for sequential data"
+      ],
+      "answer": "a model composed of connected computational units",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes perceptron?",
+      "options": [
+        "a training or model setting chosen outside ordinary learned parameters",
+        "a basic linear neural-network unit",
+        "a model that predicts a continuous value using a linear relationship",
+        "the area under the ROC curve"
+      ],
+      "answer": "a basic linear neural-network unit",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of activation function?",
+      "options": [
+        "sensitivity of a model to changes in its training data",
+        "a model that predicts a continuous value using a linear relationship",
+        "a function that transforms a neural-network unit's input",
+        "a parameter controlling the size of optimization updates"
+      ],
+      "answer": "a function that transforms a neural-network unit's input",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is sigmoid in AI and machine learning?",
+      "options": [
+        "searching for effective hyperparameter values",
+        "an activation function producing values between 0 and 1",
+        "regularization based on the sum of squared parameter values",
+        "the harmonic mean of precision and recall"
+      ],
+      "answer": "an activation function producing values between 0 and 1",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes ReLU?",
+      "options": [
+        "an input variable used by a machine-learning model",
+        "a neural-network architecture designed for sequential data",
+        "an optimization method that updates parameters toward lower loss",
+        "an activation function that outputs max(0,x)"
+      ],
+      "answer": "an activation function that outputs max(0,x)",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of tanh?",
+      "options": [
+        "scaling values to a specified range or normalized scale",
+        "an activation function producing values between -1 and 1",
+        "the area under the ROC curve",
+        "a method for evaluating models across multiple data splits"
+      ],
+      "answer": "an activation function producing values between -1 and 1",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is softmax in AI and machine learning?",
+      "options": [
+        "the field of building systems that perform tasks associated with intelligent behavior",
+        "a function commonly converting logits into multiclass probabilities",
+        "assigning an image to one or more predefined categories",
+        "a trainable offset added to a model unit"
+      ],
+      "answer": "a function commonly converting logits into multiclass probabilities",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes forward propagation?",
+      "options": [
+        "boosting based on sequential models fitted to gradients of a loss",
+        "computing neural-network outputs from inputs through layers",
+        "splitting text into tokens for processing",
+        "a neural-network architecture designed for sequential data"
+      ],
+      "answer": "computing neural-network outputs from inputs through layers",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of backpropagation?",
+      "options": [
+        "a positive case incorrectly predicted as negative",
+        "learning through interaction using rewards and penalties",
+        "a relatively small group of examples used for one update",
+        "computing gradients by propagating error information backward"
+      ],
+      "answer": "computing gradients by propagating error information backward",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is weight in AI and machine learning?",
+      "options": [
+        "a trainable parameter controlling a connection's contribution",
+        "an ensemble of decision trees",
+        "learned weights applied locally in convolution",
+        "an algorithm used to update trainable model parameters"
+      ],
+      "answer": "a trainable parameter controlling a connection's contribution",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes bias parameter?",
+      "options": [
+        "a trainable offset added to a model unit",
+        "the proportion of predicted positives that are actually positive",
+        "data reserved for final evaluation",
+        "regularization based on the sum of absolute parameter values"
+      ],
+      "answer": "a trainable offset added to a model unit",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of epoch?",
+      "options": [
+        "transforming values using their mean and standard deviation",
+        "one complete pass through the training dataset",
+        "a mechanism that weights the relevance of different inputs",
+        "a neural-network architecture built around attention mechanisms"
+      ],
+      "answer": "one complete pass through the training dataset",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is batch in AI and machine learning?",
+      "options": [
+        "a positive case correctly predicted as positive",
+        "a group of training examples processed together",
+        "grouping similar data points without predefined labels",
+        "a model that predicts a continuous value using a linear relationship"
+      ],
+      "answer": "a group of training examples processed together",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes mini-batch?",
+      "options": [
+        "a relatively small group of examples used for one update",
+        "data used to fit a machine-learning model",
+        "systematic error associated with restrictive model assumptions",
+        "designing prompts to obtain useful model behavior"
+      ],
+      "answer": "a relatively small group of examples used for one update",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of optimizer?",
+      "options": [
+        "an algorithm used to update trainable model parameters",
+        "an activation function producing values between 0 and 1",
+        "learned weights applied locally in convolution",
+        "a model that predicts a continuous value using a linear relationship"
+      ],
+      "answer": "an algorithm used to update trainable model parameters",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is stochastic gradient descent in AI and machine learning?",
+      "options": [
+        "an activation function that outputs max(0,x)",
+        "data reserved for final evaluation",
+        "training models on resampled datasets and combining their outputs",
+        "gradient-based optimization using individual or small samples"
+      ],
+      "answer": "gradient-based optimization using individual or small samples",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes Adam optimizer?",
+      "options": [
+        "an adaptive gradient-based optimization algorithm",
+        "computing neural-network outputs from inputs through layers",
+        "a mathematical framework for sequential decision-making under uncertainty",
+        "a function that transforms a neural-network unit's input"
+      ],
+      "answer": "an adaptive gradient-based optimization algorithm",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of CNN?",
+      "options": [
+        "data used to tune or select a model during development",
+        "a neural-network architecture widely used for spatial data such as images",
+        "a gradient-boosting implementation",
+        "learning training data too closely and generalizing poorly"
+      ],
+      "answer": "a neural-network architecture widely used for spatial data such as images",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is convolution in AI and machine learning?",
+      "options": [
+        "a negative case correctly predicted as negative",
+        "a method for evaluating models across multiple data splits",
+        "a model that makes predictions through a sequence of decision rules",
+        "an operation applying learned filters across local regions"
+      ],
+      "answer": "an operation applying learned filters across local regions",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes pooling?",
+      "options": [
+        "a relatively small group of examples used for one update",
+        "an optimization method that updates parameters toward lower loss",
+        "an operation that reduces spatial dimensions or summarizes local features",
+        "a mathematical framework for sequential decision-making under uncertainty"
+      ],
+      "answer": "an operation that reduces spatial dimensions or summarizes local features",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of filter?",
+      "options": [
+        "a probabilistic classifier using conditional independence assumptions",
+        "a gated recurrent neural-network architecture",
+        "learned weights applied locally in convolution",
+        "a technique used to discourage overly complex models"
+      ],
+      "answer": "learned weights applied locally in convolution",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is feature map in AI and machine learning?",
+      "options": [
+        "further training a pretrained model on a specific dataset or task",
+        "the output produced by applying convolutional filters",
+        "a language model trained on large text datasets",
+        "sequentially building models that focus on earlier errors"
+      ],
+      "answer": "the output produced by applying convolutional filters",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes RNN?",
+      "options": [
+        "AI systems that generate new content",
+        "training models on resampled datasets and combining their outputs",
+        "an ensemble of decision trees",
+        "a neural-network architecture designed for sequential data"
+      ],
+      "answer": "a neural-network architecture designed for sequential data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of LSTM?",
+      "options": [
+        "a recurrent architecture designed to retain information over longer sequences",
+        "assigning a class label to each image pixel",
+        "stopping training when validation performance stops improving",
+        "a mechanism that weights the relevance of different inputs"
+      ],
+      "answer": "a recurrent architecture designed to retain information over longer sequences",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is GRU in AI and machine learning?",
+      "options": [
+        "learned weights applied locally in convolution",
+        "cross-validation that divides data into k folds",
+        "a function commonly converting logits into multiclass probabilities",
+        "a gated recurrent neural-network architecture"
+      ],
+      "answer": "a gated recurrent neural-network architecture",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes attention?",
+      "options": [
+        "the field concerned with computational processing of human language",
+        "further training a pretrained model on a specific dataset or task",
+        "data reserved for final evaluation",
+        "a mechanism that weights the relevance of different inputs"
+      ],
+      "answer": "a mechanism that weights the relevance of different inputs",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of transformer?",
+      "options": [
+        "data used to fit a machine-learning model",
+        "a curve showing true-positive rate against false-positive rate",
+        "a neural-network architecture built around attention mechanisms",
+        "the field of building systems that perform tasks associated with intelligent behavior"
+      ],
+      "answer": "a neural-network architecture built around attention mechanisms",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is self-attention in AI and machine learning?",
+      "options": [
+        "AI systems that generate new content",
+        "attention where a sequence relates its elements to one another",
+        "computing neural-network outputs from inputs through layers",
+        "a relatively small group of examples used for one update"
+      ],
+      "answer": "attention where a sequence relates its elements to one another",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes embedding?",
+      "options": [
+        "a system that predicts items or content a user may prefer",
+        "data reserved for final evaluation",
+        "learning patterns from data without target labels",
+        "a dense numerical representation of an item or token"
+      ],
+      "answer": "a dense numerical representation of an item or token",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of tokenization?",
+      "options": [
+        "the proportion of actual positives that are correctly identified",
+        "data used to fit a machine-learning model",
+        "splitting text into tokens for processing",
+        "predicting a discrete class or category"
+      ],
+      "answer": "splitting text into tokens for processing",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is natural language processing in AI and machine learning?",
+      "options": [
+        "a trainable offset added to a model unit",
+        "a language model trained on large text datasets",
+        "a function commonly converting logits into multiclass probabilities",
+        "the field concerned with computational processing of human language"
+      ],
+      "answer": "the field concerned with computational processing of human language",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes computer vision?",
+      "options": [
+        "the field concerned with extracting information from images or video",
+        "a curve showing true-positive rate against false-positive rate",
+        "predicting a continuous numerical value",
+        "data reserved for final evaluation"
+      ],
+      "answer": "the field concerned with extracting information from images or video",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of image classification?",
+      "options": [
+        "assigning an image to one or more predefined categories",
+        "designing prompts to obtain useful model behavior",
+        "systematic error associated with restrictive model assumptions",
+        "a probabilistic classifier using conditional independence assumptions"
+      ],
+      "answer": "assigning an image to one or more predefined categories",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is object detection in AI and machine learning?",
+      "options": [
+        "locating and classifying objects in an image",
+        "a relatively small group of examples used for one update",
+        "identifying observations that differ substantially from expected patterns",
+        "reusing knowledge from a pretrained model for another task"
+      ],
+      "answer": "locating and classifying objects in an image",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes semantic segmentation?",
+      "options": [
+        "assigning a class label to each image pixel",
+        "a gradient-boosting implementation",
+        "a positive case incorrectly predicted as negative",
+        "an algorithm used to update trainable model parameters"
+      ],
+      "answer": "assigning a class label to each image pixel",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of generative AI?",
+      "options": [
+        "a basic linear neural-network unit",
+        "a method for evaluating models across multiple data splits",
+        "AI systems that generate new content",
+        "attention where a sequence relates its elements to one another"
+      ],
+      "answer": "AI systems that generate new content",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is large language model in AI and machine learning?",
+      "options": [
+        "learned weights applied locally in convolution",
+        "the target value associated with a supervised-learning example",
+        "learning training data too closely and generalizing poorly",
+        "a language model trained on large text datasets"
+      ],
+      "answer": "a language model trained on large text datasets",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes prompt?",
+      "options": [
+        "predicting a discrete class or category",
+        "predicting a continuous numerical value",
+        "input instructions or context given to a generative model",
+        "a model commonly used for classification probabilities"
+      ],
+      "answer": "input instructions or context given to a generative model",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of prompt engineering?",
+      "options": [
+        "the proportion of correct predictions",
+        "designing prompts to obtain useful model behavior",
+        "the output produced by applying convolutional filters",
+        "the proportion of predicted positives that are actually positive"
+      ],
+      "answer": "designing prompts to obtain useful model behavior",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is fine-tuning in AI and machine learning?",
+      "options": [
+        "a system that predicts items or content a user may prefer",
+        "data used to fit a machine-learning model",
+        "further training a pretrained model on a specific dataset or task",
+        "performance on previously unseen data"
+      ],
+      "answer": "further training a pretrained model on a specific dataset or task",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes transfer learning?",
+      "options": [
+        "a negative case correctly predicted as negative",
+        "reusing knowledge from a pretrained model for another task",
+        "the field concerned with extracting information from images or video",
+        "sensitivity of a model to changes in its training data"
+      ],
+      "answer": "reusing knowledge from a pretrained model for another task",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of data augmentation?",
+      "options": [
+        "a model that makes predictions through a sequence of decision rules",
+        "creating varied training examples from existing data",
+        "predicting a continuous numerical value",
+        "data reserved for final evaluation"
+      ],
+      "answer": "creating varied training examples from existing data",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is hyperparameter in AI and machine learning?",
+      "options": [
+        "AI systems that generate new content",
+        "a model commonly used for classification probabilities",
+        "reusing knowledge from a pretrained model for another task",
+        "a training or model setting chosen outside ordinary learned parameters"
+      ],
+      "answer": "a training or model setting chosen outside ordinary learned parameters",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes hyperparameter tuning?",
+      "options": [
+        "performance on previously unseen data",
+        "searching for effective hyperparameter values",
+        "a positive case correctly predicted as positive",
+        "designing prompts to obtain useful model behavior"
+      ],
+      "answer": "searching for effective hyperparameter values",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of early stopping?",
+      "options": [
+        "stopping training when validation performance stops improving",
+        "the output produced by applying convolutional filters",
+        "assigning a class label to each image pixel",
+        "learning from labeled training examples"
+      ],
+      "answer": "stopping training when validation performance stops improving",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is dropout in AI and machine learning?",
+      "options": [
+        "searching for effective hyperparameter values",
+        "an ensemble of decision trees",
+        "the area under the ROC curve",
+        "randomly disabling some neural units during training"
+      ],
+      "answer": "randomly disabling some neural units during training",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes ensemble learning?",
+      "options": [
+        "a model composed of connected computational units",
+        "a trainable offset added to a model unit",
+        "combining multiple models to improve predictions",
+        "assigning a class label to each image pixel"
+      ],
+      "answer": "combining multiple models to improve predictions",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of bagging?",
+      "options": [
+        "training models on resampled datasets and combining their outputs",
+        "grouping similar data points without predefined labels",
+        "the harmonic mean of precision and recall",
+        "a model that makes predictions through a sequence of decision rules"
+      ],
+      "answer": "training models on resampled datasets and combining their outputs",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is boosting in AI and machine learning?",
+      "options": [
+        "sequentially building models that focus on earlier errors",
+        "a function that transforms a neural-network unit's input",
+        "a field where models learn patterns from data",
+        "an operation that reduces spatial dimensions or summarizes local features"
+      ],
+      "answer": "sequentially building models that focus on earlier errors",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes gradient boosting?",
+      "options": [
+        "the field concerned with computational processing of human language",
+        "designing prompts to obtain useful model behavior",
+        "AI systems that generate new content",
+        "boosting based on sequential models fitted to gradients of a loss"
+      ],
+      "answer": "boosting based on sequential models fitted to gradients of a loss",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of XGBoost?",
+      "options": [
+        "learning through interaction using rewards and penalties",
+        "a neural-network architecture designed for sequential data",
+        "a gradient-boosting implementation",
+        "systematic error associated with restrictive model assumptions"
+      ],
+      "answer": "a gradient-boosting implementation",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is recommendation system in AI and machine learning?",
+      "options": [
+        "stopping training when validation performance stops improving",
+        "locating and classifying objects in an image",
+        "training models on resampled datasets and combining their outputs",
+        "a system that predicts items or content a user may prefer"
+      ],
+      "answer": "a system that predicts items or content a user may prefer",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes anomaly detection?",
+      "options": [
+        "data used to tune or select a model during development",
+        "predicting a discrete class or category",
+        "a function commonly converting logits into multiclass probabilities",
+        "identifying observations that differ substantially from expected patterns"
+      ],
+      "answer": "identifying observations that differ substantially from expected patterns",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role or meaning of Markov decision process?",
+      "options": [
+        "a mathematical framework for sequential decision-making under uncertainty",
+        "scaling values to a specified range or normalized scale",
+        "further training a pretrained model on a specific dataset or task",
+        "a function commonly converting logits into multiclass probabilities"
+      ],
+      "answer": "a mathematical framework for sequential decision-making under uncertainty",
+      "difficulty": "Hard"
+    }
+  ]
+}

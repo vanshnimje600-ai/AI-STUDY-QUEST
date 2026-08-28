@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Study Quest - Leaderboard</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/leaderboard.css') }}">
+
+</head>
+
+
+<body>
+
+<div class="leaderboard-page">
+
+    <div class="leaderboard-card">
+
+
+        <!-- HEADER -->
+
+        <div class="header">
+
+            <div class="trophy">
+                🏆
+            </div>
+
+            <h1>
+                Overall Leaderboard
+            </h1>
+
+            <p>
+                Top AI Study Quest Players
+            </p>
+
+        </div>
+
+
+        <!-- LEADERBOARD -->
+
+        {% if leaderboard %}
+
+        <div class="table-wrapper">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Rank
+                        </th>
+
+                        <th>
+                            Player
+                        </th>
+
+                        <th>
+                            Total Points
+                        </th>
+
+                        <th>
+                            Quizzes Played
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    {% for player in leaderboard %}
+
+                    <tr>
+
+                        <!-- RANK -->
+
+                        <td class="rank">
+
+                            {% if loop.index == 1 %}
+
+                                🥇
+
+                            {% elif loop.index == 2 %}
+
+                                🥈
+
+                            {% elif loop.index == 3 %}
+
+                                🥉
+
+                            {% else %}
+
+                                #{{ loop.index }}
+
+                            {% endif %}
+
+                        </td>
+
+
+                        <!-- PLAYER -->
+
+                        <td class="player">
+
+                            👤 {{ player[0] }}
+
+                        </td>
+
+
+                        <!-- TOTAL POINTS -->
+
+                        <td class="points">
+
+                            ⭐ {{ player[1] }}
+
+                        </td>
+
+
+                        <!-- QUIZZES -->
+
+                        <td class="quizzes">
+
+                            {{ player[2] }}
+
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        {% else %}
+
+
+        <!-- EMPTY LEADERBOARD -->
+
+        <div class="empty">
+
+            <div class="empty-icon">
+                🎮
+            </div>
+
+            <h2>
+                No Players Yet
+            </h2>
+
+            <p>
+                Complete a quiz to appear on the leaderboard!
+            </p>
+
+        </div>
+
+        {% endif %}
+
+
+        <!-- BUTTONS -->
+
+        <div class="buttons">
+
+            <a href="{{ url_for('subjects') }}"
+               class="btn primary">
+
+                🎮 Play Quiz
+
+            </a>
+
+
+            <a href="{{ url_for('history') }}"
+               class="btn secondary">
+
+                📚 History
+
+            </a>
+
+
+            <a href="{{ url_for('subjects') }}"
+               class="btn secondary">
+
+                ← Back
+
+            </a>
+
+        </div>
+
+
+        <!-- SCORING INFO -->
+
+        <div class="scoring-info">
+
+            <h3>
+                ⭐ Scoring System
+            </h3>
+
+            <div class="scoring-grid">
+
+                <div>
+                    🟢 Easy
+                    <strong>1×</strong>
+                </div>
+
+                <div>
+                    🟡 Medium
+                    <strong>2×</strong>
+                </div>
+
+                <div>
+                    🔴 Hard
+                    <strong>3×</strong>
+                </div>
+
+            </div>
+
+            <p>
+                Points from all subjects are combined
+                into your total score.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+</body>
+
+</html>

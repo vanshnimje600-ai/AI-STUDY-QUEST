@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Study Quest - Topics</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            color: white;
+            padding: 30px 6%;
+
+            background:
+                radial-gradient(circle at 10% 10%, #263b91 0%, transparent 32%),
+                radial-gradient(circle at 90% 90%, #531d78 0%, transparent 32%),
+                #080d20;
+        }
+
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 45px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        .logo span {
+            color: #8b6cff;
+        }
+
+        .back-btn {
+            text-decoration: none;
+            color: #dbe4ff;
+            border: 1px solid #394363;
+            padding: 10px 17px;
+            border-radius: 10px;
+        }
+
+        .back-btn:hover {
+            background: #1a2140;
+            color: white;
+        }
+
+        .heading {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 7px 14px;
+            margin-bottom: 15px;
+
+            border-radius: 20px;
+            border: 1px solid #51448d;
+            background: rgba(124, 92, 255, 0.15);
+
+            color: #bdb3ff;
+            font-size: 13px;
+        }
+
+        .heading h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .heading h1 span {
+            background: linear-gradient(90deg, #8b6cff, #dc5cff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .heading p {
+            color: #9099b5;
+            font-size: 15px;
+        }
+
+        .topic-grid {
+            max-width: 1000px;
+            margin: auto;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .topic-form {
+            margin: 0;
+        }
+
+        .topic-card {
+            width: 100%;
+            min-height: 190px;
+
+            padding: 25px 18px;
+
+            border-radius: 20px;
+            border: 1px solid #303958;
+
+            background: rgba(20, 27, 53, 0.94);
+            color: white;
+
+            cursor: pointer;
+            transition: 0.25s;
+        }
+
+        .topic-card:hover {
+            transform: translateY(-7px);
+            border-color: #806bff;
+            box-shadow: 0 15px 35px rgba(93, 74, 230, 0.22);
+        }
+
+        .icon {
+            width: 62px;
+            height: 62px;
+
+            margin: 0 auto 15px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 17px;
+            background: rgba(116, 91, 255, 0.14);
+
+            font-size: 30px;
+        }
+
+        .topic-card h2 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .topic-card p {
+            color: #8993b0;
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        .select {
+            display: inline-block;
+            margin-top: 15px;
+
+            padding: 7px 13px;
+
+            border-radius: 8px;
+
+            background: #252d50;
+            color: #bdb4ff;
+
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        .bottom-link {
+            display: block;
+            width: fit-content;
+
+            margin: 35px auto 0;
+
+            color: #8d96b2;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .bottom-link:hover {
+            color: white;
+        }
+
+        @media (max-width: 800px) {
+            .topic-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .heading h1 {
+                font-size: 32px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 22px 15px;
+            }
+
+            .topic-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .heading h1 {
+                font-size: 29px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topbar">
+
+        <div class="logo">
+            🎮 AI <span>Study Quest</span>
+        </div>
+
+        <a href="/subjects" class="back-btn">
+            ← Back
+        </a>
+
+    </div>
+
+
+    <div class="heading">
+
+        <div class="badge">
+            📚 {{ subject if subject else "Quiz Topics" }}
+        </div>
+
+        <h1>
+            Choose Your <span>Topic</span>
+        </h1>
+
+        <p>
+            Select a topic and continue your learning quest 🚀
+        </p>
+
+    </div>
+
+
+    <div class="topic-grid">
+
+
+        <form class="topic-form"
+              action="/difficulty"
+              method="POST">
+
+            <input type="hidden"
+                   name="subject"
+                   value="{{ subject }}">
+
+            <button type="submit"
+                    class="topic-card">
+
+                <div class="icon">📖</div>
+
+                <h2>Fundamentals</h2>
+
+                <p>
+                    Test your basic concepts
+                    and core knowledge.
+                </p>
+
+                <span class="select">
+                    Select →
+                </span>
+
+            </button>
+
+        </form>
+
+
+        <form class="topic-form"
+              action="/difficulty"
+              method="POST">
+
+            <input type="hidden"
+                   name="subject"
+                   value="{{ subject }}">
+
+            <button type="submit"
+                    class="topic-card">
+
+                <div class="icon">🧩</div>
+
+                <h2>Advanced Concepts</h2>
+
+                <p>
+                    Challenge yourself with
+                    advanced concepts.
+                </p>
+
+                <span class="select">
+                    Select →
+                </span>
+
+            </button>
+
+        </form>
+
+
+        <form class="topic-form"
+              action="/difficulty"
+              method="POST">
+
+            <input type="hidden"
+                   name="subject"
+                   value="{{ subject }}">
+
+            <button type="submit"
+                    class="topic-card">
+
+                <div class="icon">💡</div>
+
+                <h2>Problem Solving</h2>
+
+                <p>
+                    Improve your logic and
+                    problem-solving skills.
+                </p>
+
+                <span class="select">
+                    Select →
+                </span>
+
+            </button>
+
+        </form>
+
+
+        <form class="topic-form"
+              action="/difficulty"
+              method="POST">
+
+            <input type="hidden"
+                   name="subject"
+                   value="{{ subject }}">
+
+            <button type="submit"
+                    class="topic-card">
+
+                <div class="icon">🎯</div>
+
+                <h2>Mixed Questions</h2>
+
+                <p>
+                    Random questions from
+                    different concepts.
+                </p>
+
+                <span class="select">
+                    Select →
+                </span>
+
+            </button>
+
+        </form>
+
+
+        <form class="topic-form"
+              action="/difficulty"
+              method="POST">
+
+            <input type="hidden"
+                   name="subject"
+                   value="{{ subject }}">
+
+            <button type="submit"
+                    class="topic-card">
+
+                <div class="icon">🔥</div>
+
+                <h2>Exam Practice</h2>
+
+                <p>
+                    Practice questions similar
+                    to examination patterns.
+                </p>
+
+                <span class="select">
+                    Select →
+                </span>
+
+            </button>
+
+        </form>
+
+
+        <form class="topic-form"
+              action="/difficulty"
+              method="POST">
+
+            <input type="hidden"
+                   name="subject"
+                   value="{{ subject }}">
+
+            <button type="submit"
+                    class="topic-card">
+
+                <div class="icon">🏆</div>
+
+                <h2>Challenge Mode</h2>
+
+                <p>
+                    Take the toughest challenge
+                    and beat your score.
+                </p>
+
+                <span class="select">
+                    Select →
+                </span>
+
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <a href="/subjects" class="bottom-link">
+        ← Choose another subject
+    </a>
+
+</body>
+</html>

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Study Quest - Select Subject</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            color: white;
+            background:
+                radial-gradient(circle at 10% 10%, #263b91 0%, transparent 30%),
+                radial-gradient(circle at 90% 90%, #531d78 0%, transparent 30%),
+                #080d20;
+            padding: 30px 6%;
+        }
+
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 45px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        .logo span {
+            color: #8b6cff;
+        }
+
+        .back-btn {
+            text-decoration: none;
+            color: #dbe4ff;
+            border: 1px solid #394363;
+            padding: 10px 17px;
+            border-radius: 10px;
+            transition: 0.2s;
+        }
+
+        .back-btn:hover {
+            background: #1a2140;
+            color: white;
+        }
+
+        .heading {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .heading h1 {
+            font-size: 42px;
+            margin-bottom: 12px;
+        }
+
+        .heading h1 span {
+            background: linear-gradient(90deg, #8b6cff, #dc5cff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .heading p {
+            color: #919bb8;
+            font-size: 16px;
+        }
+
+        .subjects-grid {
+            max-width: 1100px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 18px;
+        }
+
+        .subject-form {
+            margin: 0;
+        }
+
+        .subject-card {
+            width: 100%;
+            min-height: 190px;
+            padding: 22px 12px;
+
+            border: 1px solid #303958;
+            border-radius: 18px;
+
+            background: rgba(20, 27, 53, 0.92);
+            color: white;
+
+            cursor: pointer;
+            transition: 0.25s;
+        }
+
+        .subject-card:hover {
+            transform: translateY(-7px);
+            border-color: #806bff;
+            box-shadow: 0 15px 35px rgba(93, 74, 230, 0.25);
+        }
+
+        .icon {
+            width: 62px;
+            height: 62px;
+            margin: 0 auto 14px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 17px;
+            background: rgba(116, 91, 255, 0.14);
+
+            font-size: 29px;
+        }
+
+        .subject-card h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .subject-card p {
+            color: #8993b0;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        .start {
+            display: inline-block;
+            margin-top: 14px;
+            padding: 7px 12px;
+
+            border-radius: 8px;
+            background: #252d50;
+            color: #bdb4ff;
+
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        /* TABLET */
+        @media (max-width: 1000px) {
+            .subjects-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* MOBILE */
+        @media (max-width: 650px) {
+            body {
+                padding: 22px 15px;
+            }
+
+            .topbar {
+                margin-bottom: 30px;
+            }
+
+            .heading h1 {
+                font-size: 32px;
+            }
+
+            .subjects-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 13px;
+            }
+
+            .subject-card {
+                min-height: 175px;
+            }
+        }
+
+        /* SMALL MOBILE */
+        @media (max-width: 380px) {
+            .subjects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+
+        <div class="logo">
+            🎮 AI <span>Study Quest</span>
+        </div>
+
+        <a href="/" class="back-btn">← Back</a>
+
+    </div>
+
+
+    <!-- HEADING -->
+    <div class="heading">
+
+        <h1>
+            Choose Your <span>Subject</span>
+        </h1>
+
+        <p>
+            Select a subject and begin your quiz quest 🚀
+        </p>
+
+    </div>
+
+
+    <!-- ALL 10 SUBJECTS -->
+    <div class="subjects-grid">
+
+
+        <!-- 1. C PROGRAMMING -->
+        <form class="subject-form" action="/difficulty" method="POST">
+            <input type="hidden" name="subject" value="C Programming">
+
+            <button type="submit" class="subject-card">
+                <div class="icon">💻</div>
+                <h3>C Programming</h3>
+                <p>Learn C programming concepts</p>
+                <span class="start">Start Quest →</span>
+            </button>
+        </form>
+
+
+        <!-- 2. C++ -->
+        <form class="subject-form" action="/difficulty" method="POST">
+            <input type="hidden" name="subject" value="C++">
+
+            <button type="submit" class="subject-card">
+                <div class="icon">⚙️</div>
+                <h3>C++</h3>
+                <p>Master C++ and OOP concepts</p>
+                <span class="start">Start Quest →</span>
+            </button>
+        </form>
+
+
+        <!-- 3. PYTHON -->
+        <form class="subject-form" action="/difficulty" method="POST">
+            <input type="hidden" name="subject" value="Python">
+
+            <button type="submit" class="subject-card">
+                <div class="icon">🐍</div>
+                <h3>Python</h3>
+                <p>Python programming concepts</p>
+                <span class="start">Start Quest →</span>
+            </button>
+        </form>
+
+
+        <!-- 4. DATA STRUCTURES -->
+        <form class="subject-form" action="/difficulty" method="POST">
+            <input type="hidden" name="subject" value="Data Structures">
+
+            <button type="submit" class="subject-card">
+                <div class="icon">🌳</div>
+                <h3>Data Structures</h3>
+                <p>Arrays, stacks, trees and graphs</p>
+                <span class="start">Start Quest →</span>
+            </button>
+        </form>
+
+
+        <!-- 5. APTITUDE -->
+        <form class="subject-form" action="/difficulty" method="POST">
+            <input type="hidden" name="subject" value="Aptitude">
+
+            <button type="submit" class="subject-card">
+                <div class="icon">🧠</div>
+                <h3>Aptitude</h3>
+                <p>Logic, maths and problem solving</p>
+                <span class="start">Start Quest →</span>
+            </button>
+        </form>
+
+
+        <!-- 6. DBMS -->
+        <form class="subject-form" action="/difficulty" method="POST">
+            <input type="hidden" name="subject" value="DBMS">
+
+            <button type="submit" class="subject-card">
+                <div class="icon">🗄️</div>
+                <h3>DBMS</h3>
+                <p>Database and SQL concepts</p>
+                <span class="start">Start Quest →</span>
+            </button>
+        </form>
+
+
+        <!-- 7. OPERATING SYSTEM -->
+        <form class="subject-form" action="/difficulty" method="POST">
+            <input type="hidden" name="subject" value="Operating System">
+
+            <button type="submit" class="subject-card">
+                <div class="icon">🖥️</div>
+                <h3>Operating System</h3>
+                <p>Processes, memory and scheduling</p>
+                <span class="start">Start Quest →</span>
+            </button>
+        </form>
+
+
+        <!-- 8. COMPUTER NETWORKS -->
+        <form class="subject-form" action="/difficulty" method="POST">
+            <input type="hidden" name="subject" value="Computer Networks">
+
+            <button type="submit" class="subject-card">
+                <div class="icon">🌐</div>
+                <h3>Computer Networks</h3>
+                <p>Networking and communication</p>
+                <span class="start">Start Quest →</span>
+            </button>
+        </form>
+
+
+        <!-- 9. AI & ML -->
+        <form class="subject-form" action="/difficulty" method="POST">
+            <input type="hidden" name="subject" value="AI & ML">
+
+            <button type="submit" class="subject-card">
+                <div class="icon">🤖</div>
+                <h3>AI & ML</h3>
+                <p>Artificial Intelligence and ML</p>
+                <span class="start">Start Quest →</span>
+            </button>
+        </form>
+
+
+        <!-- 10. JAVA -->
+        <form class="subject-form" action="/difficulty" method="POST">
+            <input type="hidden" name="subject" value="Java">
+
+            <button type="submit" class="subject-card">
+                <div class="icon">☕</div>
+                <h3>Java</h3>
+                <p>Java programming and OOP concepts</p>
+                <span class="start">Start Quest →</span>
+            </button>
+        </form>
+
+
+    </div>
+
+</body>
+</html>

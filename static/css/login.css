@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #070b18;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* ================= BACKGROUND GLOW ================= */
+
+.glow {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(110px);
+    opacity: 0.28;
+    pointer-events: none;
+}
+
+.glow1 {
+    width: 400px;
+    height: 400px;
+    background: #684cff;
+    top: -160px;
+    left: -150px;
+}
+
+.glow2 {
+    width: 350px;
+    height: 350px;
+    background: #00c8ff;
+    right: -140px;
+    top: 30%;
+}
+
+.glow3 {
+    width: 300px;
+    height: 300px;
+    background: #d34cff;
+    bottom: -150px;
+    left: 35%;
+}
+
+/* ================= MAIN ================= */
+
+.page {
+    min-height: calc(100vh - 65px);
+    padding: 60px 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+/* ================= INTRO ================= */
+
+.intro {
+    max-width: 500px;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 32px;
+
+    border-radius: 18px;
+
+    background: linear-gradient(
+        135deg,
+        #704cff,
+        #b052ff
+    );
+
+    box-shadow:
+        0 15px 40px rgba(112, 76, 255, 0.4);
+
+    margin-bottom: 25px;
+}
+
+.intro h1 {
+    font-size: 58px;
+    line-height: 1.05;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.intro h1 span {
+    background: linear-gradient(
+        90deg,
+        #7557ff,
+        #d65cff
+    );
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro > p {
+    color: #969eb7;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 440px;
+}
+
+.features {
+    margin-top: 35px;
+}
+
+.features div {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    margin-bottom: 17px;
+
+    color: #c8cde0;
+    font-size: 15px;
+}
+
+.features div:first-letter {
+    font-size: 20px;
+}
+
+/* ================= LOGIN CARD ================= */
+
+.login-card {
+    width: 390px;
+    padding: 38px;
+
+    background: rgba(18, 24, 46, 0.92);
+
+    border: 1px solid #303755;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.5);
+
+    backdrop-filter: blur(18px);
+
+    position: relative;
+}
+
+.card-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 27px;
+
+    border-radius: 15px;
+
+    background: rgba(112, 76, 255, 0.15);
+
+    border: 1px solid #463b77;
+
+    margin-bottom: 20px;
+}
+
+.login-card h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #858da8;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 28px;
+}
+
+/* ================= FORM ================= */
+
+form label {
+    display: block;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    color: #c7ccdd;
+
+    margin-bottom: 8px;
+}
+
+.input-box {
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 0 15px;
+
+    background: #0c1122;
+
+    border: 1px solid #303752;
+
+    border-radius: 11px;
+
+    margin-bottom: 18px;
+
+    transition: 0.3s;
+}
+
+.input-box:focus-within {
+    border-color: #7659ff;
+
+    box-shadow:
+        0 0 0 3px rgba(118, 89, 255, 0.12);
+}
+
+.input-box span {
+    font-size: 17px;
+}
+
+.input-box input {
+    width: 100%;
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    color: white;
+
+    font-size: 14px;
+}
+
+.input-box input::placeholder {
+    color: #626a83;
+}
+
+/* ================= BUTTON ================= */
+
+button {
+    width: 100%;
+    height: 52px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: linear-gradient(
+        135deg,
+        #704cff,
+        #a855f7
+    );
+
+    color: white;
+
+    font-size: 16px;
+    font-weight: 800;
+
+    cursor: pointer;
+
+    margin-top: 8px;
+
+    box-shadow:
+        0 12px 30px rgba(112, 76, 255, 0.3);
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 18px 40px rgba(112, 76, 255, 0.45);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* ================= DIVIDER ================= */
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    margin: 27px 0;
+
+    color: #555d76;
+
+    font-size: 11px;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+
+    flex: 1;
+
+    height: 1px;
+
+    background: #292f48;
+}
+
+/* ================= REGISTER ================= */
+
+.register-text {
+    text-align: center;
+
+    color: #7f87a1;
+
+    font-size: 13px;
+}
+
+.register-text a {
+    color: #9a7cff;
+
+    text-decoration: none;
+
+    font-weight: 700;
+}
+
+.register-text a:hover {
+    color: #bd9cff;
+    text-decoration: underline;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #59617b;
+
+    font-size: 12px;
+
+    border-top: 1px solid #1c2238;
+
+    position: relative;
+    z-index: 2;
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width: 900px) {
+
+    .page {
+        flex-direction: column;
+        gap: 45px;
+        padding: 50px 6%;
+    }
+
+    .intro {
+        text-align: center;
+    }
+
+    .intro .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intro > p {
+        margin: auto;
+    }
+
+    .features {
+        display: none;
+    }
+
+    .intro h1 {
+        font-size: 48px;
+    }
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 500px) {
+
+    .page {
+        padding: 35px 20px;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+    }
+
+    .intro > p {
+        font-size: 15px;
+    }
+
+    .login-card {
+        width: 100%;
+        padding: 28px 22px;
+    }
+
+    .login-card h2 {
+        font-size: 25px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,3304 @@
+{
+  "questions": [
+    {
+      "question": "What is OSI model in computer networking?",
+      "options": [
+        "the layer transmitting raw bits over a medium",
+        "a seven-layer framework for describing network communication",
+        "communication from one sender to one receiver",
+        "a technique translating network addresses"
+      ],
+      "answer": "a seven-layer framework for describing network communication",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes TCP/IP model?",
+      "options": [
+        "a protocol used for network control and diagnostics",
+        "a layered model used by the Internet",
+        "a technique translating network addresses",
+        "a protected logical connection over another network"
+      ],
+      "answer": "a layered model used by the Internet",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of application layer?",
+      "options": [
+        "the layer handling logical addressing and routing",
+        "information used to choose packet paths",
+        "a medium transmitting data using light",
+        "the layer providing services to applications"
+      ],
+      "answer": "the layer providing services to applications",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is transport layer in computer networking?",
+      "options": [
+        "a protocol used for network control and diagnostics",
+        "an address routable on the public Internet",
+        "the layer providing end-to-end transport services",
+        "verifying the identity of a user or system"
+      ],
+      "answer": "the layer providing end-to-end transport services",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes network layer?",
+      "options": [
+        "a protocol that discovers an IPv4 address's MAC address",
+        "a distance-vector routing protocol using hop count",
+        "the layer handling logical addressing and routing",
+        "a protocol used for sending email"
+      ],
+      "answer": "the layer handling logical addressing and routing",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of data link layer?",
+      "options": [
+        "a topology using a common communication line",
+        "a copper medium using twisted wire pairs",
+        "a device that forwards frames within a local network",
+        "the layer handling frames and node-to-node delivery"
+      ],
+      "answer": "the layer handling frames and node-to-node delivery",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is physical layer in computer networking?",
+      "options": [
+        "the layer providing end-to-end transport services",
+        "communication from one sender to a selected receiver group",
+        "a family of wired LAN technologies",
+        "the layer transmitting raw bits over a medium"
+      ],
+      "answer": "the layer transmitting raw bits over a medium",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes MAC address?",
+      "options": [
+        "a link-state interior routing protocol",
+        "a hardware-level address used on local networks",
+        "a network covering a metropolitan area",
+        "a shielded cable with a central conductor"
+      ],
+      "answer": "a hardware-level address used on local networks",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of IP address?",
+      "options": [
+        "a logical address used to identify a network interface",
+        "a device that forwards packets between networks",
+        "a device connecting network segments at the data-link layer",
+        "a system that can detect and block certain threats"
+      ],
+      "answer": "a logical address used to identify a network interface",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is IPv4 in computer networking?",
+      "options": [
+        "an IP version using 32-bit addresses",
+        "an intermediary forwarding requests between clients and servers",
+        "a topology with multiple interconnections",
+        "verifying the identity of a user or system"
+      ],
+      "answer": "an IP version using 32-bit addresses",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes IPv6?",
+      "options": [
+        "a distance-vector routing protocol using hop count",
+        "an IP version using 128-bit addresses",
+        "a system mapping domain names to network addresses",
+        "a technique translating network addresses"
+      ],
+      "answer": "an IP version using 128-bit addresses",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of subnet mask?",
+      "options": [
+        "an address intended for private networks",
+        "an endpoint used by an application for network communication",
+        "information separating network and host portions of an IPv4 address",
+        "communication from one sender to a selected receiver group"
+      ],
+      "answer": "information separating network and host portions of an IPv4 address",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is default gateway in computer networking?",
+      "options": [
+        "a distance-vector routing protocol using hop count",
+        "the device used to reach destinations outside the local network",
+        "a field identifying the position of transmitted data",
+        "a self-contained unit associated with connectionless communication"
+      ],
+      "answer": "the device used to reach destinations outside the local network",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes DNS?",
+      "options": [
+        "the layer handling logical addressing and routing",
+        "a network covering a large geographic area",
+        "routing learned or updated using routing protocols",
+        "a system mapping domain names to network addresses"
+      ],
+      "answer": "a system mapping domain names to network addresses",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of DHCP?",
+      "options": [
+        "a hardware-level address used on local networks",
+        "a protocol that automatically provides network configuration",
+        "a value used to detect transmission errors",
+        "a connectionless transport protocol with low overhead"
+      ],
+      "answer": "a protocol that automatically provides network configuration",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is ARP in computer networking?",
+      "options": [
+        "a protocol used to exchange routes between autonomous systems",
+        "a protocol that discovers an IPv4 address's MAC address",
+        "a field identifying the position of transmitted data",
+        "a remote terminal protocol without built-in encryption"
+      ],
+      "answer": "a protocol that discovers an IPv4 address's MAC address",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes ICMP?",
+      "options": [
+        "a protocol used for network control and diagnostics",
+        "a protocol that discovers an IPv4 address's MAC address",
+        "a protocol that automatically provides network configuration",
+        "HTTP communication protected using TLS"
+      ],
+      "answer": "a protocol used for network control and diagnostics",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of HTTP?",
+      "options": [
+        "an application-layer protocol commonly used for web communication",
+        "transforming data to protect it from unauthorized reading",
+        "adding protocol information as data moves down layers",
+        "a protocol used for retrieving email"
+      ],
+      "answer": "an application-layer protocol commonly used for web communication",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is HTTPS in computer networking?",
+      "options": [
+        "a protocol used for file transfer",
+        "dividing a network into smaller logical networks",
+        "HTTP communication protected using TLS",
+        "communication from one sender to one receiver"
+      ],
+      "answer": "HTTP communication protected using TLS",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes FTP?",
+      "options": [
+        "a protocol that automatically provides network configuration",
+        "a protocol used for file transfer",
+        "a route used when no more specific route matches",
+        "an indication that data has been received"
+      ],
+      "answer": "a protocol used for file transfer",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of SMTP?",
+      "options": [
+        "the layer providing end-to-end transport services",
+        "a logical address used to identify a network interface",
+        "a protocol used for sending email",
+        "a protocol used for accessing email on a server"
+      ],
+      "answer": "a protocol used for sending email",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is POP3 in computer networking?",
+      "options": [
+        "a protocol used to exchange routes between autonomous systems",
+        "a unit of data at the network layer",
+        "communication from one sender to a selected receiver group",
+        "a protocol used for retrieving email"
+      ],
+      "answer": "a protocol used for retrieving email",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes IMAP?",
+      "options": [
+        "a device that forwards frames within a local network",
+        "a hardware-level address used on local networks",
+        "a distance-vector routing protocol using hop count",
+        "a protocol used for accessing email on a server"
+      ],
+      "answer": "a protocol used for accessing email on a server",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of SSH?",
+      "options": [
+        "a medium transmitting data using light",
+        "a network covering a large geographic area",
+        "a device that repeats signals to connected ports",
+        "a protocol for secure remote login"
+      ],
+      "answer": "a protocol for secure remote login",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is Telnet in computer networking?",
+      "options": [
+        "sharing network resources by sending data as packets",
+        "HTTP communication protected using TLS",
+        "a network covering a large geographic area",
+        "a remote terminal protocol without built-in encryption"
+      ],
+      "answer": "a remote terminal protocol without built-in encryption",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes TCP?",
+      "options": [
+        "an application-layer protocol commonly used for web communication",
+        "a protocol used to exchange routes between autonomous systems",
+        "a protocol used for file transfer",
+        "a connection-oriented protocol with reliable ordered delivery"
+      ],
+      "answer": "a connection-oriented protocol with reliable ordered delivery",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of UDP?",
+      "options": [
+        "a connectionless transport protocol with low overhead",
+        "a credential binding an identity to a public key",
+        "address translation using port numbers to distinguish connections",
+        "an address routable on the public Internet"
+      ],
+      "answer": "a connectionless transport protocol with low overhead",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is port number in computer networking?",
+      "options": [
+        "information used to choose packet paths",
+        "a medium transmitting data using light",
+        "a family of wired LAN technologies",
+        "a logical identifier for network services"
+      ],
+      "answer": "a logical identifier for network services",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes socket?",
+      "options": [
+        "an endpoint used by an application for network communication",
+        "communication from one sender to one receiver",
+        "a protocol used for retrieving email",
+        "a topology forming a closed logical ring"
+      ],
+      "answer": "an endpoint used by an application for network communication",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of three-way handshake?",
+      "options": [
+        "wireless LAN technology based on IEEE 802.11",
+        "a device that repeats signals to connected ports",
+        "a copper medium using twisted wire pairs",
+        "TCP's connection-establishment process"
+      ],
+      "answer": "TCP's connection-establishment process",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is flow control in computer networking?",
+      "options": [
+        "an intermediary forwarding requests between clients and servers",
+        "a mechanism regulating sending according to network congestion",
+        "the layer handling logical addressing and routing",
+        "a mechanism preventing a sender from overwhelming a receiver"
+      ],
+      "answer": "a mechanism preventing a sender from overwhelming a receiver",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes congestion control?",
+      "options": [
+        "a layered model used by the Internet",
+        "an IP version using 128-bit addresses",
+        "an intermediary forwarding requests between clients and servers",
+        "a mechanism regulating sending according to network congestion"
+      ],
+      "answer": "a mechanism regulating sending according to network congestion",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of sequence number?",
+      "options": [
+        "a logical identifier for network services",
+        "an indication that data has been received",
+        "a field identifying the position of transmitted data",
+        "establishing a dedicated communication path"
+      ],
+      "answer": "a field identifying the position of transmitted data",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is acknowledgment in computer networking?",
+      "options": [
+        "the layer providing end-to-end transport services",
+        "a protocol used for network control and diagnostics",
+        "a seven-layer framework for describing network communication",
+        "an indication that data has been received"
+      ],
+      "answer": "an indication that data has been received",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes checksum?",
+      "options": [
+        "a distance-vector routing protocol using hop count",
+        "a value used to detect transmission errors",
+        "transforming data to protect it from unauthorized reading",
+        "a system monitoring activity for signs of threats"
+      ],
+      "answer": "a value used to detect transmission errors",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of router?",
+      "options": [
+        "a distance-vector routing protocol using hop count",
+        "a device that forwards packets between networks",
+        "an address routable on the public Internet",
+        "a field identifying the position of transmitted data"
+      ],
+      "answer": "a device that forwards packets between networks",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is switch in computer networking?",
+      "options": [
+        "a topology using a central connecting device",
+        "a device that forwards frames within a local network",
+        "a self-contained unit associated with connectionless communication",
+        "variation in packet delay"
+      ],
+      "answer": "a device that forwards frames within a local network",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes hub?",
+      "options": [
+        "an address used by a host to communicate with itself",
+        "the layer handling logical addressing and routing",
+        "a device that repeats signals to connected ports",
+        "a shielded cable with a central conductor"
+      ],
+      "answer": "a device that repeats signals to connected ports",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of bridge?",
+      "options": [
+        "a hardware-level address used on local networks",
+        "a device that forwards packets between networks",
+        "a device connecting network segments at the data-link layer",
+        "communication from one sender to all hosts in a broadcast domain"
+      ],
+      "answer": "a device connecting network segments at the data-link layer",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is gateway in computer networking?",
+      "options": [
+        "an endpoint used by an application for network communication",
+        "a device connecting network segments at the data-link layer",
+        "a hardware-level address used on local networks",
+        "a system connecting networks or protocols"
+      ],
+      "answer": "a system connecting networks or protocols",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes firewall?",
+      "options": [
+        "a data-link-layer unit of transmission",
+        "a seven-layer framework for describing network communication",
+        "a unit of data at the network layer",
+        "a system filtering traffic using security rules"
+      ],
+      "answer": "a system filtering traffic using security rules",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of proxy server?",
+      "options": [
+        "a unit of data at the network layer",
+        "a system monitoring activity for signs of threats",
+        "a logical address used to identify a network interface",
+        "an intermediary forwarding requests between clients and servers"
+      ],
+      "answer": "an intermediary forwarding requests between clients and servers",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is NAT in computer networking?",
+      "options": [
+        "the layer handling logical addressing and routing",
+        "communication from one sender to one receiver",
+        "a technique translating network addresses",
+        "a credential binding an identity to a public key"
+      ],
+      "answer": "a technique translating network addresses",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes PAT?",
+      "options": [
+        "a seven-layer framework for describing network communication",
+        "address translation using port numbers to distinguish connections",
+        "the device used to reach destinations outside the local network",
+        "an endpoint used by an application for network communication"
+      ],
+      "answer": "address translation using port numbers to distinguish connections",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of unicast?",
+      "options": [
+        "communication from one sender to one receiver",
+        "communication from one sender to all hosts in a broadcast domain",
+        "a credential binding an identity to a public key",
+        "a protocol used for accessing email on a server"
+      ],
+      "answer": "communication from one sender to one receiver",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is broadcast in computer networking?",
+      "options": [
+        "an IP version using 32-bit addresses",
+        "a system connecting networks or protocols",
+        "communication from one sender to all hosts in a broadcast domain",
+        "the actual successful data-transfer rate"
+      ],
+      "answer": "communication from one sender to all hosts in a broadcast domain",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes multicast?",
+      "options": [
+        "a device that repeats signals to connected ports",
+        "communication from one sender to a selected receiver group",
+        "a protocol that discovers an IPv4 address's MAC address",
+        "the layer transmitting raw bits over a medium"
+      ],
+      "answer": "communication from one sender to a selected receiver group",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of LAN?",
+      "options": [
+        "HTTP communication protected using TLS",
+        "a network covering a relatively small area",
+        "dividing a network into smaller logical networks",
+        "a protocol that discovers an IPv4 address's MAC address"
+      ],
+      "answer": "a network covering a relatively small area",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is MAN in computer networking?",
+      "options": [
+        "transforming data to protect it from unauthorized reading",
+        "a wireless local area network",
+        "a network covering a metropolitan area",
+        "the actual successful data-transfer rate"
+      ],
+      "answer": "a network covering a metropolitan area",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes WAN?",
+      "options": [
+        "automatic private IPv4 addressing used when DHCP is unavailable",
+        "a protected logical connection over another network",
+        "a protocol used for file transfer",
+        "a network covering a large geographic area"
+      ],
+      "answer": "a network covering a large geographic area",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of WLAN?",
+      "options": [
+        "a route used when no more specific route matches",
+        "communication from one sender to all hosts in a broadcast domain",
+        "an address intended for private networks",
+        "a wireless local area network"
+      ],
+      "answer": "a wireless local area network",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is Ethernet in computer networking?",
+      "options": [
+        "communication from one sender to all hosts in a broadcast domain",
+        "a family of wired LAN technologies",
+        "transforming data to protect it from unauthorized reading",
+        "a shielded cable with a central conductor"
+      ],
+      "answer": "a family of wired LAN technologies",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes Wi-Fi?",
+      "options": [
+        "transforming data to protect it from unauthorized reading",
+        "a network covering a metropolitan area",
+        "wireless LAN technology based on IEEE 802.11",
+        "IP network notation using a prefix length"
+      ],
+      "answer": "wireless LAN technology based on IEEE 802.11",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of bus topology?",
+      "options": [
+        "a topology using a common communication line",
+        "a distance-vector routing protocol using hop count",
+        "an address used by a host to communicate with itself",
+        "a system connecting networks or protocols"
+      ],
+      "answer": "a topology using a common communication line",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is star topology in computer networking?",
+      "options": [
+        "information used to choose packet paths",
+        "a technique translating network addresses",
+        "a topology using a central connecting device",
+        "the layer handling frames and node-to-node delivery"
+      ],
+      "answer": "a topology using a central connecting device",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes ring topology?",
+      "options": [
+        "a topology forming a closed logical ring",
+        "a field identifying the position of transmitted data",
+        "a copper medium using twisted wire pairs",
+        "HTTP communication protected using TLS"
+      ],
+      "answer": "a topology forming a closed logical ring",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of mesh topology?",
+      "options": [
+        "verifying the identity of a user or system",
+        "a topology with multiple interconnections",
+        "routing based on information exchanged with neighbors",
+        "an application-layer protocol commonly used for web communication"
+      ],
+      "answer": "a topology with multiple interconnections",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is packet in computer networking?",
+      "options": [
+        "a copper medium using twisted wire pairs",
+        "a unit of data at the network layer",
+        "a topology forming a closed logical ring",
+        "the layer handling logical addressing and routing"
+      ],
+      "answer": "a unit of data at the network layer",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes frame?",
+      "options": [
+        "a data-link-layer unit of transmission",
+        "a device that repeats signals to connected ports",
+        "HTTP communication protected using TLS",
+        "information separating network and host portions of an IPv4 address"
+      ],
+      "answer": "a data-link-layer unit of transmission",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of segment?",
+      "options": [
+        "removing protocol information as data moves up layers",
+        "a system connecting networks or protocols",
+        "a common name for a TCP transport-layer data unit",
+        "a link-state interior routing protocol"
+      ],
+      "answer": "a common name for a TCP transport-layer data unit",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is datagram in computer networking?",
+      "options": [
+        "a layered model used by the Internet",
+        "a self-contained unit associated with connectionless communication",
+        "the layer handling logical addressing and routing",
+        "removing protocol information as data moves up layers"
+      ],
+      "answer": "a self-contained unit associated with connectionless communication",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes encapsulation?",
+      "options": [
+        "adding protocol information as data moves down layers",
+        "communication from one sender to one receiver",
+        "a logical identifier for network services",
+        "the layer providing end-to-end transport services"
+      ],
+      "answer": "adding protocol information as data moves down layers",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of decapsulation?",
+      "options": [
+        "an IP version using 32-bit addresses",
+        "a layered model used by the Internet",
+        "a hardware-level address used on local networks",
+        "removing protocol information as data moves up layers"
+      ],
+      "answer": "removing protocol information as data moves up layers",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is bandwidth in computer networking?",
+      "options": [
+        "a credential binding an identity to a public key",
+        "a protocol used for retrieving email",
+        "the layer providing services to applications",
+        "the maximum data-carrying capacity of a link"
+      ],
+      "answer": "the maximum data-carrying capacity of a link",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes latency?",
+      "options": [
+        "the delay involved in communication",
+        "a layered model used by the Internet",
+        "an intermediary forwarding requests between clients and servers",
+        "wireless LAN technology based on IEEE 802.11"
+      ],
+      "answer": "the delay involved in communication",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of throughput?",
+      "options": [
+        "routing learned or updated using routing protocols",
+        "the actual successful data-transfer rate",
+        "a network covering a relatively small area",
+        "a credential binding an identity to a public key"
+      ],
+      "answer": "the actual successful data-transfer rate",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is jitter in computer networking?",
+      "options": [
+        "variation in packet delay",
+        "a device that forwards frames within a local network",
+        "routing learned or updated using routing protocols",
+        "a topology using a common communication line"
+      ],
+      "answer": "variation in packet delay",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes fiber optic cable?",
+      "options": [
+        "a value used to detect transmission errors",
+        "a device that repeats signals to connected ports",
+        "a medium transmitting data using light",
+        "a route used when no more specific route matches"
+      ],
+      "answer": "a medium transmitting data using light",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of twisted pair cable?",
+      "options": [
+        "a system filtering traffic using security rules",
+        "a protocol for secure remote login",
+        "an address routable on the public Internet",
+        "a copper medium using twisted wire pairs"
+      ],
+      "answer": "a copper medium using twisted wire pairs",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is coaxial cable in computer networking?",
+      "options": [
+        "a shielded cable with a central conductor",
+        "a value used to detect transmission errors",
+        "a protocol used for retrieving email",
+        "a network covering a metropolitan area"
+      ],
+      "answer": "a shielded cable with a central conductor",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes packet switching?",
+      "options": [
+        "a route used when no more specific route matches",
+        "communication from one sender to all hosts in a broadcast domain",
+        "a distance-vector routing protocol using hop count",
+        "sharing network resources by sending data as packets"
+      ],
+      "answer": "sharing network resources by sending data as packets",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of circuit switching?",
+      "options": [
+        "communication from one sender to all hosts in a broadcast domain",
+        "establishing a dedicated communication path",
+        "sharing network resources by sending data as packets",
+        "a protocol used for accessing email on a server"
+      ],
+      "answer": "establishing a dedicated communication path",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is routing table in computer networking?",
+      "options": [
+        "information used to choose packet paths",
+        "an IP version using 32-bit addresses",
+        "a distance-vector routing protocol using hop count",
+        "a system monitoring activity for signs of threats"
+      ],
+      "answer": "information used to choose packet paths",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes static routing?",
+      "options": [
+        "routing configured manually",
+        "an endpoint used by an application for network communication",
+        "a system connecting networks or protocols",
+        "verifying the identity of a user or system"
+      ],
+      "answer": "routing configured manually",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of dynamic routing?",
+      "options": [
+        "routing learned or updated using routing protocols",
+        "a device connecting network segments at the data-link layer",
+        "a system mapping domain names to network addresses",
+        "HTTP communication protected using TLS"
+      ],
+      "answer": "routing learned or updated using routing protocols",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is distance vector routing in computer networking?",
+      "options": [
+        "a value used to detect transmission errors",
+        "routing based on information exchanged with neighbors",
+        "a system filtering traffic using security rules",
+        "a family of wired LAN technologies"
+      ],
+      "answer": "routing based on information exchanged with neighbors",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes link-state routing?",
+      "options": [
+        "a protocol used for accessing email on a server",
+        "routing based on network topology and link states",
+        "the delay involved in communication",
+        "an address routable on the public Internet"
+      ],
+      "answer": "routing based on network topology and link states",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of RIP?",
+      "options": [
+        "the actual successful data-transfer rate",
+        "the device used to reach destinations outside the local network",
+        "a distance-vector routing protocol using hop count",
+        "a system mapping domain names to network addresses"
+      ],
+      "answer": "a distance-vector routing protocol using hop count",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is OSPF in computer networking?",
+      "options": [
+        "information used to choose packet paths",
+        "the layer handling frames and node-to-node delivery",
+        "an indication that data has been received",
+        "a link-state interior routing protocol"
+      ],
+      "answer": "a link-state interior routing protocol",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes BGP?",
+      "options": [
+        "a protocol used to exchange routes between autonomous systems",
+        "a value used to compare possible routes",
+        "a protocol used for accessing email on a server",
+        "a logical identifier for network services"
+      ],
+      "answer": "a protocol used to exchange routes between autonomous systems",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of routing metric?",
+      "options": [
+        "a value used to compare possible routes",
+        "a device that forwards frames within a local network",
+        "a protocol used for file transfer",
+        "a link-state interior routing protocol"
+      ],
+      "answer": "a value used to compare possible routes",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is default route in computer networking?",
+      "options": [
+        "a route used when no more specific route matches",
+        "a family of wired LAN technologies",
+        "a technique translating network addresses",
+        "a medium transmitting data using light"
+      ],
+      "answer": "a route used when no more specific route matches",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes subnetting?",
+      "options": [
+        "a medium transmitting data using light",
+        "the actual successful data-transfer rate",
+        "dividing a network into smaller logical networks",
+        "TCP's connection-establishment process"
+      ],
+      "answer": "dividing a network into smaller logical networks",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of CIDR?",
+      "options": [
+        "IP network notation using a prefix length",
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "a device that forwards packets between networks",
+        "a wireless local area network"
+      ],
+      "answer": "IP network notation using a prefix length",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is private IP address in computer networking?",
+      "options": [
+        "variation in packet delay",
+        "a common name for a TCP transport-layer data unit",
+        "a data-link-layer unit of transmission",
+        "an address intended for private networks"
+      ],
+      "answer": "an address intended for private networks",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes public IP address?",
+      "options": [
+        "a family of wired LAN technologies",
+        "dividing a network into smaller logical networks",
+        "an address routable on the public Internet",
+        "a protocol used for retrieving email"
+      ],
+      "answer": "an address routable on the public Internet",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of loopback address?",
+      "options": [
+        "an address used by a host to communicate with itself",
+        "a shielded cable with a central conductor",
+        "a medium transmitting data using light",
+        "a system connecting networks or protocols"
+      ],
+      "answer": "an address used by a host to communicate with itself",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is APIPA in computer networking?",
+      "options": [
+        "the layer transmitting raw bits over a medium",
+        "variation in packet delay",
+        "a connectionless transport protocol with low overhead",
+        "automatic private IPv4 addressing used when DHCP is unavailable"
+      ],
+      "answer": "automatic private IPv4 addressing used when DHCP is unavailable",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes encryption?",
+      "options": [
+        "the layer handling logical addressing and routing",
+        "a copper medium using twisted wire pairs",
+        "a family of wired LAN technologies",
+        "transforming data to protect it from unauthorized reading"
+      ],
+      "answer": "transforming data to protect it from unauthorized reading",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of authentication?",
+      "options": [
+        "verifying the identity of a user or system",
+        "routing based on information exchanged with neighbors",
+        "a network covering a metropolitan area",
+        "routing based on network topology and link states"
+      ],
+      "answer": "verifying the identity of a user or system",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is digital certificate in computer networking?",
+      "options": [
+        "a medium transmitting data using light",
+        "TCP's connection-establishment process",
+        "a credential binding an identity to a public key",
+        "verifying the identity of a user or system"
+      ],
+      "answer": "a credential binding an identity to a public key",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes VPN?",
+      "options": [
+        "a credential binding an identity to a public key",
+        "a protected logical connection over another network",
+        "the layer transmitting raw bits over a medium",
+        "a topology using a common communication line"
+      ],
+      "answer": "a protected logical connection over another network",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of IDS?",
+      "options": [
+        "the layer handling frames and node-to-node delivery",
+        "address translation using port numbers to distinguish connections",
+        "a system monitoring activity for signs of threats",
+        "a route used when no more specific route matches"
+      ],
+      "answer": "a system monitoring activity for signs of threats",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is IPS in computer networking?",
+      "options": [
+        "a wireless local area network",
+        "a protocol used for sending email",
+        "a system that can detect and block certain threats",
+        "removing protocol information as data moves up layers"
+      ],
+      "answer": "a system that can detect and block certain threats",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes OSI model?",
+      "options": [
+        "an application-layer protocol commonly used for web communication",
+        "HTTP communication protected using TLS",
+        "a seven-layer framework for describing network communication",
+        "communication from one sender to a selected receiver group"
+      ],
+      "answer": "a seven-layer framework for describing network communication",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of TCP/IP model?",
+      "options": [
+        "a layered model used by the Internet",
+        "a self-contained unit associated with connectionless communication",
+        "the layer transmitting raw bits over a medium",
+        "a link-state interior routing protocol"
+      ],
+      "answer": "a layered model used by the Internet",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is application layer in computer networking?",
+      "options": [
+        "a common name for a TCP transport-layer data unit",
+        "transforming data to protect it from unauthorized reading",
+        "the layer providing services to applications",
+        "communication from one sender to one receiver"
+      ],
+      "answer": "the layer providing services to applications",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes transport layer?",
+      "options": [
+        "a protocol used for network control and diagnostics",
+        "information separating network and host portions of an IPv4 address",
+        "a connection-oriented protocol with reliable ordered delivery",
+        "the layer providing end-to-end transport services"
+      ],
+      "answer": "the layer providing end-to-end transport services",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of network layer?",
+      "options": [
+        "IP network notation using a prefix length",
+        "the device used to reach destinations outside the local network",
+        "a layered model used by the Internet",
+        "the layer handling logical addressing and routing"
+      ],
+      "answer": "the layer handling logical addressing and routing",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is data link layer in computer networking?",
+      "options": [
+        "an address used by a host to communicate with itself",
+        "the layer handling frames and node-to-node delivery",
+        "communication from one sender to all hosts in a broadcast domain",
+        "a topology using a common communication line"
+      ],
+      "answer": "the layer handling frames and node-to-node delivery",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes physical layer?",
+      "options": [
+        "routing based on information exchanged with neighbors",
+        "a network covering a large geographic area",
+        "a system monitoring activity for signs of threats",
+        "the layer transmitting raw bits over a medium"
+      ],
+      "answer": "the layer transmitting raw bits over a medium",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of MAC address?",
+      "options": [
+        "a hardware-level address used on local networks",
+        "a device connecting network segments at the data-link layer",
+        "the layer providing services to applications",
+        "routing configured manually"
+      ],
+      "answer": "a hardware-level address used on local networks",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is IP address in computer networking?",
+      "options": [
+        "removing protocol information as data moves up layers",
+        "a logical address used to identify a network interface",
+        "an intermediary forwarding requests between clients and servers",
+        "an endpoint used by an application for network communication"
+      ],
+      "answer": "a logical address used to identify a network interface",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes IPv4?",
+      "options": [
+        "an IP version using 32-bit addresses",
+        "routing based on network topology and link states",
+        "a device that repeats signals to connected ports",
+        "a network covering a metropolitan area"
+      ],
+      "answer": "an IP version using 32-bit addresses",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of IPv6?",
+      "options": [
+        "a protocol used for file transfer",
+        "a topology using a common communication line",
+        "an IP version using 128-bit addresses",
+        "a system that can detect and block certain threats"
+      ],
+      "answer": "an IP version using 128-bit addresses",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is subnet mask in computer networking?",
+      "options": [
+        "variation in packet delay",
+        "information separating network and host portions of an IPv4 address",
+        "a medium transmitting data using light",
+        "a value used to compare possible routes"
+      ],
+      "answer": "information separating network and host portions of an IPv4 address",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes default gateway?",
+      "options": [
+        "the device used to reach destinations outside the local network",
+        "information used to choose packet paths",
+        "address translation using port numbers to distinguish connections",
+        "the delay involved in communication"
+      ],
+      "answer": "the device used to reach destinations outside the local network",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of DNS?",
+      "options": [
+        "a connectionless transport protocol with low overhead",
+        "a system mapping domain names to network addresses",
+        "the layer providing end-to-end transport services",
+        "a network covering a metropolitan area"
+      ],
+      "answer": "a system mapping domain names to network addresses",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is DHCP in computer networking?",
+      "options": [
+        "address translation using port numbers to distinguish connections",
+        "a protocol that automatically provides network configuration",
+        "a credential binding an identity to a public key",
+        "a wireless local area network"
+      ],
+      "answer": "a protocol that automatically provides network configuration",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes ARP?",
+      "options": [
+        "the layer handling logical addressing and routing",
+        "a protocol used for retrieving email",
+        "a protocol that discovers an IPv4 address's MAC address",
+        "a distance-vector routing protocol using hop count"
+      ],
+      "answer": "a protocol that discovers an IPv4 address's MAC address",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of ICMP?",
+      "options": [
+        "a device that repeats signals to connected ports",
+        "IP network notation using a prefix length",
+        "a protocol used for accessing email on a server",
+        "a protocol used for network control and diagnostics"
+      ],
+      "answer": "a protocol used for network control and diagnostics",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is HTTP in computer networking?",
+      "options": [
+        "a device connecting network segments at the data-link layer",
+        "the delay involved in communication",
+        "an application-layer protocol commonly used for web communication",
+        "dividing a network into smaller logical networks"
+      ],
+      "answer": "an application-layer protocol commonly used for web communication",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes HTTPS?",
+      "options": [
+        "a data-link-layer unit of transmission",
+        "a distance-vector routing protocol using hop count",
+        "variation in packet delay",
+        "HTTP communication protected using TLS"
+      ],
+      "answer": "HTTP communication protected using TLS",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of FTP?",
+      "options": [
+        "a network covering a relatively small area",
+        "a wireless local area network",
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "a protocol used for file transfer"
+      ],
+      "answer": "a protocol used for file transfer",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is SMTP in computer networking?",
+      "options": [
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "a protocol used for accessing email on a server",
+        "a protocol used for sending email",
+        "removing protocol information as data moves up layers"
+      ],
+      "answer": "a protocol used for sending email",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes POP3?",
+      "options": [
+        "a protocol used for retrieving email",
+        "a remote terminal protocol without built-in encryption",
+        "the layer handling frames and node-to-node delivery",
+        "a protocol used for network control and diagnostics"
+      ],
+      "answer": "a protocol used for retrieving email",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of IMAP?",
+      "options": [
+        "an address routable on the public Internet",
+        "a protocol used for accessing email on a server",
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "a value used to compare possible routes"
+      ],
+      "answer": "a protocol used for accessing email on a server",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is SSH in computer networking?",
+      "options": [
+        "a protocol for secure remote login",
+        "a layered model used by the Internet",
+        "routing configured manually",
+        "an IP version using 128-bit addresses"
+      ],
+      "answer": "a protocol for secure remote login",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes Telnet?",
+      "options": [
+        "information separating network and host portions of an IPv4 address",
+        "a remote terminal protocol without built-in encryption",
+        "a route used when no more specific route matches",
+        "a technique translating network addresses"
+      ],
+      "answer": "a remote terminal protocol without built-in encryption",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of TCP?",
+      "options": [
+        "communication from one sender to all hosts in a broadcast domain",
+        "routing configured manually",
+        "a network covering a metropolitan area",
+        "a connection-oriented protocol with reliable ordered delivery"
+      ],
+      "answer": "a connection-oriented protocol with reliable ordered delivery",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is UDP in computer networking?",
+      "options": [
+        "a connectionless transport protocol with low overhead",
+        "the layer handling logical addressing and routing",
+        "an endpoint used by an application for network communication",
+        "removing protocol information as data moves up layers"
+      ],
+      "answer": "a connectionless transport protocol with low overhead",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes port number?",
+      "options": [
+        "a system mapping domain names to network addresses",
+        "HTTP communication protected using TLS",
+        "a logical identifier for network services",
+        "sharing network resources by sending data as packets"
+      ],
+      "answer": "a logical identifier for network services",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of socket?",
+      "options": [
+        "the delay involved in communication",
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "an endpoint used by an application for network communication",
+        "a link-state interior routing protocol"
+      ],
+      "answer": "an endpoint used by an application for network communication",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is three-way handshake in computer networking?",
+      "options": [
+        "the delay involved in communication",
+        "a device connecting network segments at the data-link layer",
+        "TCP's connection-establishment process",
+        "a mechanism regulating sending according to network congestion"
+      ],
+      "answer": "TCP's connection-establishment process",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes flow control?",
+      "options": [
+        "a protocol used to exchange routes between autonomous systems",
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "a system connecting networks or protocols",
+        "variation in packet delay"
+      ],
+      "answer": "a mechanism preventing a sender from overwhelming a receiver",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of congestion control?",
+      "options": [
+        "a seven-layer framework for describing network communication",
+        "a mechanism regulating sending according to network congestion",
+        "TCP's connection-establishment process",
+        "communication from one sender to a selected receiver group"
+      ],
+      "answer": "a mechanism regulating sending according to network congestion",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is sequence number in computer networking?",
+      "options": [
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "a field identifying the position of transmitted data",
+        "a device that forwards frames within a local network",
+        "a topology with multiple interconnections"
+      ],
+      "answer": "a field identifying the position of transmitted data",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes acknowledgment?",
+      "options": [
+        "a protocol used for retrieving email",
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "a protocol that automatically provides network configuration",
+        "an indication that data has been received"
+      ],
+      "answer": "an indication that data has been received",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of checksum?",
+      "options": [
+        "address translation using port numbers to distinguish connections",
+        "the layer providing services to applications",
+        "a value used to detect transmission errors",
+        "a distance-vector routing protocol using hop count"
+      ],
+      "answer": "a value used to detect transmission errors",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is router in computer networking?",
+      "options": [
+        "the actual successful data-transfer rate",
+        "an IP version using 32-bit addresses",
+        "transforming data to protect it from unauthorized reading",
+        "a device that forwards packets between networks"
+      ],
+      "answer": "a device that forwards packets between networks",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes switch?",
+      "options": [
+        "the layer handling frames and node-to-node delivery",
+        "a topology using a central connecting device",
+        "sharing network resources by sending data as packets",
+        "a device that forwards frames within a local network"
+      ],
+      "answer": "a device that forwards frames within a local network",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of hub?",
+      "options": [
+        "a device connecting network segments at the data-link layer",
+        "the layer transmitting raw bits over a medium",
+        "an IP version using 32-bit addresses",
+        "a device that repeats signals to connected ports"
+      ],
+      "answer": "a device that repeats signals to connected ports",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is bridge in computer networking?",
+      "options": [
+        "a device connecting network segments at the data-link layer",
+        "a protocol for secure remote login",
+        "a link-state interior routing protocol",
+        "a network covering a metropolitan area"
+      ],
+      "answer": "a device connecting network segments at the data-link layer",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes gateway?",
+      "options": [
+        "a system connecting networks or protocols",
+        "a device that forwards packets between networks",
+        "a network covering a relatively small area",
+        "communication from one sender to all hosts in a broadcast domain"
+      ],
+      "answer": "a system connecting networks or protocols",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of firewall?",
+      "options": [
+        "a system filtering traffic using security rules",
+        "an address used by a host to communicate with itself",
+        "an IP version using 32-bit addresses",
+        "a protocol used for file transfer"
+      ],
+      "answer": "a system filtering traffic using security rules",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is proxy server in computer networking?",
+      "options": [
+        "an intermediary forwarding requests between clients and servers",
+        "a protocol for secure remote login",
+        "a technique translating network addresses",
+        "a layered model used by the Internet"
+      ],
+      "answer": "an intermediary forwarding requests between clients and servers",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes NAT?",
+      "options": [
+        "an address used by a host to communicate with itself",
+        "a system mapping domain names to network addresses",
+        "a technique translating network addresses",
+        "removing protocol information as data moves up layers"
+      ],
+      "answer": "a technique translating network addresses",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of PAT?",
+      "options": [
+        "information separating network and host portions of an IPv4 address",
+        "address translation using port numbers to distinguish connections",
+        "an indication that data has been received",
+        "an IP version using 32-bit addresses"
+      ],
+      "answer": "address translation using port numbers to distinguish connections",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is unicast in computer networking?",
+      "options": [
+        "a copper medium using twisted wire pairs",
+        "information separating network and host portions of an IPv4 address",
+        "a logical address used to identify a network interface",
+        "communication from one sender to one receiver"
+      ],
+      "answer": "communication from one sender to one receiver",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes broadcast?",
+      "options": [
+        "a medium transmitting data using light",
+        "a protocol for secure remote login",
+        "communication from one sender to all hosts in a broadcast domain",
+        "removing protocol information as data moves up layers"
+      ],
+      "answer": "communication from one sender to all hosts in a broadcast domain",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of multicast?",
+      "options": [
+        "the layer providing end-to-end transport services",
+        "communication from one sender to a selected receiver group",
+        "a unit of data at the network layer",
+        "address translation using port numbers to distinguish connections"
+      ],
+      "answer": "communication from one sender to a selected receiver group",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is LAN in computer networking?",
+      "options": [
+        "a device connecting network segments at the data-link layer",
+        "an address intended for private networks",
+        "a value used to detect transmission errors",
+        "a network covering a relatively small area"
+      ],
+      "answer": "a network covering a relatively small area",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes MAN?",
+      "options": [
+        "a layered model used by the Internet",
+        "address translation using port numbers to distinguish connections",
+        "TCP's connection-establishment process",
+        "a network covering a metropolitan area"
+      ],
+      "answer": "a network covering a metropolitan area",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of WAN?",
+      "options": [
+        "a protected logical connection over another network",
+        "a network covering a large geographic area",
+        "removing protocol information as data moves up layers",
+        "variation in packet delay"
+      ],
+      "answer": "a network covering a large geographic area",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is WLAN in computer networking?",
+      "options": [
+        "a logical address used to identify a network interface",
+        "a protocol for secure remote login",
+        "a wireless local area network",
+        "the device used to reach destinations outside the local network"
+      ],
+      "answer": "a wireless local area network",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes Ethernet?",
+      "options": [
+        "a protected logical connection over another network",
+        "the delay involved in communication",
+        "a family of wired LAN technologies",
+        "a device that repeats signals to connected ports"
+      ],
+      "answer": "a family of wired LAN technologies",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of Wi-Fi?",
+      "options": [
+        "an address intended for private networks",
+        "routing configured manually",
+        "wireless LAN technology based on IEEE 802.11",
+        "a mechanism regulating sending according to network congestion"
+      ],
+      "answer": "wireless LAN technology based on IEEE 802.11",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is bus topology in computer networking?",
+      "options": [
+        "variation in packet delay",
+        "establishing a dedicated communication path",
+        "a device that repeats signals to connected ports",
+        "a topology using a common communication line"
+      ],
+      "answer": "a topology using a common communication line",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes star topology?",
+      "options": [
+        "a topology using a central connecting device",
+        "a technique translating network addresses",
+        "a self-contained unit associated with connectionless communication",
+        "variation in packet delay"
+      ],
+      "answer": "a topology using a central connecting device",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of ring topology?",
+      "options": [
+        "an address intended for private networks",
+        "an IP version using 32-bit addresses",
+        "a topology forming a closed logical ring",
+        "HTTP communication protected using TLS"
+      ],
+      "answer": "a topology forming a closed logical ring",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is mesh topology in computer networking?",
+      "options": [
+        "an address used by a host to communicate with itself",
+        "a protected logical connection over another network",
+        "a link-state interior routing protocol",
+        "a topology with multiple interconnections"
+      ],
+      "answer": "a topology with multiple interconnections",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes packet?",
+      "options": [
+        "the layer transmitting raw bits over a medium",
+        "a unit of data at the network layer",
+        "a logical identifier for network services",
+        "the layer providing services to applications"
+      ],
+      "answer": "a unit of data at the network layer",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of frame?",
+      "options": [
+        "a shielded cable with a central conductor",
+        "a logical identifier for network services",
+        "a data-link-layer unit of transmission",
+        "a technique translating network addresses"
+      ],
+      "answer": "a data-link-layer unit of transmission",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is segment in computer networking?",
+      "options": [
+        "a common name for a TCP transport-layer data unit",
+        "a topology forming a closed logical ring",
+        "a value used to detect transmission errors",
+        "a topology using a central connecting device"
+      ],
+      "answer": "a common name for a TCP transport-layer data unit",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes datagram?",
+      "options": [
+        "a self-contained unit associated with connectionless communication",
+        "a unit of data at the network layer",
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "the maximum data-carrying capacity of a link"
+      ],
+      "answer": "a self-contained unit associated with connectionless communication",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of encapsulation?",
+      "options": [
+        "communication from one sender to all hosts in a broadcast domain",
+        "a protocol used for accessing email on a server",
+        "communication from one sender to a selected receiver group",
+        "adding protocol information as data moves down layers"
+      ],
+      "answer": "adding protocol information as data moves down layers",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is decapsulation in computer networking?",
+      "options": [
+        "a network covering a metropolitan area",
+        "a layered model used by the Internet",
+        "removing protocol information as data moves up layers",
+        "a system connecting networks or protocols"
+      ],
+      "answer": "removing protocol information as data moves up layers",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes bandwidth?",
+      "options": [
+        "wireless LAN technology based on IEEE 802.11",
+        "a hardware-level address used on local networks",
+        "IP network notation using a prefix length",
+        "the maximum data-carrying capacity of a link"
+      ],
+      "answer": "the maximum data-carrying capacity of a link",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of latency?",
+      "options": [
+        "a system monitoring activity for signs of threats",
+        "a system mapping domain names to network addresses",
+        "the delay involved in communication",
+        "routing learned or updated using routing protocols"
+      ],
+      "answer": "the delay involved in communication",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is throughput in computer networking?",
+      "options": [
+        "a protocol used for network control and diagnostics",
+        "the actual successful data-transfer rate",
+        "address translation using port numbers to distinguish connections",
+        "an IP version using 32-bit addresses"
+      ],
+      "answer": "the actual successful data-transfer rate",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes jitter?",
+      "options": [
+        "a seven-layer framework for describing network communication",
+        "a system that can detect and block certain threats",
+        "sharing network resources by sending data as packets",
+        "variation in packet delay"
+      ],
+      "answer": "variation in packet delay",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of fiber optic cable?",
+      "options": [
+        "removing protocol information as data moves up layers",
+        "a logical identifier for network services",
+        "a medium transmitting data using light",
+        "the layer providing services to applications"
+      ],
+      "answer": "a medium transmitting data using light",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is twisted pair cable in computer networking?",
+      "options": [
+        "a copper medium using twisted wire pairs",
+        "a protocol used for retrieving email",
+        "an address intended for private networks",
+        "a system connecting networks or protocols"
+      ],
+      "answer": "a copper medium using twisted wire pairs",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes coaxial cable?",
+      "options": [
+        "routing based on network topology and link states",
+        "a protocol used for accessing email on a server",
+        "a shielded cable with a central conductor",
+        "a system monitoring activity for signs of threats"
+      ],
+      "answer": "a shielded cable with a central conductor",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of packet switching?",
+      "options": [
+        "a topology forming a closed logical ring",
+        "a device that forwards frames within a local network",
+        "wireless LAN technology based on IEEE 802.11",
+        "sharing network resources by sending data as packets"
+      ],
+      "answer": "sharing network resources by sending data as packets",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is circuit switching in computer networking?",
+      "options": [
+        "establishing a dedicated communication path",
+        "the delay involved in communication",
+        "communication from one sender to one receiver",
+        "communication from one sender to all hosts in a broadcast domain"
+      ],
+      "answer": "establishing a dedicated communication path",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes routing table?",
+      "options": [
+        "a system filtering traffic using security rules",
+        "information used to choose packet paths",
+        "the device used to reach destinations outside the local network",
+        "communication from one sender to all hosts in a broadcast domain"
+      ],
+      "answer": "information used to choose packet paths",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of static routing?",
+      "options": [
+        "routing configured manually",
+        "an intermediary forwarding requests between clients and servers",
+        "an address routable on the public Internet",
+        "the layer handling frames and node-to-node delivery"
+      ],
+      "answer": "routing configured manually",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is dynamic routing in computer networking?",
+      "options": [
+        "communication from one sender to one receiver",
+        "establishing a dedicated communication path",
+        "routing learned or updated using routing protocols",
+        "a system connecting networks or protocols"
+      ],
+      "answer": "routing learned or updated using routing protocols",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes distance vector routing?",
+      "options": [
+        "a topology forming a closed logical ring",
+        "routing based on information exchanged with neighbors",
+        "a hardware-level address used on local networks",
+        "communication from one sender to all hosts in a broadcast domain"
+      ],
+      "answer": "routing based on information exchanged with neighbors",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of link-state routing?",
+      "options": [
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "routing based on network topology and link states",
+        "an address routable on the public Internet",
+        "a protocol used for retrieving email"
+      ],
+      "answer": "routing based on network topology and link states",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is RIP in computer networking?",
+      "options": [
+        "a topology forming a closed logical ring",
+        "a topology using a common communication line",
+        "a distance-vector routing protocol using hop count",
+        "routing based on network topology and link states"
+      ],
+      "answer": "a distance-vector routing protocol using hop count",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes OSPF?",
+      "options": [
+        "a network covering a large geographic area",
+        "a link-state interior routing protocol",
+        "routing configured manually",
+        "routing based on information exchanged with neighbors"
+      ],
+      "answer": "a link-state interior routing protocol",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of BGP?",
+      "options": [
+        "a system monitoring activity for signs of threats",
+        "a topology forming a closed logical ring",
+        "a protocol for secure remote login",
+        "a protocol used to exchange routes between autonomous systems"
+      ],
+      "answer": "a protocol used to exchange routes between autonomous systems",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is routing metric in computer networking?",
+      "options": [
+        "the actual successful data-transfer rate",
+        "a value used to compare possible routes",
+        "a system that can detect and block certain threats",
+        "the layer transmitting raw bits over a medium"
+      ],
+      "answer": "a value used to compare possible routes",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes default route?",
+      "options": [
+        "a device that forwards packets between networks",
+        "a route used when no more specific route matches",
+        "a protected logical connection over another network",
+        "a data-link-layer unit of transmission"
+      ],
+      "answer": "a route used when no more specific route matches",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of subnetting?",
+      "options": [
+        "an IP version using 128-bit addresses",
+        "a system that can detect and block certain threats",
+        "dividing a network into smaller logical networks",
+        "transforming data to protect it from unauthorized reading"
+      ],
+      "answer": "dividing a network into smaller logical networks",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is CIDR in computer networking?",
+      "options": [
+        "IP network notation using a prefix length",
+        "a family of wired LAN technologies",
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "a protocol used for sending email"
+      ],
+      "answer": "IP network notation using a prefix length",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes private IP address?",
+      "options": [
+        "the actual successful data-transfer rate",
+        "a protocol that discovers an IPv4 address's MAC address",
+        "sharing network resources by sending data as packets",
+        "an address intended for private networks"
+      ],
+      "answer": "an address intended for private networks",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of public IP address?",
+      "options": [
+        "an address routable on the public Internet",
+        "wireless LAN technology based on IEEE 802.11",
+        "a protocol used for network control and diagnostics",
+        "a protocol used for file transfer"
+      ],
+      "answer": "an address routable on the public Internet",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is loopback address in computer networking?",
+      "options": [
+        "transforming data to protect it from unauthorized reading",
+        "sharing network resources by sending data as packets",
+        "a route used when no more specific route matches",
+        "an address used by a host to communicate with itself"
+      ],
+      "answer": "an address used by a host to communicate with itself",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes APIPA?",
+      "options": [
+        "wireless LAN technology based on IEEE 802.11",
+        "automatic private IPv4 addressing used when DHCP is unavailable",
+        "communication from one sender to all hosts in a broadcast domain",
+        "a connection-oriented protocol with reliable ordered delivery"
+      ],
+      "answer": "automatic private IPv4 addressing used when DHCP is unavailable",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of encryption?",
+      "options": [
+        "a mechanism regulating sending according to network congestion",
+        "transforming data to protect it from unauthorized reading",
+        "a network covering a large geographic area",
+        "a protocol for secure remote login"
+      ],
+      "answer": "transforming data to protect it from unauthorized reading",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is authentication in computer networking?",
+      "options": [
+        "a route used when no more specific route matches",
+        "the layer transmitting raw bits over a medium",
+        "a common name for a TCP transport-layer data unit",
+        "verifying the identity of a user or system"
+      ],
+      "answer": "verifying the identity of a user or system",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes digital certificate?",
+      "options": [
+        "a shielded cable with a central conductor",
+        "a credential binding an identity to a public key",
+        "a network covering a metropolitan area",
+        "address translation using port numbers to distinguish connections"
+      ],
+      "answer": "a credential binding an identity to a public key",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of VPN?",
+      "options": [
+        "the layer handling logical addressing and routing",
+        "a protected logical connection over another network",
+        "the delay involved in communication",
+        "a system monitoring activity for signs of threats"
+      ],
+      "answer": "a protected logical connection over another network",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is IDS in computer networking?",
+      "options": [
+        "information separating network and host portions of an IPv4 address",
+        "a system monitoring activity for signs of threats",
+        "establishing a dedicated communication path",
+        "information used to choose packet paths"
+      ],
+      "answer": "a system monitoring activity for signs of threats",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes IPS?",
+      "options": [
+        "a distance-vector routing protocol using hop count",
+        "a system that can detect and block certain threats",
+        "a protocol used for accessing email on a server",
+        "the layer handling logical addressing and routing"
+      ],
+      "answer": "a system that can detect and block certain threats",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of OSI model?",
+      "options": [
+        "wireless LAN technology based on IEEE 802.11",
+        "a seven-layer framework for describing network communication",
+        "a mechanism regulating sending according to network congestion",
+        "communication from one sender to one receiver"
+      ],
+      "answer": "a seven-layer framework for describing network communication",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is TCP/IP model in computer networking?",
+      "options": [
+        "a connectionless transport protocol with low overhead",
+        "information separating network and host portions of an IPv4 address",
+        "a protocol used for network control and diagnostics",
+        "a layered model used by the Internet"
+      ],
+      "answer": "a layered model used by the Internet",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes application layer?",
+      "options": [
+        "the layer providing services to applications",
+        "a topology using a common communication line",
+        "a mechanism regulating sending according to network congestion",
+        "a medium transmitting data using light"
+      ],
+      "answer": "the layer providing services to applications",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of transport layer?",
+      "options": [
+        "the layer providing end-to-end transport services",
+        "sharing network resources by sending data as packets",
+        "an endpoint used by an application for network communication",
+        "a unit of data at the network layer"
+      ],
+      "answer": "the layer providing end-to-end transport services",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is network layer in computer networking?",
+      "options": [
+        "an IP version using 128-bit addresses",
+        "routing based on network topology and link states",
+        "the layer handling logical addressing and routing",
+        "a remote terminal protocol without built-in encryption"
+      ],
+      "answer": "the layer handling logical addressing and routing",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes data link layer?",
+      "options": [
+        "HTTP communication protected using TLS",
+        "a seven-layer framework for describing network communication",
+        "a topology using a central connecting device",
+        "the layer handling frames and node-to-node delivery"
+      ],
+      "answer": "the layer handling frames and node-to-node delivery",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of physical layer?",
+      "options": [
+        "a protocol used to exchange routes between autonomous systems",
+        "the layer transmitting raw bits over a medium",
+        "a device that repeats signals to connected ports",
+        "a system connecting networks or protocols"
+      ],
+      "answer": "the layer transmitting raw bits over a medium",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is MAC address in computer networking?",
+      "options": [
+        "a hardware-level address used on local networks",
+        "a technique translating network addresses",
+        "dividing a network into smaller logical networks",
+        "a protocol that discovers an IPv4 address's MAC address"
+      ],
+      "answer": "a hardware-level address used on local networks",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes IP address?",
+      "options": [
+        "a system connecting networks or protocols",
+        "IP network notation using a prefix length",
+        "a link-state interior routing protocol",
+        "a logical address used to identify a network interface"
+      ],
+      "answer": "a logical address used to identify a network interface",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of IPv4?",
+      "options": [
+        "an address routable on the public Internet",
+        "a shielded cable with a central conductor",
+        "an IP version using 32-bit addresses",
+        "a copper medium using twisted wire pairs"
+      ],
+      "answer": "an IP version using 32-bit addresses",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is IPv6 in computer networking?",
+      "options": [
+        "an IP version using 128-bit addresses",
+        "a network covering a large geographic area",
+        "a system connecting networks or protocols",
+        "wireless LAN technology based on IEEE 802.11"
+      ],
+      "answer": "an IP version using 128-bit addresses",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes subnet mask?",
+      "options": [
+        "a self-contained unit associated with connectionless communication",
+        "a protocol used for sending email",
+        "routing based on network topology and link states",
+        "information separating network and host portions of an IPv4 address"
+      ],
+      "answer": "information separating network and host portions of an IPv4 address",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of default gateway?",
+      "options": [
+        "a system connecting networks or protocols",
+        "the device used to reach destinations outside the local network",
+        "an address used by a host to communicate with itself",
+        "a topology using a central connecting device"
+      ],
+      "answer": "the device used to reach destinations outside the local network",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is DNS in computer networking?",
+      "options": [
+        "a system mapping domain names to network addresses",
+        "routing configured manually",
+        "IP network notation using a prefix length",
+        "a seven-layer framework for describing network communication"
+      ],
+      "answer": "a system mapping domain names to network addresses",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes DHCP?",
+      "options": [
+        "a protocol that automatically provides network configuration",
+        "a connectionless transport protocol with low overhead",
+        "a hardware-level address used on local networks",
+        "a protocol used for accessing email on a server"
+      ],
+      "answer": "a protocol that automatically provides network configuration",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of ARP?",
+      "options": [
+        "a protocol that discovers an IPv4 address's MAC address",
+        "a topology using a central connecting device",
+        "an IP version using 32-bit addresses",
+        "the layer providing services to applications"
+      ],
+      "answer": "a protocol that discovers an IPv4 address's MAC address",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is ICMP in computer networking?",
+      "options": [
+        "a protocol used for network control and diagnostics",
+        "the actual successful data-transfer rate",
+        "variation in packet delay",
+        "an IP version using 128-bit addresses"
+      ],
+      "answer": "a protocol used for network control and diagnostics",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes HTTP?",
+      "options": [
+        "an application-layer protocol commonly used for web communication",
+        "the layer providing services to applications",
+        "an intermediary forwarding requests between clients and servers",
+        "an endpoint used by an application for network communication"
+      ],
+      "answer": "an application-layer protocol commonly used for web communication",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of HTTPS?",
+      "options": [
+        "HTTP communication protected using TLS",
+        "communication from one sender to a selected receiver group",
+        "a protocol for secure remote login",
+        "a system mapping domain names to network addresses"
+      ],
+      "answer": "HTTP communication protected using TLS",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is FTP in computer networking?",
+      "options": [
+        "a protocol used for file transfer",
+        "a topology using a common communication line",
+        "a network covering a large geographic area",
+        "a topology using a central connecting device"
+      ],
+      "answer": "a protocol used for file transfer",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes SMTP?",
+      "options": [
+        "a protocol used for sending email",
+        "a hardware-level address used on local networks",
+        "a common name for a TCP transport-layer data unit",
+        "a technique translating network addresses"
+      ],
+      "answer": "a protocol used for sending email",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of POP3?",
+      "options": [
+        "a route used when no more specific route matches",
+        "a data-link-layer unit of transmission",
+        "a protocol used for retrieving email",
+        "a link-state interior routing protocol"
+      ],
+      "answer": "a protocol used for retrieving email",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is IMAP in computer networking?",
+      "options": [
+        "a network covering a relatively small area",
+        "a data-link-layer unit of transmission",
+        "a protocol used for accessing email on a server",
+        "routing learned or updated using routing protocols"
+      ],
+      "answer": "a protocol used for accessing email on a server",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes SSH?",
+      "options": [
+        "variation in packet delay",
+        "a protocol for secure remote login",
+        "an address routable on the public Internet",
+        "address translation using port numbers to distinguish connections"
+      ],
+      "answer": "a protocol for secure remote login",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of Telnet?",
+      "options": [
+        "a remote terminal protocol without built-in encryption",
+        "a value used to compare possible routes",
+        "a value used to detect transmission errors",
+        "the delay involved in communication"
+      ],
+      "answer": "a remote terminal protocol without built-in encryption",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is TCP in computer networking?",
+      "options": [
+        "adding protocol information as data moves down layers",
+        "a connection-oriented protocol with reliable ordered delivery",
+        "the delay involved in communication",
+        "a protocol used for accessing email on a server"
+      ],
+      "answer": "a connection-oriented protocol with reliable ordered delivery",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes UDP?",
+      "options": [
+        "a connectionless transport protocol with low overhead",
+        "address translation using port numbers to distinguish connections",
+        "sharing network resources by sending data as packets",
+        "a network covering a metropolitan area"
+      ],
+      "answer": "a connectionless transport protocol with low overhead",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of port number?",
+      "options": [
+        "routing learned or updated using routing protocols",
+        "automatic private IPv4 addressing used when DHCP is unavailable",
+        "a protocol that discovers an IPv4 address's MAC address",
+        "a logical identifier for network services"
+      ],
+      "answer": "a logical identifier for network services",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is socket in computer networking?",
+      "options": [
+        "a route used when no more specific route matches",
+        "a device that repeats signals to connected ports",
+        "an endpoint used by an application for network communication",
+        "a link-state interior routing protocol"
+      ],
+      "answer": "an endpoint used by an application for network communication",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes three-way handshake?",
+      "options": [
+        "routing based on network topology and link states",
+        "TCP's connection-establishment process",
+        "a connectionless transport protocol with low overhead",
+        "establishing a dedicated communication path"
+      ],
+      "answer": "TCP's connection-establishment process",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of flow control?",
+      "options": [
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "routing configured manually",
+        "an IP version using 32-bit addresses",
+        "a topology forming a closed logical ring"
+      ],
+      "answer": "a mechanism preventing a sender from overwhelming a receiver",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is congestion control in computer networking?",
+      "options": [
+        "a network covering a relatively small area",
+        "a protocol that automatically provides network configuration",
+        "a connection-oriented protocol with reliable ordered delivery",
+        "a mechanism regulating sending according to network congestion"
+      ],
+      "answer": "a mechanism regulating sending according to network congestion",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes sequence number?",
+      "options": [
+        "a protocol used for accessing email on a server",
+        "a protocol used to exchange routes between autonomous systems",
+        "a network covering a relatively small area",
+        "a field identifying the position of transmitted data"
+      ],
+      "answer": "a field identifying the position of transmitted data",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of acknowledgment?",
+      "options": [
+        "a connectionless transport protocol with low overhead",
+        "an indication that data has been received",
+        "the device used to reach destinations outside the local network",
+        "a system filtering traffic using security rules"
+      ],
+      "answer": "an indication that data has been received",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is checksum in computer networking?",
+      "options": [
+        "a topology forming a closed logical ring",
+        "a self-contained unit associated with connectionless communication",
+        "a seven-layer framework for describing network communication",
+        "a value used to detect transmission errors"
+      ],
+      "answer": "a value used to detect transmission errors",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes router?",
+      "options": [
+        "the layer handling logical addressing and routing",
+        "a device that forwards packets between networks",
+        "a seven-layer framework for describing network communication",
+        "HTTP communication protected using TLS"
+      ],
+      "answer": "a device that forwards packets between networks",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of switch?",
+      "options": [
+        "a distance-vector routing protocol using hop count",
+        "a network covering a relatively small area",
+        "variation in packet delay",
+        "a device that forwards frames within a local network"
+      ],
+      "answer": "a device that forwards frames within a local network",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is hub in computer networking?",
+      "options": [
+        "a device that repeats signals to connected ports",
+        "automatic private IPv4 addressing used when DHCP is unavailable",
+        "a remote terminal protocol without built-in encryption",
+        "the delay involved in communication"
+      ],
+      "answer": "a device that repeats signals to connected ports",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes bridge?",
+      "options": [
+        "an indication that data has been received",
+        "a topology forming a closed logical ring",
+        "a device connecting network segments at the data-link layer",
+        "the layer handling frames and node-to-node delivery"
+      ],
+      "answer": "a device connecting network segments at the data-link layer",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of gateway?",
+      "options": [
+        "routing learned or updated using routing protocols",
+        "a network covering a relatively small area",
+        "a shielded cable with a central conductor",
+        "a system connecting networks or protocols"
+      ],
+      "answer": "a system connecting networks or protocols",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is firewall in computer networking?",
+      "options": [
+        "a system filtering traffic using security rules",
+        "a network covering a large geographic area",
+        "routing learned or updated using routing protocols",
+        "a field identifying the position of transmitted data"
+      ],
+      "answer": "a system filtering traffic using security rules",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes proxy server?",
+      "options": [
+        "a mechanism regulating sending according to network congestion",
+        "the delay involved in communication",
+        "a system monitoring activity for signs of threats",
+        "an intermediary forwarding requests between clients and servers"
+      ],
+      "answer": "an intermediary forwarding requests between clients and servers",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of NAT?",
+      "options": [
+        "a topology forming a closed logical ring",
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "a technique translating network addresses",
+        "a medium transmitting data using light"
+      ],
+      "answer": "a technique translating network addresses",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is PAT in computer networking?",
+      "options": [
+        "address translation using port numbers to distinguish connections",
+        "a device that forwards frames within a local network",
+        "a logical address used to identify a network interface",
+        "a data-link-layer unit of transmission"
+      ],
+      "answer": "address translation using port numbers to distinguish connections",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes unicast?",
+      "options": [
+        "a medium transmitting data using light",
+        "a protocol used for retrieving email",
+        "TCP's connection-establishment process",
+        "communication from one sender to one receiver"
+      ],
+      "answer": "communication from one sender to one receiver",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of broadcast?",
+      "options": [
+        "verifying the identity of a user or system",
+        "communication from one sender to all hosts in a broadcast domain",
+        "a credential binding an identity to a public key",
+        "a topology using a common communication line"
+      ],
+      "answer": "communication from one sender to all hosts in a broadcast domain",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is multicast in computer networking?",
+      "options": [
+        "an intermediary forwarding requests between clients and servers",
+        "communication from one sender to a selected receiver group",
+        "a logical address used to identify a network interface",
+        "a remote terminal protocol without built-in encryption"
+      ],
+      "answer": "communication from one sender to a selected receiver group",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes LAN?",
+      "options": [
+        "an address used by a host to communicate with itself",
+        "a network covering a relatively small area",
+        "the layer providing services to applications",
+        "information used to choose packet paths"
+      ],
+      "answer": "a network covering a relatively small area",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of MAN?",
+      "options": [
+        "a hardware-level address used on local networks",
+        "a credential binding an identity to a public key",
+        "a network covering a metropolitan area",
+        "an application-layer protocol commonly used for web communication"
+      ],
+      "answer": "a network covering a metropolitan area",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is WAN in computer networking?",
+      "options": [
+        "transforming data to protect it from unauthorized reading",
+        "a system mapping domain names to network addresses",
+        "a device that repeats signals to connected ports",
+        "a network covering a large geographic area"
+      ],
+      "answer": "a network covering a large geographic area",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes WLAN?",
+      "options": [
+        "a wireless local area network",
+        "a system connecting networks or protocols",
+        "routing based on information exchanged with neighbors",
+        "a topology forming a closed logical ring"
+      ],
+      "answer": "a wireless local area network",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of Ethernet?",
+      "options": [
+        "a family of wired LAN technologies",
+        "a protocol used for network control and diagnostics",
+        "the delay involved in communication",
+        "a protocol used for retrieving email"
+      ],
+      "answer": "a family of wired LAN technologies",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is Wi-Fi in computer networking?",
+      "options": [
+        "transforming data to protect it from unauthorized reading",
+        "wireless LAN technology based on IEEE 802.11",
+        "information used to choose packet paths",
+        "a connectionless transport protocol with low overhead"
+      ],
+      "answer": "wireless LAN technology based on IEEE 802.11",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes bus topology?",
+      "options": [
+        "a topology using a common communication line",
+        "a distance-vector routing protocol using hop count",
+        "communication from one sender to a selected receiver group",
+        "information separating network and host portions of an IPv4 address"
+      ],
+      "answer": "a topology using a common communication line",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of star topology?",
+      "options": [
+        "sharing network resources by sending data as packets",
+        "verifying the identity of a user or system",
+        "the delay involved in communication",
+        "a topology using a central connecting device"
+      ],
+      "answer": "a topology using a central connecting device",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is ring topology in computer networking?",
+      "options": [
+        "a topology forming a closed logical ring",
+        "a protocol that automatically provides network configuration",
+        "an address intended for private networks",
+        "communication from one sender to one receiver"
+      ],
+      "answer": "a topology forming a closed logical ring",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes mesh topology?",
+      "options": [
+        "a link-state interior routing protocol",
+        "a network covering a relatively small area",
+        "a topology with multiple interconnections",
+        "IP network notation using a prefix length"
+      ],
+      "answer": "a topology with multiple interconnections",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of packet?",
+      "options": [
+        "a system filtering traffic using security rules",
+        "a protocol used for file transfer",
+        "a unit of data at the network layer",
+        "the maximum data-carrying capacity of a link"
+      ],
+      "answer": "a unit of data at the network layer",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is frame in computer networking?",
+      "options": [
+        "a topology forming a closed logical ring",
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "a system that can detect and block certain threats",
+        "a data-link-layer unit of transmission"
+      ],
+      "answer": "a data-link-layer unit of transmission",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes segment?",
+      "options": [
+        "a common name for a TCP transport-layer data unit",
+        "a protocol used for accessing email on a server",
+        "a distance-vector routing protocol using hop count",
+        "an IP version using 128-bit addresses"
+      ],
+      "answer": "a common name for a TCP transport-layer data unit",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of datagram?",
+      "options": [
+        "a unit of data at the network layer",
+        "a self-contained unit associated with connectionless communication",
+        "dividing a network into smaller logical networks",
+        "a shielded cable with a central conductor"
+      ],
+      "answer": "a self-contained unit associated with connectionless communication",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is encapsulation in computer networking?",
+      "options": [
+        "an endpoint used by an application for network communication",
+        "a remote terminal protocol without built-in encryption",
+        "adding protocol information as data moves down layers",
+        "an intermediary forwarding requests between clients and servers"
+      ],
+      "answer": "adding protocol information as data moves down layers",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes decapsulation?",
+      "options": [
+        "removing protocol information as data moves up layers",
+        "an endpoint used by an application for network communication",
+        "communication from one sender to a selected receiver group",
+        "the maximum data-carrying capacity of a link"
+      ],
+      "answer": "removing protocol information as data moves up layers",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of bandwidth?",
+      "options": [
+        "a common name for a TCP transport-layer data unit",
+        "address translation using port numbers to distinguish connections",
+        "adding protocol information as data moves down layers",
+        "the maximum data-carrying capacity of a link"
+      ],
+      "answer": "the maximum data-carrying capacity of a link",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is latency in computer networking?",
+      "options": [
+        "a device that forwards frames within a local network",
+        "the delay involved in communication",
+        "communication from one sender to all hosts in a broadcast domain",
+        "a value used to detect transmission errors"
+      ],
+      "answer": "the delay involved in communication",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes throughput?",
+      "options": [
+        "the actual successful data-transfer rate",
+        "a protocol that automatically provides network configuration",
+        "dividing a network into smaller logical networks",
+        "a copper medium using twisted wire pairs"
+      ],
+      "answer": "the actual successful data-transfer rate",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of jitter?",
+      "options": [
+        "variation in packet delay",
+        "routing configured manually",
+        "the layer providing services to applications",
+        "a protocol used for network control and diagnostics"
+      ],
+      "answer": "variation in packet delay",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is fiber optic cable in computer networking?",
+      "options": [
+        "a link-state interior routing protocol",
+        "a protected logical connection over another network",
+        "a medium transmitting data using light",
+        "an intermediary forwarding requests between clients and servers"
+      ],
+      "answer": "a medium transmitting data using light",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes twisted pair cable?",
+      "options": [
+        "a topology using a central connecting device",
+        "a family of wired LAN technologies",
+        "a copper medium using twisted wire pairs",
+        "a seven-layer framework for describing network communication"
+      ],
+      "answer": "a copper medium using twisted wire pairs",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of coaxial cable?",
+      "options": [
+        "a wireless local area network",
+        "the layer transmitting raw bits over a medium",
+        "a layered model used by the Internet",
+        "a shielded cable with a central conductor"
+      ],
+      "answer": "a shielded cable with a central conductor",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is packet switching in computer networking?",
+      "options": [
+        "sharing network resources by sending data as packets",
+        "information used to choose packet paths",
+        "the layer providing end-to-end transport services",
+        "the device used to reach destinations outside the local network"
+      ],
+      "answer": "sharing network resources by sending data as packets",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes circuit switching?",
+      "options": [
+        "a self-contained unit associated with connectionless communication",
+        "establishing a dedicated communication path",
+        "the layer providing services to applications",
+        "the device used to reach destinations outside the local network"
+      ],
+      "answer": "establishing a dedicated communication path",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of routing table?",
+      "options": [
+        "a protocol used for retrieving email",
+        "an IP version using 128-bit addresses",
+        "information used to choose packet paths",
+        "a unit of data at the network layer"
+      ],
+      "answer": "information used to choose packet paths",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is static routing in computer networking?",
+      "options": [
+        "routing configured manually",
+        "a system that can detect and block certain threats",
+        "a protocol for secure remote login",
+        "an address used by a host to communicate with itself"
+      ],
+      "answer": "routing configured manually",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes dynamic routing?",
+      "options": [
+        "routing learned or updated using routing protocols",
+        "IP network notation using a prefix length",
+        "variation in packet delay",
+        "a protocol that automatically provides network configuration"
+      ],
+      "answer": "routing learned or updated using routing protocols",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of distance vector routing?",
+      "options": [
+        "a topology with multiple interconnections",
+        "routing based on information exchanged with neighbors",
+        "a protocol used for sending email",
+        "a logical identifier for network services"
+      ],
+      "answer": "routing based on information exchanged with neighbors",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is link-state routing in computer networking?",
+      "options": [
+        "routing based on network topology and link states",
+        "a network covering a relatively small area",
+        "a value used to compare possible routes",
+        "a route used when no more specific route matches"
+      ],
+      "answer": "routing based on network topology and link states",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes RIP?",
+      "options": [
+        "a device that repeats signals to connected ports",
+        "an endpoint used by an application for network communication",
+        "a distance-vector routing protocol using hop count",
+        "a topology using a central connecting device"
+      ],
+      "answer": "a distance-vector routing protocol using hop count",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of OSPF?",
+      "options": [
+        "a family of wired LAN technologies",
+        "the delay involved in communication",
+        "a link-state interior routing protocol",
+        "variation in packet delay"
+      ],
+      "answer": "a link-state interior routing protocol",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is BGP in computer networking?",
+      "options": [
+        "a protocol used to exchange routes between autonomous systems",
+        "establishing a dedicated communication path",
+        "a protocol used for network control and diagnostics",
+        "the delay involved in communication"
+      ],
+      "answer": "a protocol used to exchange routes between autonomous systems",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes routing metric?",
+      "options": [
+        "a layered model used by the Internet",
+        "a value used to compare possible routes",
+        "a remote terminal protocol without built-in encryption",
+        "a protocol used for network control and diagnostics"
+      ],
+      "answer": "a value used to compare possible routes",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of default route?",
+      "options": [
+        "an address used by a host to communicate with itself",
+        "a protocol used for sending email",
+        "a device that forwards packets between networks",
+        "a route used when no more specific route matches"
+      ],
+      "answer": "a route used when no more specific route matches",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is subnetting in computer networking?",
+      "options": [
+        "a wireless local area network",
+        "dividing a network into smaller logical networks",
+        "a system filtering traffic using security rules",
+        "the layer handling frames and node-to-node delivery"
+      ],
+      "answer": "dividing a network into smaller logical networks",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes CIDR?",
+      "options": [
+        "IP network notation using a prefix length",
+        "a data-link-layer unit of transmission",
+        "a protocol used for accessing email on a server",
+        "a system that can detect and block certain threats"
+      ],
+      "answer": "IP network notation using a prefix length",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of private IP address?",
+      "options": [
+        "an address intended for private networks",
+        "a system that can detect and block certain threats",
+        "an IP version using 32-bit addresses",
+        "a family of wired LAN technologies"
+      ],
+      "answer": "an address intended for private networks",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is public IP address in computer networking?",
+      "options": [
+        "a system connecting networks or protocols",
+        "an address routable on the public Internet",
+        "a topology forming a closed logical ring",
+        "a data-link-layer unit of transmission"
+      ],
+      "answer": "an address routable on the public Internet",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes loopback address?",
+      "options": [
+        "a topology with multiple interconnections",
+        "the layer handling frames and node-to-node delivery",
+        "the layer providing services to applications",
+        "an address used by a host to communicate with itself"
+      ],
+      "answer": "an address used by a host to communicate with itself",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of APIPA?",
+      "options": [
+        "an application-layer protocol commonly used for web communication",
+        "IP network notation using a prefix length",
+        "automatic private IPv4 addressing used when DHCP is unavailable",
+        "communication from one sender to a selected receiver group"
+      ],
+      "answer": "automatic private IPv4 addressing used when DHCP is unavailable",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is encryption in computer networking?",
+      "options": [
+        "a network covering a metropolitan area",
+        "transforming data to protect it from unauthorized reading",
+        "a protocol used for sending email",
+        "a protocol that discovers an IPv4 address's MAC address"
+      ],
+      "answer": "transforming data to protect it from unauthorized reading",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes authentication?",
+      "options": [
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "a data-link-layer unit of transmission",
+        "a system that can detect and block certain threats",
+        "verifying the identity of a user or system"
+      ],
+      "answer": "verifying the identity of a user or system",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of digital certificate?",
+      "options": [
+        "a credential binding an identity to a public key",
+        "an address used by a host to communicate with itself",
+        "dividing a network into smaller logical networks",
+        "removing protocol information as data moves up layers"
+      ],
+      "answer": "a credential binding an identity to a public key",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is VPN in computer networking?",
+      "options": [
+        "a link-state interior routing protocol",
+        "a distance-vector routing protocol using hop count",
+        "a protocol used for file transfer",
+        "a protected logical connection over another network"
+      ],
+      "answer": "a protected logical connection over another network",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes IDS?",
+      "options": [
+        "a system monitoring activity for signs of threats",
+        "a system mapping domain names to network addresses",
+        "an address routable on the public Internet",
+        "an IP version using 128-bit addresses"
+      ],
+      "answer": "a system monitoring activity for signs of threats",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of IPS?",
+      "options": [
+        "a system that can detect and block certain threats",
+        "a layered model used by the Internet",
+        "a topology using a common communication line",
+        "address translation using port numbers to distinguish connections"
+      ],
+      "answer": "a system that can detect and block certain threats",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is OSI model in computer networking?",
+      "options": [
+        "a self-contained unit associated with connectionless communication",
+        "a seven-layer framework for describing network communication",
+        "information used to choose packet paths",
+        "a copper medium using twisted wire pairs"
+      ],
+      "answer": "a seven-layer framework for describing network communication",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes TCP/IP model?",
+      "options": [
+        "a wireless local area network",
+        "a route used when no more specific route matches",
+        "a layered model used by the Internet",
+        "a topology with multiple interconnections"
+      ],
+      "answer": "a layered model used by the Internet",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of application layer?",
+      "options": [
+        "a protocol used for network control and diagnostics",
+        "the layer providing services to applications",
+        "an indication that data has been received",
+        "a system connecting networks or protocols"
+      ],
+      "answer": "the layer providing services to applications",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is transport layer in computer networking?",
+      "options": [
+        "the layer providing end-to-end transport services",
+        "a logical address used to identify a network interface",
+        "the maximum data-carrying capacity of a link",
+        "the actual successful data-transfer rate"
+      ],
+      "answer": "the layer providing end-to-end transport services",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes network layer?",
+      "options": [
+        "the layer handling logical addressing and routing",
+        "adding protocol information as data moves down layers",
+        "a system that can detect and block certain threats",
+        "a layered model used by the Internet"
+      ],
+      "answer": "the layer handling logical addressing and routing",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of data link layer?",
+      "options": [
+        "a layered model used by the Internet",
+        "establishing a dedicated communication path",
+        "the layer handling frames and node-to-node delivery",
+        "a protocol for secure remote login"
+      ],
+      "answer": "the layer handling frames and node-to-node delivery",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is physical layer in computer networking?",
+      "options": [
+        "the layer transmitting raw bits over a medium",
+        "an intermediary forwarding requests between clients and servers",
+        "a hardware-level address used on local networks",
+        "sharing network resources by sending data as packets"
+      ],
+      "answer": "the layer transmitting raw bits over a medium",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes MAC address?",
+      "options": [
+        "a hardware-level address used on local networks",
+        "verifying the identity of a user or system",
+        "a network covering a relatively small area",
+        "variation in packet delay"
+      ],
+      "answer": "a hardware-level address used on local networks",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of IP address?",
+      "options": [
+        "an IP version using 32-bit addresses",
+        "a topology forming a closed logical ring",
+        "a logical address used to identify a network interface",
+        "a value used to compare possible routes"
+      ],
+      "answer": "a logical address used to identify a network interface",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is IPv4 in computer networking?",
+      "options": [
+        "information used to choose packet paths",
+        "an IP version using 32-bit addresses",
+        "a protocol for secure remote login",
+        "a system connecting networks or protocols"
+      ],
+      "answer": "an IP version using 32-bit addresses",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes IPv6?",
+      "options": [
+        "a distance-vector routing protocol using hop count",
+        "the layer providing services to applications",
+        "an IP version using 128-bit addresses",
+        "a topology using a central connecting device"
+      ],
+      "answer": "an IP version using 128-bit addresses",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of subnet mask?",
+      "options": [
+        "dividing a network into smaller logical networks",
+        "a logical address used to identify a network interface",
+        "adding protocol information as data moves down layers",
+        "information separating network and host portions of an IPv4 address"
+      ],
+      "answer": "information separating network and host portions of an IPv4 address",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is default gateway in computer networking?",
+      "options": [
+        "a hardware-level address used on local networks",
+        "verifying the identity of a user or system",
+        "the device used to reach destinations outside the local network",
+        "an indication that data has been received"
+      ],
+      "answer": "the device used to reach destinations outside the local network",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes DNS?",
+      "options": [
+        "the actual successful data-transfer rate",
+        "an intermediary forwarding requests between clients and servers",
+        "a system mapping domain names to network addresses",
+        "information separating network and host portions of an IPv4 address"
+      ],
+      "answer": "a system mapping domain names to network addresses",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of DHCP?",
+      "options": [
+        "an application-layer protocol commonly used for web communication",
+        "a protocol that automatically provides network configuration",
+        "a topology using a central connecting device",
+        "routing configured manually"
+      ],
+      "answer": "a protocol that automatically provides network configuration",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "What is ARP in computer networking?",
+      "options": [
+        "a mechanism preventing a sender from overwhelming a receiver",
+        "a protocol that discovers an IPv4 address's MAC address",
+        "dividing a network into smaller logical networks",
+        "a value used to detect transmission errors"
+      ],
+      "answer": "a protocol that discovers an IPv4 address's MAC address",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which statement best describes ICMP?",
+      "options": [
+        "a protocol used for network control and diagnostics",
+        "a mechanism regulating sending according to network congestion",
+        "a network covering a large geographic area",
+        "HTTP communication protected using TLS"
+      ],
+      "answer": "a protocol used for network control and diagnostics",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "What is the main role of HTTP?",
+      "options": [
+        "an application-layer protocol commonly used for web communication",
+        "the device used to reach destinations outside the local network",
+        "an address intended for private networks",
+        "a device that forwards packets between networks"
+      ],
+      "answer": "an application-layer protocol commonly used for web communication",
+      "difficulty": "Hard"
+    }
+  ]
+}
