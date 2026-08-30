@@ -1,16 +1,35 @@
-import sqlite3
+import os
+from dotenv import load_dotenv
+import psycopg2
+
+load_dotenv()
 
 
-# ---------------- CREATE DATABASE ----------------
+# ============================================================
+# DATABASE CONNECTION
+# ============================================================
+
+def get_connection():
+    database_url = os.getenv("DATABASE_URL")
+
+    if not database_url:
+        raise Exception("DATABASE_URL is not set")
+
+    return psycopg2.connect(database_url)
+
+
+# ============================================================
+# CREATE DATABASE TABLES
+# ============================================================
 
 def create_database():
 
-    conn = sqlite3.connect("database.db")
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS users(
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            id SERIAL PRIMARY KEY,
             username TEXT,
             email TEXT,
             password TEXT
@@ -19,7 +38,7 @@ def create_database():
 
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS leaderboard(
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            id SERIAL PRIMARY KEY,
             username TEXT,
             score INTEGER,
             subject TEXT,
@@ -28,77 +47,89 @@ def create_database():
     """)
 
     conn.commit()
+    cursor.close()
     conn.close()
 
 
-# ---------------- REGISTER USER ----------------
+# ============================================================
+# REGISTER USER
+# ============================================================
 
 def register_user(username, email, password):
 
-    conn = sqlite3.connect("database.db")
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute(
         """
         INSERT INTO users
         (username, email, password)
-        VALUES (?, ?, ?)
+        VALUES (%s, %s, %s)
         """,
         (username, email, password)
     )
 
     conn.commit()
+    cursor.close()
     conn.close()
 
 
-# ---------------- LOGIN USER ----------------
+# ============================================================
+# LOGIN USER
+# ============================================================
 
 def login_user(username, password):
 
-    conn = sqlite3.connect("database.db")
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute(
         """
         SELECT *
         FROM users
-        WHERE username=? AND password=?
+        WHERE username=%s AND password=%s
         """,
         (username, password)
     )
 
     user = cursor.fetchone()
 
+    cursor.close()
     conn.close()
 
     return user
 
 
-# ---------------- SAVE SCORE ----------------
+# ============================================================
+# SAVE SCORE
+# ============================================================
 
 def save_score(username, score, subject, difficulty):
 
-    conn = sqlite3.connect("database.db")
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute(
         """
         INSERT INTO leaderboard
         (username, score, subject, difficulty)
-        VALUES (?, ?, ?, ?)
+        VALUES (%s, %s, %s, %s)
         """,
         (username, score, subject, difficulty)
     )
 
     conn.commit()
+    cursor.close()
     conn.close()
 
 
-# ---------------- GET OVERALL LEADERBOARD ----------------
+# ============================================================
+# GET OVERALL LEADERBOARD
+# ============================================================
 
 def get_leaderboard():
 
-    conn = sqlite3.connect("database.db")
+    conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -134,30 +165,37 @@ def get_leaderboard():
 
     data = cursor.fetchall()
 
+    cursor.close()
     conn.close()
 
     return data
 
 
-# ---------------- GET USER HISTORY ----------------
+# ============================================================
+# GET USER HISTORY
+# ============================================================
 
 def get_history(username):
 
-    conn = sqlite3.connect("database.db")
+    conn = get_connection()
     cursor = conn.cursor()
 
-    cursor.execute("""
+    cursor.execute(
+        """
         SELECT
             subject,
             difficulty,
             score
-        FROM leaderboard
-        WHERE username=?
-        ORDER BY id DESC
-    """, (username,))
+            FROM leaderboard
+            WHERE username=%s
+            ORDER BY id DESC
+            """,
+            (username,)
+    )
 
-    history = cursor.fetchall()
+    history = cursor . fetchall()
 
-    conn.close()
+    cursor . close()
+    conn . close()
 
     return history
